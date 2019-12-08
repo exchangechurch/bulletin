@@ -27,5 +27,5 @@ $(document).ready(function(){
     console.log("Page is loaded");
     $('#home').siblings().hide();
     clicky();
-    pageLoad();
+    pageLoad(); 
   });
