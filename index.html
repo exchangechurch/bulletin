@@ -12,26 +12,42 @@
 <body>
     <header>
         <div id="logoTitle">
-            <a href='#home'><img id='logo' src='logo.png' alt="Run River North Logo"></a>
-            <h1 role="heading" id="churchName">Exchange Church</h1>
+            <a href='#home'><img id='logo' src='logo.png' alt="exchange church logo"></a>
+            <h1 role="heading" id="churchName">The Exchange Church</h1>
+        </div>
+        <div id="juboDetails">
+            <ul class='deets'>
+                <li>Sunday, January 26th, 2020</li>
+                <li>Sermon Series: Created To Be</li>
+                <li>Title: In Christ</li>
+                <li>Speaker: Pastor Joe Suh</li>
+            </h2>
         </div>
     </header>
     <main role="main">
         <section id="jubo">
-            <iframe class="googleDoc" id='home' src="https://docs.google.com/document/d/e/2PACX-1vR_Bq3U2Cl7e3pRYr5EGeVFp8WOrq7IXkTG1S_3TnASlECea5Q4f59QKfl3DL8JBVHFC71qkWRlAiYh/pub?embedded=true"></iframe>
-            <iframe class="googleDoc" id='information' src="https://docs.google.com/document/d/e/2PACX-1vTNgVSwdCa-wEwimcKQ9i-AYZ6ZBaJyHgunOsoxABC8t11ezzTd_T3LWHDSjz6c5VgLh_RF-3gq0ghZ/pub?embedded=true"></iframe>
-            <iframe class="googleDoc" id='sermons' src="https://docs.google.com/document/d/e/2PACX-1vTR6jVCeWt24Ml9xfo7Z5c3KyGXkIMp7g4TysuCEBRIO_jCKv3ZLhyZcBakv97Px9f4319nEeu_UPa5/pub?embedded=true"></iframe>
-            <iframe class="googleDoc" id='bible' src="https://docs.google.com/document/d/e/2PACX-1vSTcElXFGzHDfmxMyjunYeFvqPCcdj-8UBe_Z0Mg3cNQbS16TMFbjuGNFrrBkO38SExMcGHx67P8C0z/pub?embedded=true"></iframe>
+            <div id="greeting">
+                Thank you for joining us for worship today! If you are a newcomer to The Exchange Church, welcome! We hope that our corporate celebration service is an encouragement to you and that the grace and peace of Christ meet you where you are today. We want to let you know that this is a safe place for you to ask questions, explore truth, and discover the love and power of God together with others.
+            </div>
+            <div id="linkContainer">
+                <a id='offeringButton' href='http://www.paypal.com'>Give Offering</a>
+            </div>
+            <ul id="bar">
+                <li class='barList'>
+                    <a class="barLink" href="#announcements">Announcements<div class="expand">+</div></a>
+                </li>
+                <div class='accordionBody' id="announceBody" style="display: none;"></div>
+                <li class='barList'>
+                    <a class="barLink" href="#order-of-worship">Order of Worship<div class="expand">+</div></a>
+                </li>
+                <div class='accordionBody' id="orderBody" style="display: none;"></div>
+                <li class='barList'>
+                    <a class="barLink" href="#contact-us">Contact Us<div class="expand">+</div></a>
+                </li>
+                <div class='accordionBody' id="contactBody" style="display: none;"></div>
+            </ul>
         </section>
     </main>
-    <footer>
-        <ul id="bar">
-            <li><a class="barLink" href="#information"><img class='navIcons' src='information.png' alt='information icon'></a></li>
-            <li><a class="barLink" href="#sermons"><img class='navIcons' src='pulpit-icon-20.jpg' alt='sermon icon'></a></li>
-            <li><a class="barLink" href="#bible"><img class='navIcons' src='free-bible-icon-7.jpg' alt='bible icon'></a></li>
-            <li><a class="barLink" href="http://www.the-exchange-church.com/" target="_blank"><img class='navIcons' src='church-icon-19.jpg' alt='church icon'></a></li>
-        </ul>
-    </footer>
     <script id='configScript' type='text/javascript' src='config.js'></script>
     <script src="script.js"></script>
 </body>

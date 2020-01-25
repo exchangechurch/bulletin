@@ -1,19 +1,90 @@
 * {
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: 'brandon_grotesqueblack';
+    src: url('Fonts/hvd_fonts_-_brandongrotesque-black-webfont.woff2') format('woff2'),
+         url('Fonts/hvd_fonts_-_brandongrotesque-black-webfont.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'brandon_grotesquebold';
+    src: url('Fonts/hvd_fonts_-_brandongrotesque-bold-webfont.woff2') format('woff2'),
+         url('Fonts/hvd_fonts_-_brandongrotesque-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tisaprobold';
+    src: url('Fonts/tisapro-bold-webfont.woff2') format('woff2'),
+         url('Fonts/tisapro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'tisaproitalicbold';
+    src: url('Fonts/tisapro-boldita-webfont.woff2') format('woff2'),
+         url('Fonts/tisapro-boldita-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'tisaproitalic';
+    src: url('Fonts/tisapro-ita-webfont.woff2') format('woff2'),
+         url('Fonts/tisapro-ita-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tisapromedium';
+    src: url('Fonts/tisapro-medi-webfont.woff2') format('woff2'),
+         url('Fonts/tisapro-medi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tisaproitalicmedium';
+    src: url('Fonts/tisapro-mediita-webfont.woff2') format('woff2'),
+         url('Fonts/tisapro-mediita-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tisaproregular';
+    src: url('Fonts/tisapro-regular-webfont.woff2') format('woff2'),
+         url('Fonts/tisapro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html, body {
     display: flex;
     flex-direction: column;
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: roboto;
-    background-image: linear-gradient(rgb(255, 236, 239), rgb(255, 255, 255));
+    font-family: 'tisaproregular';
+    background-color: white;
+    /* background-image: linear-gradient(rgb(238, 238, 238), rgb(255, 255, 255)); */
 }
 header {
-    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6d0100;
     width: 100%;
-    position: relative;
+    color: white;
 }
 #logoTitle {
     display: flex;
@@ -27,52 +98,161 @@ header {
 }
 #churchName {
     margin: 0;
+    font-family: 'brandon_grotesqueblack';
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 16px;
+    margin-top: 5px;
 }
-#logo {
-    height: 50px;
+.deets{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 0;
+}
+.deets li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-footer {
+#logo {
+    height: 30px;
+}
+
+
+#jubo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#greeting {
+    padding: 25px;
+    font-size: 15px;
+    line-height: 23px;
+}
+#offeringButton {
+    font-family: 'brandon_grotesqueblack';
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #71df8e;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+#linkContainer {
+    margin: 10px 0;
+}
+/* footer {
     position: relative;
     bottom: 0;
     width: 100%;
     background-color: black;
     z-index: 1000;
-}
+} */
 
 #bar {
     display: flex;
-    flex-direction: row;
+    font-family: 'brandon_grotesqueblack';
+    flex-direction: column;
     justify-content: space-evenly;
     list-style: none;
     text-decoration: none;
-    padding: 8px;
+    text-transform: uppercase;
+    padding: 0px;
+    width: 100%;
+    font-size: 18px;
 }
-
+.barList {
+    width: 100%;
+    background: rgb(230, 230, 230);
+    margin-top: 10px;
+    padding: 5px;
+    padding-left: 10px;
+}
 .barLink {
     text-decoration: none;
-    color: white;
-}
+    color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
 
+}
+.expand {
+    margin-left: 15px;
+}
 .navIcons {
     border-radius: 50%;
     height: 30px;
     margin-left: 8px;
     margin-right: 8px;
     padding: 2px;
-    background-color: white;
+    background-color: lightgrey;
 }
 main {
     width: 100%;
     height: 100%;
-    overflow: auto;
 }
-#jubo, #sermons, #information, #bible, #church {
-    height: 100%;
-    width: 100%;
+.announceDetCont, .orderWorshipContainer, .contactContainer {
+    padding: 20px;
 }
-.googleDoc {
-    height: 100%;
+.announceImg {
     width: 100%;
-    position: relative;
+    height: auto;
+    margin-top: 10px;
+}
+
+.announceTitle {
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-family: 'tisapromedium';
+}
+
+.announceDate {
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: rgb(180, 180, 180);
+    font-family: 'brandon_grotesqueblack';
+    text-transform: none;
+}
+
+.announceDesc, .orderDesc{
+    font-family: 'tisaproregular';
+    text-transform: none;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.orderTitle {
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+.orderTitleAlt {
+    margin-top: 0px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.orderDesc {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.contactDesc, #webLink{
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-transform: none;
+    font-family: 'tisaproregular';
+}
+
+#webLink {
+    display: inline-block;
 }
