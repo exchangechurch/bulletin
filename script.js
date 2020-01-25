@@ -3,13 +3,13 @@
 let announcementsStore = [{
     title: 'Read the Word 2020',
     date: 'January 2020',
-    url: 'images/Read.jpg',
+    url: 'Images/Read.jpg',
     alt: 'Image of 5 day plan',
     description: 'As we begin 2020, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. If you’d like a printed schedule for January, one will be available at our Connect Table.'
     },{
     title: 'Join a Life Group',
     date: 'January 2020',
-    url: 'images/Join.jpg',
+    url: 'Images/Join.jpg',
     alt: 'image of faded bibles',
     description: 'A Life Group is a small group of men or women that shares in life as they grow into their Christ-defined identities together. Life groups gather weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter (10 weeks starting the second week of Jan), please sign up at the welcome table.'
 },];
