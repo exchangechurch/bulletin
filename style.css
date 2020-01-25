@@ -76,6 +76,7 @@ html, body {
     padding: 0;
     font-family: 'tisaproregular';
     background-color: white;
+    overflow: auto;
     /* background-image: linear-gradient(rgb(238, 238, 238), rgb(255, 255, 255)); */
 }
 header {
@@ -150,13 +151,6 @@ header {
 #linkContainer {
     margin: 10px 0;
 }
-/* footer {
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    z-index: 1000;
-} */
 
 #bar {
     display: flex;
