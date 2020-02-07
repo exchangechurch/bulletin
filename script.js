@@ -6,7 +6,8 @@ let sermonStore = [{
     speaker: `Pastor Joe Suh`
 }];
 
-let announcementsStore = [{
+let announcementsStore = [
+    {
     title: `Read the Word 2020`,
     date: `January 2020`,
     url: `Images/Read.jpg`,
@@ -18,9 +19,11 @@ let announcementsStore = [{
     url: `Images/Join.jpg`,
     alt: `image of faded bibles`,
     description: `A Life Group is a small group of men or women that shares in life as they grow into their Christ-defined identities together. Life groups gather weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter (10 weeks starting the second week of Jan), please sign up at the welcome table.`
-},];
+    }
+];
 
-let orderOfWorship = [{
+let orderOfWorship = [
+    {
     title: `CALL TO WORSHIP`,
     description: `We like to begin worship by directing our hearts toward the glory and grace of God. We do this by reading a brief passage of scripture and meditating on it together.`
     },{
@@ -30,18 +33,17 @@ let orderOfWorship = [{
     title: `CONFESSION OF FAITH`,
     titleAlt: `(APOSTLE’S CREED)`,
     description: `This creed is called the Apostles' Creed not because it was produced by the apostles themselves but because it contains a summary of their teachings. It sets forth our beliefs in a beautiful simplicity, brevity and order. For believers, reciting the Apostles Creed each Sunday allows us to remember and affirm our faith in God the Father, the person and work of Jesus Christ, the Holy Spirit, and the Universal (Christian) Church.`
-    }
-    ,{
+    },{
     title: `THE PREACHING OF GOD’S WORD`,
     description: `The Bible is God’s inspired, perfect, powerful Word. The center of our corporate worship gathering is the preaching of God’s Word. Christ is the center of our worship and it is His teaching and commands that we are here to corporately hear and submit to.`
     },{
     title: `GIVING OFFERING`,
     description: `We believe that giving is a personal and private act of worship. If you are new or just visiting today, please do not feel obligated to give. For those of us who have prepared an offering for today, let’s give freely and cheerfully out of a response to God’s generous grace.`
-    }
-    ,{
+    },{
     title: `BENEDICTION`,
     description: `A benediction is a declaration of blessing from God upon His beloved people. They offer words of assurance designed to bring joy, peace, comfort, and security to those who place their trust in God. We close each worship service this way that we might leave blessed and be empowered to bless others.`
-}]
+    }
+];
 
 function fillSermon() {
     $('#date').text(`
