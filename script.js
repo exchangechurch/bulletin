@@ -1,4 +1,5 @@
 'use strict'
+
 let sermonStore = [{
     date: `February 9th, 2020`,
     series: `Created to Be`,
@@ -128,4 +129,4 @@ $(document).ready(function(){
     fillContact();
     expand();
     console.log("Page is loaded");
-  });
+});
