@@ -1,9 +1,11 @@
 'use strict'
 
 let sermonStore = [{
-    date: `February 9th, 2020`,
-    series: `Created to Be`,
-    title: `In Christ`,
+    //url: `Images/Sermon.jpg`,
+    date: `February 16th, 2020`,
+    series: `Standalone`,
+    title: `Living By Faith`,
+    text: `Hebrews 11:1-16`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -47,6 +49,9 @@ let orderOfWorship = [
 ];
 
 function fillSermon() {
+    /*$('#sermonSlide').text(`
+        <img class="sermonSlide src=${sermonStore[0].url}>
+    `);*/
     $('#date').text(`
         ${sermonStore[0].date}
     `);
@@ -55,6 +60,9 @@ function fillSermon() {
     `);
     $('#sermonTitle').text(`
         Title: ${sermonStore[0].title}
+    `);
+    $('#sermonText').text(`
+        Text: ${sermonStore[0].text}
     `);
     $('#speakerName').text(`
         Speaker: ${sermonStore[0].speaker}
