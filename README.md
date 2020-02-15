@@ -1,6 +1,6 @@
-# Jubo 
+# Jubo (Bulletin)
 
 ## Link
 
-[https://gbertkim.github.io/jubo/](https://gbertkim.github.io/jubo/)
+[https://exchangechurch.github.io/bulletin/](https://exchangechurch.github.io/bulletin/)
 
