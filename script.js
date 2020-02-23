@@ -10,13 +10,7 @@ let sermonStore = [{
 }];
 
 let announcementsStore = [
-    {
-    title: `Read the Word 2020`,
-    date: `January 2020`,
-    url: `Images/Read.jpg`,
-    alt: `Image of 5 day plan`,
-    description: `As we begin 2020, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. If you’d like a printed schedule for January, one will be available at our Connect Table.`
-    }/*,{
+    /*{
     title: `Join a Life Group`,
     date: `January 2020`,
     url: `Images/Join.jpg`,
@@ -28,6 +22,12 @@ let announcementsStore = [
     url: `"Images/Morning Worship and Prayer.jpg"`, //spaces in the file name requires double quotes "" around it.
     alt: `image of clouds`,
     description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship and corporate prayer. We meet on the last Saturday of every month at 9am on the second floor of church!`
+    },{
+    title: `Read the Word 2020`,
+    date: `January 2020`,
+    url: `Images/Read.jpg`,
+    alt: `Image of 5 day plan`,
+    description: `As we begin 2020, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. If you’d like a printed schedule for January, one will be available at our Connect Table.`
     }
 ];
 
