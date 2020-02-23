@@ -3,9 +3,9 @@
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
     date: `February 23rd, 2020`,
-    series: `Standalone`,
-    title: `Living By Faith`,
-    text: `Hebrews 11:1-16`,
+    series: `Give, Pray, Love`,
+    title: `What is He Worth?`,
+    text: `Matthew 10:32-39`,
     speaker: `Pastor Joe Suh`
 }];
 
