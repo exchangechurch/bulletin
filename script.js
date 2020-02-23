@@ -5,7 +5,7 @@ let sermonStore = [{
     date: `February 23rd, 2020`,
     series: `Give, Pray, Love`,
     title: `What is He Worth?`,
-    text: `Matthew 10:32-39`,
+    text: `Matthew 10:34-39`,
     speaker: `Pastor Joe Suh`
 }];
 
