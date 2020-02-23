@@ -136,6 +136,12 @@ header {
     font-size: 15px;
     line-height: 23px;
 }
+#offeringBlurb {
+    padding: 25px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+}
 #offeringButton {
     font-family: 'brandon_grotesqueblack';
     text-transform: uppercase;
