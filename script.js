@@ -16,7 +16,8 @@ let announcementsStore = [
     url: `Images/Join.jpg`,
     alt: `image of faded bibles`,
     description: `A Life Group is a small group of men or women that shares in life as they grow into their Christ-defined identities together. Life groups gather weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter (10 weeks starting the second week of Jan), please sign up at the welcome table.`
-    }*/,{
+    }*/
+    {
     title: `Praise and Prayer Gathering`,
     date: `February 29, 2020`,
     url: `"Images/Morning Worship and Prayer.jpg"`, //spaces in the file name requires double quotes "" around it.
