@@ -2,7 +2,7 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `February 16th, 2020`,
+    date: `February 23rd, 2020`,
     series: `Standalone`,
     title: `Living By Faith`,
     text: `Hebrews 11:1-16`,
@@ -16,12 +16,18 @@ let announcementsStore = [
     url: `Images/Read.jpg`,
     alt: `Image of 5 day plan`,
     description: `As we begin 2020, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. If you’d like a printed schedule for January, one will be available at our Connect Table.`
-    },{
+    }/*,{
     title: `Join a Life Group`,
     date: `January 2020`,
     url: `Images/Join.jpg`,
     alt: `image of faded bibles`,
     description: `A Life Group is a small group of men or women that shares in life as they grow into their Christ-defined identities together. Life groups gather weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter (10 weeks starting the second week of Jan), please sign up at the welcome table.`
+    }*/,{
+    title: `Praise and Prayer Gathering`,
+    date: `February 29, 2020`,
+    url: `"Images/Morning Worship and Prayer.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of clouds`,
+    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship and corporate prayer. We meet on the last Saturday of every month at 9am on the second floor of church!`
     }
 ];
 
