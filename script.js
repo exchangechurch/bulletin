@@ -4,7 +4,7 @@ let sermonStore = [{
     //url: `Images/Sermon.jpg`,
     date: `February 23rd, 2020`,
     series: `Give, Pray, Love`,
-    title: `What is He Worth?`,
+    title: `Treasuring Christ`,
     text: `Matthew 10:34-39`,
     speaker: `Pastor Joe Suh`
 }];
