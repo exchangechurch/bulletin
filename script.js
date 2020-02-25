@@ -25,10 +25,10 @@ let announcementsStore = [
     description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship and corporate prayer. We meet on the last Saturday of every month at 9am on the second floor of church!`
     },{
     title: `Read the Word 2020`,
-    date: `January 2020`,
+    date: `2020`,
     url: `Images/Read.jpg`,
     alt: `Image of 5 day plan`,
-    description: `As we begin 2020, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. If you’d like a printed schedule for January, one will be available at our Connect Table.`
+    description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. If you’d like a printed schedule for February, one will be available at our Connect Table.`
     }
 ];
 
@@ -117,6 +117,10 @@ function fillContact(){
             <a id='webLink' href='http://www.the-exchange-church.com'>the-exchange-church.com</a>
             <p class='contactDesc'>Joe Suh, Lead Pastor <br><a href='mailto:pastorjoe@the-exchange-church.com'>pastorjoe@the-exchange-church.com</a></p>
             <p class='contactDesc'>Randy Cho, Associate Pastor <br><a href='mailto:randy@the-exchange-church.com'>randy@the-exchange-church.com</a></p>
+            <p class='contactDesc'><br><br>Fill out the form below to get on our mailing list and to share any comments or concerns you may have.</p>
+        </div>
+        <div align = "center">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe0D2SV7oUmvngB4lx26-vaJpRILnzi87ys6DxjJ_aVqoaAZA/viewform?embedded=true" max-width="480" width= "100%" height="1400" frameborder="0" marginheight="0" marginwidth="auto">Loading…</iframe>
         </div>
     `)
 }
