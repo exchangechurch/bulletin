@@ -15,7 +15,8 @@ let announcementsStore = [
     date: `2020`,
     url: `Images/Read.jpg`,
     alt: `Image of 5 day plan`,
-    description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. If you’d like a printed schedule for March, one will be available at our Connect Table.`
+    description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. If you’d like a printed schedule for March, one will be available at our Connect Table.`,
+    link: `https://github.com/exchangechurch/bulletin/raw/master/Documents/Read%20the%20Word%20(March).pdf`
     },{
     title: `Membership`,
     date: `Coming soon`,
@@ -95,7 +96,18 @@ function fillSermon() {
 }
 
 function fillAnnouncements(){
-    for(let i=0; i < announcementsStore.length; i++){
+    //first announcement has a link - figure out a better way to do this
+    $('#announceBody').append(`
+            <img class="announceImg" src=${announcementsStore[0].url} alt=${announcementsStore[0].alt}>
+            <div class="announceDetCont">
+                <h2 class="announceTitle">${announcementsStore[0].title}</h2>
+                <h3 class="announceDate">${announcementsStore[0].date}</h3>
+                <p class="announceDesc">${announcementsStore[0].description}</p>
+                <a class="announceLink" href='${announcementsStore[0].link}' target="_blank"> Download the plan</a>
+            </div>
+        `)
+
+    for(let i=1; i < announcementsStore.length; i++){
         $('#announceBody').append(`
             <img class="announceImg" src=${announcementsStore[i].url} alt=${announcementsStore[i].alt}>
             <div class="announceDetCont">

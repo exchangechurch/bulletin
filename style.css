@@ -232,6 +232,20 @@ main {
     line-height: 23px;
 }
 
+.announceLink {
+    font-family: 'brandon_grotesqueblack';
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #e73f4d;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
 .orderTitle {
     margin-top: 5px;
     margin-bottom: 0;
