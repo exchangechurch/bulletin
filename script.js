@@ -2,34 +2,52 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `February 23rd, 2020`,
+    date: `March 1st, 2020`,
     series: `Give, Pray, Love`,
-    title: `Treasuring Christ`,
-    text: `Matthew 10:34-39`,
+    title: `Gospel-Centered Giving`,
+    text: `2 Corinthians 8:1-9`,
     speaker: `Pastor Joe Suh`
 }];
 
 let announcementsStore = [
+    {
+    title: `Read the Word 2020`,
+    date: `2020`,
+    url: `Images/Read.jpg`,
+    alt: `Image of 5 day plan`,
+    description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. If you’d like a printed schedule for March, one will be available at our Connect Table.`
+    },{
+    title: `Membership`,
+    date: `Coming soon`,
+    url: `Images/Membership.jpg`,
+    alt: `Image of membership`,
+    description: `We will be having our next round of membership classes soon! If you are interested in becoming a member or have questions please talk to Pastor Joe or Pastor Randy!`
+    },{
+    title: `Voice of Refugees Food Distribution`,
+    date: `Mondays 11am to 2:30pm`,
+    url: `Images/VOR.jpg`,
+    alt: `Image of green door`,
+    description: `V.O.R. is a Christian organization in Anaheim that helps refugees resettle and adjust to life here in America. We are looking for volunteers who are free to help on Monday mornings from 11am to 2:30pm with food distribution to local refugees.`
+    },{
+    title: `Monthly Outing`,
+    date: `Today after service 4PM`,
+    url: `"Images/Monthly Outing.jpg"`,
+    alt: `Image of Food`,
+    description: `We will having our monthly fellowship outing today! It is an opportunity for our church people to spend time together in fellowship outside of our church setting. We hope you can join us!`
+    }
     /*{
     title: `Join a Life Group`,
     date: `January 2020`,
     url: `Images/Join.jpg`,
     alt: `image of faded bibles`,
     description: `A Life Group is a small group of men or women that shares in life as they grow into their Christ-defined identities together. Life groups gather weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter (10 weeks starting the second week of Jan), please sign up at the welcome table.`
-    }*/
-    {
+    },{
     title: `Praise and Prayer Gathering`,
     date: `February 29, 2020`,
     url: `"Images/Morning Worship and Prayer.jpg"`, //spaces in the file name requires double quotes "" around it.
     alt: `image of clouds`,
     description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship and corporate prayer. We meet on the last Saturday of every month at 9am on the second floor of church!`
-    },{
-    title: `Read the Word 2020`,
-    date: `January 2020`,
-    url: `Images/Read.jpg`,
-    alt: `Image of 5 day plan`,
-    description: `As we begin 2020, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. If you’d like a printed schedule for January, one will be available at our Connect Table.`
-    }
+    }*/
 ];
 
 let orderOfWorship = [
@@ -117,6 +135,10 @@ function fillContact(){
             <a id='webLink' href='http://www.the-exchange-church.com'>the-exchange-church.com</a>
             <p class='contactDesc'>Joe Suh, Lead Pastor <br><a href='mailto:pastorjoe@the-exchange-church.com'>pastorjoe@the-exchange-church.com</a></p>
             <p class='contactDesc'>Randy Cho, Associate Pastor <br><a href='mailto:randy@the-exchange-church.com'>randy@the-exchange-church.com</a></p>
+            <p class='contactDesc'><br><br>Fill out the form below to get on our mailing list and to share any comments or concerns you may have.</p>
+        </div>
+        <div align = "center">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe0D2SV7oUmvngB4lx26-vaJpRILnzi87ys6DxjJ_aVqoaAZA/viewform?embedded=true" max-width="480" width= "100%" height="1400" frameborder="0" marginheight="0" marginwidth="auto">Loading…</iframe>
         </div>
     `)
 }
