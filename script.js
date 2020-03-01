@@ -33,7 +33,7 @@ let announcementsStore = [
     date: `Today after service 4PM`,
     url: `"Images/Monthly Outing.jpg"`,
     alt: `Image of Food`,
-    description: `We will having our monthly fellowship outing today! It is an opportunity for our church people to spend time together in fellowship outside of our church setting. We hope you can join us!`
+    description: `We will having our monthly fellowship outing today! It is an opportunity for our church people to spend time together in fellowship outside of our church setting. We will be meeting at Ramin Hajime (2717 W Lincoln Ave. Anaheim, CA 92801). We hope you can join us!`
     }
     /*{
     title: `Join a Life Group`,
