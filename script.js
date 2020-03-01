@@ -6,7 +6,7 @@ let sermonStore = [{
     series: `Give, Pray, Love`,
     title: `Gospel-Centered Giving`,
     text: `2 Corinthians 8:1-9`,
-    speaker: `Pastor Joe Suh`
+    speaker: `Pastor Joe`
 }];
 
 let announcementsStore = [
