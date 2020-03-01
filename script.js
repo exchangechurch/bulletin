@@ -30,7 +30,7 @@ let announcementsStore = [
     description: `V.O.R. is a Christian organization in Anaheim that helps refugees resettle and adjust to life here in America. We are looking for volunteers who are free to help on Monday mornings from 11am to 2:30pm with food distribution to local refugees.`
     },{
     title: `Monthly Outing`,
-    date: `Today after service 4PM`,
+    date: `Today after service 4pm`,
     url: `"Images/Monthly Outing.jpg"`,
     alt: `Image of Food`,
     description: `We will having our monthly fellowship outing today! It is an opportunity for our church people to spend time together in fellowship outside of our church setting. We will be meeting at Ramin Hajime (2717 W Lincoln Ave. Anaheim, CA 92801). We hope you can join us!`
