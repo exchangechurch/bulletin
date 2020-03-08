@@ -21,7 +21,7 @@ let announcementsStore = [
     date: `March 2020`,
     url: `"Images/Pray for Heather.jpg"`,
     alt: `"Announcement: Pray for heather"`,
-    description: `Description to pray for Heather`
+    description: `Next month, our sister Heather will be heading to Thailand as she begins her life as a full time missionary! We praise God that we have the opportunity to send and support Heather! Let's keep her in our prayers as she continues to prepare to leave. We will have more details on her send off in the coming weeks.`
     }
     /*{
     title: `Read the Word 2020`,
