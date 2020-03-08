@@ -2,15 +2,28 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `March 1st, 2020`,
+    date: `March 8th, 2020`,
     series: `Give, Pray, Love`,
-    title: `Gospel-Centered Giving`,
-    text: `2 Corinthians 8:1-9`,
-    speaker: `Pastor Joe Suh Test`
+    title: `When You Pray`,
+    text: `Luke 11:1-13`,
+    speaker: `Pastor Joe Suh`
 }];
 
 let announcementsStore = [
     {
+    title: `Digital Bulletin`,
+    date: `2020`,
+    url: `"Images/Bulletin.jpg"`,
+    alt: `"QR Code"`,
+    description: `We now have a digital bulletin available in place of the weekly "Joobos." Please visit/bookmark the url: bulletin.the-exchange-church.com or point your camera at the QR code located at the welcome table.`
+    },{
+    title: `Pray for Heather`,
+    date: `March 2020`,
+    url: `"Images/Pray for Heather.jpg"`,
+    alt: `"Announcement: Pray for heather"`,
+    description: `Description to pray for Heather`
+    }
+    /*{
     title: `Read the Word 2020`,
     date: `2020`,
     url: `Images/Read.jpg`,
@@ -35,8 +48,7 @@ let announcementsStore = [
     url: `"Images/Monthly Outing.jpg"`,
     alt: `Image of Food`,
     description: `We will having our monthly fellowship outing today! It is an opportunity for our church people to spend time together in fellowship outside of our church setting. We will be meeting at Ramin Hajime (2717 W Lincoln Ave. Anaheim, CA 92801). We hope you can join us!`
-    }
-    /*{
+    },{
     title: `Join a Life Group`,
     date: `January 2020`,
     url: `Images/Join.jpg`,
@@ -96,8 +108,8 @@ function fillSermon() {
 }
 
 function fillAnnouncements(){
-    //first announcement has a link - figure out a better way to do this
-    $('#announceBody').append(`
+    //first announcement has a link - figure out a better way to do this but in the meantime change the i=0 to i=1 in the for loop below
+    /*$('#announceBody').append(`
             <img class="announceImg" src=${announcementsStore[0].url} alt=${announcementsStore[0].alt}>
             <div class="announceDetCont">
                 <h2 class="announceTitle">${announcementsStore[0].title}</h2>
@@ -105,9 +117,9 @@ function fillAnnouncements(){
                 <p class="announceDesc">${announcementsStore[0].description}</p>
                 <a class="announceLink" href='${announcementsStore[0].link}' target="_blank"> Download the plan</a>
             </div>
-        `)
+        `)*/
 
-    for(let i=1; i < announcementsStore.length; i++){
+    for(let i=0; i < announcementsStore.length; i++){
         $('#announceBody').append(`
             <img class="announceImg" src=${announcementsStore[i].url} alt=${announcementsStore[i].alt}>
             <div class="announceDetCont">
