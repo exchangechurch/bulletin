@@ -3,9 +3,9 @@
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
     date: `March 15th, 2020`,
-    series: `Give, Pray, Love`,
-    title: `When You Pray`,
-    text: `Luke 11:1-13`,
+    series: `Standalone`,
+    title: `In the Midst of the Storm`,
+    text: `Mark 4:35-41`,
     speaker: `Pastor Joe Suh`
 }];
 
