@@ -2,7 +2,7 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `March 8th, 2020`,
+    date: `March 15th, 2020`,
     series: `Give, Pray, Love`,
     title: `When You Pray`,
     text: `Luke 11:1-13`,
@@ -22,6 +22,12 @@ let announcementsStore = [
     url: `"Images/Pray for Heather.jpg"`,
     alt: `"Announcement: Pray for heather"`,
     description: `Next month, our sister Heather will be heading to Thailand as she begins her life as a full time missionary! We praise God that we have the opportunity to send and support Heather! Let's keep her in our prayers as she continues to prepare to leave. We will have more details on her send off in the coming weeks.`
+    },{
+    title: `Praise and Prayer Gathering`,
+    date: `March 28, 2020`,
+    url: `"Images/Morning Worship and Prayer.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of clouds`,
+    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship and corporate prayer. We meet on the last Saturday of every month at 9am on the second floor of church!`
     }
     /*{
     title: `Read the Word 2020`,
@@ -54,12 +60,6 @@ let announcementsStore = [
     url: `Images/Join.jpg`,
     alt: `image of faded bibles`,
     description: `A Life Group is a small group of men or women that shares in life as they grow into their Christ-defined identities together. Life groups gather weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter (10 weeks starting the second week of Jan), please sign up at the welcome table.`
-    },{
-    title: `Praise and Prayer Gathering`,
-    date: `February 29, 2020`,
-    url: `"Images/Morning Worship and Prayer.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of clouds`,
-    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship and corporate prayer. We meet on the last Saturday of every month at 9am on the second floor of church!`
     }*/
 ];
 
