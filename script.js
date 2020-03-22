@@ -125,6 +125,8 @@ function fillAnnouncements(){
             </div>
         `)
     }
+    $('#announceBody').append(`<div class="announceDetCont" align = "center"> <a class="announceLink" href='${announcementsStore[1].link}' target="_blank"> Join our Zoom </a> </div>`)
+
 }
 
 function fillOrder(){
