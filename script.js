@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `March 15th, 2020`,
+    date: `March 22th, 2020`,
     series: `Standalone`,
-    title: `In the Midst of the Storm`,
-    text: `Mark 4:35-41`,
+    title: `One Thing is Necessary`,
+    text: `Luke 10:38-42`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -17,17 +17,12 @@ let announcementsStore = [
     alt: `"QR Code"`,
     description: `We now have a digital bulletin available in place of the weekly "Joobos." Please visit/bookmark the url: bulletin.the-exchange-church.com or point your camera at the QR code located at the welcome table.`
     },{
-    title: `Pray for Heather`,
-    date: `March 2020`,
-    url: `"Images/Pray for Heather.jpg"`,
-    alt: `"Announcement: Pray for heather"`,
-    description: `Next month, our sister Heather will be heading to Thailand as she begins her life as a full time missionary! We praise God that we have the opportunity to send and support Heather! Let's keep her in our prayers as she continues to prepare to leave. We will have more details on her send off in the coming weeks.`
-    },{
     title: `Praise and Prayer Gathering`,
     date: `March 28, 2020`,
     url: `"Images/Morning Worship and Prayer.jpg"`, //spaces in the file name requires double quotes "" around it.
     alt: `image of clouds`,
-    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship and corporate prayer. We meet on the last Saturday of every month at 9am on the second floor of church!`
+    description: `Although we will be unable to gather in person, we hope you can join us on Zoom to worship and pray together as a church! Our next meeting is Saturday March 28th at 9am at the link below.`,
+    link: 'https://the-exchange-church.us5.list-manage.com/track/click?u=04a83350a43dd7d611ebca178&id=7b7116ed30&e=c627a641fb'
     }
     /*{
     title: `Read the Word 2020`,
