@@ -19,10 +19,11 @@ let announcementsStore = [
     },{
     title: `Praise and Prayer Gathering`,
     date: `March 28, 2020`,
-    url: `"Images/Morning Worship and Prayer.jpg"`, //spaces in the file name requires double quotes "" around it.
+    url: `"Images/MorningPrayerZoom.jpg"`, //spaces in the file name requires double quotes "" around it.
     alt: `image of clouds`,
     description: `Although we will be unable to gather in person, we hope you can join us on Zoom to worship and pray together as a church! Our next meeting is Saturday March 28th at 9am at the link below.`,
-    link: 'https://the-exchange-church.us5.list-manage.com/track/click?u=04a83350a43dd7d611ebca178&id=7b7116ed30&e=c627a641fb'
+    
+    link: `https://the-exchange-church.us5.list-manage.com/track/click?u=04a83350a43dd7d611ebca178&id=7b7116ed30&e=c627a641fb`
     }
     /*{
     title: `Read the Word 2020`,
