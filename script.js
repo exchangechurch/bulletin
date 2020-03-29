@@ -34,9 +34,9 @@ let announcementsStore = [
     date: `2020`,
     //url: `"Images/Helping Hands.jpg"`,
     //alt: `"Helping Hands Announcement Slide"`,
-    description: `Helping Hands is a ministry of the Exchange Church that offers opportunities for people to help and love those in need. Please click the link below: 
-    If you need help buying groceries, if you would like to volunteer to help, or if you can offer other services to those in need. For any questions, please feel 
-    free to reach out at any of the email addresses below under 'Contact us'.`,
+    description: `Helping Hands is a ministry of the Exchange Church that offers opportunities for people to help and love those in need. If you would 
+    like help buying groceries, if you would like to volunteer to help, or if you can offer other services to those in need, please click the link below. 
+    For any questions, please feel free to reach out at any of the email addresses below under the 'Contact us' Section.`,
     link: `https://forms.gle/83XvCtY7D2T88mX8A`,
     linkText: `Helping Hands`
     }
