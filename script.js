@@ -21,8 +21,10 @@ let announcementsStore = [
     {
     title: `Sunday Service now streaming on Zoom`,
     date: `Until further notice`,
+    url: `"Images/Online Service Welcome Zoom.jpg"`,
+    alt: `"Online Service Announcement"`,
     description: `There will be no in-person Sunday Service gatherings until futher notice. Stay tuned on Zoom every Sunday at 2PM for our regular Sunday worship.`,
-    link: `https://l.instagram.com/?u=https%3A%2F%2Fzoom.us%2Fj%2F727600077&e=ATPXKDFvxcXQqw0lpEBf9bBIgk6DHqER18lxz95lE1KvtV8y4EGtHBol1ZjoxhGEFCZtc5AKk-SQgmyE&s=1`
+    link: `https://zoom.us/j/727600077`
     }
     /*{
     title: `Praise and Prayer Gathering`,
