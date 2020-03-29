@@ -139,17 +139,23 @@ function fillAnnouncements(){
         `)*/
 
     for(let i=0; i < announcementsStore.length; i++){
+        if (announcementsStore[i].url != undefined){
+             $('#announceBody').append(`<img class="announceImg" src=${announcementsStore[i].url} alt=${announcementsStore[i].alt}>`)
+        }
         $('#announceBody').append(`
-            <img class="announceImg" src=${announcementsStore[i].url} alt=${announcementsStore[i].alt}>
             <div class="announceDetCont">
                 <h2 class="announceTitle">${announcementsStore[i].title}</h2>
                 <h3 class="announceDate">${announcementsStore[i].date}</h3>
                 <p class="announceDesc">${announcementsStore[i].description}</p>
             </div> 
-            <div class="announceDetContLink" align = "center">
-                <a class="announceLink" href='${announcementsStore[i].link}' target="_blank"> ${announcementsStore[i].linkText} </a>
-            </div>
         `)
+        if (announcementsStore[i].link != undefined){
+             $('#announceBody').append(`
+                <div class="announceDetContLink" align = "center">
+                    <a class="announceLink" href='${announcementsStore[i].link}' target="_blank"> ${announcementsStore[i].linkText} </a>
+                </div>
+            `)
+        }
     }
     //$('#announceBody').append(`<div class="announceDetCont" align = "center"> <a class="announceLink" href='${announcementsStore[1].link}' target="_blank"> Join our Zoom </a> </div>`)
     //$('#announceBody').append(`<div class="announceDetCont" align = "center"> <a class="announceLink" href='${announcementsStore[2].link}' target="_blank"> Helping Hands </a> </div>`)
@@ -179,7 +185,7 @@ function fillOrder(){
 function fillContact(){
     $('#contactBody').append(`
         <div class="contactContainer">
-            <p class='contactDesc'>The Exchange Church<br>2341 W Lincoln Ave Anaheim, CA 92801</p>
+            <p class='contactDesc'>The Exchange Church<br>2341 W Lincoln Ave Anaheim, CA 92801 <br> <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a></p>
             <a id='webLink' href='http://www.the-exchange-church.com'>the-exchange-church.com</a>
             <p class='contactDesc'>Joe Suh, Lead Pastor <br><a href='mailto:pastorjoe@the-exchange-church.com'>pastorjoe@the-exchange-church.com</a></p>
             <p class='contactDesc'>Randy Cho, Associate Pastor <br><a href='mailto:randy@the-exchange-church.com'>randy@the-exchange-church.com</a></p>
