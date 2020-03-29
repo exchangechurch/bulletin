@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `March 22th, 2020`,
+    date: `March 29th, 2020`,
     series: `Standalone`,
-    title: `One Thing is Necessary`,
-    text: `Luke 10:38-42`,
+    title: `This Light Momentary Affliction`,
+    text: `2 Corinthians 4:16-18`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -15,8 +15,16 @@ let announcementsStore = [
     date: `2020`,
     url: `"Images/Bulletin.jpg"`,
     alt: `"QR Code"`,
-    description: `We now have a digital bulletin available in place of the weekly "Joobos." Please visit/bookmark the url: bulletin.the-exchange-church.com or point your camera at the QR code located at the welcome table.`
-    },{
+    description: `We now have a digital bulletin available in place of the weekly "Joobos." 
+    Please visit/bookmark the url: bulletin.the-exchange-church.com or point your camera at the QR code located at the welcome table.`
+    },
+    {
+    title: `Sunday Service now streaming on Zoom`,
+    date: `Until further notice`,
+    description: `There will be no in-person Sunday Service gatherings until futher notice. Stay tuned on Zoom every Sunday at 2PM for our regular Sunday worship.`,
+    link: `https://l.instagram.com/?u=https%3A%2F%2Fzoom.us%2Fj%2F727600077&e=ATPXKDFvxcXQqw0lpEBf9bBIgk6DHqER18lxz95lE1KvtV8y4EGtHBol1ZjoxhGEFCZtc5AKk-SQgmyE&s=1`
+    }
+    /*{
     title: `Praise and Prayer Gathering`,
     date: `March 28, 2020`,
     url: `"Images/MorningPrayerZoom.jpg"`, //spaces in the file name requires double quotes "" around it.
@@ -24,8 +32,7 @@ let announcementsStore = [
     description: `Although we will be unable to gather in person, we hope you can join us on Zoom to worship and pray together as a church! Our next meeting is Saturday March 28th at 9am at the link below.`,
     
     link: `https://the-exchange-church.us5.list-manage.com/track/click?u=04a83350a43dd7d611ebca178&id=7b7116ed30&e=c627a641fb`
-    }
-    /*{
+    },{
     title: `Read the Word 2020`,
     date: `2020`,
     url: `Images/Read.jpg`,
