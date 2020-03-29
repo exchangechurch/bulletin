@@ -16,15 +16,29 @@ let announcementsStore = [
     url: `"Images/Bulletin.jpg"`,
     alt: `"QR Code"`,
     description: `We now have a digital bulletin available in place of the weekly "Joobos." 
-    Please visit/bookmark the url: bulletin.the-exchange-church.com or point your camera at the QR code located at the welcome table.`
+    Please visit the link below: (bulletin.the-exchange-church.com) or point your camera at the QR code located at the welcome table.`,
+    link: `https://bulletin.the-exchange-church.com`,
+    linkText: `Digital Bulletin`
     },
     {
     title: `Sunday Service now streaming on Zoom`,
     date: `Until further notice`,
     url: `"Images/Online Service Welcome Zoom.jpg"`,
-    alt: `"Online Service Announcement"`,
+    alt: `"Online Service Announcement Slide"`,
     description: `There will be no in-person Sunday Service gatherings until futher notice. Stay tuned on Zoom every Sunday at 2PM for our regular Sunday worship.`,
-    link: `https://zoom.us/j/727600077`
+    link: `https://zoom.us/j/727600077`,
+    linkText: `Join our Zoom`
+    },
+    {
+    title: `Helping Hands`,
+    date: `2020`,
+    //url: `"Images/Helping Hands.jpg"`,
+    //alt: `"Helping Hands Announcement Slide"`,
+    description: `Helping Hands is a ministry of the Exchange Church that offers opportunities for people to help and love those in need. Please click the link below: 
+    If you need help buying groceries, if you would like to volunteer to help, or if you can offer other services to those in need. For any questions, please feel 
+    free to reach out at any of the email addresses below under 'Contact us'.`,
+    link: `https://forms.gle/83XvCtY7D2T88mX8A`,
+    linkText: `Helping Hands`
     }
     /*{
     title: `Praise and Prayer Gathering`,
@@ -131,11 +145,14 @@ function fillAnnouncements(){
                 <h2 class="announceTitle">${announcementsStore[i].title}</h2>
                 <h3 class="announceDate">${announcementsStore[i].date}</h3>
                 <p class="announceDesc">${announcementsStore[i].description}</p>
+            </div> 
+            <div class="announceDetContLink" align = "center">
+                <a class="announceLink" href='${announcementsStore[i].link}' target="_blank"> ${announcementsStore[i].linkText} </a>
             </div>
         `)
     }
-    $('#announceBody').append(`<div class="announceDetCont" align = "center"> <a class="announceLink" href='${announcementsStore[1].link}' target="_blank"> Join our Zoom </a> </div>`)
-
+    //$('#announceBody').append(`<div class="announceDetCont" align = "center"> <a class="announceLink" href='${announcementsStore[1].link}' target="_blank"> Join our Zoom </a> </div>`)
+    //$('#announceBody').append(`<div class="announceDetCont" align = "center"> <a class="announceLink" href='${announcementsStore[2].link}' target="_blank"> Helping Hands </a> </div>`)
 }
 
 function fillOrder(){

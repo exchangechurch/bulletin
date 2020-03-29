@@ -245,6 +245,9 @@ main {
     padding: 10px 20px;
     border-radius: 8px;
 }
+.announceDetContLink{
+    padding-bottom: 20px;
+}
 
 .orderTitle {
     margin-top: 5px;
