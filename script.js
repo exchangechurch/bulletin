@@ -17,7 +17,7 @@ let announcementsStore = [
     alt: `"Good Friday Service Announcement Slide"`,
     description: `Good Friday marks the final day of Jesus’ journey to the cross where He paid for our sins through his death and resurrection. 
     Join us as we remember His sacrifice at 7PM on Facebook Live or at the link below.`,
-    link: `https://www.the-exchange-church.com/live`
+    link: `https://www.the-exchange-church.com/live`,
     linkText: `Join us Online`
     },{
     title: `Easter Sunday Service`,
@@ -26,7 +26,7 @@ let announcementsStore = [
     alt: `"Easter Service Announcement Slide"`,
     description: `Next Sunday we will be celebrating the climax of history: the Resurrection of Jesus Christ! 
     Join us as we have our hearts awakened to hope through the Word and corporate worship at 2PM on Facebook Live or at the link below.`,
-    link: `https://www.the-exchange-church.com/live`
+    link: `https://www.the-exchange-church.com/live`,
     linkText: `Join us Online`
     },{
     title: `Helping Hands`,
@@ -37,7 +37,7 @@ let announcementsStore = [
     like help buying groceries, if you would like to volunteer to help, or if you can offer other services to those in need, please click the link below. 
     For any questions, please feel free to reach out at any of the email addresses below under the 'Contact us' Section.`,
     link: `https://forms.gle/83XvCtY7D2T88mX8A`,
-    linkText: `Helping Hands Form`
+    linkText: `Fill out the Form`
     },{
     title: `Read the Word - April 2020`,
     date: `2020`,
@@ -47,7 +47,7 @@ let announcementsStore = [
     through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and 
     use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. Click the link below to download
     a copy of the plan.`,
-    link: `https://www.dropbox.com/s/6di4i8fef5cf0nf/April%202020%20Bible%20Reading%20Plan.png?dl=0`
+    link: `https://www.dropbox.com/s/6di4i8fef5cf0nf/April%202020%20Bible%20Reading%20Plan.png?dl=0`,
     linkText: `Download the Plan`
     }
     /*{
