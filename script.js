@@ -2,15 +2,55 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `March 29th, 2020`,
+    date: `April 5th, 2020`,
     series: `Standalone`,
-    title: `This Light Momentary Affliction`,
-    text: `2 Corinthians 4:16-18`,
+    title: `When the Waiting is Worth it`,
+    text: `John 12:12-18`,
     speaker: `Pastor Joe Suh`
 }];
 
 let announcementsStore = [
     {
+    title: `Good Friday Service`,
+    date: `Friday, April 10, 2020 7:00PM`,
+    url: `"Images/Good Friday Service 2020.jpg"`,
+    alt: `"Good Friday Service Announcement Slide"`,
+    description: `Good Friday marks the final day of Jesus’ journey to the cross where He paid for our sins through his death and resurrection. 
+    Join us as we remember His sacrifice at 7PM on Facebook Live or at the link below.`,
+    link: `https://www.the-exchange-church.com/live`
+    linkText: `Join us Online`
+    },{
+    title: `Easter Sunday Service`,
+    date: `April 12, 2020 2:00PM`,
+    url: `"Images/Easter Sunday Service 2020.jpg"`,
+    alt: `"Easter Service Announcement Slide"`,
+    description: `Next Sunday we will be celebrating the climax of history: the Resurrection of Jesus Christ! 
+    Join us as we have our hearts awakened to hope through the Word and corporate worship at 2PM on Facebook Live or at the link below.`,
+    link: `https://www.the-exchange-church.com/live`
+    linkText: `Join us Online`
+    },{
+    title: `Helping Hands`,
+    date: `2020`,
+    url: `"Images/Helping Hands.jpg"`,
+    alt: `"Helping Hands Announcement Slide"`,
+    description: `Helping Hands is a ministry of the Exchange Church that offers opportunities for people to help and love those in need. If you would 
+    like help buying groceries, if you would like to volunteer to help, or if you can offer other services to those in need, please click the link below. 
+    For any questions, please feel free to reach out at any of the email addresses below under the 'Contact us' Section.`,
+    link: `https://forms.gle/83XvCtY7D2T88mX8A`,
+    linkText: `Helping Hands Form`
+    },{
+    title: `Read the Word - April 2020`,
+    date: `2020`,
+    url: `"Images/Read the Word Announcement - April.jpg"`,
+    alt: `Image of 5 day plan`,
+    description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us 
+    through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and 
+    use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. Click the link below to download
+    a copy of the plan.`,
+    link: `https://www.dropbox.com/s/6di4i8fef5cf0nf/April%202020%20Bible%20Reading%20Plan.png?dl=0`
+    linkText: `Download the Plan`
+    }
+    /*{
     title: `Digital Bulletin`,
     date: `2020`,
     url: `"Images/Bulletin.jpg"`,
@@ -30,17 +70,6 @@ let announcementsStore = [
     linkText: `Join our Zoom`
     },
     {
-    title: `Helping Hands`,
-    date: `2020`,
-    //url: `"Images/Helping Hands.jpg"`,
-    //alt: `"Helping Hands Announcement Slide"`,
-    description: `Helping Hands is a ministry of the Exchange Church that offers opportunities for people to help and love those in need. If you would 
-    like help buying groceries, if you would like to volunteer to help, or if you can offer other services to those in need, please click the link below. 
-    For any questions, please feel free to reach out at any of the email addresses below under the 'Contact us' Section.`,
-    link: `https://forms.gle/83XvCtY7D2T88mX8A`,
-    linkText: `Helping Hands`
-    }
-    /*{
     title: `Praise and Prayer Gathering`,
     date: `March 28, 2020`,
     url: `"Images/MorningPrayerZoom.jpg"`, //spaces in the file name requires double quotes "" around it.
@@ -48,13 +77,6 @@ let announcementsStore = [
     description: `Although we will be unable to gather in person, we hope you can join us on Zoom to worship and pray together as a church! Our next meeting is Saturday March 28th at 9am at the link below.`,
     
     link: `https://the-exchange-church.us5.list-manage.com/track/click?u=04a83350a43dd7d611ebca178&id=7b7116ed30&e=c627a641fb`
-    },{
-    title: `Read the Word 2020`,
-    date: `2020`,
-    url: `Images/Read.jpg`,
-    alt: `Image of 5 day plan`,
-    description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. If you’d like a printed schedule for March, one will be available at our Connect Table.`,
-    link: `https://github.com/exchangechurch/bulletin/raw/master/Documents/Read%20the%20Word%20(March).pdf`
     },{
     title: `Membership`,
     date: `Coming soon`,
