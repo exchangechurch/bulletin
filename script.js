@@ -2,33 +2,15 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `April 5th, 2020`,
+    date: `April 12th, 2020`,
     series: `Standalone`,
-    title: `When the Waiting is Worth it`,
-    text: `John 12:12-18`,
+    title: `Walking with the Risen Hope`,
+    text: `Luke 24:13-35`,
     speaker: `Pastor Joe Suh`
 }];
 
 let announcementsStore = [
     {
-    title: `Good Friday Service`,
-    date: `Friday, April 10, 2020 7:00PM`,
-    url: `"Images/Good Friday Service 2020.jpg"`,
-    alt: `"Good Friday Service Announcement Slide"`,
-    description: `Good Friday marks the final day of Jesus’ journey to the cross where He paid for our sins through his death and resurrection. 
-    Join us as we remember His sacrifice at 7PM on Facebook Live or at the link below.`,
-    link: `https://www.the-exchange-church.com/live`,
-    linkText: `Join us Online`
-    },{
-    title: `Easter Sunday Service`,
-    date: `April 12, 2020 2:00PM`,
-    url: `"Images/Easter Sunday Service 2020.jpg"`,
-    alt: `"Easter Service Announcement Slide"`,
-    description: `Next Sunday we will be celebrating the climax of history: the Resurrection of Jesus Christ! 
-    Join us as we have our hearts awakened to hope through the Word and corporate worship at 2PM on Facebook Live or at the link below.`,
-    link: `https://www.the-exchange-church.com/live`,
-    linkText: `Join us Online`
-    },{
     title: `Helping Hands`,
     date: `2020`,
     url: `"Images/Helping Hands.jpg"`,
@@ -49,6 +31,15 @@ let announcementsStore = [
     a copy of the plan.`,
     link: `https://www.dropbox.com/s/6di4i8fef5cf0nf/April%202020%20Bible%20Reading%20Plan.png?dl=0`,
     linkText: `Download the Plan`
+    },{
+    title: `Praise and Prayer Gathering`,
+    date: `April 25, 2020 9:00AM`,
+    url: `"Images/MorningPrayerApril.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of clouds`,
+    description: `Although we will be unable to gather in person, we hope you can join us on Facebook Live to worship and pray together as a church! 
+    Our next meeting is Saturday April 25th at 9am at the link below.`,
+    link: `https://www.the-exchange-church.com/live`,
+    linkText: `Join us Online`
     }
     /*{
     title: `Digital Bulletin`,
@@ -68,15 +59,6 @@ let announcementsStore = [
     description: `There will be no in-person Sunday Service gatherings until futher notice. Stay tuned on Zoom every Sunday at 2PM for our regular Sunday worship.`,
     link: `https://zoom.us/j/727600077`,
     linkText: `Join our Zoom`
-    },
-    {
-    title: `Praise and Prayer Gathering`,
-    date: `March 28, 2020`,
-    url: `"Images/MorningPrayerZoom.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of clouds`,
-    description: `Although we will be unable to gather in person, we hope you can join us on Zoom to worship and pray together as a church! Our next meeting is Saturday March 28th at 9am at the link below.`,
-    
-    link: `https://the-exchange-church.us5.list-manage.com/track/click?u=04a83350a43dd7d611ebca178&id=7b7116ed30&e=c627a641fb`
     },{
     title: `Membership`,
     date: `Coming soon`,
