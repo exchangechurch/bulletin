@@ -2,15 +2,24 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `April 12th, 2020`,
-    series: `Standalone`,
-    title: `Walking with the Risen Hope`,
-    text: `Luke 24:13-35`,
+    date: `April 19th, 2020`,
+    series: `Purpose in Suffering`,
+    title: `Repentance`,
+    text: `Luke 13:1-5`,
     speaker: `Pastor Joe Suh`
 }];
 
 let announcementsStore = [
     {
+    title: `Praise and Prayer Gathering`,
+    date: `April 25, 2020 10:00AM`,
+    url: `"Images/MorningPrayerApril.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of clouds`,
+    description: `Although we will be unable to gather in person, we hope you can join us on Facebook Live to worship and pray together as a church! 
+    Our next meeting is Saturday April 25th at 10am at the link below.`,
+    link: `https://www.the-exchange-church.com/live`,
+    linkText: `Join us Online`
+    },{
     title: `Helping Hands`,
     date: `2020`,
     url: `"Images/Helping Hands.jpg"`,
@@ -21,6 +30,17 @@ let announcementsStore = [
     link: `https://forms.gle/83XvCtY7D2T88mX8A`,
     linkText: `Fill out the Form`
     },{
+    title: `Voice of Refugees Giving`,
+    date: `2020`,
+    url: `"Images/VOR.jpg"`,
+    alt: `"VOR Giving Announcement Slide"`,
+    description: `With the COVID-19 crisis impacting refugees and the Voice of Refugees organization, we want to highlight a way to donate and help 
+    those in need! If you would like to make a one-time or recurring donation to VOR, follow the link below. A donation will help VOR effectively plan 
+    how they will help the refugees and asylum-seeking families throughout the year.`,
+    link: `https://secure.egsnetwork.com/donate/6E9A2F1C19DB4CD`,
+    linkText: `Make a donation to Voice of Refugees`
+    }
+    /*{
     title: `Read the Word - April 2020`,
     date: `2020`,
     url: `"Images/Read the Word Announcement - April.jpg"`,
@@ -32,16 +52,6 @@ let announcementsStore = [
     link: `https://www.dropbox.com/s/6di4i8fef5cf0nf/April%202020%20Bible%20Reading%20Plan.png?dl=0`,
     linkText: `Download the Plan`
     },{
-    title: `Praise and Prayer Gathering`,
-    date: `April 25, 2020 9:00AM`,
-    url: `"Images/MorningPrayerApril.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of clouds`,
-    description: `Although we will be unable to gather in person, we hope you can join us on Facebook Live to worship and pray together as a church! 
-    Our next meeting is Saturday April 25th at 9am at the link below.`,
-    link: `https://www.the-exchange-church.com/live`,
-    linkText: `Join us Online`
-    }
-    /*{
     title: `Digital Bulletin`,
     date: `2020`,
     url: `"Images/Bulletin.jpg"`,
