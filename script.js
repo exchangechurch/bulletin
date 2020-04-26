@@ -2,24 +2,15 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `April 19th, 2020`,
+    date: `April 26th, 2020`,
     series: `Purpose in Suffering`,
-    title: `Repentance`,
-    text: `Luke 13:1-5`,
+    title: `Holiness`,
+    text: `Hebrews 12:4-13`,
     speaker: `Pastor Joe Suh`
 }];
 
 let announcementsStore = [
     {
-    title: `Praise and Prayer Gathering`,
-    date: `April 25, 2020 10:00AM`,
-    url: `"Images/MorningPrayerApril.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of clouds`,
-    description: `Although we will be unable to gather in person, we hope you can join us on Facebook Live to worship and pray together as a church! 
-    Our next meeting is Saturday April 25th at 10am at the link below.`,
-    link: `https://www.the-exchange-church.com/live`,
-    linkText: `Join us Online`
-    },{
     title: `Helping Hands`,
     date: `2020`,
     url: `"Images/Helping Hands.jpg"`,
@@ -39,18 +30,27 @@ let announcementsStore = [
     how they will help the refugees and asylum-seeking families throughout the year.`,
     link: `https://secure.egsnetwork.com/donate/6E9A2F1C19DB4CD`,
     linkText: `Make a donation to Voice of Refugees`
-    }
-    /*{
-    title: `Read the Word - April 2020`,
+    },{
+    title: `Read the Word - May 2020`,
     date: `2020`,
-    url: `"Images/Read the Word Announcement - April.jpg"`,
+    url: `"Images/Read the Word May Announcement.jpg"`,
     alt: `Image of 5 day plan`,
     description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us 
     through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and 
     use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. Click the link below to download
     a copy of the plan.`,
-    link: `https://www.dropbox.com/s/6di4i8fef5cf0nf/April%202020%20Bible%20Reading%20Plan.png?dl=0`,
+    link: `https://www.dropbox.com/s/8qmg9jw564mu0pv/RTW%20-%20May.png?dl=0`,
     linkText: `Download the Plan`
+    }
+    /*{
+    title: `Praise and Prayer Gathering`,
+    date: `April 25, 2020 10:00AM`,
+    url: `"Images/MorningPrayerApril.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of clouds`,
+    description: `Although we will be unable to gather in person, we hope you can join us on Facebook Live to worship and pray together as a church! 
+    Our next meeting is Saturday April 25th at 10am at the link below.`,
+    link: `https://www.the-exchange-church.com/live`,
+    linkText: `Join us Online`
     },{
     title: `Digital Bulletin`,
     date: `2020`,
