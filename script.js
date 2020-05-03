@@ -26,11 +26,12 @@ let announcementsStore = [
     url: `"Images/VOR.jpg"`,
     alt: `"VOR Giving Announcement Slide"`,
     description: `With the COVID-19 crisis impacting refugees and the Voice of Refugees organization, we want to highlight a way to donate/help 
-    those in need and support VOR's mission: Putting God’s love into action by assisting the refugee and asylum-seeking community to re-establish 
+    those in need and support the VOR mission: Putting God’s love into action by assisting the refugee and asylum-seeking community to re-establish 
     and assimilate their lives in the United States. If you would like to make a one-time or recurring donation to VOR, follow the link below. 
-    A donation will help VOR effectively plan how they will help the refugees and asylum-seeking families throughout the year. https://vorservices.org`,
+    A donation will help VOR effectively plan how they will help the refugees and asylum-seeking families throughout the year. 
+    <a class="announceLinkinP" href='https://vorservices.org' target="_blank"> https://vorservices.org </a>`,
     link: `https://secure.egsnetwork.com/donate/6E9A2F1C19DB4CD`,
-    linkText: `Make a donation`
+    linkText: `Donate to VOR`
     },{
     title: `Read the Word - May 2020`,
     date: `2020`,
