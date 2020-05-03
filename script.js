@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `April 26th, 2020`,
+    date: `May 3rd, 2020`,
     series: `Purpose in Suffering`,
-    title: `Holiness`,
-    text: `Hebrews 12:4-13`,
+    title: `Awakening`,
+    text: `Mark 13:32-37`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -25,11 +25,12 @@ let announcementsStore = [
     date: `2020`,
     url: `"Images/VOR.jpg"`,
     alt: `"VOR Giving Announcement Slide"`,
-    description: `With the COVID-19 crisis impacting refugees and the Voice of Refugees organization, we want to highlight a way to donate and help 
-    those in need! If you would like to make a one-time or recurring donation to VOR, follow the link below. A donation will help VOR effectively plan 
-    how they will help the refugees and asylum-seeking families throughout the year.`,
+    description: `With the COVID-19 crisis impacting refugees and the Voice of Refugees organization, we want to highlight a way to donate/help 
+    those in need and support VOR's mission: Putting God’s love into action by assisting the refugee and asylum-seeking community to re-establish 
+    and assimilate their lives in the United States. If you would like to make a one-time or recurring donation to VOR, follow the link below. 
+    A donation will help VOR effectively plan how they will help the refugees and asylum-seeking families throughout the year. https://vorservices.org`,
     link: `https://secure.egsnetwork.com/donate/6E9A2F1C19DB4CD`,
-    linkText: `Make a donation to Voice of Refugees`
+    linkText: `Make a donation`
     },{
     title: `Read the Word - May 2020`,
     date: `2020`,
@@ -39,7 +40,7 @@ let announcementsStore = [
     through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and 
     use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. Click the link below to download
     a copy of the plan.`,
-    link: `https://www.dropbox.com/s/8qmg9jw564mu0pv/RTW%20-%20May.png?dl=0`,
+    link: `https://www.dropbox.com/s/0zxyku1fiuylxnj/RTW%20-%20May%20%28Corrected%29.png?dl=0`,
     linkText: `Download the Plan`
     }
     /*{
