@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `May 3rd, 2020`,
+    date: `May 10th, 2020`,
     series: `Purpose in Suffering`,
-    title: `Awakening`,
-    text: `Mark 13:32-37`,
+    title: `Sacrifice`,
+    text: `1 Peter 2:18-25`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -32,7 +32,7 @@ let announcementsStore = [
     <a class="announceLinkinP" href='https://vorservices.org' target="_blank"> https://vorservices.org </a>`,
     link: `https://secure.egsnetwork.com/donate/6E9A2F1C19DB4CD`,
     linkText: `Donate to VOR`
-    },{
+    }/*,{
     title: `Read the Word - May 2020`,
     date: `2020`,
     url: `"Images/Read the Word May Announcement.jpg"`,
@@ -43,8 +43,7 @@ let announcementsStore = [
     a copy of the plan.`,
     link: `https://www.dropbox.com/s/0zxyku1fiuylxnj/RTW%20-%20May%20%28Corrected%29.png?dl=0`,
     linkText: `Download the Plan`
-    }
-    /*{
+    },{
     title: `Praise and Prayer Gathering`,
     date: `April 25, 2020 10:00AM`,
     url: `"Images/MorningPrayerApril.jpg"`, //spaces in the file name requires double quotes "" around it.
