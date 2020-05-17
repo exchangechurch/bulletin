@@ -2,7 +2,7 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `May 10th, 2020`,
+    date: `May 17th, 2020`,
     series: `Purpose in Suffering`,
     title: `Resettlement`,
     text: `Acts 8:1-5`,
