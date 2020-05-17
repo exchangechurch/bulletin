@@ -4,8 +4,8 @@ let sermonStore = [{
     //url: `Images/Sermon.jpg`,
     date: `May 10th, 2020`,
     series: `Purpose in Suffering`,
-    title: `Sacrifice`,
-    text: `1 Peter 2:18-25`,
+    title: `Resettlement`,
+    text: `Acts 8:1-5`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -32,6 +32,15 @@ let announcementsStore = [
     <a class="announceLinkinP" href='https://vorservices.org' target="_blank"> https://vorservices.org </a>`,
     link: `https://secure.egsnetwork.com/donate/6E9A2F1C19DB4CD`,
     linkText: `Donate to VOR`
+    },{
+    title: `Praise and Prayer Gathering`,
+    date: `May 30, 2020 10:00AM`,
+    url: `"Images/MorningPrayerMay.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of clouds`,
+    description: `Although we will be unable to gather in person, we hope you can join us on Facebook Live to worship and pray together as a church! 
+    Our next meeting is Saturday May 30th at 10am at the link below.`,
+    link: `https://www.the-exchange-church.com/live`,
+    linkText: `Join us Online`
     }/*,{
     title: `Read the Word - May 2020`,
     date: `2020`,
@@ -43,15 +52,6 @@ let announcementsStore = [
     a copy of the plan.`,
     link: `https://www.dropbox.com/s/0zxyku1fiuylxnj/RTW%20-%20May%20%28Corrected%29.png?dl=0`,
     linkText: `Download the Plan`
-    },{
-    title: `Praise and Prayer Gathering`,
-    date: `April 25, 2020 10:00AM`,
-    url: `"Images/MorningPrayerApril.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of clouds`,
-    description: `Although we will be unable to gather in person, we hope you can join us on Facebook Live to worship and pray together as a church! 
-    Our next meeting is Saturday April 25th at 10am at the link below.`,
-    link: `https://www.the-exchange-church.com/live`,
-    linkText: `Join us Online`
     },{
     title: `Digital Bulletin`,
     date: `2020`,
@@ -169,7 +169,7 @@ function fillAnnouncements(){
                 <div class="announceDetContLink" align = "center">
                     <a class="announceLink" href='${announcementsStore[i].link}' target="_blank"> ${announcementsStore[i].linkText} </a>
                 </div>
-            `)
+        `)
         }
     }
     //$('#announceBody').append(`<div class="announceDetCont" align = "center"> <a class="announceLink" href='${announcementsStore[1].link}' target="_blank"> Join our Zoom </a> </div>`)
