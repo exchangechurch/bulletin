@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `May 17th, 2020`,
-    series: `Purpose in Suffering`,
-    title: `Resettlement`,
-    text: `Acts 8:1-5`,
+    date: `May 24th, 2020`,
+    series: `Authentic Faith in an Artificial World`,
+    title: `Reliable Narrator`,
+    text: `Hebrews 4:11-16`,
     speaker: `Pastor Joe Suh`
 }];
 
