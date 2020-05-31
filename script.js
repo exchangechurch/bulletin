@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `May 24th, 2020`,
+    date: `May 31th, 2020`,
     series: `Authentic Faith in an Artificial World`,
-    title: `Reliable Narrator`,
-    text: `Hebrews 4:11-16`,
+    title: `Becoming what we Like`,
+    text: `1 Corinthians 10:31-11:1`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -32,7 +32,7 @@ let announcementsStore = [
     <a class="announceLinkinP" href='https://vorservices.org' target="_blank"> https://vorservices.org </a>`,
     link: `https://secure.egsnetwork.com/donate/6E9A2F1C19DB4CD`,
     linkText: `Donate to VOR`
-    },{
+    }/*,{
     title: `Praise and Prayer Gathering`,
     date: `May 30, 2020 10:00AM`,
     url: `"Images/MorningPrayerMay.jpg"`, //spaces in the file name requires double quotes "" around it.
@@ -41,7 +41,7 @@ let announcementsStore = [
     Our next meeting is Saturday May 30th at 10am at the link below.`,
     link: `https://www.the-exchange-church.com/live`,
     linkText: `Join us Online`
-    }/*,{
+    },{
     title: `Read the Word - May 2020`,
     date: `2020`,
     url: `"Images/Read the Word May Announcement.jpg"`,
