@@ -2,25 +2,35 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `May 31th, 2020`,
+    date: `June 7th, 2020`,
     series: `Authentic Faith in an Artificial World`,
-    title: `Becoming what we Like`,
-    text: `1 Corinthians 10:31-11:1`,
+    title: `Words that Mean Something`,
+    text: `James 3:1-12`,
     speaker: `Pastor Joe Suh`
 }];
 
 let announcementsStore = [
     {
-    title: `Helping Hands`,
+    title: `Read the Word - June 2020`,
     date: `2020`,
-    url: `"Images/Helping Hands.jpg"`,
-    alt: `"Helping Hands Announcement Slide"`,
-    description: `Helping Hands is a ministry of the Exchange Church that offers opportunities for people to help and love those in need. If you would 
-    like help buying groceries, if you would like to volunteer to help, or if you can offer other services to those in need, please click the link below. 
-    For any questions, please feel free to reach out at any of the email addresses below under the 'Contact us' Section.`,
-    link: `https://forms.gle/83XvCtY7D2T88mX8A`,
-    linkText: `Fill out the Form`
+    url: `"Images/Read the Word June 2020 Announcement.jpg"`,
+    alt: `Image of 5 day plan`,
+    description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us 
+    through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and 
+    use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. Click the link below to download
+    a copy of the plan.`,
+    link: `https://www.dropbox.com/s/vpt1n7orxw0kb6k/June%202020%20BIble%20Reading%20Plan.jpg?dl=0`,
+    linkText: `Download the Plan`
     },{
+    title: `Questions and Prayer Requests`,
+    date: `2020`,
+    url: `"Images/Questions Prayer Requests Slide.jpg"`,
+    alt: `"Image of red phone"`,
+    description: `We want to continue to be available to you during this time should you have any questions or would like to share any prayer requests 
+    so that we can pray for you! You can contact the church at <a class="announceLinkinP" href='mailto:info@the-exchange-church.com' target="_blank"> info@the-exchange-church.com</a>. 
+    If you would like to contact Pastor Joe directly, you can find him at <a class="announceLinkinP" href='mailto:pastorjoe@the-exchange-church.com' target="_blank"> pastorjoe@the-exchange-church.com</a>.`
+    }
+    /*{
     title: `Voice of Refugees Giving`,
     date: `2020`,
     url: `"Images/VOR.jpg"`,
@@ -32,7 +42,17 @@ let announcementsStore = [
     <a class="announceLinkinP" href='https://vorservices.org' target="_blank"> https://vorservices.org </a>`,
     link: `https://secure.egsnetwork.com/donate/6E9A2F1C19DB4CD`,
     linkText: `Donate to VOR`
-    }/*,{
+    },{
+    title: `Helping Hands`,
+    date: `2020`,
+    url: `"Images/Helping Hands.jpg"`,
+    alt: `"Helping Hands Announcement Slide"`,
+    description: `Helping Hands is a ministry of the Exchange Church that offers opportunities for people to help and love those in need. If you would 
+    like help buying groceries, if you would like to volunteer to help, or if you can offer other services to those in need, please click the link below. 
+    For any questions, please feel free to reach out at any of the email addresses below under the 'Contact us' Section.`,
+    link: `https://forms.gle/83XvCtY7D2T88mX8A`,
+    linkText: `Fill out the Form`
+    },{
     title: `Praise and Prayer Gathering`,
     date: `May 30, 2020 10:00AM`,
     url: `"Images/MorningPrayerMay.jpg"`, //spaces in the file name requires double quotes "" around it.
@@ -41,17 +61,6 @@ let announcementsStore = [
     Our next meeting is Saturday May 30th at 10am at the link below.`,
     link: `https://www.the-exchange-church.com/live`,
     linkText: `Join us Online`
-    },{
-    title: `Read the Word - May 2020`,
-    date: `2020`,
-    url: `"Images/Read the Word May Announcement.jpg"`,
-    alt: `Image of 5 day plan`,
-    description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us 
-    through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and 
-    use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. Click the link below to download
-    a copy of the plan.`,
-    link: `https://www.dropbox.com/s/0zxyku1fiuylxnj/RTW%20-%20May%20%28Corrected%29.png?dl=0`,
-    linkText: `Download the Plan`
     },{
     title: `Digital Bulletin`,
     date: `2020`,
