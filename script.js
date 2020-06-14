@@ -21,7 +21,7 @@ let announcementsStore = [
     },{
     title: `Impact Anaheim Giving Day`,
     date: `June 17, 2020`,
-    url: `"Images/Impact Anaheim Slide.jpg"`,
+    url: `"Images/Impact Anaheim Slide.png"`,
     alt: `Image of Children playing`,
     description: `Voice of Refugees along with nine of Anaheim's local nonprofit organizations are coming together to raise $75,000 to support the underserved youth of Anaheim. 
     Join us on June 17th for this 24-hour virtual giving day and make an impACT on our community.`
