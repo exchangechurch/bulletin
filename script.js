@@ -30,7 +30,7 @@ let announcementsStore = [
     },{
     title: `Praise and Prayer Gathering`,
     date: `June 27, 2020 10:00AM`,
-    url: `"Images/MorningPrayerMay.jpg"`, //spaces in the file name requires double quotes "" around it.
+    url: `"Images/Morning Prayer June.jpg"`, //spaces in the file name requires double quotes "" around it.
     alt: `image of clouds`,
     description: `Although we will be unable to gather in person, we hope you can join us on Facebook Live to worship and pray together as a church! 
     Our next meeting is Saturday June 27th at 10am at the link below.`,
