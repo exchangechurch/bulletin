@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `June 14th, 2020`,
+    date: `June 21st, 2020`,
     series: `Authentic Faith in an Artificial World`,
-    title: `The Power of Community IRL`,
-    text: `Hebrews 10:19-25`,
+    title: `Compassion Culture`,
+    text: `Luke 15:20-32`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -16,15 +16,6 @@ let announcementsStore = [
     url: `"Images/Bloodlines Slide.jpg"`,
     alt: `Bloodlines Announcement`,
     description: `On June 29, we'll be beginning a study on Gospel and race as we read John Piper's "Bloodlines." Join us as we dive deeper into race, the Cross, and the Christian.`
-    //link: ``,
-    //linkText: ``
-    },{
-    title: `Impact Anaheim Giving Day`,
-    date: `June 17, 2020`,
-    url: `"Images/Impact Anaheim Slide.png"`,
-    alt: `Image of Children playing`,
-    description: `Voice of Refugees along with nine of Anaheim's local nonprofit organizations are coming together to raise $75,000 to support the underserved youth of Anaheim. 
-    Join us on June 17th for this 24-hour virtual giving day and make an impACT on our community.`
     //link: ``,
     //linkText: ``
     },{
