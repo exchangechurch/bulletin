@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `June 21st, 2020`,
+    date: `June 28th, 2020`,
     series: `Authentic Faith in an Artificial World`,
-    title: `Compassion Culture`,
-    text: `Luke 15:20-32`,
-    speaker: `Pastor Joe Suh`
+    title: `The Cause of Christ`,
+    text: `Acts 20:17-24`,
+    speaker: `Pastor Randy Cho`
 }];
 
 let announcementsStore = [
@@ -15,18 +15,9 @@ let announcementsStore = [
     date: `June 29, 2020`,
     url: `"Images/Bloodlines Slide.jpg"`,
     alt: `Bloodlines Announcement`,
-    description: `On June 29, we'll be beginning a study on Gospel and race as we read John Piper's "Bloodlines." Join us as we dive deeper into race, the Cross, and the Christian.`
-    //link: ``,
-    //linkText: ``
-    },{
-    title: `Praise and Prayer Gathering`,
-    date: `June 27, 2020 10:00AM`,
-    url: `"Images/Morning Prayer June.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of clouds`,
-    description: `Although we will be unable to gather in person, we hope you can join us on Facebook Live to worship and pray together as a church! 
-    Our next meeting is Saturday June 27th at 10am at the link below.`,
-    link: `https://www.the-exchange-church.com/live`,
-    linkText: `Join us Online`
+    description: `On June 29, we will be starting a study on Gospel and race as we read John Piper's "Bloodlines." Join us as we dive deeper into race, the Cross, and the Christian.`,
+    link: `https://forms.gle/ffFsmvZFX552p2B4A`,
+    linkText: `Join us here`
     },{
     title: `Questions and Prayer Requests`,
     date: `2020`,
@@ -35,18 +26,27 @@ let announcementsStore = [
     description: `We want to continue to be available to you during this time should you have any questions or would like to share any prayer requests 
     so that we can pray for you! You can contact the church at <a class="announceLinkinP" href='mailto:info@the-exchange-church.com' target="_blank"> info@the-exchange-church.com</a>. 
     If you would like to contact Pastor Joe directly, you can find him at <a class="announceLinkinP" href='mailto:pastorjoe@the-exchange-church.com' target="_blank"> pastorjoe@the-exchange-church.com</a>.`
-    }
-    /*{
-    title: `Read the Word - June 2020`,
+    },{
+    title: `Read the Word - July 2020`,
     date: `2020`,
-    url: `"Images/Read the Word June 2020 Announcement.jpg"`,
+    url: `"Images/Read the Word July 2020 Announcement.jpg"`,
     alt: `Image of 5 day plan`,
     description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us 
     through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and 
     use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. Click the link below to download
     a copy of the plan.`,
-    link: `https://www.dropbox.com/s/vpt1n7orxw0kb6k/June%202020%20BIble%20Reading%20Plan.jpg?dl=0`,
+    link: `https://www.dropbox.com/s/gdsn0kcwb3p001i/Read%20the%20Word%20July.png?dl=0`,
     linkText: `Download the Plan`
+    },
+    /*{
+    title: `Praise and Prayer Gathering`,
+    date: `June 27, 2020 10:00AM`,
+    url: `"Images/Morning Prayer June.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of clouds`,
+    description: `Although we will be unable to gather in person, we hope you can join us on Facebook Live to worship and pray together as a church! 
+    Our next meeting is Saturday June 27th at 10am at the link below.`,
+    link: `https://www.the-exchange-church.com/live`,
+    linkText: `Join us Online`
     },{
     title: `Voice of Refugees Giving`,
     date: `2020`,
