@@ -2,15 +2,33 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `July 5th, 2020`,
+    date: `July 12th, 2020`,
     series: `Authentic Faith in an Artificial World`,
-    title: `Loving Your Neighbor`,
-    text: `Luke 10:25-37`,
+    title: `Authentic Discipleship`,
+    text: `Matthew 7:13-29`,
     speaker: `Pastor Joe Suh`
 }];
 
 let announcementsStore = [
     {
+    title: `Praise and Prayer Gathering`,
+    date: `July 25, 2020 10:00AM`,
+    url: `"Images/Morning Prayer July.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of clouds`,
+    description: `Although we will be unable to gather in person, we hope you can join us to worship and pray together as a church! 
+    Our next meeting is Saturday July 27th at 10am at the link below.`,
+    link: `https://www.the-exchange-church.com/live`,
+    linkText: `Join us Online`
+    },{
+    title: `Questions and Prayer Requests`,
+    date: `2020`,
+    url: `"Images/Questions Prayer Requests Slide.jpg"`,
+    alt: `"Image of a red phone"`,
+    description: `We want to continue to be available to you during this time should you have any questions or would like to share any prayer requests 
+    so that we can pray for you! You can contact the church at <a class="announceLinkinP" href='mailto:info@the-exchange-church.com' target="_blank"> info@the-exchange-church.com</a>. 
+    If you would like to contact Pastor Joe directly, you can find him at <a class="announceLinkinP" href='mailto:pastorjoe@the-exchange-church.com' target="_blank"> pastorjoe@the-exchange-church.com</a>.`
+    }
+    /*{
     title: `Read the Word - July 2020`,
     date: `2020`,
     url: `"Images/Read the Word July 2020 Announcement.jpg"`,
@@ -22,15 +40,6 @@ let announcementsStore = [
     link: `https://www.dropbox.com/s/gdsn0kcwb3p001i/Read%20the%20Word%20July.png?dl=0`,
     linkText: `Download the Plan`
     },{
-    title: `Questions and Prayer Requests`,
-    date: `2020`,
-    url: `"Images/Questions Prayer Requests Slide.jpg"`,
-    alt: `"Image of a red phone"`,
-    description: `We want to continue to be available to you during this time should you have any questions or would like to share any prayer requests 
-    so that we can pray for you! You can contact the church at <a class="announceLinkinP" href='mailto:info@the-exchange-church.com' target="_blank"> info@the-exchange-church.com</a>. 
-    If you would like to contact Pastor Joe directly, you can find him at <a class="announceLinkinP" href='mailto:pastorjoe@the-exchange-church.com' target="_blank"> pastorjoe@the-exchange-church.com</a>.`
-    }
-    /*{
     title: `Bloodlines`,
     date: `June 29, 2020`,
     url: `"Images/Bloodlines Slide.jpg"`,
@@ -38,15 +47,6 @@ let announcementsStore = [
     description: `On June 29, we will be starting a study on Gospel and race as we read John Piper's "Bloodlines." Join us as we dive deeper into race, the Cross, and the Christian.`,
     link: `https://forms.gle/ffFsmvZFX552p2B4A`,
     linkText: `Join us here`
-    },{
-    title: `Praise and Prayer Gathering`,
-    date: `June 27, 2020 10:00AM`,
-    url: `"Images/Morning Prayer June.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of clouds`,
-    description: `Although we will be unable to gather in person, we hope you can join us on Facebook Live to worship and pray together as a church! 
-    Our next meeting is Saturday June 27th at 10am at the link below.`,
-    link: `https://www.the-exchange-church.com/live`,
-    linkText: `Join us Online`
     },{
     title: `Voice of Refugees Giving`,
     date: `2020`,
