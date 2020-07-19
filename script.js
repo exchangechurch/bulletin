@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `July 12th, 2020`,
-    series: `Authentic Faith in an Artificial World`,
-    title: `Authentic Discipleship`,
-    text: `Matthew 7:13-29`,
+    date: `July 19th, 2020`,
+    series: `Philippians: To Live is Christ`,
+    title: `Slaves & Saints`,
+    text: `Philippians 1:1-5`,
     speaker: `Pastor Joe Suh`
 }];
 
