@@ -24,8 +24,9 @@ let announcementsStore = [
     date: `After Sunday Service`,
     url: `"Images/Online Fellowship.jpg"`,
     alt: `"Image of a succulent"`,
-    description: `Come join us every Sunday after service for fellowship online via Zoom located at this link: https://bit.ly/2WXXaA5 or you may manually enter the Zoom Meeting ID: 429 029 4197.
-    Please enter exchange when prompted for the password.`,
+    description: `Come join us every Sunday after service for fellowship online via Zoom located at this link: 
+    <a class="announceLinkinP" href='https://bit.ly/2WXXaA5' target="_blank"> https://bit.ly/2WXXaA5 </a>
+     or you may manually enter the Zoom Meeting ID: 429 029 4197. Please enter exchange when prompted for the password.`,
     link: `https://us02web.zoom.us/j/4290294197?pwd=ZlZxeUc1d0xhTGdrcVI1VVFLNy9odz09`,
     linkText: `Join our Zoom`
     }
