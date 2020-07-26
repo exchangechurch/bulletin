@@ -11,6 +11,15 @@ let sermonStore = [{
 
 let announcementsStore = [
     {
+    title: `Questions and Prayer Requests`,
+    date: `2020`,
+    url: `"Images/Questions Prayer Requests Slide.jpg"`,
+    alt: `"Image of a red phone"`,
+    description: `We want to continue to be available to you during this time should you have any questions or would like to share any prayer requests 
+    so that we can pray for you! You can contact the church at <a class="announceLinkinP" href='mailto:info@the-exchange-church.com' target="_blank"> info@the-exchange-church.com</a>. 
+    If you would like to contact Pastor Joe directly, you can find him at <a class="announceLinkinP" href='mailto:pastorjoe@the-exchange-church.com' target="_blank"> pastorjoe@the-exchange-church.com</a>.`
+    }
+    /*{
     title: `Read the Word - August 2020`,
     date: `2020`,
     url: `"Images/Read the Word August 2020 Announcement.jpg"`,
@@ -22,15 +31,6 @@ let announcementsStore = [
     link: `https://www.dropbox.com/s/gdsn0kcwb3p001i/Read%20the%20Word%20July.png?dl=0`,
     linkText: `Download the Plan`
     },{
-    title: `Questions and Prayer Requests`,
-    date: `2020`,
-    url: `"Images/Questions Prayer Requests Slide.jpg"`,
-    alt: `"Image of a red phone"`,
-    description: `We want to continue to be available to you during this time should you have any questions or would like to share any prayer requests 
-    so that we can pray for you! You can contact the church at <a class="announceLinkinP" href='mailto:info@the-exchange-church.com' target="_blank"> info@the-exchange-church.com</a>. 
-    If you would like to contact Pastor Joe directly, you can find him at <a class="announceLinkinP" href='mailto:pastorjoe@the-exchange-church.com' target="_blank"> pastorjoe@the-exchange-church.com</a>.`
-    }
-    /*{
     title: `Praise and Prayer Gathering`,
     date: `July 25, 2020 10:00AM`,
     url: `"Images/Morning Prayer July.jpg"`, //spaces in the file name requires double quotes "" around it.
