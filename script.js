@@ -18,6 +18,16 @@ let announcementsStore = [
     description: `We want to continue to be available to you during this time should you have any questions or would like to share any prayer requests 
     so that we can pray for you! You can contact the church at <a class="announceLinkinP" href='mailto:info@the-exchange-church.com' target="_blank"> info@the-exchange-church.com</a>. 
     If you would like to contact Pastor Joe directly, you can find him at <a class="announceLinkinP" href='mailto:pastorjoe@the-exchange-church.com' target="_blank"> pastorjoe@the-exchange-church.com</a>.`
+    },
+    {
+    title: `Online Fellowship`,
+    date: `After Sunday Service`,
+    url: `"Images/Online Fellowship.jpg"`,
+    alt: `"Image of a succulent"`,
+    description: `Come join us every Sunday after service for fellowship online via Zoom located at this link: https://bit.ly/2WXXaA5 or you may manually enter the Zoom Meeting ID: 429 029 4197.
+    Please enter exchange when prompted for the password.`,
+    link: `https://us02web.zoom.us/j/4290294197?pwd=ZlZxeUc1d0xhTGdrcVI1VVFLNy9odz09`,
+    linkText: `Join our Zoom`
     }
     /*{
     title: `Read the Word - August 2020`,
