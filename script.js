@@ -2,15 +2,34 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `July 26th, 2020`,
+    date: `August 2nd, 2020`,
     series: `Philippians: To Live is Christ`,
-    title: `How Can I Live a Joy-Filled Life?`,
-    text: `Philippians 1:3-8`,
+    title: `Informed Affections`,
+    text: `Philippians 1:6-11`,
     speaker: `Pastor Joe Suh`
 }];
 
 let announcementsStore = [
     {
+    title: `Outdoor Sunday Worship Gathering`,
+    date: `August 9, 2020 9:30AM`,
+    url: `"Images/Outdoor Sunday Worship Gatherings Slide 1.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of person worshipping with hands raised`,
+    description: `Because of the spike in Coronavirus cases and the outlook moving forward, it doesn’t appear that we’ll be fully reopening anytime soon. 
+    However, we want to provide a space and time that we can worship and be present with one another. We will be gathering outdoors, socially-distanced at church on 
+    Sunday, August 9th (and once a month moving forward) at 9:30am in the rear-patio area.`,
+    },{
+    title: `Read the Word - August 2020`,
+    date: `2020`,
+    url: `"Images/Read the Word Announcement August.jpg"`,
+    alt: `Image of 5 day plan`,
+    description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us 
+    through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and 
+    use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. Click the link below to download
+    a copy of the plan.`,
+    link: `https://www.dropbox.com/s/wpuh5cgyi4k4t19/Read%20the%20Word%20%28August%29.png?dl=0`,
+    linkText: `Download the Plan`
+    },{
     title: `Questions and Prayer Requests`,
     date: `2020`,
     url: `"Images/Questions Prayer Requests Slide.jpg"`,
@@ -18,8 +37,7 @@ let announcementsStore = [
     description: `We want to continue to be available to you during this time should you have any questions or would like to share any prayer requests 
     so that we can pray for you! You can contact the church at <a class="announceLinkinP" href='mailto:info@the-exchange-church.com' target="_blank"> info@the-exchange-church.com</a>. 
     If you would like to contact Pastor Joe directly, you can find him at <a class="announceLinkinP" href='mailto:pastorjoe@the-exchange-church.com' target="_blank"> pastorjoe@the-exchange-church.com</a>.`
-    },
-    {
+    },{
     title: `Online Fellowship`,
     date: `After Sunday Service`,
     url: `"Images/Online Fellowship.jpg"`,
@@ -31,17 +49,6 @@ let announcementsStore = [
     linkText: `Join our Zoom`
     }
     /*{
-    title: `Read the Word - August 2020`,
-    date: `2020`,
-    url: `"Images/Read the Word August 2020 Announcement.jpg"`,
-    alt: `Image of 5 day plan`,
-    description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us 
-    through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and 
-    use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. Click the link below to download
-    a copy of the plan.`,
-    link: `https://www.dropbox.com/s/gdsn0kcwb3p001i/Read%20the%20Word%20July.png?dl=0`,
-    linkText: `Download the Plan`
-    },{
     title: `Praise and Prayer Gathering`,
     date: `July 25, 2020 10:00AM`,
     url: `"Images/Morning Prayer July.jpg"`, //spaces in the file name requires double quotes "" around it.
