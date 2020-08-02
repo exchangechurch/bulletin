@@ -17,7 +17,7 @@ let announcementsStore = [
     alt: `image of person worshipping with hands raised`,
     description: `Because of the spike in Coronavirus cases and the outlook moving forward, it doesn’t appear that we’ll be fully reopening anytime soon. 
     However, we want to provide a space and time that we can worship and be present with one another. We will be gathering outdoors, socially-distanced at church on 
-    Sunday, August 9th (and once a month moving forward) at 9:30am in the rear-patio area.`,
+    Sunday, August 9th (and once a month moving forward) at 9:30am in the rear-patio area.`
     },{
     title: `Read the Word - August 2020`,
     date: `2020`,
