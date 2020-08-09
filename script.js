@@ -2,15 +2,46 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `August 2nd, 2020`,
+    date: `August 9th, 2020`,
     series: `Philippians: To Live is Christ`,
-    title: `Informed Affections`,
-    text: `Philippians 1:6-11`,
+    title: `Stubborn Joy`,
+    text: `Philippians 1:12-21`,
     speaker: `Pastor Joe Suh`
 }];
 
 let announcementsStore = [
     {
+    title: `Life Group Sign-ups`,
+    date: `Fall 2020`,
+    url: `"Images/Life-Groups 2020 Sign Up.jpg"`,
+    alt: `image of faded bibles`,
+    description: `A Life Group is a small group of men or women that shares in life as they grow into their Christ-defined identities together. 
+    Life groups gather weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
+    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
+    Please email <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
+    link: `https://forms.gle/N2tfQt8KorGbxit99`,
+    linkText: `Sign Up`
+    },{
+    title: `Questions and Prayer Requests`,
+    date: `2020`,
+    url: `"Images/Questions Prayer Requests Slide.jpg"`,
+    alt: `"Image of a red phone"`,
+    description: `We want to continue to be available to you during this time should you have any questions or would like to share any prayer requests 
+    so that we can pray for you! You can contact the church at <a class="announceLinkinP" href='mailto:info@the-exchange-church.com' target="_blank"> info@the-exchange-church.com</a>. 
+    If you would like to contact Pastor Joe directly, you can find him at <a class="announceLinkinP" href='mailto:pastorjoe@the-exchange-church.com' target="_blank"> pastorjoe@the-exchange-church.com</a>.`
+    },{
+    title: `No Online Fellowship`,
+    date: `August 9th, 2020`,
+    description: `We will not be having our regular online fellowship today. Please join us next Sunday after service for fellowship online via Zoom.`
+    }
+    /*
+    {
+    title: `Online Fellowship`,
+    date: `After Sunday Service`,
+    description: `Come join us every Sunday after service for fellowship online via Zoom located at this link: 
+    <a class="announceLinkinP" href='https://bit.ly/2WXXaA5' target="_blank"> https://bit.ly/2WXXaA5 </a>
+     or you may manually enter the Zoom Meeting ID: 429 029 4197. Please enter exchange when prompted for the password.`
+    },{
     title: `Outdoor Sunday Worship Gathering`,
     date: `August 9, 2020 9:30AM`,
     url: `"Images/Outdoor Sunday Worship Gatherings Slide 1.jpg"`, //spaces in the file name requires double quotes "" around it.
@@ -30,25 +61,6 @@ let announcementsStore = [
     link: `https://www.dropbox.com/s/wpuh5cgyi4k4t19/Read%20the%20Word%20%28August%29.png?dl=0`,
     linkText: `Download the Plan`
     },{
-    title: `Questions and Prayer Requests`,
-    date: `2020`,
-    url: `"Images/Questions Prayer Requests Slide.jpg"`,
-    alt: `"Image of a red phone"`,
-    description: `We want to continue to be available to you during this time should you have any questions or would like to share any prayer requests 
-    so that we can pray for you! You can contact the church at <a class="announceLinkinP" href='mailto:info@the-exchange-church.com' target="_blank"> info@the-exchange-church.com</a>. 
-    If you would like to contact Pastor Joe directly, you can find him at <a class="announceLinkinP" href='mailto:pastorjoe@the-exchange-church.com' target="_blank"> pastorjoe@the-exchange-church.com</a>.`
-    },{
-    title: `Online Fellowship`,
-    date: `After Sunday Service`,
-    url: `"Images/Online Fellowship.jpg"`,
-    alt: `"Image of a succulent"`,
-    description: `Come join us every Sunday after service for fellowship online via Zoom located at this link: 
-    <a class="announceLinkinP" href='https://bit.ly/2WXXaA5' target="_blank"> https://bit.ly/2WXXaA5 </a>
-     or you may manually enter the Zoom Meeting ID: 429 029 4197. Please enter exchange when prompted for the password.`,
-    link: `https://us02web.zoom.us/j/4290294197?pwd=ZlZxeUc1d0xhTGdrcVI1VVFLNy9odz09`,
-    linkText: `Join our Zoom`
-    }
-    /*{
     title: `Praise and Prayer Gathering`,
     date: `July 25, 2020 10:00AM`,
     url: `"Images/Morning Prayer July.jpg"`, //spaces in the file name requires double quotes "" around it.
@@ -123,12 +135,6 @@ let announcementsStore = [
     url: `"Images/Monthly Outing.jpg"`,
     alt: `Image of Food`,
     description: `We will having our monthly fellowship outing today! It is an opportunity for our church people to spend time together in fellowship outside of our church setting. We will be meeting at Ramin Hajime (2717 W Lincoln Ave. Anaheim, CA 92801). We hope you can join us!`
-    },{
-    title: `Join a Life Group`,
-    date: `January 2020`,
-    url: `Images/Join.jpg`,
-    alt: `image of faded bibles`,
-    description: `A Life Group is a small group of men or women that shares in life as they grow into their Christ-defined identities together. Life groups gather weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter (10 weeks starting the second week of Jan), please sign up at the welcome table.`
     }*/
 ];
 
