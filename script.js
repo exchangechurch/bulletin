@@ -161,6 +161,74 @@ let orderOfWorship = [
     }
 ];
 
+let worshipLyrics = [
+    {
+    title: `Cornerstone`,
+    description: `Verse 1<br>
+My hope is built on nothing less<br>
+Than Jesus' blood and righteousness<br> 
+I dare not trust the sweetest frame<br> 
+But wholly trust is Jesus' name<br>
+<br>
+Chorus<br>
+Christ alone, Cornerstone<br> 
+Weak made strong in the Savior's love<br> 
+Through the storm<br>
+He is Lord, Lord of all<br> 
+<br> 
+Verse 2<br> 
+When darkness seems to hide His face<br> 
+I rest on His unchanging grace<br> 
+In every high and stormy gale<br>
+My anchor holds within the veil<br>  
+My anchor holds within the veil<br> 
+<br> 
+Verse 3<br> 
+When He shall come with trumpet sound<br> 
+Oh may I then in Him be found<br> 
+Dressed in His righteousness alone<br> 
+Faultless, stand before the throne<br> 
+`
+    },{
+    title: `The Cause of Christ`,
+    description: `Verse 1<br>
+The only thing I want in life<br> 
+is to be known for loving Christ<br> 
+to build His church, to love His bride<br>
+And make His name known far and wide<br>
+<br>
+Chorus<br>
+For this cause I live<br>
+For this cause I'd die<br>
+I surrender all<br>
+For the cause of Christ<br>
+All I once held dear<br>
+I will leave behind<br>
+For my joy is thisv
+Oh the cause of Christ<br>
+<br>
+Verse 2<br>
+He is all my soul will prize<br>
+Regardless of the joy or trial<br>
+When agonizing questions rise<br>
+In Jesus all my hope abides (repeat)<br>
+<br>
+Bridge<br>
+Jesus my Jesus<br>
+For Your glory for Your name<br>
+Jesus my Jesus<br>
+I will only sing Your praise<br>
+<br>
+Closing verse<br>
+It is not fame that I desire<br>
+Nor stature in my brother's eye<br>
+I pray it's said about my life<br>
+That I lived more to build Your name than mine<br>
+<br>
+`
+    }
+];
+
 function fillSermon() {
     /*$('#sermonSlide').text(`
         <img class="sermonSlide src=${sermonStore[0].url}>
@@ -238,6 +306,27 @@ function fillOrder(){
     }
 }
 
+function fillLyrics(){
+    for(let i=0; i < worshipLyrics.length; i++){
+        if (worshipLyrics[i].titleAlt === undefined){
+            $('#lyricsBody').append(`
+                <div class="worshipLyricsContainer">
+                    <h2 class="lyricsTitle">${worshipLyrics[i].title}</h2>
+                    <p class="lyricsDesc">${worshipLyrics[i].description}</p>
+                </div>
+            `)
+        } else {
+            $('#lyricsBody').append(`
+            <div class="worshipLyricsContainer">
+                <h2 class="lyricsTitle">${worshipLyrics[i].title}</h2>
+                <h2 class="lyricsTitleAlt">${worshipLyrics[i].titleAlt}</h2>
+                <p class="lyricsDesc">${worshipLyrics[i].description}</p>
+            </div>
+        `)
+        }
+    }
+}
+
 function fillContact(){
     $('#contactBody').append(`
         <div class="contactContainer">
@@ -273,6 +362,7 @@ $(document).ready(function(){
     fillSermon();
     fillAnnouncements();
     fillOrder();
+    fillLyrics();
     fillContact();
     expand();
     console.log("Page is loaded");
