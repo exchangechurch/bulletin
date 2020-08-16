@@ -2,15 +2,23 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `August 9th, 2020`,
+    date: `August 16th, 2020`,
     series: `Philippians: To Live is Christ`,
-    title: `Stubborn Joy`,
-    text: `Philippians 1:12-21`,
+    title: `What does "To Live is Christ" mean?`,
+    text: `Philippians 1:20-26`,
     speaker: `Pastor Joe Suh`
 }];
 
 let announcementsStore = [
     {
+    title: `Outdoor Sunday Worship Gathering`,
+    date: `September 6, 2020 9:30AM`,
+    url: `"Images/Outdoor Sunday Worship Gatherings.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of person worshipping with hands raised`,
+    description: `Because of the spike in Coronavirus cases and the outlook moving forward, it doesn’t appear that we’ll be fully reopening anytime soon. 
+    However, we want to provide a space and time that we can worship and be present with one another. We will be gathering outdoors, socially-distanced at church on 
+    Sunday, September 6th at 9:30am in the rear-patio area.`
+    },{
     title: `Life Group Sign-ups`,
     date: `Fall 2020`,
     url: `"Images/Life-Groups 2020 Sign Up.jpg"`,
@@ -22,6 +30,15 @@ let announcementsStore = [
     link: `https://forms.gle/N2tfQt8KorGbxit99`,
     linkText: `Sign Up`
     },{
+    title: `Praise and Prayer Gathering`,
+    date: `August 29, 2020 10:00AM`,
+    url: `"Images/Morning Worship & Prayer Aug 2020.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of clouds`,
+    description: `Although we will be unable to gather in person, we hope you can join us to worship and pray together as a church! 
+    Our next meeting is Saturday August 29th at 10am at the link below.`,
+    link: `https://www.the-exchange-church.com/live`,
+    linkText: `Join us Online`
+    },{
     title: `Questions and Prayer Requests`,
     date: `2020`,
     url: `"Images/Questions Prayer Requests Slide.jpg"`,
@@ -30,26 +47,13 @@ let announcementsStore = [
     so that we can pray for you! You can contact the church at <a class="announceLinkinP" href='mailto:info@the-exchange-church.com' target="_blank"> info@the-exchange-church.com</a>. 
     If you would like to contact Pastor Joe directly, you can find him at <a class="announceLinkinP" href='mailto:pastorjoe@the-exchange-church.com' target="_blank"> pastorjoe@the-exchange-church.com</a>.`
     },{
-    title: `No Online Fellowship`,
-    date: `August 9th, 2020`,
-    description: `We will not be having our regular online fellowship today. Please join us next Sunday after service for fellowship online via Zoom.`
-    }
-    /*
-    {
     title: `Online Fellowship`,
     date: `After Sunday Service`,
     description: `Come join us every Sunday after service for fellowship online via Zoom located at this link: 
     <a class="announceLinkinP" href='https://bit.ly/2WXXaA5' target="_blank"> https://bit.ly/2WXXaA5 </a>
      or you may manually enter the Zoom Meeting ID: 429 029 4197. Please enter exchange when prompted for the password.`
-    },{
-    title: `Outdoor Sunday Worship Gathering`,
-    date: `August 9, 2020 9:30AM`,
-    url: `"Images/Outdoor Sunday Worship Gatherings Slide 1.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of person worshipping with hands raised`,
-    description: `Because of the spike in Coronavirus cases and the outlook moving forward, it doesn’t appear that we’ll be fully reopening anytime soon. 
-    However, we want to provide a space and time that we can worship and be present with one another. We will be gathering outdoors, socially-distanced at church on 
-    Sunday, August 9th (and once a month moving forward) at 9:30am in the rear-patio area.`
-    },{
+    }
+    /*{
     title: `Read the Word - August 2020`,
     date: `2020`,
     url: `"Images/Read the Word Announcement August.jpg"`,
@@ -60,15 +64,6 @@ let announcementsStore = [
     a copy of the plan.`,
     link: `https://www.dropbox.com/s/wpuh5cgyi4k4t19/Read%20the%20Word%20%28August%29.png?dl=0`,
     linkText: `Download the Plan`
-    },{
-    title: `Praise and Prayer Gathering`,
-    date: `July 25, 2020 10:00AM`,
-    url: `"Images/Morning Prayer July.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of clouds`,
-    description: `Although we will be unable to gather in person, we hope you can join us to worship and pray together as a church! 
-    Our next meeting is Saturday July 27th at 10am at the link below.`,
-    link: `https://www.the-exchange-church.com/live`,
-    linkText: `Join us Online`
     },{
     title: `Bloodlines`,
     date: `June 29, 2020`,
@@ -163,7 +158,7 @@ let orderOfWorship = [
 
 let worshipLyrics = [
     {
-    title: `Cornerstone`,
+    /*title: `Cornerstone`,
     description: `Verse 1<br>
 My hope is built on nothing less<br>
 Than Jesus' blood and righteousness<br> 
@@ -204,7 +199,7 @@ I surrender all<br>
 For the cause of Christ<br>
 All I once held dear<br>
 I will leave behind<br>
-For my joy is thisv
+For my joy is this<br>
 Oh the cause of Christ<br>
 <br>
 Verse 2<br>
@@ -226,7 +221,7 @@ I pray it's said about my life<br>
 That I lived more to build Your name than mine<br>
 <br>
 `
-    }
+    */}
 ];
 
 function fillSermon() {
