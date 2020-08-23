@@ -2,22 +2,39 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `August 16th, 2020`,
+    date: `August 23th, 2020`,
     series: `Philippians: To Live is Christ`,
-    title: `What does "To Live is Christ" mean?`,
-    text: `Philippians 1:20-26`,
-    speaker: `Pastor Joe Suh`
+    title: `Living as Citizens`,
+    text: `Philippians 1:27-30`,
+    speaker: `Pastor Randy Cho`
 }];
 
 let announcementsStore = [
     {
+    title: `Praise and Prayer Gathering`,
+    date: `August 29, 2020 10:00AM`,
+    url: `"Images/Morning Worship and Prayer Aug 2020.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of clouds`,
+    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
+    and corporate prayer. We will be streaming our gathering this Saturday August 29 at 10am at the link below.`,
+    link: `https://www.the-exchange-church.com/live`,
+    linkText: `Join us Online`
+    },{
     title: `Outdoor Sunday Worship Gathering`,
     date: `September 6, 2020 9:30AM`,
     url: `"Images/Outdoor Sunday Worship Gatherings.jpg"`, //spaces in the file name requires double quotes "" around it.
     alt: `image of person worshipping with hands raised`,
-    description: `Because of the spike in Coronavirus cases and the outlook moving forward, it doesn’t appear that we’ll be fully reopening anytime soon. 
-    However, we want to provide a space and time that we can worship and be present with one another. We will be gathering outdoors, socially-distanced at church on 
-    Sunday, September 6th at 9:30am in the rear-patio area.`
+    description: `
+        <p> 
+        Because of the spike in Coronavirus cases and the outlook moving forward, it doesn’t appear that we’ll be fully reopening anytime soon. 
+        However, we want to provide a space and time that we can worship and be present with one another. We will be holding in-person monthly outdoor Sunday 
+        gatherings, with the implementation of proper safely guidelines for COVID-19, on the first Sunday of every month starting September 6 at 9:30am.
+        </p>
+        <p> 
+        If you are attending, please bring a mask! We will be practicing social distance under canopies and provide hand sanitizer and medical masks to those who don't 
+        have any. Please refrain from joining us if you're experiencing any symptoms of sickness 
+        (<a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html'>cdc.gov/coronavirus-symptoms</a>). 
+        </p>`
     },{
     title: `Life Group Sign-ups`,
     date: `Fall 2020`,
@@ -29,15 +46,6 @@ let announcementsStore = [
     Please email <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
     link: `https://forms.gle/N2tfQt8KorGbxit99`,
     linkText: `Sign Up`
-    },{
-    title: `Praise and Prayer Gathering`,
-    date: `August 29, 2020 10:00AM`,
-    url: `"Images/Morning Worship and Prayer Aug 2020.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of clouds`,
-    description: `Although we will be unable to gather in person, we hope you can join us to worship and pray together as a church! 
-    Our next meeting is Saturday August 29th at 10am at the link below.`,
-    link: `https://www.the-exchange-church.com/live`,
-    linkText: `Join us Online`
     },{
     title: `Questions and Prayer Requests`,
     date: `2020`,
@@ -158,6 +166,8 @@ let orderOfWorship = [
 
 let worshipLyrics = [
     {
+    title: `Check back on September 6th`,
+    description: `Worship lyrics are available once a month for our socially-distanced, outdoor service.`  
     /*title: `Cornerstone`,
     description: `Verse 1<br>
 My hope is built on nothing less<br>

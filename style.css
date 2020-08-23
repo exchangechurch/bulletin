@@ -225,7 +225,7 @@ main {
     text-transform: none;
 }
 
-.announceDesc, .orderDesc, .lyricsDesc{
+.announceDesc, .orderDesc, .lyricsDesc, p {
     font-family: 'tisaproregular';
     text-transform: none;
     font-size: 15px;
