@@ -2,15 +2,61 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `August 23th, 2020`,
+    date: `August 30th, 2020`,
     series: `Philippians: To Live is Christ`,
-    title: `Living as Citizens`,
-    text: `Philippians 1:27-30`,
-    speaker: `Pastor Randy Cho`
+    title: `In the Interest of Others`,
+    text: `Philippians 2:1-8`,
+    speaker: `Pastor Joe Suh`
 }];
 
 let announcementsStore = [
     {
+    title: `Outdoor Sunday Worship Gathering`,
+    date: `September 6, 2020 9:30AM`,
+    url: `"Images/Outdoor Sunday Worship Gatherings.jpg"`,
+    alt: `image of person worshipping with hands raised`,
+    description: `
+    <p> 
+        Because of the spike in Coronavirus cases and the outlook moving forward, it doesn’t appear that we’ll be fully reopening anytime soon. 
+        However, we want to provide a space and time that we can worship and be present with one another. We will be holding in-person monthly outdoor Sunday 
+        gatherings, with the implementation of proper safely guidelines for COVID-19, on the first Sunday of every month starting September 6 at 9:30am.
+    </p>
+    <p> 
+        If you are attending, please sign up here: (<a href='https://forms.gle/8PewHFLx17qWtUbr6' target="_blank">Google Form</a>) and please bring a mask! 
+        We will be practicing social distancing under canopies and provide hand sanitizer and medical masks to those who don't have any. 
+        Please refrain from joining us if you're experiencing any symptoms of sickness.
+        (<a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html' target="_blank">cdc.gov/coronavirus-symptoms</a>). 
+    </p>`
+    },{
+    title: `Life Group Sign-ups`,
+    date: `Fall 2020`,
+    url: `"Images/Life-Groups 2020 Sign Up.jpg"`,
+    alt: `image of faded bibles`,
+    description: `A Life Group is a small group of men or women that shares in life as they grow into their Christ-defined identities together. 
+    Life groups gather weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
+    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
+    Please email 
+    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
+    link: `https://forms.gle/N2tfQt8KorGbxit99`,
+    linkText: `Sign Up`
+    },{
+    title: `Questions and Prayer Requests`,
+    date: `2020`,
+    url: `"Images/Questions Prayer Requests Slide.jpg"`,
+    alt: `"Image of a red phone"`,
+    description: `We want to continue to be available to you during this time should you have any questions or would like to share any prayer requests 
+    so that we can pray for you! You can contact the church at 
+    <a class="announceLinkinP" href='mailto:info@the-exchange-church.com' target="_blank"> info@the-exchange-church.com</a>. 
+    If you would like to contact Pastor Joe directly, you can find him at 
+    <a class="announceLinkinP" href='mailto:pastorjoe@the-exchange-church.com' target="_blank"> pastorjoe@the-exchange-church.com</a>.`
+    },{
+    title: `Online Fellowship`,
+    date: `After Sunday Service`,
+    description: `Come join us every Sunday after service for fellowship online via Zoom located at this link: 
+    <a class="announceLinkinP" href='https://bit.ly/2WXXaA5' target="_blank"> https://bit.ly/2WXXaA5 </a>
+     or you may manually enter the Zoom Meeting ID: 429 029 4197. Please enter exchange when prompted for the password.`
+    }
+    /*{
     title: `Praise and Prayer Gathering`,
     date: `August 29, 2020 10:00AM`,
     url: `"Images/Morning Worship and Prayer Aug 2020.jpg"`, //spaces in the file name requires double quotes "" around it.
@@ -20,48 +66,6 @@ let announcementsStore = [
     link: `https://www.the-exchange-church.com/live`,
     linkText: `Join us Online`
     },{
-    title: `Outdoor Sunday Worship Gathering`,
-    date: `September 6, 2020 9:30AM`,
-    url: `"Images/Outdoor Sunday Worship Gatherings.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of person worshipping with hands raised`,
-    description: `
-        <p> 
-        Because of the spike in Coronavirus cases and the outlook moving forward, it doesn’t appear that we’ll be fully reopening anytime soon. 
-        However, we want to provide a space and time that we can worship and be present with one another. We will be holding in-person monthly outdoor Sunday 
-        gatherings, with the implementation of proper safely guidelines for COVID-19, on the first Sunday of every month starting September 6 at 9:30am.
-        </p>
-        <p> 
-        If you are attending, please bring a mask! We will be practicing social distance under canopies and provide hand sanitizer and medical masks to those who don't 
-        have any. Please refrain from joining us if you're experiencing any symptoms of sickness 
-        (<a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html'>cdc.gov/coronavirus-symptoms</a>). 
-        </p>`
-    },{
-    title: `Life Group Sign-ups`,
-    date: `Fall 2020`,
-    url: `"Images/Life-Groups 2020 Sign Up.jpg"`,
-    alt: `image of faded bibles`,
-    description: `A Life Group is a small group of men or women that shares in life as they grow into their Christ-defined identities together. 
-    Life groups gather weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
-    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
-    Please email <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
-    link: `https://forms.gle/N2tfQt8KorGbxit99`,
-    linkText: `Sign Up`
-    },{
-    title: `Questions and Prayer Requests`,
-    date: `2020`,
-    url: `"Images/Questions Prayer Requests Slide.jpg"`,
-    alt: `"Image of a red phone"`,
-    description: `We want to continue to be available to you during this time should you have any questions or would like to share any prayer requests 
-    so that we can pray for you! You can contact the church at <a class="announceLinkinP" href='mailto:info@the-exchange-church.com' target="_blank"> info@the-exchange-church.com</a>. 
-    If you would like to contact Pastor Joe directly, you can find him at <a class="announceLinkinP" href='mailto:pastorjoe@the-exchange-church.com' target="_blank"> pastorjoe@the-exchange-church.com</a>.`
-    },{
-    title: `Online Fellowship`,
-    date: `After Sunday Service`,
-    description: `Come join us every Sunday after service for fellowship online via Zoom located at this link: 
-    <a class="announceLinkinP" href='https://bit.ly/2WXXaA5' target="_blank"> https://bit.ly/2WXXaA5 </a>
-     or you may manually enter the Zoom Meeting ID: 429 029 4197. Please enter exchange when prompted for the password.`
-    }
-    /*{
     title: `Read the Word - August 2020`,
     date: `2020`,
     url: `"Images/Read the Word Announcement August.jpg"`,
@@ -167,71 +171,35 @@ let orderOfWorship = [
 let worshipLyrics = [
     {
     title: `Check back on September 6th`,
-    description: `Worship lyrics are available once a month for our socially-distanced, outdoor service.`  
-    /*title: `Cornerstone`,
-    description: `Verse 1<br>
-My hope is built on nothing less<br>
-Than Jesus' blood and righteousness<br> 
-I dare not trust the sweetest frame<br> 
-But wholly trust is Jesus' name<br>
-<br>
-Chorus<br>
-Christ alone, Cornerstone<br> 
-Weak made strong in the Savior's love<br> 
-Through the storm<br>
-He is Lord, Lord of all<br> 
-<br> 
-Verse 2<br> 
-When darkness seems to hide His face<br> 
-I rest on His unchanging grace<br> 
-In every high and stormy gale<br>
-My anchor holds within the veil<br>  
-My anchor holds within the veil<br> 
-<br> 
-Verse 3<br> 
-When He shall come with trumpet sound<br> 
-Oh may I then in Him be found<br> 
-Dressed in His righteousness alone<br> 
-Faultless, stand before the throne<br> 
-`
-    },{
-    title: `The Cause of Christ`,
-    description: `Verse 1<br>
-The only thing I want in life<br> 
-is to be known for loving Christ<br> 
-to build His church, to love His bride<br>
-And make His name known far and wide<br>
-<br>
-Chorus<br>
-For this cause I live<br>
-For this cause I'd die<br>
-I surrender all<br>
-For the cause of Christ<br>
-All I once held dear<br>
-I will leave behind<br>
-For my joy is this<br>
-Oh the cause of Christ<br>
-<br>
-Verse 2<br>
-He is all my soul will prize<br>
-Regardless of the joy or trial<br>
-When agonizing questions rise<br>
-In Jesus all my hope abides (repeat)<br>
-<br>
-Bridge<br>
-Jesus my Jesus<br>
-For Your glory for Your name<br>
-Jesus my Jesus<br>
-I will only sing Your praise<br>
-<br>
-Closing verse<br>
-It is not fame that I desire<br>
-Nor stature in my brother's eye<br>
-I pray it's said about my life<br>
-That I lived more to build Your name than mine<br>
-<br>
-`
-    */}
+    description: `Worship lyrics are available once a month for our socially-distanced, outdoor service.`
+    }/*,{
+    title: `Cornerstone`,
+    description: `<pre class="lyricsDesc">
+    Verse 1
+    My hope is built on nothing less
+    Than Jesus' blood and righteousness
+    I dare not trust the sweetest frame
+    But wholly trust is Jesus' name
+
+    Chorus
+    Christ alone, Cornerstone
+    Weak made strong in the Savior's love
+    Through the storm
+    He is Lord, Lord of all
+
+    Verse 2
+    When darkness seems to hide His face
+    I rest on His unchanging grace
+    In every high and stormy gale
+    My anchor holds within the veil
+    My anchor holds within the veil
+
+    Verse 3
+    When He shall come with trumpet sound
+    Oh may I then in Him be found
+    Dressed in His righteousness alone
+    Faultless, stand before the throne`
+    }*/
 ];
 
 function fillSermon() {
@@ -256,17 +224,6 @@ function fillSermon() {
 }
 
 function fillAnnouncements(){
-    //first announcement has a link - figure out a better way to do this but in the meantime change the i=0 to i=1 in the for loop below
-    /*$('#announceBody').append(`
-            <img class="announceImg" src=${announcementsStore[0].url} alt=${announcementsStore[0].alt}>
-            <div class="announceDetCont">
-                <h2 class="announceTitle">${announcementsStore[0].title}</h2>
-                <h3 class="announceDate">${announcementsStore[0].date}</h3>
-                <p class="announceDesc">${announcementsStore[0].description}</p>
-                <a class="announceLink" href='${announcementsStore[0].link}' target="_blank"> Download the plan</a>
-            </div>
-        `)*/
-
     for(let i=0; i < announcementsStore.length; i++){
         if (announcementsStore[i].url != undefined){
              $('#announceBody').append(`<img class="announceImg" src=${announcementsStore[i].url} alt=${announcementsStore[i].alt}>`)
@@ -286,8 +243,6 @@ function fillAnnouncements(){
         `)
         }
     }
-    //$('#announceBody').append(`<div class="announceDetCont" align = "center"> <a class="announceLink" href='${announcementsStore[1].link}' target="_blank"> Join our Zoom </a> </div>`)
-    //$('#announceBody').append(`<div class="announceDetCont" align = "center"> <a class="announceLink" href='${announcementsStore[2].link}' target="_blank"> Helping Hands </a> </div>`)
 }
 
 function fillOrder(){
