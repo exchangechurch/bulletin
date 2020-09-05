@@ -2,7 +2,7 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `August 30th, 2020`,
+    date: `September 6th, 2020`,
     series: `Philippians: To Live is Christ`,
     title: `In the Interest of Others`,
     text: `Philippians 2:1-8`,
@@ -11,22 +11,25 @@ let sermonStore = [{
 
 let announcementsStore = [
     {
-    title: `Outdoor Sunday Worship Gathering`,
-    date: `September 6, 2020 9:30AM`,
-    url: `"Images/Outdoor Sunday Worship Gatherings.jpg"`,
-    alt: `image of person worshipping with hands raised`,
-    description: `
-    <p> 
-        Because of the spike in Coronavirus cases and the outlook moving forward, it doesn’t appear that we’ll be fully reopening anytime soon. 
-        However, we want to provide a space and time that we can worship and be present with one another. We will be holding in-person monthly outdoor Sunday 
-        gatherings, with the implementation of proper safely guidelines for COVID-19, on the first Sunday of every month starting September 6 at 9:30am.
-    </p>
-    <p> 
-        If you are attending, please sign up here: (<a href='https://forms.gle/8PewHFLx17qWtUbr6' target="_blank">Google Form</a>) and please bring a mask! 
-        We will be practicing social distancing under canopies and provide hand sanitizer and medical masks to those who don't have any. 
-        Please refrain from joining us if you're experiencing any symptoms of sickness.
-        (<a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html' target="_blank">cdc.gov/coronavirus-symptoms</a>). 
-    </p>`
+    title: `Connect With Us`,
+    date: `2020`,
+    url: `"Images/Visitor Connect Form.jpg"`,
+    alt: ``,
+    description: `Thanks for joining us! If you're visiting for the first time or would like to learn more, we'd like to get to know more about you. Please 
+    fill out the form at the link below to connect with us.`,
+    link: `https://forms.gle/AneeqYAHvt3QNWhs8`,
+    linkText: `Connect with us`
+    },{
+    title: `Read the Word - September 2020`,
+    date: `2020`,
+    url: `"Images/Read the Word Announcement Sept.jpg"`,
+    alt: `Image of 5 day plan`,
+    description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us 
+    through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and 
+    use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. Click the link below to download
+    a copy of the plan.`,
+    link: `https://www.dropbox.com/s/37k1lxypnng06p3/Read%20the%20Word%20-%20September.png?dl=0`,
+    linkText: `Download the Plan`
     },{
     title: `Life Group Sign-ups`,
     date: `Fall 2020`,
@@ -49,14 +52,31 @@ let announcementsStore = [
     <a class="announceLinkinP" href='mailto:info@the-exchange-church.com' target="_blank"> info@the-exchange-church.com</a>. 
     If you would like to contact Pastor Joe directly, you can find him at 
     <a class="announceLinkinP" href='mailto:pastorjoe@the-exchange-church.com' target="_blank"> pastorjoe@the-exchange-church.com</a>.`
-    },{
+    }
+    /*{
     title: `Online Fellowship`,
     date: `After Sunday Service`,
     description: `Come join us every Sunday after service for fellowship online via Zoom located at this link: 
     <a class="announceLinkinP" href='https://bit.ly/2WXXaA5' target="_blank"> https://bit.ly/2WXXaA5 </a>
      or you may manually enter the Zoom Meeting ID: 429 029 4197. Please enter exchange when prompted for the password.`
-    }
-    /*{
+    },{
+    title: `Outdoor Sunday Worship Gathering`,
+    date: `September 6, 2020 9:30AM`,
+    url: `"Images/Outdoor Sunday Worship Gatherings.jpg"`,
+    alt: `image of person worshipping with hands raised`,
+    description: `
+    <p> 
+        Because of the spike in Coronavirus cases and the outlook moving forward, it doesn’t appear that we’ll be fully reopening anytime soon. 
+        However, we want to provide a space and time that we can worship and be present with one another. We will be holding in-person monthly outdoor Sunday 
+        gatherings, with the implementation of proper safely guidelines for COVID-19, on the first Sunday of every month starting September 6 at 9:30am.
+    </p>
+    <p> 
+        If you are attending, please sign up here: (<a href='https://forms.gle/8PewHFLx17qWtUbr6' target="_blank">Google Form</a>) and please bring a mask! 
+        We will be practicing social distancing under canopies and provide hand sanitizer and medical masks to those who don't have any. 
+        Please refrain from joining us if you're experiencing any symptoms of sickness.
+        (<a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html' target="_blank">cdc.gov/coronavirus-symptoms</a>). 
+    </p>`
+    },{
     title: `Praise and Prayer Gathering`,
     date: `August 29, 2020 10:00AM`,
     url: `"Images/Morning Worship and Prayer Aug 2020.jpg"`, //spaces in the file name requires double quotes "" around it.
@@ -65,17 +85,6 @@ let announcementsStore = [
     and corporate prayer. We will be streaming our gathering this Saturday August 29 at 10am at the link below.`,
     link: `https://www.the-exchange-church.com/live`,
     linkText: `Join us Online`
-    },{
-    title: `Read the Word - August 2020`,
-    date: `2020`,
-    url: `"Images/Read the Word Announcement August.jpg"`,
-    alt: `Image of 5 day plan`,
-    description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us 
-    through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and 
-    use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. Click the link below to download
-    a copy of the plan.`,
-    link: `https://www.dropbox.com/s/wpuh5cgyi4k4t19/Read%20the%20Word%20%28August%29.png?dl=0`,
-    linkText: `Download the Plan`
     },{
     title: `Bloodlines`,
     date: `June 29, 2020`,
