@@ -289,3 +289,6 @@ main {
 #webLink {
     display: inline-block;
 }
+pre {
+    white-space: pre-wrap;
+}
