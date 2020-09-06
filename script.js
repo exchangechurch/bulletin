@@ -48,10 +48,10 @@ let announcementsStore = [
     url: `"Images/VOR Opportunities.jpg"`,
     alt: `"VOR Volunteer Slide"`,
     description: `With the COVID-19 crisis impacting refugees and the Voice of Refugees organization, we want to highlight a few opportunities to serve/help 
-    those in need and support the VOR mission: Putting God’s love into action by assisting the refugee and asylum-seeking community to re-establish 
-    and assimilate their lives in the United States. If you would like to learn more, please sign up for more information at the link below.
-    <a class="announceLinkinP" href='https://vorservices.org' target="_blank"> https://vorservices.org </a>`,
-    link: `https://secure.egsnetwork.com/donate/6E9A2F1C19DB4CD`,
+    those in need and support the <a class="announceLinkinP" href='https://vorservices.org' target="_blank">VOR</a> mission: Putting God’s love into action 
+    by assisting the refugee and asylum-seeking community to re-establish and assimilate their lives in the United States. If you would like to learn more, 
+    please fill out the form below to get in contact with us.`,
+    link: `https://forms.gle/bRNGGxGpo1jN1eim6`,
     linkText: `Sign up`
     },{
     title: `Questions and Prayer Requests`,
