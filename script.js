@@ -4,8 +4,8 @@ let sermonStore = [{
     //url: `Images/Sermon.jpg`,
     date: `September 6th, 2020`,
     series: `Philippians: To Live is Christ`,
-    title: `In the Interest of Others`,
-    text: `Philippians 2:1-8`,
+    title: `The Glory of Humility`,
+    text: `Philippians 2:5-11`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -35,13 +35,24 @@ let announcementsStore = [
     date: `Fall 2020`,
     url: `"Images/Life-Groups 2020 Sign Up.jpg"`,
     alt: `image of faded bibles`,
-    description: `A Life Group is a small group of men or women that shares in life as they grow into their Christ-defined identities together. 
-    Life groups gather weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
+    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
+    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
     If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
     Please email 
     <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
     link: `https://forms.gle/N2tfQt8KorGbxit99`,
     linkText: `Sign Up`
+    },{
+    title: `Voice of Refugees Serving Opportunities`,
+    date: `September 21st - Dececember 17th`,
+    url: `"Images/VOR Opportunities.jpg"`,
+    alt: `"VOR Volunteer Slide"`,
+    description: `With the COVID-19 crisis impacting refugees and the Voice of Refugees organization, we want to highlight a few opportunities to serve/help 
+    those in need and support the VOR mission: Putting God’s love into action by assisting the refugee and asylum-seeking community to re-establish 
+    and assimilate their lives in the United States. If you would like to learn more, please sign up for more information at the link below.
+    <a class="announceLinkinP" href='https://vorservices.org' target="_blank"> https://vorservices.org </a>`,
+    link: `https://secure.egsnetwork.com/donate/6E9A2F1C19DB4CD`,
+    linkText: `Sign up`
     },{
     title: `Questions and Prayer Requests`,
     date: `2020`,
@@ -68,7 +79,7 @@ let announcementsStore = [
     <p> 
         Because of the spike in Coronavirus cases and the outlook moving forward, it doesn’t appear that we’ll be fully reopening anytime soon. 
         However, we want to provide a space and time that we can worship and be present with one another. We will be holding in-person monthly outdoor Sunday 
-        gatherings, with the implementation of proper safely guidelines for COVID-19, on the first Sunday of every month starting September 6 at 9:30am.
+        gatherings, with the implementation of proper safety guidelines for COVID-19, on the first Sunday of every month starting September 6 at 9:30am.
     </p>
     <p> 
         If you are attending, please sign up here: (<a href='https://forms.gle/8PewHFLx17qWtUbr6' target="_blank">Google Form</a>) and please bring a mask! 
@@ -93,18 +104,6 @@ let announcementsStore = [
     description: `On June 29, we will be starting a study on Gospel and race as we read John Piper's "Bloodlines." Join us as we dive deeper into race, the Cross, and the Christian.`,
     link: `https://forms.gle/ffFsmvZFX552p2B4A`,
     linkText: `Join us here`
-    },{
-    title: `Voice of Refugees Giving`,
-    date: `2020`,
-    url: `"Images/VOR.jpg"`,
-    alt: `"VOR Giving Announcement Slide"`,
-    description: `With the COVID-19 crisis impacting refugees and the Voice of Refugees organization, we want to highlight a way to donate/help 
-    those in need and support the VOR mission: Putting God’s love into action by assisting the refugee and asylum-seeking community to re-establish 
-    and assimilate their lives in the United States. If you would like to make a one-time or recurring donation to VOR, follow the link below. 
-    A donation will help VOR effectively plan how they will help the refugees and asylum-seeking families throughout the year. 
-    <a class="announceLinkinP" href='https://vorservices.org' target="_blank"> https://vorservices.org </a>`,
-    link: `https://secure.egsnetwork.com/donate/6E9A2F1C19DB4CD`,
-    linkText: `Donate to VOR`
     },{
     title: `Helping Hands`,
     date: `2020`,
@@ -178,38 +177,66 @@ let orderOfWorship = [
 ];
 
 let worshipLyrics = [
-    {
+    /*{
     title: `Check back on September 6th`,
     description: `Worship lyrics are available once a month for our socially-distanced, outdoor service.`
-    }/*,{
-    title: `Cornerstone`,
-    description: `<pre class="lyricsDesc">
-    Verse 1
-    My hope is built on nothing less
-    Than Jesus' blood and righteousness
-    I dare not trust the sweetest frame
-    But wholly trust is Jesus' name
-
-    Chorus
-    Christ alone, Cornerstone
-    Weak made strong in the Savior's love
-    Through the storm
-    He is Lord, Lord of all
-
-    Verse 2
-    When darkness seems to hide His face
-    I rest on His unchanging grace
-    In every high and stormy gale
-    My anchor holds within the veil
-    My anchor holds within the veil
-
-    Verse 3
-    When He shall come with trumpet sound
-    Oh may I then in Him be found
-    Dressed in His righteousness alone
-    Faultless, stand before the throne`
     }*/
-];
+    {
+    title: `Call To Worship`,
+    description: `<pre class="lyricsDesc">
+    Psalm 18:1–3
+
+    I love you, O LORD, my strength.
+    The LORD is my rock and my fortress and my deliverer,
+        my God, my rock, in whom I take refuge,
+        my shield, and the horn of my salvation, my stronghold.
+    I call upon the LORD, who is worthy to be praised,
+        and I am saved from my enemies. (ESV)`
+    },{
+    title: `Great is Thy Faithfulness`,
+    description: `<pre class="lyricsDesc">
+    Great is Thy faithfulness, O God my Father,
+    There is no shadow of turning with Thee;
+    Thou changest not, Thy compassions, they fail not
+    As Thou hast been Thou forever wilt be.
+
+        Great is Thy faithfulness! Great is Thy faithfulness!
+        Morning by morning new mercies I see;
+        All I have needed Thy hand hath provided—
+        Great is Thy faithfulness,  Lord, unto me!
+
+    Summer and winter, and springtime and harvest,
+    Sun, moon and stars in their courses above,
+    Join with all nature in manifold witness
+    To Thy great faithfulness, mercy and love.
+
+    Pardon for sin and a peace that endureth,
+    Thine own dear presence to cheer and to guide;
+    Strength for today and bright hope for tomorrow,
+    Blessings all mine, with ten thousand beside!`
+    },{
+    title: `Hail to the King`,
+    description: `<pre class="lyricsDesc">
+    You came to us a man in very nature God
+    Pierced for our iniquities as You hung upon the cross
+    But God exalted You to the highest place
+    And gave to You the right to bear the name above all names
+
+    At the name of Jesus we should bow
+    Every tongue confess that You are Lord
+    And when You come in glory for the world to see
+    We will sing…
+
+        Hail to the King
+        In all His splendor and majesty
+        Hail to the King of Kings
+        Lord Jesus our God
+
+    We eagerly await the coming of the day
+    The glory of the risen King will shine upon the earth
+    Then rival thrones will fall before the Lord of all
+    And hail supreme authority in the true and living God`
+    }];
 
 function fillSermon() {
     /*$('#sermonSlide').text(`
