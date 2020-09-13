@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `September 6th, 2020`,
+    date: `September 13th, 2020`,
     series: `Philippians: To Live is Christ`,
-    title: `The Glory of Humility`,
-    text: `Philippians 2:5-11`,
+    title: `Work Out Your Salvation`,
+    text: `Philippians 2:12-13`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -20,39 +20,31 @@ let announcementsStore = [
     link: `https://forms.gle/AneeqYAHvt3QNWhs8`,
     linkText: `Connect with us`
     },{
-    title: `Read the Word - September 2020`,
-    date: `2020`,
-    url: `"Images/Read the Word Announcement Sept.jpg"`,
-    alt: `Image of 5 day plan`,
-    description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us 
-    through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and 
-    use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. Click the link below to download
-    a copy of the plan.`,
-    link: `https://www.dropbox.com/s/37k1lxypnng06p3/Read%20the%20Word%20-%20September.png?dl=0`,
-    linkText: `Download the Plan`
-    },{
-    title: `Life Group Sign-ups`,
-    date: `Fall 2020`,
-    url: `"Images/Life-Groups 2020 Sign Up.jpg"`,
-    alt: `image of faded bibles`,
-    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
-    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
-    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
-    Please email 
-    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
-    link: `https://forms.gle/N2tfQt8KorGbxit99`,
-    linkText: `Sign Up`
-    },{
-    title: `Voice of Refugees Serving Opportunities`,
+    title: `Serve the Voice of Refugees`,
     date: `September 21st - Dececember 17th`,
-    url: `"Images/VOR Opportunities.jpg"`,
+    url: `"Images/VOR Serving Slide Sept 2020.jpg"`,
     alt: `"VOR Volunteer Slide"`,
     description: `With the COVID-19 crisis impacting refugees and the Voice of Refugees organization, we want to highlight a few opportunities to serve/help 
-    those in need and support the <a class="announceLinkinP" href='https://vorservices.org' target="_blank">VOR</a> mission: Putting God’s love into action 
+    those in need and support the <a class="announceLinkinP" href='https://vorservices.org/volunteers/' target="_blank">VOR</a> mission: Putting God’s love into action 
     by assisting the refugee and asylum-seeking community to re-establish and assimilate their lives in the United States. If you would like to learn more, 
     please fill out the form below to get in contact with us.`,
     link: `https://forms.gle/bRNGGxGpo1jN1eim6`,
     linkText: `Sign up`
+    },{
+    title: `Praise and Prayer Gathering`,
+    date: `September 26, 2020 10:00AM`,
+    url: `"Images/Morning Worship and Prayer Sept 2020.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of clouds`,
+    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
+    and corporate prayer. We will be streaming our gathering this Saturday September 26 at 10am at the link below.`,
+    link: `https://www.the-exchange-church.com/live`,
+    linkText: `Join us Online`
+    },{
+    title: `Online Fellowship`,
+    date: `After Sunday Service`,
+    description: `Come join us every Sunday after service for fellowship online via Zoom located at this link: 
+    <a class="announceLinkinP" href='https://bit.ly/2WXXaA5' target="_blank"> https://bit.ly/2WXXaA5 </a>
+     or you may manually enter the Zoom Meeting ID: 429 029 4197. Please enter exchange when prompted for the password.`
     },{
     title: `Questions and Prayer Requests`,
     date: `2020`,
@@ -65,11 +57,28 @@ let announcementsStore = [
     <a class="announceLinkinP" href='mailto:pastorjoe@the-exchange-church.com' target="_blank"> pastorjoe@the-exchange-church.com</a>.`
     }
     /*{
-    title: `Online Fellowship`,
-    date: `After Sunday Service`,
-    description: `Come join us every Sunday after service for fellowship online via Zoom located at this link: 
-    <a class="announceLinkinP" href='https://bit.ly/2WXXaA5' target="_blank"> https://bit.ly/2WXXaA5 </a>
-     or you may manually enter the Zoom Meeting ID: 429 029 4197. Please enter exchange when prompted for the password.`
+    title: `Life Group Sign-ups`,
+    date: `Fall 2020`,
+    url: `"Images/Life-Groups 2020 Sign Up.jpg"`,
+    alt: `image of faded bibles`,
+    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
+    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
+    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
+    Please email 
+    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
+    link: `https://forms.gle/N2tfQt8KorGbxit99`,
+    linkText: `Sign Up`
+    },{
+    title: `Read the Word - September 2020`,
+    date: `2020`,
+    url: `"Images/Read the Word Announcement Sept.jpg"`,
+    alt: `Image of 5 day plan`,
+    description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us 
+    through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and 
+    use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. Click the link below to download
+    a copy of the plan.`,
+    link: `https://www.dropbox.com/s/37k1lxypnng06p3/Read%20the%20Word%20-%20September.png?dl=0`,
+    linkText: `Download the Plan`
     },{
     title: `Outdoor Sunday Worship Gathering`,
     date: `September 6, 2020 9:30AM`,
@@ -87,15 +96,6 @@ let announcementsStore = [
         Please refrain from joining us if you're experiencing any symptoms of sickness.
         (<a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html' target="_blank">cdc.gov/coronavirus-symptoms</a>). 
     </p>`
-    },{
-    title: `Praise and Prayer Gathering`,
-    date: `August 29, 2020 10:00AM`,
-    url: `"Images/Morning Worship and Prayer Aug 2020.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of clouds`,
-    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
-    and corporate prayer. We will be streaming our gathering this Saturday August 29 at 10am at the link below.`,
-    link: `https://www.the-exchange-church.com/live`,
-    linkText: `Join us Online`
     },{
     title: `Bloodlines`,
     date: `June 29, 2020`,
@@ -177,11 +177,11 @@ let orderOfWorship = [
 ];
 
 let worshipLyrics = [
-    /*{
-    title: `Check back on September 6th`,
-    description: `Worship lyrics are available once a month for our socially-distanced, outdoor service.`
-    }*/
     {
+    title: `Check back on October 4th`,
+    description: `Worship lyrics are available once a month for our socially-distanced, outdoor service.`
+    }
+    /*{
     title: `Call To Worship`,
     description: `<pre class="lyricsDesc">
     Psalm 18:1–3
@@ -236,7 +236,7 @@ let worshipLyrics = [
     The glory of the risen King will shine upon the earth
     Then rival thrones will fall before the Lord of all
     And hail supreme authority in the true and living God`
-    }];
+    }*/];
 
 function fillSermon() {
     /*$('#sermonSlide').text(`
