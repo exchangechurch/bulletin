@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `September 13th, 2020`,
+    date: `September 20th, 2020`,
     series: `Philippians: To Live is Christ`,
-    title: `Work Out Your Salvation`,
-    text: `Philippians 2:12-13`,
+    title: `Confronting Complaint Culture`,
+    text: `Philippians 2:14-18`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -19,17 +19,6 @@ let announcementsStore = [
     fill out the form at the link below to connect with us.`,
     link: `https://forms.gle/AneeqYAHvt3QNWhs8`,
     linkText: `Connect with us`
-    },{
-    title: `Serve the Voice of Refugees`,
-    date: `September 21st - Dececember 17th`,
-    url: `"Images/VOR Serving Slide Sept 2020.jpg"`,
-    alt: `"VOR Volunteer Slide"`,
-    description: `With the COVID-19 crisis impacting refugees and the Voice of Refugees organization, we want to highlight a few opportunities to serve/help 
-    those in need and support the <a class="announceLinkinP" href='https://vorservices.org/volunteers/' target="_blank">VOR</a> mission: Putting God’s love into action 
-    by assisting the refugee and asylum-seeking community to re-establish and assimilate their lives in the United States. If you would like to learn more, 
-    please fill out the form below to get in contact with us.`,
-    link: `https://forms.gle/bRNGGxGpo1jN1eim6`,
-    linkText: `Sign up`
     },{
     title: `Praise and Prayer Gathering`,
     date: `September 26, 2020 10:00AM`,
@@ -57,6 +46,17 @@ let announcementsStore = [
     <a class="announceLinkinP" href='mailto:pastorjoe@the-exchange-church.com' target="_blank"> pastorjoe@the-exchange-church.com</a>.`
     }
     /*{
+    title: `Serve the Voice of Refugees`,
+    date: `September 21st - Dececember 17th`,
+    url: `"Images/VOR Serving Slide Sept 2020.jpg"`,
+    alt: `"VOR Volunteer Slide"`,
+    description: `With the COVID-19 crisis impacting refugees and the Voice of Refugees organization, we want to highlight a few opportunities to serve/help 
+    those in need and support the <a class="announceLinkinP" href='https://vorservices.org/volunteers/' target="_blank">VOR</a> mission: Putting God’s love into action 
+    by assisting the refugee and asylum-seeking community to re-establish and assimilate their lives in the United States. If you would like to learn more, 
+    please fill out the form below to get in contact with us.`,
+    link: `https://forms.gle/bRNGGxGpo1jN1eim6`,
+    linkText: `Sign up`
+    },{
     title: `Life Group Sign-ups`,
     date: `Fall 2020`,
     url: `"Images/Life-Groups 2020 Sign Up.jpg"`,
