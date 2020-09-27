@@ -32,7 +32,7 @@ let announcementsStore = [
     },{
     title: `Outdoor Sunday Worship Gathering`,
     date: `October 25, 2020 9:30AM`,
-    url: `"Images/Outdoor Sunday Worship Gatherings.jpg"`,
+    url: `"Images/Outdoor Sunday Worship Gatherings Oct 2020.jpg"`,
     alt: `image of person worshipping with hands raised`,
     description: `
     <p> 
