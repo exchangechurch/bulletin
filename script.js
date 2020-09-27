@@ -31,14 +31,14 @@ let announcementsStore = [
     <a class="announceLinkinP" href='mailto:pastorjoe@the-exchange-church.com' target="_blank"> pastorjoe@the-exchange-church.com</a>.`
     },{
     title: `Outdoor Sunday Worship Gathering`,
-    date: `October 4, 2020 9:30AM`,
+    date: `October 25, 2020 9:30AM`,
     url: `"Images/Outdoor Sunday Worship Gatherings.jpg"`,
     alt: `image of person worshipping with hands raised`,
     description: `
     <p> 
         Because of the spike in Coronavirus cases and the outlook moving forward, it doesn’t appear that we’ll be fully reopening anytime soon. 
         However, we want to provide a space and time that we can worship and be present with one another. We will be holding in-person monthly outdoor Sunday 
-        gatherings, with the implementation of proper safety guidelines for COVID-19, on the first Sunday of every month on October 4, 2020 at 9:30am.
+        gatherings, with the implementation of proper safety guidelines for COVID-19, on October 25, 2020 at 9:30am.
     </p>
     <p> 
         If you are attending, please sign up here: (<a href='https://forms.gle/8PewHFLx17qWtUbr6' target="_blank">Google Form</a>) and please bring a mask! 
