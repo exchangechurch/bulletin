@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `September 20th, 2020`,
+    date: `September 27th, 2020`,
     series: `Philippians: To Live is Christ`,
-    title: `Confronting Complaint Culture`,
-    text: `Philippians 2:14-18`,
-    speaker: `Pastor Joe Suh`
+    title: `Mirrors`,
+    text: `Philippians 2:19-30`,
+    speaker: `Pastor Randy Cho`
 }];
 
 let announcementsStore = [
@@ -20,21 +20,6 @@ let announcementsStore = [
     link: `https://forms.gle/AneeqYAHvt3QNWhs8`,
     linkText: `Connect with us`
     },{
-    title: `Praise and Prayer Gathering`,
-    date: `September 26, 2020 10:00AM`,
-    url: `"Images/Morning Worship and Prayer Sept 2020.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of clouds`,
-    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
-    and corporate prayer. We will be streaming our gathering this Saturday September 26 at 10am at the link below.`,
-    link: `https://www.the-exchange-church.com/live`,
-    linkText: `Join us Online`
-    },{
-    title: `Online Fellowship`,
-    date: `After Sunday Service`,
-    description: `Come join us every Sunday after service for fellowship online via Zoom located at this link: 
-    <a class="announceLinkinP" href='https://bit.ly/2WXXaA5' target="_blank"> https://bit.ly/2WXXaA5 </a>
-     or you may manually enter the Zoom Meeting ID: 429 029 4197. Please enter exchange when prompted for the password.`
-    },{
     title: `Questions and Prayer Requests`,
     date: `2020`,
     url: `"Images/Questions Prayer Requests Slide.jpg"`,
@@ -44,8 +29,40 @@ let announcementsStore = [
     <a class="announceLinkinP" href='mailto:info@the-exchange-church.com' target="_blank"> info@the-exchange-church.com</a>. 
     If you would like to contact Pastor Joe directly, you can find him at 
     <a class="announceLinkinP" href='mailto:pastorjoe@the-exchange-church.com' target="_blank"> pastorjoe@the-exchange-church.com</a>.`
+    },{
+    title: `Outdoor Sunday Worship Gathering`,
+    date: `October 4, 2020 9:30AM`,
+    url: `"Images/Outdoor Sunday Worship Gatherings.jpg"`,
+    alt: `image of person worshipping with hands raised`,
+    description: `
+    <p> 
+        Because of the spike in Coronavirus cases and the outlook moving forward, it doesn’t appear that we’ll be fully reopening anytime soon. 
+        However, we want to provide a space and time that we can worship and be present with one another. We will be holding in-person monthly outdoor Sunday 
+        gatherings, with the implementation of proper safety guidelines for COVID-19, on the first Sunday of every month on October 4, 2020 at 9:30am.
+    </p>
+    <p> 
+        If you are attending, please sign up here: (<a href='https://forms.gle/8PewHFLx17qWtUbr6' target="_blank">Google Form</a>) and please bring a mask! 
+        We will be practicing social distancing under canopies and provide hand sanitizer and medical masks to those who don't have any. 
+        Please refrain from joining us if you're experiencing any symptoms of sickness.
+        (<a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html' target="_blank">cdc.gov/coronavirus-symptoms</a>). 
+    </p>`
+    },{
+    title: `Online Fellowship`,
+    date: `After Sunday Service`,
+    description: `Come join us every Sunday after service for fellowship online via Zoom located at this link: 
+    <a class="announceLinkinP" href='https://bit.ly/2WXXaA5' target="_blank"> https://bit.ly/2WXXaA5 </a>
+     or you may manually enter the Zoom Meeting ID: 429 029 4197. Please enter exchange when prompted for the password.`
     }
     /*{
+    title: `Praise and Prayer Gathering`,
+    date: `September 26, 2020 10:00AM`,
+    url: `"Images/Morning Worship and Prayer Sept 2020.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of clouds`,
+    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
+    and corporate prayer. We will be streaming our gathering this Saturday September 26 at 10am at the link below.`,
+    link: `https://www.the-exchange-church.com/live`,
+    linkText: `Join us Online`
+    },{
     title: `Serve the Voice of Refugees`,
     date: `September 21st - Dececember 17th`,
     url: `"Images/VOR Serving Slide Sept 2020.jpg"`,
@@ -79,23 +96,6 @@ let announcementsStore = [
     a copy of the plan.`,
     link: `https://www.dropbox.com/s/37k1lxypnng06p3/Read%20the%20Word%20-%20September.png?dl=0`,
     linkText: `Download the Plan`
-    },{
-    title: `Outdoor Sunday Worship Gathering`,
-    date: `September 6, 2020 9:30AM`,
-    url: `"Images/Outdoor Sunday Worship Gatherings.jpg"`,
-    alt: `image of person worshipping with hands raised`,
-    description: `
-    <p> 
-        Because of the spike in Coronavirus cases and the outlook moving forward, it doesn’t appear that we’ll be fully reopening anytime soon. 
-        However, we want to provide a space and time that we can worship and be present with one another. We will be holding in-person monthly outdoor Sunday 
-        gatherings, with the implementation of proper safety guidelines for COVID-19, on the first Sunday of every month starting September 6 at 9:30am.
-    </p>
-    <p> 
-        If you are attending, please sign up here: (<a href='https://forms.gle/8PewHFLx17qWtUbr6' target="_blank">Google Form</a>) and please bring a mask! 
-        We will be practicing social distancing under canopies and provide hand sanitizer and medical masks to those who don't have any. 
-        Please refrain from joining us if you're experiencing any symptoms of sickness.
-        (<a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html' target="_blank">cdc.gov/coronavirus-symptoms</a>). 
-    </p>`
     },{
     title: `Bloodlines`,
     date: `June 29, 2020`,
