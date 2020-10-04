@@ -59,6 +59,13 @@ let announcementsStore = [
         (<a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html' target="_blank">cdc.gov/coronavirus-symptoms</a>). 
     </p>`
     },{
+    title: `Online Fellowship`,
+    date: `After Sunday Service`,
+    description: `Come join us every Sunday after service for fellowship online via Zoom located at this link: 
+    <a class="announceLinkinP" href='https://bit.ly/2WXXaA5' target="_blank"> https://bit.ly/2WXXaA5 </a>
+     or you may manually enter the Zoom Meeting ID: 429 029 4197. Please enter exchange when prompted for the password.`
+    }
+    /*{
     title: `Questions and Prayer Requests`,
     date: `2020`,
     url: `"Images/Questions Prayer Requests Slide.jpg"`,
@@ -69,13 +76,6 @@ let announcementsStore = [
     If you would like to contact Pastor Joe directly, you can find him at 
     <a class="announceLinkinP" href='mailto:pastorjoe@the-exchange-church.com' target="_blank"> pastorjoe@the-exchange-church.com</a>.`
     },{
-    title: `Online Fellowship`,
-    date: `After Sunday Service`,
-    description: `Come join us every Sunday after service for fellowship online via Zoom located at this link: 
-    <a class="announceLinkinP" href='https://bit.ly/2WXXaA5' target="_blank"> https://bit.ly/2WXXaA5 </a>
-     or you may manually enter the Zoom Meeting ID: 429 029 4197. Please enter exchange when prompted for the password.`
-    }
-    /*{
     title: `Praise and Prayer Gathering`,
     date: `September 26, 2020 10:00AM`,
     url: `"Images/Morning Worship and Prayer Sept 2020.jpg"`, //spaces in the file name requires double quotes "" around it.
