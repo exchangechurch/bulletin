@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `September 27th, 2020`,
+    date: `October 4th, 2020`,
     series: `Philippians: To Live is Christ`,
-    title: `Mirrors`,
-    text: `Philippians 2:19-30`,
-    speaker: `Pastor Randy Cho`
+    title: `Powerful Joy in the Same Things`,
+    text: `Philippians 3:1-9`,
+    speaker: `Pastor Joe Suh`
 }];
 
 let announcementsStore = [
@@ -20,15 +20,27 @@ let announcementsStore = [
     link: `https://forms.gle/AneeqYAHvt3QNWhs8`,
     linkText: `Connect with us`
     },{
-    title: `Questions and Prayer Requests`,
+    title: `Read the Word - October 2020`,
     date: `2020`,
-    url: `"Images/Questions Prayer Requests Slide.jpg"`,
-    alt: `"Image of a red phone"`,
-    description: `We want to continue to be available to you during this time should you have any questions or would like to share any prayer requests 
-    so that we can pray for you! You can contact the church at 
-    <a class="announceLinkinP" href='mailto:info@the-exchange-church.com' target="_blank"> info@the-exchange-church.com</a>. 
-    If you would like to contact Pastor Joe directly, you can find him at 
-    <a class="announceLinkinP" href='mailto:pastorjoe@the-exchange-church.com' target="_blank"> pastorjoe@the-exchange-church.com</a>.`
+    url: `"Images/Read the Word Fall 2020 October.jpg"`,
+    alt: `Image of 5 day plan`,
+    description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us 
+    through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and 
+    use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. Click the link below to download
+    a copy of the plan.`,
+    link: `https://www.dropbox.com/s/dzzne3b0z9p4iik/Read%20the%20Word%20-%20October.png?dl=0`,
+    linkText: `Download the Plan`
+    },{
+    title: `Serve the Voice of Refugees`,
+    date: `September 21st - Dececember 17th`,
+    url: `"Images/VOR Serving Slide Sept 2020.jpg"`,
+    alt: `"VOR Volunteer Slide"`,
+    description: `With the COVID-19 crisis impacting refugees and the Voice of Refugees organization, we want to highlight a few opportunities to serve/help 
+    those in need and support the <a class="announceLinkinP" href='https://vorservices.org/volunteers/' target="_blank">VOR</a> mission: Putting God’s love into action 
+    by assisting the refugee and asylum-seeking community to re-establish and assimilate their lives in the United States. If you would like to learn more, 
+    please fill out the form below to get in contact with us.`,
+    link: `https://forms.gle/bRNGGxGpo1jN1eim6`,
+    linkText: `Sign up`
     },{
     title: `Outdoor Sunday Worship Gathering`,
     date: `October 25, 2020 9:30AM`,
@@ -47,6 +59,16 @@ let announcementsStore = [
         (<a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html' target="_blank">cdc.gov/coronavirus-symptoms</a>). 
     </p>`
     },{
+    title: `Questions and Prayer Requests`,
+    date: `2020`,
+    url: `"Images/Questions Prayer Requests Slide.jpg"`,
+    alt: `"Image of a red phone"`,
+    description: `We want to continue to be available to you during this time should you have any questions or would like to share any prayer requests 
+    so that we can pray for you! You can contact the church at 
+    <a class="announceLinkinP" href='mailto:info@the-exchange-church.com' target="_blank"> info@the-exchange-church.com</a>. 
+    If you would like to contact Pastor Joe directly, you can find him at 
+    <a class="announceLinkinP" href='mailto:pastorjoe@the-exchange-church.com' target="_blank"> pastorjoe@the-exchange-church.com</a>.`
+    },{
     title: `Online Fellowship`,
     date: `After Sunday Service`,
     description: `Come join us every Sunday after service for fellowship online via Zoom located at this link: 
@@ -63,17 +85,6 @@ let announcementsStore = [
     link: `https://www.the-exchange-church.com/live`,
     linkText: `Join us Online`
     },{
-    title: `Serve the Voice of Refugees`,
-    date: `September 21st - Dececember 17th`,
-    url: `"Images/VOR Serving Slide Sept 2020.jpg"`,
-    alt: `"VOR Volunteer Slide"`,
-    description: `With the COVID-19 crisis impacting refugees and the Voice of Refugees organization, we want to highlight a few opportunities to serve/help 
-    those in need and support the <a class="announceLinkinP" href='https://vorservices.org/volunteers/' target="_blank">VOR</a> mission: Putting God’s love into action 
-    by assisting the refugee and asylum-seeking community to re-establish and assimilate their lives in the United States. If you would like to learn more, 
-    please fill out the form below to get in contact with us.`,
-    link: `https://forms.gle/bRNGGxGpo1jN1eim6`,
-    linkText: `Sign up`
-    },{
     title: `Life Group Sign-ups`,
     date: `Fall 2020`,
     url: `"Images/Life-Groups 2020 Sign Up.jpg"`,
@@ -85,17 +96,6 @@ let announcementsStore = [
     <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
     link: `https://forms.gle/N2tfQt8KorGbxit99`,
     linkText: `Sign Up`
-    },{
-    title: `Read the Word - September 2020`,
-    date: `2020`,
-    url: `"Images/Read the Word Announcement Sept.jpg"`,
-    alt: `Image of 5 day plan`,
-    description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us 
-    through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and 
-    use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. Click the link below to download
-    a copy of the plan.`,
-    link: `https://www.dropbox.com/s/37k1lxypnng06p3/Read%20the%20Word%20-%20September.png?dl=0`,
-    linkText: `Download the Plan`
     },{
     title: `Bloodlines`,
     date: `June 29, 2020`,
@@ -178,7 +178,7 @@ let orderOfWorship = [
 
 let worshipLyrics = [
     {
-    title: `Check back on October 4th`,
+    title: `Check back on October 25th`,
     description: `Worship lyrics are available once a month for our socially-distanced, outdoor service.`
     }
     /*{
