@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `October 4th, 2020`,
+    date: `October 11th, 2020`,
     series: `Philippians: To Live is Christ`,
-    title: `Powerful Joy in the Same Things`,
-    text: `Philippians 3:1-9`,
+    title: `The Power of Sharing His Sufferings`,
+    text: `Philippians 3:8-11`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -20,17 +20,6 @@ let announcementsStore = [
     link: `https://forms.gle/AneeqYAHvt3QNWhs8`,
     linkText: `Connect with us`
     },{
-    title: `Read the Word - October 2020`,
-    date: `2020`,
-    url: `"Images/Read the Word Fall 2020 October.jpg"`,
-    alt: `Image of 5 day plan`,
-    description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us 
-    through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and 
-    use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. Click the link below to download
-    a copy of the plan.`,
-    link: `https://www.dropbox.com/s/dzzne3b0z9p4iik/Read%20the%20Word%20-%20October.png?dl=0`,
-    linkText: `Download the Plan`
-    },{
     title: `Serve the Voice of Refugees`,
     date: `September 21st - Dececember 17th`,
     url: `"Images/VOR Serving Slide Sept 2020.jpg"`,
@@ -41,6 +30,15 @@ let announcementsStore = [
     please fill out the form below to get in contact with us.`,
     link: `https://forms.gle/bRNGGxGpo1jN1eim6`,
     linkText: `Sign up`
+    },{
+    title: `Praise and Prayer Gathering`,
+    date: `October 24, 2020 10:00AM`,
+    url: `"Images/Morning Worship and Prayer Oct 2020.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of clouds`,
+    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
+    and corporate prayer. We will be streaming our gathering this Saturday October 24 at 10am at the link below.`,
+    link: `https://www.the-exchange-church.com/live`,
+    linkText: `Join us Online`
     },{
     title: `Outdoor Sunday Worship Gathering`,
     date: `October 25, 2020 9:30AM`,
@@ -66,6 +64,17 @@ let announcementsStore = [
      or you may manually enter the Zoom Meeting ID: 429 029 4197. Please enter exchange when prompted for the password.`
     }
     /*{
+    title: `Read the Word - October 2020`,
+    date: `2020`,
+    url: `"Images/Read the Word Fall 2020 October.jpg"`,
+    alt: `Image of 5 day plan`,
+    description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us 
+    through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and 
+    use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. Click the link below to download
+    a copy of the plan.`,
+    link: `https://www.dropbox.com/s/dzzne3b0z9p4iik/Read%20the%20Word%20-%20October.png?dl=0`,
+    linkText: `Download the Plan`
+    },{
     title: `Questions and Prayer Requests`,
     date: `2020`,
     url: `"Images/Questions Prayer Requests Slide.jpg"`,
@@ -75,15 +84,6 @@ let announcementsStore = [
     <a class="announceLinkinP" href='mailto:info@the-exchange-church.com' target="_blank"> info@the-exchange-church.com</a>. 
     If you would like to contact Pastor Joe directly, you can find him at 
     <a class="announceLinkinP" href='mailto:pastorjoe@the-exchange-church.com' target="_blank"> pastorjoe@the-exchange-church.com</a>.`
-    },{
-    title: `Praise and Prayer Gathering`,
-    date: `September 26, 2020 10:00AM`,
-    url: `"Images/Morning Worship and Prayer Sept 2020.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of clouds`,
-    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
-    and corporate prayer. We will be streaming our gathering this Saturday September 26 at 10am at the link below.`,
-    link: `https://www.the-exchange-church.com/live`,
-    linkText: `Join us Online`
     },{
     title: `Life Group Sign-ups`,
     date: `Fall 2020`,
