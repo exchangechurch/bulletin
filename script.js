@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `October 11th, 2020`,
+    date: `October 18th, 2020`,
     series: `Philippians: To Live is Christ`,
-    title: `The Power of Sharing His Sufferings`,
-    text: `Philippians 3:8-11`,
+    title: `Pursuing Maturity in an Immature World`,
+    text: `Philippians 3:12-16`,
     speaker: `Pastor Joe Suh`
 }];
 
