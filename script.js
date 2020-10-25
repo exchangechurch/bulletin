@@ -13,7 +13,7 @@ let announcementsStore = [
     {
     title: `Connect With Us`,
     date: `2020`,
-    url: `"Images/Visitor Connect Form.jpg"`,
+    url: `"Images/Connect With Us Slide.jpg"`,
     alt: ``,
     description: `Thanks for joining us! If you're visiting for the first time or would like to learn more, we'd like to get to know more about you. Please 
     fill out the form at the link below to connect with us.`,
@@ -45,7 +45,7 @@ let announcementsStore = [
     },{
     title: `Membership`,
     date: `Coming soon`,
-    url: `Images/Membership.jpg`,
+    url: `Images/Membership Slide October 2020.jpg`,
     alt: `Image of membership`,
     description: `We will be having our next round of membership classes soon! If you are interested in becoming a member or have questions please fill out the form linked below!`,
     link: `https://forms.gle/pjhUQsF2xX4ipxiA8`,
@@ -53,11 +53,13 @@ let announcementsStore = [
     },{
     title: `Daylight Savings`,
     date: `November 1, 2020`,
-    description: `Please note that we'll be gaining an hour on November 1, 2020 so please plan accordingly!`
+    url: `Images/Daylight Savings Slide.jpg`,
+    alt: `Picture of clock`,
+    description: `Please note that we'll be turning back our clocks one hour on November 1, 2020 so please plan accordingly!`
     },{
     title: `Outdoor Sunday Worship Gathering`,
     date: `November 22, 2020 9:30AM`,
-    url: `"Images/Outdoor Sunday Worship Gatherings Nov 2020.jpg"`,
+    url: `"Images/Outdoor Sunday Worship Gatherings November 2020.jpg"`,
     alt: `image of person worshipping with hands raised`,
     description: `
     <p> 
