@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `October 18th, 2020`,
-    series: `Philippians: To Live is Christ`,
-    title: `Pursuing Maturity in an Immature World`,
-    text: `Philippians 3:12-16`,
+    date: `October 25th, 2020`,
+    series: `Standalone`,
+    title: `Become Like Children`,
+    text: `Matthew 18:1-4`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -20,6 +20,18 @@ let announcementsStore = [
     link: `https://forms.gle/AneeqYAHvt3QNWhs8`,
     linkText: `Connect with us`
     },{
+    title: `Life Group Sign-ups`,
+    date: `Fall 2020`,
+    url: `"Images/Life-Groups 2020 Sign Up.jpg"`,
+    alt: `image of faded bibles`,
+    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
+    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
+    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
+    Please email 
+    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
+    link: `https://forms.gle/N2tfQt8KorGbxit99`,
+    linkText: `Sign Up`
+    },{
     title: `Serve the Voice of Refugees`,
     date: `September 21st - Dececember 17th`,
     url: `"Images/VOR Serving Slide Sept 2020.jpg"`,
@@ -27,9 +39,45 @@ let announcementsStore = [
     description: `With the COVID-19 crisis impacting refugees and the Voice of Refugees organization, we want to highlight a few opportunities to serve/help 
     those in need and support the <a class="announceLinkinP" href='https://vorservices.org/volunteers/' target="_blank">VOR</a> mission: Putting God’s love into action 
     by assisting the refugee and asylum-seeking community to re-establish and assimilate their lives in the United States. If you would like to learn more, 
-    please fill out the form below to get in contact with us.`,
-    link: `https://forms.gle/bRNGGxGpo1jN1eim6`,
-    linkText: `Sign up`
+    please clink the link below.`,
+    link: `https://vorservices.org/volunteers/`,
+    linkText: `Learn more`
+    },{
+    title: `Membership`,
+    date: `Coming soon`,
+    url: `Images/Membership.jpg`,
+    alt: `Image of membership`,
+    description: `We will be having our next round of membership classes soon! If you are interested in becoming a member or have questions please fill out the form linked below!`,
+    link: `https://forms.gle/pjhUQsF2xX4ipxiA8`,
+    linkText: `Sign Up`
+    },{
+    title: `Daylight Savings`,
+    date: `November 1, 2020`,
+    description: `Please note that we'll be gaining an hour on November 1, 2020 so please plan accordingly!`
+    },{
+    title: `Outdoor Sunday Worship Gathering`,
+    date: `November 22, 2020 9:30AM`,
+    url: `"Images/Outdoor Sunday Worship Gatherings Nov 2020.jpg"`,
+    alt: `image of person worshipping with hands raised`,
+    description: `
+    <p> 
+        Because of the spike in Coronavirus cases and the outlook moving forward, it doesn’t appear that we’ll be fully reopening anytime soon. 
+        However, we want to provide a space and time that we can worship and be present with one another. We will be holding in-person monthly outdoor Sunday 
+        gatherings, with the implementation of proper safety guidelines for COVID-19, on November 22, 2020 at 9:30am.
+    </p>
+    <p> 
+        If you are attending, please sign up here: (<a href='https://forms.gle/8PewHFLx17qWtUbr6' target="_blank">Google Form</a>) and please bring a mask! 
+        We will be practicing social distancing under canopies and provide hand sanitizer and medical masks to those who don't have any. 
+        Please refrain from joining us if you're experiencing any symptoms of sickness.
+        (<a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html' target="_blank">cdc.gov/coronavirus-symptoms</a>). 
+    </p>`
+    }
+    /*{
+    title: `Online Fellowship`,
+    date: `After Sunday Service`,
+    description: `Come join us every Sunday after service for fellowship online via Zoom located at this link: 
+    <a class="announceLinkinP" href='https://bit.ly/2WXXaA5' target="_blank"> https://bit.ly/2WXXaA5 </a>
+     or you may manually enter the Zoom Meeting ID: 429 029 4197. Please enter exchange when prompted for the password.`
     },{
     title: `Praise and Prayer Gathering`,
     date: `October 24, 2020 10:00AM`,
@@ -40,30 +88,6 @@ let announcementsStore = [
     link: `https://www.the-exchange-church.com/live`,
     linkText: `Join us Online`
     },{
-    title: `Outdoor Sunday Worship Gathering`,
-    date: `October 25, 2020 9:30AM`,
-    url: `"Images/Outdoor Sunday Worship Gatherings Oct 2020.jpg"`,
-    alt: `image of person worshipping with hands raised`,
-    description: `
-    <p> 
-        Because of the spike in Coronavirus cases and the outlook moving forward, it doesn’t appear that we’ll be fully reopening anytime soon. 
-        However, we want to provide a space and time that we can worship and be present with one another. We will be holding in-person monthly outdoor Sunday 
-        gatherings, with the implementation of proper safety guidelines for COVID-19, on October 25, 2020 at 9:30am.
-    </p>
-    <p> 
-        If you are attending, please sign up here: (<a href='https://forms.gle/8PewHFLx17qWtUbr6' target="_blank">Google Form</a>) and please bring a mask! 
-        We will be practicing social distancing under canopies and provide hand sanitizer and medical masks to those who don't have any. 
-        Please refrain from joining us if you're experiencing any symptoms of sickness.
-        (<a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html' target="_blank">cdc.gov/coronavirus-symptoms</a>). 
-    </p>`
-    },{
-    title: `Online Fellowship`,
-    date: `After Sunday Service`,
-    description: `Come join us every Sunday after service for fellowship online via Zoom located at this link: 
-    <a class="announceLinkinP" href='https://bit.ly/2WXXaA5' target="_blank"> https://bit.ly/2WXXaA5 </a>
-     or you may manually enter the Zoom Meeting ID: 429 029 4197. Please enter exchange when prompted for the password.`
-    }
-    /*{
     title: `Read the Word - October 2020`,
     date: `2020`,
     url: `"Images/Read the Word Fall 2020 October.jpg"`,
@@ -84,18 +108,6 @@ let announcementsStore = [
     <a class="announceLinkinP" href='mailto:info@the-exchange-church.com' target="_blank"> info@the-exchange-church.com</a>. 
     If you would like to contact Pastor Joe directly, you can find him at 
     <a class="announceLinkinP" href='mailto:pastorjoe@the-exchange-church.com' target="_blank"> pastorjoe@the-exchange-church.com</a>.`
-    },{
-    title: `Life Group Sign-ups`,
-    date: `Fall 2020`,
-    url: `"Images/Life-Groups 2020 Sign Up.jpg"`,
-    alt: `image of faded bibles`,
-    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
-    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
-    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
-    Please email 
-    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
-    link: `https://forms.gle/N2tfQt8KorGbxit99`,
-    linkText: `Sign Up`
     },{
     title: `Bloodlines`,
     date: `June 29, 2020`,
@@ -132,12 +144,6 @@ let announcementsStore = [
     description: `There will be no in-person Sunday Service gatherings until futher notice. Stay tuned on Zoom every Sunday at 2PM for our regular Sunday worship.`,
     link: `https://zoom.us/j/727600077`,
     linkText: `Join our Zoom`
-    },{
-    title: `Membership`,
-    date: `Coming soon`,
-    url: `Images/Membership.jpg`,
-    alt: `Image of membership`,
-    description: `We will be having our next round of membership classes soon! If you are interested in becoming a member or have questions please talk to Pastor Joe or Pastor Randy!`
     },{
     title: `Voice of Refugees Food Distribution`,
     date: `Mondays 11am to 2:30pm`,
