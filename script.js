@@ -45,7 +45,7 @@ let announcementsStore = [
     },{
     title: `Membership`,
     date: `Coming soon`,
-    url: `Images/Membership Slide October 2020.jpg`,
+    url: `"Images/Membership Slide October 2020.jpg"`,
     alt: `Image of membership`,
     description: `We will be having our next round of membership classes soon! If you are interested in becoming a member or have questions please fill out the form linked below!`,
     link: `https://forms.gle/pjhUQsF2xX4ipxiA8`,
@@ -53,7 +53,7 @@ let announcementsStore = [
     },{
     title: `Daylight Savings`,
     date: `November 1, 2020`,
-    url: `Images/Daylight Savings Slide.jpg`,
+    url: `"Images/Daylight Savings Slide.jpg"`,
     alt: `Picture of clock`,
     description: `Please note that we'll be turning back our clocks one hour on November 1, 2020 so please plan accordingly!`
     },{
