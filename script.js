@@ -185,66 +185,124 @@ let orderOfWorship = [
 ];
 
 let worshipLyrics = [
-    {
+    /*{
     title: `Check back on October 25th`,
     description: `Worship lyrics are available once a month for our socially-distanced, outdoor service.`
-    }
-    /*{
+    }*/
+    {
     title: `Call To Worship`,
     description: `<pre class="lyricsDesc">
-    Psalm 18:1–3
+    Psalm 16:8-11
 
-    I love you, O LORD, my strength.
-    The LORD is my rock and my fortress and my deliverer,
-        my God, my rock, in whom I take refuge,
-        my shield, and the horn of my salvation, my stronghold.
-    I call upon the LORD, who is worthy to be praised,
-        and I am saved from my enemies. (ESV)`
+    I have set the Lord always before me;
+        because he is at my right hand, I shall not be shaken.
+
+    Therefore my heart is glad, and my whole being rejoices;
+        my flesh also dwells secure.
+    For you will not abandon my soul to Sheol,
+        or let your holy one see corruption.
+
+    You make known to me the path of life;
+        in your presence there is fullness of joy;
+        at your right hand are pleasures forevermore. (ESV)`
     },{
-    title: `Great is Thy Faithfulness`,
+    title: `Great Things`,
     description: `<pre class="lyricsDesc">
-    Great is Thy faithfulness, O God my Father,
-    There is no shadow of turning with Thee;
-    Thou changest not, Thy compassions, they fail not
-    As Thou hast been Thou forever wilt be.
+    Come let us worship our King
+    Come let us bow at His feet
+    He has done great things
+    See what our Savior has done
+    See how His love overcomes
+    He has done great things
+    He has done great things
 
-        Great is Thy faithfulness! Great is Thy faithfulness!
-        Morning by morning new mercies I see;
-        All I have needed Thy hand hath provided—
-        Great is Thy faithfulness,  Lord, unto me!
+        Oh, hero of Heaven, You conquered the grave
+        You free every captive and break every chain
+        Oh God, You have done great things
+        We dance in Your freedom, awake and alive
+        Oh Jesus, our Savior, Your name lifted high
+        Oh God, You have done great things
 
-    Summer and winter, and springtime and harvest,
-    Sun, moon and stars in their courses above,
-    Join with all nature in manifold witness
-    To Thy great faithfulness, mercy and love.
+    You've been faithful through every storm
+    You'll be faithful forevermore
+    You have done great things
+    And I know You will do it again
+    For Your promise is "Yes and amen"
+    You will do great things
+    God, You do great things
 
-    Pardon for sin and a peace that endureth,
-    Thine own dear presence to cheer and to guide;
-    Strength for today and bright hope for tomorrow,
-    Blessings all mine, with ten thousand beside!`
+    Hallelujah God, above it all
+    Hallelujah God, unshakable
+    Hallelujah, You have done great things
+    Hallelujah God, above it all
+    Hallelujah God, unshakable
+    Hallelujah, You have done great things
+    You've done great things
+
+    You have done great things
+    Oh God, You do great things`
     },{
-    title: `Hail to the King`,
+    title: `Living Hope`,
     description: `<pre class="lyricsDesc">
-    You came to us a man in very nature God
-    Pierced for our iniquities as You hung upon the cross
-    But God exalted You to the highest place
-    And gave to You the right to bear the name above all names
+    How great the chasm that lay between us
+    How high the mountain I could not climb
+    In desperation, I turned to heaven
+    And spoke Your name into the night
+    Then through the darkness, Your loving-kindness
+    Tore through the shadows of my soul
+    The work is ﬁnished, the end is written
+    Jesus Christ, my living hope
 
-    At the name of Jesus we should bow
-    Every tongue confess that You are Lord
-    And when You come in glory for the world to see
-    We will sing…
+    Who could imagine so great a mercy?
+    What heart could fathom such boundless grace?
+    The God of ages stepped down from glory
+    To wear my sin and bear my shame
+    The cross has spoken, I am forgiven
+    The King of kings calls me His own
+    Beautiful Savior, I'm Yours forever
+    Jesus Christ, my living hope
 
-        Hail to the King
-        In all His splendor and majesty
-        Hail to the King of Kings
-        Lord Jesus our God
+        Hallelujah, praise the One who set me free
+        Hallelujah, death has lost its grip on me
+        You have broken every chain
+        There's salvation in Your name
+        Jesus Christ, my living hope
 
-    We eagerly await the coming of the day
-    The glory of the risen King will shine upon the earth
-    Then rival thrones will fall before the Lord of all
-    And hail supreme authority in the true and living God`
-    }*/];
+    Then came the morning that sealed the promise
+    Your buried body began to breathe
+    Out of the silence, the Roaring Lion
+    Declared the grave has no claim on me
+    Jesus, Yours is the victory`
+    },{
+    title: `Jesus, Only Jesus`,
+    description: `<pre class="lyricsDesc">
+    Who has the power to raise the dead
+    Who can save us from our sin
+    He is our hope, our righteousness
+    Jesus, only Jesus
+
+    Who can make the blind to See
+    Who holds the keys that set us free
+    He paid it all to bring us peace
+    Jesus, only Jesus
+
+        Holy, King, Almighty Lord
+        Saints and angels all adore
+        I join with them and bow before
+        Jesus, only Jesus
+
+    Who can command the highest praise
+    Who has the name above all names
+    You stand alone, I stand amazed
+    Jesus, only Jesus
+
+    You will command the highest praise
+    Yours is the Name above all names
+    You stand alone, I stand amazed
+    Jesus, only Jesus
+    Jesus, only Jesus`
+    }
+    ];
 
 function fillSermon() {
     /*$('#sermonSlide').text(`
