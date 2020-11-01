@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `October 25th, 2020`,
-    series: `Standalone`,
-    title: `Become Like Children`,
-    text: `Matthew 18:1-4`,
+    date: `November 1st, 2020`,
+    series: `Philippians: To Live is Christ`,
+    title: `But Our Citizenship is in Heaven`,
+    text: `Philippians 3:17-21`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -29,8 +29,27 @@ let announcementsStore = [
     If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
     Please email 
     <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
-    link: `https://forms.gle/N2tfQt8KorGbxit99`,
+    link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
     linkText: `Sign Up`
+    },{
+    title: `Membership`,
+    date: `Coming soon`,
+    url: `"Images/Membership Slide October 2020.jpg"`,
+    alt: `Image of membership`,
+    description: `We will be having our next round of membership classes soon! If you are interested in becoming a member or have questions please fill out the form linked below!`,
+    link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
+    linkText: `Sign Up`
+    },{
+    title: `Read the Word - November 2020`,
+    date: `2020`,
+    url: `"Images/Read the Word November 2020.jpg"`,
+    alt: `Image of 5 day plan`,
+    description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us 
+    through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and 
+    use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. Click the link below to download
+    a copy of the plan.`,
+    link: `https://www.dropbox.com/s/mcottoy42uttz0q/RTW%20-%20November.png?dl=0`,
+    linkText: `Download the Plan`
     },{
     title: `Serve the Voice of Refugees`,
     date: `September 21st - Dececember 17th`,
@@ -40,22 +59,8 @@ let announcementsStore = [
     those in need and support the <a class="announceLinkinP" href='https://vorservices.org/volunteers/' target="_blank">VOR</a> mission: Putting God’s love into action 
     by assisting the refugee and asylum-seeking community to re-establish and assimilate their lives in the United States. If you would like to learn more, 
     please clink the link below.`,
-    link: `https://vorservices.org/volunteers/`,
+    link: `https://www.facebook.com/voiceofrefugees/`,
     linkText: `Learn more`
-    },{
-    title: `Membership`,
-    date: `Coming soon`,
-    url: `"Images/Membership Slide October 2020.jpg"`,
-    alt: `Image of membership`,
-    description: `We will be having our next round of membership classes soon! If you are interested in becoming a member or have questions please fill out the form linked below!`,
-    link: `https://forms.gle/pjhUQsF2xX4ipxiA8`,
-    linkText: `Sign Up`
-    },{
-    title: `Daylight Savings`,
-    date: `November 1, 2020`,
-    url: `"Images/Daylight Savings Slide.jpg"`,
-    alt: `Picture of clock`,
-    description: `Please note that we'll be turning back our clocks one hour on November 1, 2020 so please plan accordingly!`
     },{
     title: `Outdoor Sunday Worship Gathering`,
     date: `November 22, 2020 9:30AM`,
@@ -68,11 +73,13 @@ let announcementsStore = [
         gatherings, with the implementation of proper safety guidelines for COVID-19, on November 22, 2020 at 9:30am.
     </p>
     <p> 
-        If you are attending, please sign up here: (<a href='https://forms.gle/8PewHFLx17qWtUbr6' target="_blank">Google Form</a>) and please bring a mask! 
+        If you are attending, please sign up here: (<a href='https://forms.gle/ni5kbv1NDcfNTnDL7' target="_blank">Google Form</a>) and please bring a mask! 
         We will be practicing social distancing under canopies and provide hand sanitizer and medical masks to those who don't have any. 
         Please refrain from joining us if you're experiencing any symptoms of sickness.
         (<a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html' target="_blank">cdc.gov/coronavirus-symptoms</a>). 
-    </p>`
+    </p>`,
+    link: `https://forms.gle/ni5kbv1NDcfNTnDL7`,
+    linkText: `Let us know you're coming`
     }
     /*{
     title: `Online Fellowship`,
@@ -89,17 +96,6 @@ let announcementsStore = [
     and corporate prayer. We will be streaming our gathering this Saturday October 24 at 10am at the link below.`,
     link: `https://www.the-exchange-church.com/live`,
     linkText: `Join us Online`
-    },{
-    title: `Read the Word - October 2020`,
-    date: `2020`,
-    url: `"Images/Read the Word Fall 2020 October.jpg"`,
-    alt: `Image of 5 day plan`,
-    description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us 
-    through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and 
-    use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. Click the link below to download
-    a copy of the plan.`,
-    link: `https://www.dropbox.com/s/dzzne3b0z9p4iik/Read%20the%20Word%20-%20October.png?dl=0`,
-    linkText: `Download the Plan`
     },{
     title: `Questions and Prayer Requests`,
     date: `2020`,
@@ -185,11 +181,11 @@ let orderOfWorship = [
 ];
 
 let worshipLyrics = [
-    /*{
-    title: `Check back on October 25th`,
-    description: `Worship lyrics are available once a month for our socially-distanced, outdoor service.`
-    }*/
     {
+    title: `Check back on November 22nd`,
+    description: `Worship lyrics are available once a month for our socially-distanced, outdoor service.`
+    }
+    /*{
     title: `Call To Worship`,
     description: `<pre class="lyricsDesc">
     Psalm 16:8-11
@@ -301,7 +297,7 @@ let worshipLyrics = [
     You stand alone, I stand amazed
     Jesus, only Jesus
     Jesus, only Jesus`
-    }
+    }*/
     ];
 
 function fillSermon() {
