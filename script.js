@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `November 1st, 2020`,
+    date: `November 8th, 2020`,
     series: `Philippians: To Live is Christ`,
-    title: `But Our Citizenship is in Heaven`,
-    text: `Philippians 3:17-21`,
+    title: `Reconciliation & Peacemaking`,
+    text: `Philippians 4:1-3`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -20,37 +20,6 @@ let announcementsStore = [
     link: `https://forms.gle/AneeqYAHvt3QNWhs8`,
     linkText: `Connect with us`
     },{
-    title: `Life Group Sign-ups`,
-    date: `Fall 2020`,
-    url: `"Images/Life-Groups 2020 Sign Up.jpg"`,
-    alt: `image of faded bibles`,
-    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
-    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
-    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
-    Please email 
-    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
-    link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
-    linkText: `Sign Up`
-    },{
-    title: `Membership`,
-    date: `Coming soon`,
-    url: `"Images/Membership Slide October 2020.jpg"`,
-    alt: `Image of membership`,
-    description: `We will be having our next round of membership classes soon! If you are interested in becoming a member or have questions please fill out the form linked below!`,
-    link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
-    linkText: `Sign Up`
-    },{
-    title: `Read the Word - November 2020`,
-    date: `2020`,
-    url: `"Images/Read the Word November 2020.jpg"`,
-    alt: `Image of 5 day plan`,
-    description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us 
-    through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and 
-    use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. Click the link below to download
-    a copy of the plan.`,
-    link: `https://www.dropbox.com/s/mcottoy42uttz0q/RTW%20-%20November.png?dl=0`,
-    linkText: `Download the Plan`
-    },{
     title: `Serve the Voice of Refugees`,
     date: `September 21st - Dececember 17th`,
     url: `"Images/VOR Serving Slide Sept 2020.jpg"`,
@@ -61,6 +30,15 @@ let announcementsStore = [
     please clink the link below.`,
     link: `https://www.facebook.com/voiceofrefugees/`,
     linkText: `Learn more`
+    },{
+    title: `Praise and Prayer Gathering`,
+    date: `November 21, 2020 10:00AM`,
+    url: `"Images/Morning Worship and Prayer Nov 2020.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of clouds`,
+    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
+    and corporate prayer. We will be streaming our gathering this Saturday November 21 at 10am at the link below.`,
+    link: `https://www.the-exchange-church.com/live`,
+    linkText: `Join us Online`
     },{
     title: `Outdoor Sunday Worship Gathering`,
     date: `November 22, 2020 9:30AM`,
@@ -80,22 +58,44 @@ let announcementsStore = [
     </p>`,
     link: `https://forms.gle/ni5kbv1NDcfNTnDL7`,
     linkText: `Let us know you're coming`
-    }
-    /*{
+    },{
     title: `Online Fellowship`,
     date: `After Sunday Service`,
     description: `Come join us every Sunday after service for fellowship online via Zoom located at this link: 
     <a class="announceLinkinP" href='https://bit.ly/2WXXaA5' target="_blank"> https://bit.ly/2WXXaA5 </a>
      or you may manually enter the Zoom Meeting ID: 429 029 4197. Please enter exchange when prompted for the password.`
+    }
+    /*{
+    title: `Read the Word - November 2020`,
+    date: `2020`,
+    url: `"Images/Read the Word November 2020.jpg"`,
+    alt: `Image of 5 day plan`,
+    description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us 
+    through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and 
+    use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. Click the link below to download
+    a copy of the plan.`,
+    link: `https://www.dropbox.com/s/mcottoy42uttz0q/RTW%20-%20November.png?dl=0`,
+    linkText: `Download the Plan`
     },{
-    title: `Praise and Prayer Gathering`,
-    date: `October 24, 2020 10:00AM`,
-    url: `"Images/Morning Worship and Prayer Oct 2020.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of clouds`,
-    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
-    and corporate prayer. We will be streaming our gathering this Saturday October 24 at 10am at the link below.`,
-    link: `https://www.the-exchange-church.com/live`,
-    linkText: `Join us Online`
+    title: `Membership`,
+    date: `Coming soon`,
+    url: `"Images/Membership Slide October 2020.jpg"`,
+    alt: `Image of membership`,
+    description: `We will be having our next round of membership classes soon! If you are interested in becoming a member or have questions please fill out the form linked below!`,
+    link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
+    linkText: `Sign Up`
+    },{
+    title: `Life Group Sign-ups`,
+    date: `Fall 2020`,
+    url: `"Images/Life-Groups 2020 Sign Up.jpg"`,
+    alt: `image of faded bibles`,
+    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
+    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
+    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
+    Please email 
+    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
+    link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
+    linkText: `Sign Up`
     },{
     title: `Questions and Prayer Requests`,
     date: `2020`,
