@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `November 8th, 2020`,
-    series: `Philippians: To Live is Christ`,
-    title: `Reconciliation & Peacemaking`,
-    text: `Philippians 4:1-3`,
-    speaker: `Pastor Joe Suh`
+    date: `November 15th, 2020`,
+    series: `Standalone`,
+    title: `Make Disciples`,
+    text: `Matthew 28:18-20`,
+    speaker: `Pastor Randy Cho`
 }];
 
 let announcementsStore = [
