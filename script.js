@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `November 15th, 2020`,
+    date: `November 22th, 2020`,
     series: `Standalone`,
-    title: `Make Disciples`,
-    text: `Matthew 28:18-20`,
-    speaker: `Pastor Randy Cho`
+    title: `Be the One, Not the Nine`,
+    text: `Luke 17:11-19`,
+    speaker: `Pastor Joe Suh`
 }];
 
 let announcementsStore = [
@@ -31,6 +31,27 @@ let announcementsStore = [
     link: `https://www.facebook.com/voiceofrefugees/`,
     linkText: `Learn more`
     },{
+    title: `Membership`,
+    date: `Coming soon`,
+    url: `"Images/Membership Slide October 2020.jpg"`,
+    alt: `Image of membership`,
+    description: `We will be having our next round of membership classes soon! If you are interested in becoming a member or have questions please fill out the form linked below!`,
+    link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
+    linkText: `Sign Up`
+    },{
+    title: `Life Group Sign-ups`,
+    date: `Winter 2020`,
+    url: `"Images/Life-Groups 2020 Sign Up.jpg"`,
+    alt: `image of faded bibles`,
+    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
+    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
+    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
+    Please email 
+    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
+    link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
+    linkText: `Sign Up`
+    }
+    /*{
     title: `Praise and Prayer Gathering`,
     date: `November 21, 2020 10:00AM`,
     url: `"Images/Morning Worship and Prayer Nov 2020.jpg"`, //spaces in the file name requires double quotes "" around it.
@@ -64,8 +85,7 @@ let announcementsStore = [
     description: `Come join us every Sunday after service for fellowship online via Zoom located at this link: 
     <a class="announceLinkinP" href='https://bit.ly/2WXXaA5' target="_blank"> https://bit.ly/2WXXaA5 </a>
      or you may manually enter the Zoom Meeting ID: 429 029 4197. Please enter exchange when prompted for the password.`
-    }
-    /*{
+    },{
     title: `Read the Word - November 2020`,
     date: `2020`,
     url: `"Images/Read the Word November 2020.jpg"`,
@@ -76,26 +96,6 @@ let announcementsStore = [
     a copy of the plan.`,
     link: `https://www.dropbox.com/s/mcottoy42uttz0q/RTW%20-%20November.png?dl=0`,
     linkText: `Download the Plan`
-    },{
-    title: `Membership`,
-    date: `Coming soon`,
-    url: `"Images/Membership Slide October 2020.jpg"`,
-    alt: `Image of membership`,
-    description: `We will be having our next round of membership classes soon! If you are interested in becoming a member or have questions please fill out the form linked below!`,
-    link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
-    linkText: `Sign Up`
-    },{
-    title: `Life Group Sign-ups`,
-    date: `Fall 2020`,
-    url: `"Images/Life-Groups 2020 Sign Up.jpg"`,
-    alt: `image of faded bibles`,
-    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
-    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
-    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
-    Please email 
-    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
-    link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
-    linkText: `Sign Up`
     },{
     title: `Questions and Prayer Requests`,
     date: `2020`,
@@ -181,94 +181,81 @@ let orderOfWorship = [
 ];
 
 let worshipLyrics = [
-    {
+    /*{
     title: `Check back on November 22nd`,
     description: `Worship lyrics are available once a month for our socially-distanced, outdoor service.`
-    }
-    /*{
+    }*/
+    {
     title: `Call To Worship`,
     description: `<pre class="lyricsDesc">
-    Psalm 16:8-11
+    Micah 7:18‭-‬20
 
-    I have set the Lord always before me;
-        because he is at my right hand, I shall not be shaken.
-
-    Therefore my heart is glad, and my whole being rejoices;
-        my flesh also dwells secure.
-    For you will not abandon my soul to Sheol,
-        or let your holy one see corruption.
-
-    You make known to me the path of life;
-        in your presence there is fullness of joy;
-        at your right hand are pleasures forevermore. (ESV)`
+    Who is a God like you, pardoning iniquity 
+        and passing over transgression 
+        for the remnant of his inheritance? 
+    He does not retain his anger forever, 
+        because he delights in steadfast love. 
+    He will again have compassion on us; 
+        he will tread our iniquities underfoot. 
+    You will cast all our sins 
+        into the depths of the sea. 
+    You will show faithfulness to Jacob 
+        and steadfast love to Abraham, 
+    as you have sworn to our fathers 
+        from the days of old. (ESV)`
     },{
-    title: `Great Things`,
+    title: `Your Love Awakens Me`,
     description: `<pre class="lyricsDesc">
-    Come let us worship our King
-    Come let us bow at His feet
-    He has done great things
-    See what our Savior has done
-    See how His love overcomes
-    He has done great things
-    He has done great things
+    There were walls between us, 
+    By the Cross You came and 
+    broke them down, broke them down
 
-        Oh, hero of Heaven, You conquered the grave
-        You free every captive and break every chain
-        Oh God, You have done great things
-        We dance in Your freedom, awake and alive
-        Oh Jesus, our Savior, Your name lifted high
-        Oh God, You have done great things
+    There were chains around us, 
+    By Your grace we are 
+    no longer bound, no longer bound
+    You called me out of the grave, 
+    You called me into the night
+    You called my name, 
+    and then my heart came alive
 
-    You've been faithful through every storm
-    You'll be faithful forevermore
-    You have done great things
-    And I know You will do it again
-    For Your promise is "Yes and amen"
-    You will do great things
-    God, You do great things
+        Your love is greater, Your love is stronger
+        Your love awakens, awakens, awakens me
 
-    Hallelujah God, above it all
-    Hallelujah God, unshakable
-    Hallelujah, You have done great things
-    Hallelujah God, above it all
-    Hallelujah God, unshakable
-    Hallelujah, You have done great things
-    You've done great things
+    Feel the darkness shaking, 
+    All the dead are coming 
+    back to life, back to life
+    Hear the song awaken, 
+    All creation singing we’re alive, 
+    cause You’re alive
 
-    You have done great things
-    Oh God, You do great things`
+        And what a love we found, 
+        death can’t hold us down
+        We shout it out, 
+        “We’re alive cause You’re alive”`
     },{
-    title: `Living Hope`,
+    title: `Jesus, Messiah`,
     description: `<pre class="lyricsDesc">
-    How great the chasm that lay between us
-    How high the mountain I could not climb
-    In desperation, I turned to heaven
-    And spoke Your name into the night
-    Then through the darkness, Your loving-kindness
-    Tore through the shadows of my soul
-    The work is ﬁnished, the end is written
-    Jesus Christ, my living hope
+    He became sin, who knew no sin
+    That we might become His righteousness
+    He humbled Himself and carried the cross
+    Love so amazing, love so amazing
 
-    Who could imagine so great a mercy?
-    What heart could fathom such boundless grace?
-    The God of ages stepped down from glory
-    To wear my sin and bear my shame
-    The cross has spoken, I am forgiven
-    The King of kings calls me His own
-    Beautiful Savior, I'm Yours forever
-    Jesus Christ, my living hope
+        Jesus, Messiah, 
+        name above all names
+        Blessed Redeemer, Emmanuel
+        The rescue for sinners, 
+        the ransom from heaven
+        Jesus, Messiah, Lord of all
 
-        Hallelujah, praise the One who set me free
-        Hallelujah, death has lost its grip on me
-        You have broken every chain
-        There's salvation in Your name
-        Jesus Christ, my living hope
+    His body the bread, His blood the wine
+    Broken and poured out all for love
+    The whole world trembled and the veil was torn
+    Love so amazing, love so amazing
 
-    Then came the morning that sealed the promise
-    Your buried body began to breathe
-    Out of the silence, the Roaring Lion
-    Declared the grave has no claim on me
-    Jesus, Yours is the victory`
+    All our hope is in You, 
+    all our hope is in You
+    All the glory to You, 
+    God, the Light of the world`
     },{
     title: `Jesus, Only Jesus`,
     description: `<pre class="lyricsDesc">
@@ -297,7 +284,7 @@ let worshipLyrics = [
     You stand alone, I stand amazed
     Jesus, only Jesus
     Jesus, only Jesus`
-    }*/
+    }
     ];
 
 function fillSermon() {
