@@ -182,7 +182,7 @@ let orderOfWorship = [
 
 let worshipLyrics = [
     {
-    title: `Check back on November 22nd`,
+    title: `Check back on December 20th`,
     description: `Worship lyrics are available once a month for our socially-distanced, outdoor service.`
     }
     /*{
