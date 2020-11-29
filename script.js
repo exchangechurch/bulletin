@@ -1,11 +1,11 @@
-'use strict'
+ 'use strict'
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `November 22th, 2020`,
-    series: `Standalone`,
-    title: `Be the One, Not the Nine`,
-    text: `Luke 17:11-19`,
+    date: `November 29th, 2020`,
+    series: `Advent`,
+    title: `But the Substance is Christ`,
+    text: `Colossians 2:16-17`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -31,6 +31,37 @@ let announcementsStore = [
     link: `https://www.facebook.com/voiceofrefugees/`,
     linkText: `Learn more`
     },{
+    title: `Outdoor Sunday Worship Gathering`,
+    date: `December 20, 2020 9:30AM`,
+    url: `"Images/Outdoor December Sunday Worship Gatherings.jpg"`,
+    alt: `image of person worshipping with hands raised`,
+    description: `
+    <p> 
+        Because of the spike in Coronavirus cases and the outlook moving forward, it doesn’t appear that we’ll be fully reopening anytime soon. 
+        However, we want to provide a space and time that we can worship and be present with one another. We will be holding in-person monthly outdoor Sunday 
+        gatherings, with the implementation of proper safety guidelines for COVID-19, on December 20, 2020 at 9:30am.
+    </p>
+    <p> 
+        If you are attending, please sign up here: (<a href='https://forms.gle/vVQ5DcXy3Jy4Lm3t8' target="_blank">Google Form</a>) and please bring a mask! 
+        We will be practicing social distancing under canopies and provide hand sanitizer and medical masks to those who don't have any. 
+        Please refrain from joining us if you're experiencing any symptoms of sickness.
+        (<a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html' target="_blank">cdc.gov/coronavirus-symptoms</a>). 
+    </p>`,
+    link: `https://forms.gle/vVQ5DcXy3Jy4Lm3t8`,
+    linkText: `Let us know you're coming`
+    },{
+    title: `Read the Word - December 2020`,
+    date: `2020`,
+    url: `"Images/Read the Word Dec 2020 Announcement.jpg"`,
+    alt: `Image of 5 day plan`,
+    description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us 
+    through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and 
+    use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. Click the link below to download
+    a copy of the plan.`,
+    link: `https://www.dropbox.com/s/41iac6sa52d3jlr/Read%20the%20Word%20-%20December.png?dl=0`,
+    linkText: `Download the Plan`
+    }
+    /*{
     title: `Membership`,
     date: `Coming soon`,
     url: `"Images/Membership Slide October 2020.jpg"`,
@@ -50,8 +81,7 @@ let announcementsStore = [
     <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
     link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
     linkText: `Sign Up`
-    }
-    /*{
+    },{
     title: `Praise and Prayer Gathering`,
     date: `November 21, 2020 10:00AM`,
     url: `"Images/Morning Worship and Prayer Nov 2020.jpg"`, //spaces in the file name requires double quotes "" around it.
@@ -61,41 +91,11 @@ let announcementsStore = [
     link: `https://www.the-exchange-church.com/live`,
     linkText: `Join us Online`
     },{
-    title: `Outdoor Sunday Worship Gathering`,
-    date: `November 22, 2020 9:30AM`,
-    url: `"Images/Outdoor Sunday Worship Gatherings November 2020.jpg"`,
-    alt: `image of person worshipping with hands raised`,
-    description: `
-    <p> 
-        Because of the spike in Coronavirus cases and the outlook moving forward, it doesn’t appear that we’ll be fully reopening anytime soon. 
-        However, we want to provide a space and time that we can worship and be present with one another. We will be holding in-person monthly outdoor Sunday 
-        gatherings, with the implementation of proper safety guidelines for COVID-19, on November 22, 2020 at 9:30am.
-    </p>
-    <p> 
-        If you are attending, please sign up here: (<a href='https://forms.gle/ni5kbv1NDcfNTnDL7' target="_blank">Google Form</a>) and please bring a mask! 
-        We will be practicing social distancing under canopies and provide hand sanitizer and medical masks to those who don't have any. 
-        Please refrain from joining us if you're experiencing any symptoms of sickness.
-        (<a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html' target="_blank">cdc.gov/coronavirus-symptoms</a>). 
-    </p>`,
-    link: `https://forms.gle/ni5kbv1NDcfNTnDL7`,
-    linkText: `Let us know you're coming`
-    },{
     title: `Online Fellowship`,
     date: `After Sunday Service`,
     description: `Come join us every Sunday after service for fellowship online via Zoom located at this link: 
     <a class="announceLinkinP" href='https://bit.ly/2WXXaA5' target="_blank"> https://bit.ly/2WXXaA5 </a>
      or you may manually enter the Zoom Meeting ID: 429 029 4197. Please enter exchange when prompted for the password.`
-    },{
-    title: `Read the Word - November 2020`,
-    date: `2020`,
-    url: `"Images/Read the Word November 2020.jpg"`,
-    alt: `Image of 5 day plan`,
-    description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us 
-    through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and 
-    use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. Click the link below to download
-    a copy of the plan.`,
-    link: `https://www.dropbox.com/s/mcottoy42uttz0q/RTW%20-%20November.png?dl=0`,
-    linkText: `Download the Plan`
     },{
     title: `Questions and Prayer Requests`,
     date: `2020`,
@@ -181,11 +181,11 @@ let orderOfWorship = [
 ];
 
 let worshipLyrics = [
-    /*{
+    {
     title: `Check back on November 22nd`,
     description: `Worship lyrics are available once a month for our socially-distanced, outdoor service.`
-    }*/
-    {
+    }
+    /*{
     title: `Call To Worship`,
     description: `<pre class="lyricsDesc">
     Micah 7:18‭-‬20
@@ -284,7 +284,7 @@ let worshipLyrics = [
     You stand alone, I stand amazed
     Jesus, only Jesus
     Jesus, only Jesus`
-    }
+    }*/
     ];
 
 function fillSermon() {
