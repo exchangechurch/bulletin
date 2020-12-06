@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `November 29th, 2020`,
+    date: `December 6th, 2020`,
     series: `Advent`,
-    title: `But the Substance is Christ`,
-    text: `Colossians 2:16-17`,
+    title: `Trusting in Immanuel`,
+    text: `Isaiah 7:10-14`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -49,7 +49,8 @@ let announcementsStore = [
     </p>`,
     link: `https://forms.gle/vVQ5DcXy3Jy4Lm3t8`,
     linkText: `Let us know you're coming`
-    },{
+    }
+    /*{
     title: `Read the Word - December 2020`,
     date: `2020`,
     url: `"Images/Read the Word Dec 2020 Announcement.jpg"`,
@@ -60,8 +61,7 @@ let announcementsStore = [
     a copy of the plan.`,
     link: `https://www.dropbox.com/s/41iac6sa52d3jlr/Read%20the%20Word%20-%20December.png?dl=0`,
     linkText: `Download the Plan`
-    }
-    /*{
+    },{
     title: `Membership`,
     date: `Coming soon`,
     url: `"Images/Membership Slide October 2020.jpg"`,
