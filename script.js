@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `December 6th, 2020`,
+    date: `December 13th, 2020`,
     series: `Advent`,
-    title: `Trusting in Immanuel`,
-    text: `Isaiah 7:10-14`,
+    title: `Celebrating the Silence`,
+    text: `Luke 2:1-14`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -378,7 +378,6 @@ function fillContact(){
             <p class='contactDesc'>The Exchange Church<br>2341 W Lincoln Ave Anaheim, CA 92801 <br> <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a></p>
             <a id='webLink' href='http://www.the-exchange-church.com'>the-exchange-church.com</a>
             <p class='contactDesc'>Joe Suh, Lead Pastor <br><a href='mailto:pastorjoe@the-exchange-church.com'>pastorjoe@the-exchange-church.com</a></p>
-            <p class='contactDesc'>Randy Cho, Associate Pastor <br><a href='mailto:randy@the-exchange-church.com'>randy@the-exchange-church.com</a></p>
             <p class='contactDesc'><br><br>Fill out the form below to get on our mailing list and to share any comments or concerns you may have.</p>
         </div>
         <div align = "center">
