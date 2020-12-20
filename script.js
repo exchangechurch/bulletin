@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `December 13th, 2020`,
+    date: `December 20th, 2020`,
     series: `Advent`,
-    title: `Celebrating the Silence`,
-    text: `Luke 2:1-14`,
+    title: `The Gift of Future Grace`,
+    text: `Luke 2:36-38`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -21,7 +21,7 @@ let announcementsStore = [
     linkText: `Connect with us`
     },{
     title: `Serve the Voice of Refugees`,
-    date: `September 21st - Dececember 17th`,
+    date: ``,
     url: `"Images/VOR Serving Slide Sept 2020.jpg"`,
     alt: `"VOR Volunteer Slide"`,
     description: `With the COVID-19 crisis impacting refugees and the Voice of Refugees organization, we want to highlight a few opportunities to serve/help 
@@ -30,7 +30,7 @@ let announcementsStore = [
     please clink the link below.`,
     link: `https://www.facebook.com/voiceofrefugees/`,
     linkText: `Learn more`
-    },{
+    },/*{
     title: `Outdoor Sunday Worship Gathering`,
     date: `December 20, 2020 9:30AM`,
     url: `"Images/Outdoor December Sunday Worship Gatherings.jpg"`,
@@ -49,8 +49,7 @@ let announcementsStore = [
     </p>`,
     link: `https://forms.gle/vVQ5DcXy3Jy4Lm3t8`,
     linkText: `Let us know you're coming`
-    }
-    /*{
+    },{
     title: `Read the Word - December 2020`,
     date: `2020`,
     url: `"Images/Read the Word Dec 2020 Announcement.jpg"`,
@@ -181,81 +180,67 @@ let orderOfWorship = [
 ];
 
 let worshipLyrics = [
-    {
+    /*{
     title: `Check back on December 20th`,
     description: `Worship lyrics are available once a month for our socially-distanced, outdoor service.`
-    }
-    /*{
+    }*/
+    {
     title: `Call To Worship`,
     description: `<pre class="lyricsDesc">
-    Micah 7:18‭-‬20
+    Psalm 8:3‭-‬4
 
-    Who is a God like you, pardoning iniquity 
-        and passing over transgression 
-        for the remnant of his inheritance? 
-    He does not retain his anger forever, 
-        because he delights in steadfast love. 
-    He will again have compassion on us; 
-        he will tread our iniquities underfoot. 
-    You will cast all our sins 
-        into the depths of the sea. 
-    You will show faithfulness to Jacob 
-        and steadfast love to Abraham, 
-    as you have sworn to our fathers 
-        from the days of old. (ESV)`
+    When I look at your heavens, 
+    the work of your fingers, 
+    the moon and the stars, 
+    which you have set in place, 
+    what is man that you are mindful of him, 
+    and the son of man that you care for him? (ESV)`
     },{
-    title: `Your Love Awakens Me`,
+    title: `Oh, Come, All Ye Faithful`,
     description: `<pre class="lyricsDesc">
-    There were walls between us, 
-    By the Cross You came and 
-    broke them down, broke them down
+    Oh, come, all ye faithful,
+    Joyful and triumphant
+    Oh, come ye, oh come ye to Bethlehem
+    Come and behold him,
+    Born the King of angels
 
-    There were chains around us, 
-    By Your grace we are 
-    no longer bound, no longer bound
-    You called me out of the grave, 
-    You called me into the night
-    You called my name, 
-    and then my heart came alive
+        Oh, come, let us adore him
+        Oh, come, let us adore him
+        Oh, come, let us adore him
+        Christ, the Lord
 
-        Your love is greater, Your love is stronger
-        Your love awakens, awakens, awakens me
+    Sing, choirs of angels,
+    Sing in exultation
+    Sing, all ye citizens of heav’n above
+    Glory to God,
+    Glory in the highest
 
-    Feel the darkness shaking, 
-    All the dead are coming 
-    back to life, back to life
-    Hear the song awaken, 
-    All creation singing we’re alive, 
-    cause You’re alive
+    Yea, Lord, we greet thee,
+    Born this happy morning
+    Jesus, to thee be all glory giv’n
+    Word of the Father,
+    Now in flesh appearing
 
-        And what a love we found, 
-        death can’t hold us down
-        We shout it out, 
-        “We’re alive cause You’re alive”`
+        We’ll praise Your name forever
+        We’ll praise Your name forever
+        We’ll praise Your name forever
+        Christ the Lord`
     },{
-    title: `Jesus, Messiah`,
+    title: `Friend of God`,
     description: `<pre class="lyricsDesc">
-    He became sin, who knew no sin
-    That we might become His righteousness
-    He humbled Himself and carried the cross
-    Love so amazing, love so amazing
+    Who am I that You are mindful of me
+    That You hear me when I call
+    Is it true that You are thinking of me
+    How You love me, 
+    it’s amazing
 
-        Jesus, Messiah, 
-        name above all names
-        Blessed Redeemer, Emmanuel
-        The rescue for sinners, 
-        the ransom from heaven
-        Jesus, Messiah, Lord of all
+    I am a friend of God, 
+    I am a friend of God
+    I am a friend of God, 
+    He calls me friend
 
-    His body the bread, His blood the wine
-    Broken and poured out all for love
-    The whole world trembled and the veil was torn
-    Love so amazing, love so amazing
-
-    All our hope is in You, 
-    all our hope is in You
-    All the glory to You, 
-    God, the Light of the world`
+    God almighty, Lord of Glory
+    You have called me friend`
     },{
     title: `Jesus, Only Jesus`,
     description: `<pre class="lyricsDesc">
@@ -284,7 +269,7 @@ let worshipLyrics = [
     You stand alone, I stand amazed
     Jesus, only Jesus
     Jesus, only Jesus`
-    }*/
+    }
     ];
 
 function fillSermon() {
