@@ -22,7 +22,7 @@ let announcementsStore = [
     },{
     title: `Serve the Voice of Refugees`,
     date: ``,
-    url: `"Images/VOR Serving Slide Sept 2020.jpg"`,
+    url: `"Images/VOR Serving Slide Dec 2020.jpg"`,
     alt: `"VOR Volunteer Slide"`,
     description: `With the COVID-19 crisis impacting refugees and the Voice of Refugees organization, we want to highlight a few opportunities to serve/help 
     those in need and support the <a class="announceLinkinP" href='https://vorservices.org/volunteers/' target="_blank">VOR</a> mission: Putting God’s love into action 
