@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `December 20th, 2020`,
+    date: `December 27th, 2020`,
     series: `Advent`,
-    title: `The Gift of Future Grace`,
-    text: `Luke 2:36-38`,
+    title: `Real Joy & Peace`,
+    text: `Philippians 4:4-7`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -30,7 +30,18 @@ let announcementsStore = [
     please clink the link below.`,
     link: `https://www.facebook.com/voiceofrefugees/`,
     linkText: `Learn more`
-    },/*{
+    },{
+    title: `Read the Word - January 2021`,
+    date: `2021`,
+    url: `"Images/Read the Word Dec 2020 Announcement.jpg"`,
+    alt: `Image of 5 day plan`,
+    description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us 
+    through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and 
+    use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. Click the link below to download
+    a copy of the plan.`,
+    //link: `https://www.dropbox.com/s/41iac6sa52d3jlr/Read%20the%20Word%20-%20December.png?dl=0`,
+    //linkText: `Download the Plan`
+    }/*{
     title: `Outdoor Sunday Worship Gathering`,
     date: `December 20, 2020 9:30AM`,
     url: `"Images/Outdoor December Sunday Worship Gatherings.jpg"`,
@@ -49,17 +60,6 @@ let announcementsStore = [
     </p>`,
     link: `https://forms.gle/vVQ5DcXy3Jy4Lm3t8`,
     linkText: `Let us know you're coming`
-    },{
-    title: `Read the Word - December 2020`,
-    date: `2020`,
-    url: `"Images/Read the Word Dec 2020 Announcement.jpg"`,
-    alt: `Image of 5 day plan`,
-    description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us 
-    through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and 
-    use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. Click the link below to download
-    a copy of the plan.`,
-    link: `https://www.dropbox.com/s/41iac6sa52d3jlr/Read%20the%20Word%20-%20December.png?dl=0`,
-    linkText: `Download the Plan`
     },{
     title: `Membership`,
     date: `Coming soon`,
@@ -180,11 +180,11 @@ let orderOfWorship = [
 ];
 
 let worshipLyrics = [
-    /*{
-    title: `Check back on December 20th`,
-    description: `Worship lyrics are available once a month for our socially-distanced, outdoor service.`
-    }*/
     {
+    title: `Check back on January 31st`,
+    description: `Worship lyrics are available once a month for our socially-distanced, outdoor service.`
+    }
+    /*{
     title: `Call To Worship`,
     description: `<pre class="lyricsDesc">
     Psalm 8:3‭-‬4
@@ -269,7 +269,7 @@ let worshipLyrics = [
     You stand alone, I stand amazed
     Jesus, only Jesus
     Jesus, only Jesus`
-    }
+    }*/
     ];
 
 function fillSermon() {
