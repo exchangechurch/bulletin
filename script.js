@@ -22,7 +22,7 @@ let announcementsStore = [
     },{
     title: `Read the Word - January 2021 & Devotional Guide`,
     date: `2021`,
-    url: `"Images/Read the Word Dec 2020 Announcement.jpg"`,
+    url: `"Images/Read the Word Jan 2021 Slide.jpg"`,
     alt: `Image of 5 day plan`,
     description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
     <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
