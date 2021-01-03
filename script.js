@@ -2,23 +2,56 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `December 27th, 2020`,
-    series: `Advent`,
-    title: `Real Joy & Peace`,
-    text: `Philippians 4:4-7`,
+    date: `January 3rd, 2021`,
+    series: `Philippians`,
+    title: `The Truth About Contentment`,
+    text: `Philippians 4:10-13`,
     speaker: `Pastor Joe Suh`
 }];
 
 let announcementsStore = [
     {
     title: `Connect With Us`,
-    date: `2020`,
+    date: `2021`,
     url: `"Images/Connect With Us Slide.jpg"`,
     alt: ``,
     description: `Thanks for joining us! If you're visiting for the first time or would like to learn more, we'd like to get to know more about you. Please 
     fill out the form at the link below to connect with us.`,
     link: `https://forms.gle/AneeqYAHvt3QNWhs8`,
     linkText: `Connect with us`
+    },{
+    title: `Read the Word - January 2021 & Devotional Guide`,
+    date: `2021`,
+    url: `"Images/Read the Word Dec 2020 Announcement.jpg"`,
+    alt: `Image of 5 day plan`,
+    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
+    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
+    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
+    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
+    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
+    to follow. Click the link below to download a copy of the monthly plan.`,
+    link: `https://www.dropbox.com/s/0co2gr234fe72x7/Read%20the%20Word%202021%20-%20January%20%28PDF%29.pdf?dl=0`,
+    linkText: `Download the Plan`
+    },{
+    title: `Life Group Sign-ups`,
+    date: `Winter 2021`,
+    url: `"Images/Life-Groups Jan 2021.jpg"`,
+    alt: `image of faded bibles`,
+    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
+    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
+    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
+    Please email 
+    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
+    link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
+    linkText: `Sign Up`
+    },{
+    title: `Membership`,
+    date: `Coming soon`,
+    url: `"Images/Membership Slide October 2020.jpg"`,
+    alt: `Image of membership`,
+    description: `We will be having our next round of membership classes soon! If you are interested in becoming a member or have questions please fill out the form linked below!`,
+    link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
+    linkText: `Sign Up`
     },{
     title: `Serve the Voice of Refugees`,
     date: ``,
@@ -31,16 +64,14 @@ let announcementsStore = [
     link: `https://www.facebook.com/voiceofrefugees/`,
     linkText: `Learn more`
     },{
-    title: `Read the Word - January 2021`,
-    date: `2021`,
-    url: `"Images/Read the Word Dec 2020 Announcement.jpg"`,
-    alt: `Image of 5 day plan`,
-    description: `This month, let us commit to reading the Word of God together in community. We will be providing a reading plan that will take us 
-    through the entire bible this year. It is called the 5 day plan and is also available on the Dwell App. We highly encourage you to download and 
-    use this app, particularly if you want to grow in God’s Word but have found it difficult to stick to a reading plan. Click the link below to download
-    a copy of the plan.`,
-    //link: `https://www.dropbox.com/s/41iac6sa52d3jlr/Read%20the%20Word%20-%20December.png?dl=0`,
-    //linkText: `Download the Plan`
+    title: `Heather's Commissioning`,
+    date: `Sunday 1/10 at 2:00PM`,
+    url: `"Images/Heather Commissioning Slide.jpg"`,
+    alt: `Image of Heather looking to the right`,
+    description: `Come join us on Sunday 1/10 at 2PM to send off Heather via Zoom (link TBD) as she embarks on permanent missions to Thailand where she will
+    train and develop local and native mental health professionals.`
+    //<a class="announceLinkinP" href='https://bit.ly/2WXXaA5' target="_blank"> https://bit.ly/2WXXaA5 </a>
+    //or you may manually enter the Zoom Meeting ID: 429 029 4197. Please enter exchange when prompted for the password.
     }/*{
     title: `Outdoor Sunday Worship Gathering`,
     date: `December 20, 2020 9:30AM`,
@@ -60,26 +91,6 @@ let announcementsStore = [
     </p>`,
     link: `https://forms.gle/vVQ5DcXy3Jy4Lm3t8`,
     linkText: `Let us know you're coming`
-    },{
-    title: `Membership`,
-    date: `Coming soon`,
-    url: `"Images/Membership Slide October 2020.jpg"`,
-    alt: `Image of membership`,
-    description: `We will be having our next round of membership classes soon! If you are interested in becoming a member or have questions please fill out the form linked below!`,
-    link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
-    linkText: `Sign Up`
-    },{
-    title: `Life Group Sign-ups`,
-    date: `Winter 2020`,
-    url: `"Images/Life-Groups 2020 Sign Up.jpg"`,
-    alt: `image of faded bibles`,
-    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
-    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
-    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
-    Please email 
-    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
-    link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
-    linkText: `Sign Up`
     },{
     title: `Praise and Prayer Gathering`,
     date: `November 21, 2020 10:00AM`,
