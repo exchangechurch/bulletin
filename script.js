@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `January 3rd, 2021`,
+    date: `January 10th, 2021`,
     series: `Philippians`,
-    title: `The Truth About Contentment`,
-    text: `Philippians 4:10-13`,
+    title: `The Importance of Gospel Generosity`,
+    text: `Philippians 4:14-20`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -45,14 +45,6 @@ let announcementsStore = [
     link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
     linkText: `Sign Up`
     },{
-    title: `Membership`,
-    date: `Coming soon`,
-    url: `"Images/Membership Slide October 2020.jpg"`,
-    alt: `Image of membership`,
-    description: `We will be having our next round of membership classes soon! If you are interested in becoming a member or have questions please fill out the form linked below!`,
-    link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
-    linkText: `Sign Up`
-    },{
     title: `Serve the Voice of Refugees`,
     date: ``,
     url: `"Images/VOR Serving Slide Dec 2020.jpg"`,
@@ -65,14 +57,23 @@ let announcementsStore = [
     linkText: `Learn more`
     },{
     title: `Heather's Commissioning`,
-    date: `Sunday 1/10 at 2:00PM`,
+    date: `Today 1/10 at 2:00PM`,
     url: `"Images/Heather Commissioning Slide.jpg"`,
     alt: `Image of Heather looking to the right`,
-    description: `Come join us on Sunday 1/10 at 2PM to send off Heather via Zoom (link TBD) as she embarks on permanent missions to Thailand where she will
-    train and develop local and native mental health professionals.`
+    description: `We are so thankful that God has opened a way for our sister Heather to start her overseas missionary journey! We will be having a commissioning 
+    gathering via Zoom today, January 10th at 2pm, where she will share her testimony and prayer requests, and where we can send her off and pray for her. Check your
+    email for the link.`
     //<a class="announceLinkinP" href='https://bit.ly/2WXXaA5' target="_blank"> https://bit.ly/2WXXaA5 </a>
     //or you may manually enter the Zoom Meeting ID: 429 029 4197. Please enter exchange when prompted for the password.
     }/*{
+    title: `Membership`,
+    date: `Coming soon`,
+    url: `"Images/Membership Slide October 2020.jpg"`,
+    alt: `Image of membership`,
+    description: `We will be having our next round of membership classes soon! If you are interested in becoming a member or have questions please fill out the form linked below!`,
+    link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
+    linkText: `Sign Up`
+    },{
     title: `Outdoor Sunday Worship Gathering`,
     date: `December 20, 2020 9:30AM`,
     url: `"Images/Outdoor December Sunday Worship Gatherings.jpg"`,
