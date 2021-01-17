@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `January 10th, 2021`,
-    series: `Philippians`,
-    title: `The Importance of Gospel Generosity`,
-    text: `Philippians 4:14-20`,
+    date: `January 17th, 2021`,
+    series: `Standalone`,
+    title: `A Different Kind of King`,
+    text: `1 Samuel 8:4-9`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -33,17 +33,14 @@ let announcementsStore = [
     link: `https://www.dropbox.com/s/0co2gr234fe72x7/Read%20the%20Word%202021%20-%20January%20%28PDF%29.pdf?dl=0`,
     linkText: `Download the Plan`
     },{
-    title: `Life Group Sign-ups`,
-    date: `Winter 2021`,
-    url: `"Images/Life-Groups Jan 2021.jpg"`,
-    alt: `image of faded bibles`,
-    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
-    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
-    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
-    Please email 
-    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
-    link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
-    linkText: `Sign Up`
+    title: `Praise and Prayer Gathering`,
+    date: `January 30, 2021 10:00AM`,
+    url: `"Images/Morning Worship and Prayer Jan 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of clouds`,
+    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
+    and corporate prayer. We will be streaming our gathering on Saturday January 30 at 10am at the link below.`,
+    link: `https://www.the-exchange-church.com/live`,
+    linkText: `Join us Online`
     },{
     title: `Serve the Voice of Refugees`,
     date: ``,
@@ -56,15 +53,12 @@ let announcementsStore = [
     link: `https://www.facebook.com/voiceofrefugees/`,
     linkText: `Learn more`
     },{
-    title: `Heather's Commissioning`,
-    date: `Today 1/10 at 2:00PM`,
-    url: `"Images/Heather Commissioning Slide.jpg"`,
-    alt: `Image of Heather looking to the right`,
-    description: `We are so thankful that God has opened a way for our sister Heather to start her overseas missionary journey! We will be having a commissioning 
-    gathering via Zoom today, January 10th at 2pm, where she will share her testimony and prayer requests, and where we can send her off and pray for her. Check your
-    email for the link.`
-    //<a class="announceLinkinP" href='https://bit.ly/2WXXaA5' target="_blank"> https://bit.ly/2WXXaA5 </a>
-    //or you may manually enter the Zoom Meeting ID: 429 029 4197. Please enter exchange when prompted for the password.
+    title: `No Outdoor Sunday Worship Gathering`,
+    date: `January 2021`,
+    //url: `"Images/Outdoor December Sunday Worship Gatherings.jpg"`,
+    //alt: `image of person worshipping with hands raised`,
+    description: ` Because of the spike in Coronavirus cases and the outlook moving forward, we will not be meeting this month in January for our Outdoor 
+    Sunday Worship Gathering. Stay tuned for our next scheduled date.`
     }/*{
     title: `Membership`,
     date: `Coming soon`,
@@ -93,15 +87,6 @@ let announcementsStore = [
     link: `https://forms.gle/vVQ5DcXy3Jy4Lm3t8`,
     linkText: `Let us know you're coming`
     },{
-    title: `Praise and Prayer Gathering`,
-    date: `November 21, 2020 10:00AM`,
-    url: `"Images/Morning Worship and Prayer Nov 2020.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of clouds`,
-    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
-    and corporate prayer. We will be streaming our gathering this Saturday November 21 at 10am at the link below.`,
-    link: `https://www.the-exchange-church.com/live`,
-    linkText: `Join us Online`
-    },{
     title: `Online Fellowship`,
     date: `After Sunday Service`,
     description: `Come join us every Sunday after service for fellowship online via Zoom located at this link: 
@@ -117,6 +102,18 @@ let announcementsStore = [
     <a class="announceLinkinP" href='mailto:info@the-exchange-church.com' target="_blank"> info@the-exchange-church.com</a>. 
     If you would like to contact Pastor Joe directly, you can find him at 
     <a class="announceLinkinP" href='mailto:pastorjoe@the-exchange-church.com' target="_blank"> pastorjoe@the-exchange-church.com</a>.`
+    },{
+    title: `Life Group Sign-ups`,
+    date: `Winter 2021`,
+    url: `"Images/Life-Groups Jan 2021.jpg"`,
+    alt: `image of faded bibles`,
+    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
+    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
+    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
+    Please email 
+    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
+    link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
+    linkText: `Sign Up`
     },{
     title: `Bloodlines`,
     date: `June 29, 2020`,
@@ -165,6 +162,16 @@ let announcementsStore = [
     url: `"Images/Monthly Outing.jpg"`,
     alt: `Image of Food`,
     description: `We will having our monthly fellowship outing today! It is an opportunity for our church people to spend time together in fellowship outside of our church setting. We will be meeting at Ramin Hajime (2717 W Lincoln Ave. Anaheim, CA 92801). We hope you can join us!`
+    },{
+    title: `Heather's Commissioning`,
+    date: `Today 1/10 at 2:00PM`,
+    url: `"Images/Heather Commissioning Slide.jpg"`,
+    alt: `Image of Heather looking to the right`,
+    description: `We are so thankful that God has opened a way for our sister Heather to start her overseas missionary journey! We will be having a commissioning 
+    gathering via Zoom today, January 10th at 2pm, where she will share her testimony and prayer requests, and where we can send her off and pray for her. Check your
+    email for the link.`
+    //<a class="announceLinkinP" href='https://bit.ly/2WXXaA5' target="_blank"> https://bit.ly/2WXXaA5 </a>
+    //or you may manually enter the Zoom Meeting ID: 429 029 4197. Please enter exchange when prompted for the password.
     }*/
 ];
 
@@ -193,7 +200,7 @@ let orderOfWorship = [
 
 let worshipLyrics = [
     {
-    title: `Check back on January 31st`,
+    title: `Check back on February 28th`,
     description: `Worship lyrics are available once a month for our socially-distanced, outdoor service.`
     }
     /*{
