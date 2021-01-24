@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `January 17th, 2021`,
-    series: `Standalone`,
-    title: `A Different Kind of King`,
-    text: `1 Samuel 8:4-9`,
+    date: `January 24th, 2021`,
+    series: `Church & State`,
+    title: `Politics (Where should our Allegiance lie?)`,
+    text: `Matthew 22:15-22`,
     speaker: `Pastor Joe Suh`
 }];
 
