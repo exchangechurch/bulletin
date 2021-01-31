@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `January 24th, 2021`,
+    date: `January 31st, 2021`,
     series: `Church & State`,
-    title: `Politics (Where should our Allegiance lie?)`,
-    text: `Matthew 22:15-22`,
+    title: `Living for the Common Good`,
+    text: `Jeremiah 29:4-7`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -20,9 +20,9 @@ let announcementsStore = [
     link: `https://forms.gle/AneeqYAHvt3QNWhs8`,
     linkText: `Connect with us`
     },{
-    title: `Read the Word - January 2021 & Devotional Guide`,
+    title: `Read the Word - February 2021 & Devotional Guide`,
     date: `2021`,
-    url: `"Images/Read the Word Jan 2021 Slide.jpg"`,
+    url: `"Images/Read the Word Feb 2021 Slide.jpg"`,
     alt: `Image of 5 day plan`,
     description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
     <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
@@ -30,18 +30,34 @@ let announcementsStore = [
     This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
     his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
     to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/0co2gr234fe72x7/Read%20the%20Word%202021%20-%20January%20%28PDF%29.pdf?dl=0`,
+    link: `https://www.dropbox.com/s/3hfi8k02mqc0ke8/Read%20the%20Word%20-%20Feb%20%28PNG%29.png?dl=0`,
     linkText: `Download the Plan`
     },{
-    title: `Praise and Prayer Gathering`,
-    date: `January 30, 2021 10:00AM`,
-    url: `"Images/Morning Worship and Prayer Jan 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of clouds`,
-    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
-    and corporate prayer. We will be streaming our gathering on Saturday January 30 at 10am at the link below.`,
-    link: `https://www.the-exchange-church.com/live`,
-    linkText: `Join us Online`
-    },{
+    title: `Serve the Voice of Refugees`,
+    date: ``,
+    url: `"Images/VOR Tutoring Slide.jpg"`,
+    alt: `"VOR Volunteer Slide"`,
+    description: `With the COVID-19 crisis impacting refugees and the Voice of Refugees organization, we want to highlight a few opportunities to serve/help 
+    those in need and support the <a class="announceLinkinP" href='https://vorservices.org/volunteers/' target="_blank">VOR</a> mission: Putting God’s love into action 
+    by assisting the refugee and asylum-seeking community to re-establish and assimilate their lives in the United States. 
+    <br><br>
+    Who? Need Christ followers who enjoy working with students and are knowledgeable in tutoring subject.
+    <br>
+    What: Tutors work with our volunteer coordinator to setup a good match (gender, tutor comfortable with subject, timing…). Classes are all online, Zoom. Commit to only eight weeks, renew at will.
+    <br>
+    When? Mondays or Thursdays | 5:30 PM to 6:30 PM (a unique day/time can be established by student family and tutor)
+    <br>
+    <br>
+    The subjects are: <br>
+    3rd grade English, reading and math<br>
+    6th grade Math<br>
+    8th grade English, Math, Biology<br>
+    10th grade All Subjects – Homework help<br>
+    11th grade English, Science, Computing<br><br>
+    If you would like to learn more, please clink the link below.`,
+    link: `https://www.facebook.com/voiceofrefugees/`,
+    linkText: `Learn more`
+    }/*{
     title: `Serve the Voice of Refugees`,
     date: ``,
     url: `"Images/VOR Serving Slide Dec 2020.jpg"`,
@@ -59,7 +75,7 @@ let announcementsStore = [
     //alt: `image of person worshipping with hands raised`,
     description: ` Because of the spike in Coronavirus cases and the outlook moving forward, we will not be meeting this month in January for our Outdoor 
     Sunday Worship Gathering. Stay tuned for our next scheduled date.`
-    }/*{
+    },{
     title: `Membership`,
     date: `Coming soon`,
     url: `"Images/Membership Slide October 2020.jpg"`,
@@ -67,6 +83,15 @@ let announcementsStore = [
     description: `We will be having our next round of membership classes soon! If you are interested in becoming a member or have questions please fill out the form linked below!`,
     link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
     linkText: `Sign Up`
+    },{
+    title: `Praise and Prayer Gathering`,
+    date: `January 30, 2021 10:00AM`,
+    url: `"Images/Morning Worship and Prayer Jan 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of clouds`,
+    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
+    and corporate prayer. We will be streaming our gathering on Saturday January 30 at 10am at the link below.`,
+    link: `https://www.the-exchange-church.com/live`,
+    linkText: `Join us Online`
     },{
     title: `Outdoor Sunday Worship Gathering`,
     date: `December 20, 2020 9:30AM`,
