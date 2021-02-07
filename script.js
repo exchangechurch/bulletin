@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `January 31st, 2021`,
+    date: `February 7th, 2021`,
     series: `Church & State`,
-    title: `Living for the Common Good`,
-    text: `Jeremiah 29:4-7`,
+    title: `The Value and Meaning of Human Life`,
+    text: `Genesis 1:26-28`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -19,19 +19,6 @@ let announcementsStore = [
     fill out the form at the link below to connect with us.`,
     link: `https://forms.gle/AneeqYAHvt3QNWhs8`,
     linkText: `Connect with us`
-    },{
-    title: `Read the Word - February 2021 & Devotional Guide`,
-    date: `2021`,
-    url: `"Images/Read the Word Feb 2021 Slide.jpg"`,
-    alt: `Image of 5 day plan`,
-    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
-    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
-    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
-    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
-    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
-    to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/3hfi8k02mqc0ke8/Read%20the%20Word%20-%20Feb%20%28PNG%29.png?dl=0`,
-    linkText: `Download the Plan`
     },{
     title: `Serve the Voice of Refugees`,
     date: ``,
@@ -57,7 +44,32 @@ let announcementsStore = [
     If you would like to learn more, please clink the link below.`,
     link: `https://www.facebook.com/voiceofrefugees/`,
     linkText: `Learn more`
+    },{
+    title: `Life Group Sign-ups`,
+    date: `2021`,
+    url: `"Images/Life-Groups Jan 2021.jpg"`,
+    alt: `image of faded bibles`,
+    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
+    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
+    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
+    Please email 
+    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
+    link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
+    linkText: `Sign Up`
     }/*{
+    title: `Read the Word - February 2021 & Devotional Guide`,
+    date: `2021`,
+    url: `"Images/Read the Word Feb 2021 Slide.jpg"`,
+    alt: `Image of 5 day plan`,
+    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
+    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
+    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
+    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
+    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
+    to follow. Click the link below to download a copy of the monthly plan.`,
+    link: `https://www.dropbox.com/s/3hfi8k02mqc0ke8/Read%20the%20Word%20-%20Feb%20%28PNG%29.png?dl=0`,
+    linkText: `Download the Plan`
+    },{
     title: `Serve the Voice of Refugees`,
     date: ``,
     url: `"Images/VOR Serving Slide Dec 2020.jpg"`,
@@ -127,18 +139,6 @@ let announcementsStore = [
     <a class="announceLinkinP" href='mailto:info@the-exchange-church.com' target="_blank"> info@the-exchange-church.com</a>. 
     If you would like to contact Pastor Joe directly, you can find him at 
     <a class="announceLinkinP" href='mailto:pastorjoe@the-exchange-church.com' target="_blank"> pastorjoe@the-exchange-church.com</a>.`
-    },{
-    title: `Life Group Sign-ups`,
-    date: `Winter 2021`,
-    url: `"Images/Life-Groups Jan 2021.jpg"`,
-    alt: `image of faded bibles`,
-    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
-    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
-    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
-    Please email 
-    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
-    link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
-    linkText: `Sign Up`
     },{
     title: `Bloodlines`,
     date: `June 29, 2020`,
