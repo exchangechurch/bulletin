@@ -2,9 +2,9 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `February 7th, 2021`,
+    date: `February 14th, 2021`,
     series: `Church & State`,
-    title: `The Value and Meaning of Human Life`,
+    title: `The Value and Meaning of Human Life pt.2`,
     text: `Genesis 1:26-28`,
     speaker: `Pastor Joe Suh`
 }];
@@ -45,6 +45,34 @@ let announcementsStore = [
     link: `https://www.facebook.com/voiceofrefugees/`,
     linkText: `Learn more`
     },{
+    title: `Outdoor Sunday Worship Gathering`,
+    date: `February 28, 2020 9:30AM`,
+    url: `"Images/Outdoor Sunday Worship Feb 2021.jpg"`,
+    alt: `image of person worshipping with hands raised`,
+    description: `
+    <p> 
+        Because of the spike in Coronavirus cases and the outlook moving forward, it doesn’t appear that we’ll be fully reopening anytime soon. 
+        However, we want to provide a space and time that we can worship and be present with one another. We will be holding in-person monthly outdoor Sunday 
+        gatherings, with the implementation of proper safety guidelines for COVID-19, on February 28, 2020 at 9:30am.
+    </p>
+    <p> 
+        If you are attending, please sign up here: (<a href='https://forms.gle/vVQ5DcXy3Jy4Lm3t8' target="_blank">Google Form</a>) and please bring a mask! 
+        We will be practicing social distancing under canopies and provide hand sanitizer and medical masks to those who don't have any. 
+        Please refrain from joining us if you're experiencing any symptoms of sickness.
+        (<a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html' target="_blank">cdc.gov/coronavirus-symptoms</a>). 
+    </p>`,
+    link: `https://forms.gle/vVQ5DcXy3Jy4Lm3t8`,
+    linkText: `Let us know you're coming`
+    },{
+    title: `Members Meeting`,
+    date: `March 7, 2021 1:30PM`,
+    url: `"Images/Members Meeting 2021 Slide.jpg"`,
+    alt: `Image of flowers`,
+    description: `Stay tuned for details on March 7, 2021 for our yearly Members Meeting on Sunday, March 7, 2021 at 1:30PM. The meeting will be hosted via Zoom.
+    Please check back for the updated link.`,
+    link: `placeholder`,
+    linkText: `Link TBD`
+    }/*{
     title: `Life Group Sign-ups`,
     date: `2021`,
     url: `"Images/Life-Groups Jan 2021.jpg"`,
@@ -56,7 +84,7 @@ let announcementsStore = [
     <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
     link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
     linkText: `Sign Up`
-    }/*{
+    },{
     title: `Read the Word - February 2021 & Devotional Guide`,
     date: `2021`,
     url: `"Images/Read the Word Feb 2021 Slide.jpg"`,
@@ -104,25 +132,6 @@ let announcementsStore = [
     and corporate prayer. We will be streaming our gathering on Saturday January 30 at 10am at the link below.`,
     link: `https://www.the-exchange-church.com/live`,
     linkText: `Join us Online`
-    },{
-    title: `Outdoor Sunday Worship Gathering`,
-    date: `December 20, 2020 9:30AM`,
-    url: `"Images/Outdoor December Sunday Worship Gatherings.jpg"`,
-    alt: `image of person worshipping with hands raised`,
-    description: `
-    <p> 
-        Because of the spike in Coronavirus cases and the outlook moving forward, it doesn’t appear that we’ll be fully reopening anytime soon. 
-        However, we want to provide a space and time that we can worship and be present with one another. We will be holding in-person monthly outdoor Sunday 
-        gatherings, with the implementation of proper safety guidelines for COVID-19, on December 20, 2020 at 9:30am.
-    </p>
-    <p> 
-        If you are attending, please sign up here: (<a href='https://forms.gle/vVQ5DcXy3Jy4Lm3t8' target="_blank">Google Form</a>) and please bring a mask! 
-        We will be practicing social distancing under canopies and provide hand sanitizer and medical masks to those who don't have any. 
-        Please refrain from joining us if you're experiencing any symptoms of sickness.
-        (<a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html' target="_blank">cdc.gov/coronavirus-symptoms</a>). 
-    </p>`,
-    link: `https://forms.gle/vVQ5DcXy3Jy4Lm3t8`,
-    linkText: `Let us know you're coming`
     },{
     title: `Online Fellowship`,
     date: `After Sunday Service`,
