@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `February 14th, 2021`,
+    date: `February 21st, 2021`,
     series: `Church & State`,
-    title: `The Value and Meaning of Human Life pt.2`,
-    text: `Genesis 1:26-28`,
+    title: `What Does Injustice Tell us About Us?`,
+    text: `Matthew 25:31-46`,
     speaker: `Pastor Joe Suh`
 }];
 
