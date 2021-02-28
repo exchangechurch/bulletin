@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `February 21st, 2021`,
-    series: `Church & State`,
-    title: `What Does Injustice Tell us About Us?`,
-    text: `Matthew 25:31-46`,
+    date: `February 28st, 2021`,
+    series: `Standalone`,
+    title: `Forgiveness for the Unforgiveable`,
+    text: `Genesis 50:16-21`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -22,29 +22,43 @@ let announcementsStore = [
     },{
     title: `Serve the Voice of Refugees`,
     date: ``,
-    url: `"Images/VOR Tutoring Slide.jpg"`,
-    alt: `"VOR Volunteer Slide"`,
+    url: `"Images/VOR English Conversation Cafe.jpg"`,
+    alt: `"Image of cafe"`,
     description: `With the COVID-19 crisis impacting refugees and the Voice of Refugees organization, we want to highlight a few opportunities to serve/help 
     those in need and support the <a class="announceLinkinP" href='https://vorservices.org/volunteers/' target="_blank">VOR</a> mission: Putting God’s love into action 
     by assisting the refugee and asylum-seeking community to re-establish and assimilate their lives in the United States. 
     <br><br>
-    Who? Need Christ followers who enjoy working with students and are knowledgeable in tutoring subject.
+    What? Help refugees improve their English speaking through structured and informal conversational methods.
     <br>
-    What: Tutors work with our volunteer coordinator to setup a good match (gender, tutor comfortable with subject, timing…). Classes are all online, Zoom. Commit to only eight weeks, renew at will.
-    <br>
-    When? Mondays or Thursdays | 5:30 PM to 6:30 PM (a unique day/time can be established by student family and tutor)
+    When? Thursdays | 7:00PM to 8:30PM
     <br>
     <br>
-    The subjects are: <br>
-    3rd grade English, reading and math<br>
-    6th grade Math<br>
-    8th grade English, Math, Biology<br>
-    10th grade All Subjects – Homework help<br>
-    11th grade English, Science, Computing<br><br>
     If you would like to learn more, please clink the link below.`,
     link: `https://www.facebook.com/voiceofrefugees/`,
     linkText: `Learn more`
     },{
+    title: `Read the Word - March 2021 & Devotional Guide`,
+    date: `2021`,
+    url: `"Images/Read the Word Mar 2021 Slide.jpg"`,
+    alt: `Image of 5 day plan`,
+    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
+    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
+    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
+    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
+    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
+    to follow. Click the link below to download a copy of the monthly plan.`,
+    link: `https://www.dropbox.com/s/tc1nnfs0af10rrg/Read%20the%20Word%20-%20March%20%28PDF%29.pdf?dl=0`,
+    linkText: `Download the Plan`
+    },{
+    title: `Members Meeting`,
+    date: `March 7, 2021 1:30PM`,
+    url: `"Images/Members Meeting 2021 Slide.jpg"`,
+    alt: `Image of flowers`,
+    description: `Stay tuned for details on March 7, 2021 for our yearly Members Meeting on Sunday, March 7, 2021 at 1:30PM. The meeting will be hosted via Zoom.
+    Please check back for the updated link.`,
+    link: `placeholder`,
+    linkText: `Link TBD`
+    }/*,{
     title: `Outdoor Sunday Worship Gathering`,
     date: `February 28, 2020 9:30AM`,
     url: `"Images/Outdoor Sunday Worship Feb 2021.jpg"`,
@@ -64,15 +78,6 @@ let announcementsStore = [
     link: `https://forms.gle/vVQ5DcXy3Jy4Lm3t8`,
     linkText: `Let us know you're coming`
     },{
-    title: `Members Meeting`,
-    date: `March 7, 2021 1:30PM`,
-    url: `"Images/Members Meeting 2021 Slide.jpg"`,
-    alt: `Image of flowers`,
-    description: `Stay tuned for details on March 7, 2021 for our yearly Members Meeting on Sunday, March 7, 2021 at 1:30PM. The meeting will be hosted via Zoom.
-    Please check back for the updated link.`,
-    link: `placeholder`,
-    linkText: `Link TBD`
-    }/*{
     title: `Life Group Sign-ups`,
     date: `2021`,
     url: `"Images/Life-Groups Jan 2021.jpg"`,
@@ -84,19 +89,6 @@ let announcementsStore = [
     <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
     link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
     linkText: `Sign Up`
-    },{
-    title: `Read the Word - February 2021 & Devotional Guide`,
-    date: `2021`,
-    url: `"Images/Read the Word Feb 2021 Slide.jpg"`,
-    alt: `Image of 5 day plan`,
-    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
-    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
-    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
-    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
-    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
-    to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/3hfi8k02mqc0ke8/Read%20the%20Word%20-%20Feb%20%28PNG%29.png?dl=0`,
-    linkText: `Download the Plan`
     },{
     title: `Serve the Voice of Refugees`,
     date: ``,
@@ -233,96 +225,127 @@ let orderOfWorship = [
 ];
 
 let worshipLyrics = [
-    {
+    /*{
     title: `Check back on February 28th`,
     description: `Worship lyrics are available once a month for our socially-distanced, outdoor service.`
-    }
-    /*{
+    }*/
+    {
     title: `Call To Worship`,
     description: `<pre class="lyricsDesc">
-    Psalm 8:3‭-‬4
+    Psalm 139:11‭-‬14
 
-    When I look at your heavens, 
-    the work of your fingers, 
-    the moon and the stars, 
-    which you have set in place, 
-    what is man that you are mindful of him, 
-    and the son of man that you care for him? (ESV)`
+    If I say, 
+    "Surely the darkness shall cover me, 
+    and the light about me be night," 
+    even the darkness is not dark to you; 
+    the night is bright as the day, 
+    for darkness is as light with you. 
+
+    For you formed my inward parts; 
+    you knitted me together in my mother's womb. 
+    I praise you, 
+    for I am fearfully and wonderfully made. 
+    Wonderful are your works; 
+    my soul knows it very well.
+    (ESV)`
     },{
-    title: `Oh, Come, All Ye Faithful`,
+    title: `Your Love Awakens Me`,
     description: `<pre class="lyricsDesc">
-    Oh, come, all ye faithful,
-    Joyful and triumphant
-    Oh, come ye, oh come ye to Bethlehem
-    Come and behold him,
-    Born the King of angels
+    There were walls between us, 
+    By the Cross You came and broke them down, 
+    broke them down
+    There were chains around us, 
+    By Your grace we are no longer bound, 
+    no longer bound
 
-        Oh, come, let us adore him
-        Oh, come, let us adore him
-        Oh, come, let us adore him
-        Christ, the Lord
+    You called me out of the grave, 
+    You called me into the night
+    You called my name, 
+    and then my heart came alive
 
-    Sing, choirs of angels,
-    Sing in exultation
-    Sing, all ye citizens of heav’n above
-    Glory to God,
-    Glory in the highest
+        Your love is greater, 
+        Your love is stronger
+        Your love awakens, 
+        awakens, awakens me
 
-    Yea, Lord, we greet thee,
-    Born this happy morning
-    Jesus, to thee be all glory giv’n
-    Word of the Father,
-    Now in flesh appearing
+    Feel the darkness shaking, 
+    All the dead are coming back to life, 
+    back to life
+    Hear the song awaken, 
+    All creation singing we’re alive, 
+    cause You’re alive
 
-        We’ll praise Your name forever
-        We’ll praise Your name forever
-        We’ll praise Your name forever
-        Christ the Lord`
+    And what a love we found, 
+    death can’t hold us down
+    We shout it out, 
+    “We’re alive cause You’re alive”
+    `
     },{
-    title: `Friend of God`,
+    title: `I Stand Amazed`,
     description: `<pre class="lyricsDesc">
-    Who am I that You are mindful of me
-    That You hear me when I call
-    Is it true that You are thinking of me
-    How You love me, 
-    it’s amazing
+    I stand amazed in the 
+    presence of Jesus the Nazarene
+    And wonder how He could love me
+    A sinner, condemned, unclean
 
-    I am a friend of God, 
-    I am a friend of God
-    I am a friend of God, 
-    He calls me friend
+        How marvelous, how wonderful
+        And my song shall ever be  
+        How marvelous, how wonderful
+        Is my Savior’s love for me
 
-    God almighty, Lord of Glory
-    You have called me friend`
+    He took my sins and my sorrows
+    He made them His very own
+    He bore the burden to Calvary
+    And suffered and died alone
+
+    When with the ransomed in glory
+    His face I at last shall see
+    ‘Twill be my joy through the ages
+    To sing of His love for me
+    `
     },{
-    title: `Jesus, Only Jesus`,
+    title: `Living Hope`,
     description: `<pre class="lyricsDesc">
-    Who has the power to raise the dead
-    Who can save us from our sin
-    He is our hope, our righteousness
-    Jesus, only Jesus
+    How great the chasm that lay between us, 
+    how high the mountain I could not climb
+    In desperation I turned to heaven, 
+    and spoke Your name into the night
 
-    Who can make the blind to See
-    Who holds the keys that set us free
-    He paid it all to bring us peace
-    Jesus, only Jesus
+    Then through the darkness 
+    Your loving kindness tore
+    through the shadows of my soul
+    The work is finished, 
+    the end is written, 
+    Jesus Christ, my living hope
 
-        Holy, King, Almighty Lord
-        Saints and angels all adore
-        I join with them and bow before
-        Jesus, only Jesus
+    Who could imagine so great a mercy; 
+    what heart could fathom 
+    such boundless grace?
+    The God of ages stepped down from 
+    glory to wear my sin and bear my shame
+    The cross has spoken, 
+    I am forgiven, 
+    the King of kings calls me His own
+    Beautiful Savior I’m Yours forever, 
+    Jesus Christ, my living hope
 
-    Who can command the highest praise
-    Who has the name above all names
-    You stand alone, I stand amazed
-    Jesus, only Jesus
+    Hallelujah, praise the 
+    One who sets me free
+    Hallelujah, death has 
+    lost its grip on me
+    You have broken every chain, 
+    there’s salvation in Your name
+    Jesus Christ, my living hope
 
-    You will command the highest praise
-    Yours is the Name above all names
-    You stand alone, I stand amazed
-    Jesus, only Jesus
-    Jesus, only Jesus`
-    }*/
+    Then came the morning that 
+    sealed the promise, 
+    Your buried body began to breathe
+    Out of the silence, 
+    the Roaring Lion, 
+    declare the grave has no claim on me
+    Jesus, Your's is the victory
+    `
+    }
     ];
 
 function fillSermon() {
