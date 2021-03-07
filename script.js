@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `February 28st, 2021`,
-    series: `Standalone`,
-    title: `Forgiveness for the Unforgiveable`,
-    text: `Genesis 50:16-21`,
+    date: `March 7th, 2021`,
+    series: `Church & State`,
+    title: `Generosity as Justice`,
+    text: `Matthew 11:1-5`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -54,10 +54,11 @@ let announcementsStore = [
     date: `March 7, 2021 1:30PM`,
     url: `"Images/Members Meeting 2021 Slide.jpg"`,
     alt: `Image of flowers`,
-    description: `Stay tuned for details on March 7, 2021 for our yearly Members Meeting on Sunday, March 7, 2021 at 1:30PM. The meeting will be hosted via Zoom.
-    Please check back for the updated link.`,
-    link: `placeholder`,
-    linkText: `Link TBD`
+    description: `If you are a committed member of the church, p[lease join us for our yearly Members Meeting today, March 7, 2021 at 1:30PM. We highly encourage 
+    everyone to attend this meeting as we will be reviewing all that God has done in our church over the past year as well as previewing and discussing our 
+    direction and vision for the upcoming year.`,
+    link: `https://lausd.zoom.us/j/4290294197`,
+    linkText: `Join Us`
     }/*,{
     title: `Outdoor Sunday Worship Gathering`,
     date: `February 28, 2020 9:30AM`,
