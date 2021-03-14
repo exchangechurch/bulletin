@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `March 7th, 2021`,
+    date: `March 14th, 2021`,
     series: `Church & State`,
-    title: `Generosity as Justice`,
-    text: `Matthew 11:1-5`,
+    title: `The Compassionate Righteousness of Christ`,
+    text: `John 4:1-29`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -36,10 +36,10 @@ let announcementsStore = [
     If you would like to learn more, please clink the link below.`,
     link: `https://www.facebook.com/voiceofrefugees/`,
     linkText: `Learn more`
-    },{
-    title: `Read the Word - March 2021 & Devotional Guide`,
+    }/*{
+    title: `Read the Word - April 2021 & Devotional Guide`,
     date: `2021`,
-    url: `"Images/Read the Word Mar 2021 Slide.jpg"`,
+    url: `"Images/Read the Word Apr 2021 Slide.jpg"`,
     alt: `Image of 5 day plan`,
     description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
     <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
@@ -59,16 +59,16 @@ let announcementsStore = [
     direction and vision for the upcoming year.`,
     link: `https://lausd.zoom.us/j/4290294197`,
     linkText: `Join Us`
-    }/*,{
+    },{
     title: `Outdoor Sunday Worship Gathering`,
-    date: `February 28, 2020 9:30AM`,
-    url: `"Images/Outdoor Sunday Worship Feb 2021.jpg"`,
+    date: `April 4, 2020 9:30AM`,
+    url: `"Images/Outdoor Sunday Worship Apr 2021.jpg"`,
     alt: `image of person worshipping with hands raised`,
     description: `
     <p> 
         Because of the spike in Coronavirus cases and the outlook moving forward, it doesn’t appear that we’ll be fully reopening anytime soon. 
         However, we want to provide a space and time that we can worship and be present with one another. We will be holding in-person monthly outdoor Sunday 
-        gatherings, with the implementation of proper safety guidelines for COVID-19, on February 28, 2020 at 9:30am.
+        gatherings, with the implementation of proper safety guidelines for COVID-19, on April 4, 2020 at 9:30am.
     </p>
     <p> 
         If you are attending, please sign up here: (<a href='https://forms.gle/vVQ5DcXy3Jy4Lm3t8' target="_blank">Google Form</a>) and please bring a mask! 
@@ -226,11 +226,11 @@ let orderOfWorship = [
 ];
 
 let worshipLyrics = [
-    /*{
-    title: `Check back on February 28th`,
-    description: `Worship lyrics are available once a month for our socially-distanced, outdoor service.`
-    }*/
     {
+    title: `Check back on April 4th`,
+    description: `Worship lyrics are available once a month for our socially-distanced, outdoor service.`
+    }
+    /*{
     title: `Call To Worship`,
     description: `<pre class="lyricsDesc">
     Psalm 139:11‭-‬14
@@ -346,7 +346,7 @@ let worshipLyrics = [
     declare the grave has no claim on me
     Jesus, Your's is the victory
     `
-    }
+    }*/
     ];
 
 function fillSermon() {
