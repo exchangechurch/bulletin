@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `March 14th, 2021`,
+    date: `March 21st, 2021`,
     series: `Church & State`,
-    title: `The Compassionate Righteousness of Christ`,
-    text: `John 4:1-29`,
+    title: `Gospel Centered Confrontation`,
+    text: `Gal. 2:11-21`,
     speaker: `Pastor Joe Suh`
 }];
 
