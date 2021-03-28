@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `March 21st, 2021`,
+    date: `March 28th, 2021`,
     series: `Church & State`,
-    title: `Gospel Centered Confrontation`,
-    text: `Gal. 2:11-21`,
+    title: `The Heavenly City`,
+    text: `Hebrews 11:1-6`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -36,10 +36,39 @@ let announcementsStore = [
     If you would like to learn more, please clink the link below.`,
     link: `https://www.facebook.com/voiceofrefugees/`,
     linkText: `Learn more`
-    }/*{
+    },{
+    title: `Good Friday Service (Online)`,
+    date: `April 2, 2021 7:30PM`,
+    url: `"Images/Good Friday 2021 Slide.jpg"`,
+    alt: ``,
+    description: `Passion Week marks the week leading up to the death and resurrection of Christ. We will be having our Good Friday service online next Friday, April 2, 7:30PM 
+    at the link below. Join us as we grow in our love, passion, and conviction that Christ is all in all.`,
+    link: `https://the-exchange-church.com/live`,
+    linkText: `More info`
+    },{
+    title: `Outdoor Easter Service Gathering`,
+    date: `April 4, 2020 12:30PM`,
+    url: `"Images/Easter Sunday 2021 Slide.jpg"`,
+    alt: `image of person worshipping with hands raised`,
+    description: `
+    <p> 
+        Because of the spike in Coronavirus cases and the outlook moving forward, it doesn’t appear that we’ll be fully reopening anytime soon. 
+        However, we want to provide a space and time that we can worship and be present with one another. We will be holding in-person monthly outdoor Sunday 
+        gatherings, with the implementation of proper safety guidelines for COVID-19, on April 4, 2020 at 12:30pm. Please note that this will be held at our new 
+        location: 18718 Grayland Ave, Artesia, CA 90701 (<a href='https://goo.gl/maps/T7eiP95G6hemPgb17' target="_blank">Directions</a>)
+    </p>
+    <p> 
+        If you are attending, please sign up here: (<a href='https://forms.gle/3Nqk4QYPxbSzG76v8' target="_blank">Google Form</a>) and please bring a mask! 
+        We will be practicing social distancing under canopies and provide hand sanitizer and medical masks to those who don't have any. 
+        Please refrain from joining us if you're experiencing any symptoms of sickness.
+        (<a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html' target="_blank">cdc.gov/coronavirus-symptoms</a>). 
+    </p>`,
+    link: `https://forms.gle/vVQ5DcXy3Jy4Lm3t8`,
+    linkText: `Let us know you're coming`
+    },{
     title: `Read the Word - April 2021 & Devotional Guide`,
     date: `2021`,
-    url: `"Images/Read the Word Apr 2021 Slide.jpg"`,
+    url: `"Images/Read the Word April 2021 Slide.jpg"`,
     alt: `Image of 5 day plan`,
     description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
     <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
@@ -49,7 +78,7 @@ let announcementsStore = [
     to follow. Click the link below to download a copy of the monthly plan.`,
     link: `https://www.dropbox.com/s/tc1nnfs0af10rrg/Read%20the%20Word%20-%20March%20%28PDF%29.pdf?dl=0`,
     linkText: `Download the Plan`
-    },{
+    }/*{
     title: `Members Meeting`,
     date: `March 7, 2021 1:30PM`,
     url: `"Images/Members Meeting 2021 Slide.jpg"`,
@@ -59,25 +88,6 @@ let announcementsStore = [
     direction and vision for the upcoming year.`,
     link: `https://lausd.zoom.us/j/4290294197`,
     linkText: `Join Us`
-    },{
-    title: `Outdoor Sunday Worship Gathering`,
-    date: `April 4, 2020 9:30AM`,
-    url: `"Images/Outdoor Sunday Worship Apr 2021.jpg"`,
-    alt: `image of person worshipping with hands raised`,
-    description: `
-    <p> 
-        Because of the spike in Coronavirus cases and the outlook moving forward, it doesn’t appear that we’ll be fully reopening anytime soon. 
-        However, we want to provide a space and time that we can worship and be present with one another. We will be holding in-person monthly outdoor Sunday 
-        gatherings, with the implementation of proper safety guidelines for COVID-19, on April 4, 2020 at 9:30am.
-    </p>
-    <p> 
-        If you are attending, please sign up here: (<a href='https://forms.gle/vVQ5DcXy3Jy4Lm3t8' target="_blank">Google Form</a>) and please bring a mask! 
-        We will be practicing social distancing under canopies and provide hand sanitizer and medical masks to those who don't have any. 
-        Please refrain from joining us if you're experiencing any symptoms of sickness.
-        (<a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html' target="_blank">cdc.gov/coronavirus-symptoms</a>). 
-    </p>`,
-    link: `https://forms.gle/vVQ5DcXy3Jy4Lm3t8`,
-    linkText: `Let us know you're coming`
     },{
     title: `Life Group Sign-ups`,
     date: `2021`,
@@ -437,8 +447,8 @@ function fillLyrics(){
 function fillContact(){
     $('#contactBody').append(`
         <div class="contactContainer">
-            <p class='contactDesc'>The Exchange Church<br>2341 W Lincoln Ave Anaheim, CA 92801 <br> <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a></p>
-            <a id='webLink' href='http://www.the-exchange-church.com'>the-exchange-church.com</a>
+            <p class='contactDesc'>The Exchange Church<br>18718 Grayland Ave, Artesia, CA 90701<br> <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a></p>
+            <a class='contactDesc' id='webLink' href='http://www.the-exchange-church.com'>the-exchange-church.com</a>
             <p class='contactDesc'>Joe Suh, Lead Pastor <br><a href='mailto:pastorjoe@the-exchange-church.com'>pastorjoe@the-exchange-church.com</a></p>
             <p class='contactDesc'><br><br>Fill out the form below to get on our mailing list and to share any comments or concerns you may have.</p>
         </div>
