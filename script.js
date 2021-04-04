@@ -3,9 +3,9 @@
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
     date: `March 28th, 2021`,
-    series: `Church & State`,
-    title: `The Heavenly City`,
-    text: `Hebrews 11:1-6`,
+    series: `Stand Alone`,
+    title: `The Resurrection`,
+    text: `John 20:1-18`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -19,6 +19,39 @@ let announcementsStore = [
     fill out the form at the link below to connect with us.`,
     link: `https://forms.gle/AneeqYAHvt3QNWhs8`,
     linkText: `Connect with us`
+    },{
+    title: `Read the Word - April 2021 & Devotional Guide`,
+    date: `2021`,
+    url: `"Images/Read the Word April 2021 Slide.jpg"`,
+    alt: `Image of 5 day plan`,
+    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
+    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
+    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
+    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
+    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
+    to follow. Click the link below to download a copy of the monthly plan.`,
+    link: `https://www.dropbox.com/s/tc1nnfs0af10rrg/Read%20the%20Word%20-%20March%20%28PDF%29.pdf?dl=0`,
+    linkText: `Download the Plan`
+    },{
+    title: `Membership`,
+    date: `Coming soon`,
+    url: `"Images/Membership Slide October 2020.jpg"`,
+    alt: `Image of membership`,
+    description: `We will be having our next round of membership classes soon! If you are interested in becoming a member or have questions please fill out the form linked below!`,
+    link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
+    linkText: `Sign Up`
+    },{
+    title: `Life Group Sign-ups`,
+    date: `2021`,
+    url: `"Images/Life-Groups Jan 2021.jpg"`,
+    alt: `image of faded bibles`,
+    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
+    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
+    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
+    Please email 
+    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
+    link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
+    linkText: `Sign Up`
     },{
     title: `Serve the Voice of Refugees`,
     date: ``,
@@ -36,7 +69,7 @@ let announcementsStore = [
     If you would like to learn more, please clink the link below.`,
     link: `https://www.facebook.com/voiceofrefugees/`,
     linkText: `Learn more`
-    },{
+    }/*{
     title: `Good Friday Service (Online)`,
     date: `April 2, 2021 7:30PM`,
     url: `"Images/Good Friday 2021 Slide.jpg"`,
@@ -66,19 +99,6 @@ let announcementsStore = [
     link: `https://forms.gle/vVQ5DcXy3Jy4Lm3t8`,
     linkText: `Let us know you're coming`
     },{
-    title: `Read the Word - April 2021 & Devotional Guide`,
-    date: `2021`,
-    url: `"Images/Read the Word April 2021 Slide.jpg"`,
-    alt: `Image of 5 day plan`,
-    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
-    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
-    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
-    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
-    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
-    to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/tc1nnfs0af10rrg/Read%20the%20Word%20-%20March%20%28PDF%29.pdf?dl=0`,
-    linkText: `Download the Plan`
-    }/*{
     title: `Members Meeting`,
     date: `March 7, 2021 1:30PM`,
     url: `"Images/Members Meeting 2021 Slide.jpg"`,
@@ -88,18 +108,6 @@ let announcementsStore = [
     direction and vision for the upcoming year.`,
     link: `https://lausd.zoom.us/j/4290294197`,
     linkText: `Join Us`
-    },{
-    title: `Life Group Sign-ups`,
-    date: `2021`,
-    url: `"Images/Life-Groups Jan 2021.jpg"`,
-    alt: `image of faded bibles`,
-    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
-    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
-    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
-    Please email 
-    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
-    link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
-    linkText: `Sign Up`
     },{
     title: `Serve the Voice of Refugees`,
     date: ``,
@@ -118,14 +126,6 @@ let announcementsStore = [
     //alt: `image of person worshipping with hands raised`,
     description: ` Because of the spike in Coronavirus cases and the outlook moving forward, we will not be meeting this month in January for our Outdoor 
     Sunday Worship Gathering. Stay tuned for our next scheduled date.`
-    },{
-    title: `Membership`,
-    date: `Coming soon`,
-    url: `"Images/Membership Slide October 2020.jpg"`,
-    alt: `Image of membership`,
-    description: `We will be having our next round of membership classes soon! If you are interested in becoming a member or have questions please fill out the form linked below!`,
-    link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
-    linkText: `Sign Up`
     },{
     title: `Praise and Prayer Gathering`,
     date: `January 30, 2021 10:00AM`,
@@ -236,28 +236,25 @@ let orderOfWorship = [
 ];
 
 let worshipLyrics = [
-    {
+    /*{
     title: `Check back on April 4th`,
     description: `Worship lyrics are available once a month for our socially-distanced, outdoor service.`
-    }
-    /*{
+    }*/
+    {
     title: `Call To Worship`,
     description: `<pre class="lyricsDesc">
-    Psalm 139:11‭-‬14
+    Philippians 2:5‭-‬8
 
-    If I say, 
-    "Surely the darkness shall cover me, 
-    and the light about me be night," 
-    even the darkness is not dark to you; 
-    the night is bright as the day, 
-    for darkness is as light with you. 
-
-    For you formed my inward parts; 
-    you knitted me together in my mother's womb. 
-    I praise you, 
-    for I am fearfully and wonderfully made. 
-    Wonderful are your works; 
-    my soul knows it very well.
+    Have this mind among yourselves, 
+    which is yours in Christ Jesus, who, 
+    though he was in the form of God, did not 
+    count equality with God a thing to be 
+    grasped, but emptied himself, by taking 
+    the form of a servant, being born in 
+    the likeness of men. And being found in 
+    human form, he humbled himself by becoming 
+    obedient to the point of death, even 
+    death on a cross.
     (ESV)`
     },{
     title: `Your Love Awakens Me`,
@@ -292,27 +289,36 @@ let worshipLyrics = [
     “We’re alive cause You’re alive”
     `
     },{
-    title: `I Stand Amazed`,
+    title: `How Great is Your Love`,
     description: `<pre class="lyricsDesc">
-    I stand amazed in the 
-    presence of Jesus the Nazarene
-    And wonder how He could love me
-    A sinner, condemned, unclean
+    From the darkness, I called Your name
+    Into darkness, Your mercy came
+    You called me out, lifted me up
+    How great is Your love
 
-        How marvelous, how wonderful
-        And my song shall ever be  
-        How marvelous, how wonderful
-        Is my Savior’s love for me
+    You bore my weakness, You took my shame
+    Buried my burdens in fields of grace
+    You called me out, lifted me up
+    How great is Your love
 
-    He took my sins and my sorrows
-    He made them His very own
-    He bore the burden to Calvary
-    And suffered and died alone
+    From the heights of heaven, You stepped down to earth
+    Innocent perfection, gave Your life for us
+    We are amazed, we stand in awe
+    For we have been changed by the power of the cross
 
-    When with the ransomed in glory
-    His face I at last shall see
-    ‘Twill be my joy through the ages
-    To sing of His love for me
+        How great, how great, how great is Your love
+        How great, how great, how great is Your love
+        How great, how great, how great is Your love for us
+
+    In Your kindness, You lead me home
+    In Your presence, where I belong
+    You called me out, lifted me up
+    How great is Your love
+
+    There has never been, there will never be
+    A God like You, a love so true
+    There has never been, and there will never be
+    A God like You, a love so true
     `
     },{
     title: `Living Hope`,
@@ -356,7 +362,7 @@ let worshipLyrics = [
     declare the grave has no claim on me
     Jesus, Your's is the victory
     `
-    }*/
+    }
     ];
 
 function fillSermon() {
