@@ -2,7 +2,7 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `March 28th, 2021`,
+    date: `April 4th, 2021`,
     series: `Stand Alone`,
     title: `The Resurrection`,
     text: `John 20:1-18`,
