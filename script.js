@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `April 4th, 2021`,
-    series: `Stand Alone`,
-    title: `The Resurrection`,
-    text: `John 20:1-18`,
+    date: `April 11th, 2021`,
+    series: `The Marks of a Gospel-Centered People`,
+    title: `Good News Centered`,
+    text: `1 Corinthians 15:1-8`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -19,19 +19,6 @@ let announcementsStore = [
     fill out the form at the link below to connect with us.`,
     link: `https://forms.gle/AneeqYAHvt3QNWhs8`,
     linkText: `Connect with us`
-    },{
-    title: `Read the Word - April 2021 & Devotional Guide`,
-    date: `2021`,
-    url: `"Images/Read the Word April 2021 Slide.jpg"`,
-    alt: `Image of 5 day plan`,
-    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
-    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
-    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
-    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
-    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
-    to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/laq2r0xetw1861x/read%20the%20word%20%28april%29%20pdf.pdf?dl=0`,
-    linkText: `Download the Plan`
     },{
     title: `Membership`,
     date: `Coming soon`,
@@ -67,9 +54,31 @@ let announcementsStore = [
     <br>
     <br>
     If you would like to learn more, please clink the link below.`,
-    link: `https://www.facebook.com/voiceofrefugees/`,
+    link: `https://forms.gle/3fYLnKkhHGQBPvY99`,
     linkText: `Learn more`
+    },{
+    title: `Praise and Prayer Gathering`,
+    date: `April 24, 2021 10:00AM`,
+    url: `"Images/Morning Worship and Prayer April 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of clouds`,
+    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
+    and corporate prayer. We will be streaming as well as gathering in-person on Saturday April 24 at 10am at the link below.`,
+    link: `https://www.the-exchange-church.com/live`,
+    linkText: `Join us Online`
     }/*{
+    title: `Read the Word - April 2021 & Devotional Guide`,
+    date: `2021`,
+    url: `"Images/Read the Word April 2021 Slide.jpg"`,
+    alt: `Image of 5 day plan`,
+    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
+    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
+    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
+    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
+    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
+    to follow. Click the link below to download a copy of the monthly plan.`,
+    link: `https://www.dropbox.com/s/laq2r0xetw1861x/read%20the%20word%20%28april%29%20pdf.pdf?dl=0`,
+    linkText: `Download the Plan`
+    },{
     title: `Good Friday Service (Online)`,
     date: `April 2, 2021 7:30PM`,
     url: `"Images/Good Friday 2021 Slide.jpg"`,
@@ -126,15 +135,6 @@ let announcementsStore = [
     //alt: `image of person worshipping with hands raised`,
     description: ` Because of the spike in Coronavirus cases and the outlook moving forward, we will not be meeting this month in January for our Outdoor 
     Sunday Worship Gathering. Stay tuned for our next scheduled date.`
-    },{
-    title: `Praise and Prayer Gathering`,
-    date: `January 30, 2021 10:00AM`,
-    url: `"Images/Morning Worship and Prayer Jan 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of clouds`,
-    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
-    and corporate prayer. We will be streaming our gathering on Saturday January 30 at 10am at the link below.`,
-    link: `https://www.the-exchange-church.com/live`,
-    linkText: `Join us Online`
     },{
     title: `Online Fellowship`,
     date: `After Sunday Service`,
