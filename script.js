@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `April 11th, 2021`,
+    date: `April 18th, 2021`,
     series: `The Marks of a Gospel-Centered People`,
-    title: `Good News Centered`,
-    text: `1 Corinthians 15:1-8`,
+    title: `God Centered`,
+    text: `Luke 7:36-50`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -65,6 +65,26 @@ let announcementsStore = [
     and corporate prayer. We will be streaming as well as gathering in-person on Saturday April 24 at 10am at the link below.`,
     link: `https://www.the-exchange-church.com/live`,
     linkText: `Join us Online`
+    },{
+    title: `Outdoor Service Gathering`,
+    date: `May 2, 2020 12:30PM`,
+    url: `"Images/Outdoor Sunday Worship Gatherings May 2021.jpg"`,
+    alt: `image of person worshipping with hands raised`,
+    description: `
+    <p> 
+        Because of the spike in Coronavirus cases and the outlook moving forward, it doesn’t appear that we’ll be fully reopening anytime soon. 
+        However, we want to provide a space and time that we can worship and be present with one another. We will be holding in-person monthly outdoor Sunday 
+        gatherings, with the implementation of proper safety guidelines for COVID-19, on May 2, 2021 at 12:30pm. Please note that this will be held at our new 
+        location: 18718 Grayland Ave, Artesia, CA 90701 (<a href='https://goo.gl/maps/T7eiP95G6hemPgb17' target="_blank">Directions</a>)
+    </p>
+    <p> 
+        If you are attending, please sign up here: (<a href='https://forms.gle/hnk6EC5GxuzsP2Z27' target="_blank">Google Form</a>) and please bring a mask! 
+        We will be practicing social distancing under canopies and provide hand sanitizer and medical masks to those who don't have any. 
+        Please refrain from joining us if you're experiencing any symptoms of sickness.
+        (<a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html' target="_blank">cdc.gov/coronavirus-symptoms</a>). 
+    </p>`,
+    link: `https://forms.gle/hnk6EC5GxuzsP2Z27`,
+    linkText: `Let us know you're coming`
     }/*{
     title: `Read the Word - April 2021 & Devotional Guide`,
     date: `2021`,
@@ -87,26 +107,6 @@ let announcementsStore = [
     at the link below. Join us as we grow in our love, passion, and conviction that Christ is all in all.`,
     link: `https://the-exchange-church.com/live`,
     linkText: `More info`
-    },{
-    title: `Outdoor Easter Service Gathering`,
-    date: `April 4, 2020 12:30PM`,
-    url: `"Images/Easter Sunday 2021 Slide.jpg"`,
-    alt: `image of person worshipping with hands raised`,
-    description: `
-    <p> 
-        Because of the spike in Coronavirus cases and the outlook moving forward, it doesn’t appear that we’ll be fully reopening anytime soon. 
-        However, we want to provide a space and time that we can worship and be present with one another. We will be holding in-person monthly outdoor Sunday 
-        gatherings, with the implementation of proper safety guidelines for COVID-19, on April 4, 2020 at 12:30pm. Please note that this will be held at our new 
-        location: 18718 Grayland Ave, Artesia, CA 90701 (<a href='https://goo.gl/maps/T7eiP95G6hemPgb17' target="_blank">Directions</a>)
-    </p>
-    <p> 
-        If you are attending, please sign up here: (<a href='https://forms.gle/3Nqk4QYPxbSzG76v8' target="_blank">Google Form</a>) and please bring a mask! 
-        We will be practicing social distancing under canopies and provide hand sanitizer and medical masks to those who don't have any. 
-        Please refrain from joining us if you're experiencing any symptoms of sickness.
-        (<a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html' target="_blank">cdc.gov/coronavirus-symptoms</a>). 
-    </p>`,
-    link: `https://forms.gle/vVQ5DcXy3Jy4Lm3t8`,
-    linkText: `Let us know you're coming`
     },{
     title: `Members Meeting`,
     date: `March 7, 2021 1:30PM`,
@@ -236,11 +236,11 @@ let orderOfWorship = [
 ];
 
 let worshipLyrics = [
-    /*{
-    title: `Check back on April 4th`,
-    description: `Worship lyrics are available once a month for our socially-distanced, outdoor service.`
-    }*/
     {
+    title: `Check back on 5/2`,
+    description: `Worship lyrics are available once a month for our socially-distanced, outdoor service.`
+    }
+    /*{
     title: `Call To Worship`,
     description: `<pre class="lyricsDesc">
     Philippians 2:5‭-‬8
@@ -362,7 +362,7 @@ let worshipLyrics = [
     declare the grave has no claim on me
     Jesus, Your's is the victory
     `
-    }
+    }*/
     ];
 
 function fillSermon() {
