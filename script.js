@@ -78,12 +78,12 @@ let announcementsStore = [
         location: 18718 Grayland Ave, Artesia, CA 90701 (<a href='https://goo.gl/maps/T7eiP95G6hemPgb17' target="_blank">Directions</a>)
     </p>
     <p> 
-        If you are attending, please sign up here: (<a href='https://forms.gle/hnk6EC5GxuzsP2Z27' target="_blank">Google Form</a>) and please bring a mask! 
+        If you are attending, please sign up here: (<a href='https://forms.gle/bLMNpQJ7AL3FpN6G9' target="_blank">Google Form</a>) and please bring a mask! 
         We will be practicing social distancing under canopies and provide hand sanitizer and medical masks to those who don't have any. 
         Please refrain from joining us if you're experiencing any symptoms of sickness.
         (<a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html' target="_blank">cdc.gov/coronavirus-symptoms</a>). 
     </p>`,
-    link: `https://forms.gle/hnk6EC5GxuzsP2Z27`,
+    link: `https://forms.gle/bLMNpQJ7AL3FpN6G9`,
     linkText: `Let us know you're coming`
     }/*{
     title: `Read the Word - April 2021 & Devotional Guide`,
