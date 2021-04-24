@@ -17,7 +17,7 @@ let announcementsStore = [
     alt: ``,
     description: `Thanks for joining us! If you're visiting for the first time or would like to learn more, we'd like to get to know more about you. Please 
     fill out the form at the link below to connect with us.`,
-    link: `https://forms.gle/AneeqYAHvt3QNWhs8`,
+    link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
     title: `Membership`,
