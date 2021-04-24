@@ -25,7 +25,7 @@ let announcementsStore = [
     url: `"Images/Membership Slide October 2020.jpg"`,
     alt: `Image of membership`,
     description: `We will be having our next round of membership classes soon! If you are interested in becoming a member or have questions please fill out the form linked below!`,
-    link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
     },{
     title: `Life Group Sign-ups`,
@@ -37,7 +37,7 @@ let announcementsStore = [
     If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
     Please email 
     <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
-    link: `https://forms.gle/ZYm8F1tjKYfzxLWN6`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
     },{
     title: `Serve the Voice of Refugees`,
