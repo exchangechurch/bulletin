@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `April 18th, 2021`,
+    date: `April 25th, 2021`,
     series: `The Marks of a Gospel-Centered People`,
-    title: `God Centered`,
-    text: `Luke 7:36-50`,
+    title: `Word Centered`,
+    text: `Ezekiel 37:1-14`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -20,6 +20,26 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
+    title: `Outdoor Service Gathering`,
+    date: `May 2, 2020 12:30PM`,
+    url: `"Images/Outdoor Sunday Worship Gatherings May 2021.jpg"`,
+    alt: `image of person worshipping with hands raised`,
+    description: `
+    <p> 
+        Because of the spike in Coronavirus cases and the outlook moving forward, it doesn’t appear that we’ll be fully reopening anytime soon. 
+        However, we want to provide a space and time that we can worship and be present with one another. We will be holding in-person monthly outdoor Sunday 
+        gatherings, with the implementation of proper safety guidelines for COVID-19, on May 2, 2021 at 12:30pm. Please note that this will be held at our new 
+        location: 18718 Grayland Ave, Artesia, CA 90701 (<a href='https://goo.gl/maps/T7eiP95G6hemPgb17' target="_blank">Directions</a>)
+    </p>
+    <p> 
+        If you are attending, please sign up here: (<a href='https://forms.gle/bLMNpQJ7AL3FpN6G9' target="_blank">Google Form</a>) and please bring a mask! 
+        We will be practicing social distancing under canopies and provide hand sanitizer and medical masks to those who don't have any. 
+        Please refrain from joining us if you're experiencing any symptoms of sickness.
+        (<a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html' target="_blank">cdc.gov/coronavirus-symptoms</a>). 
+    </p>`,
+    link: `https://forms.gle/bLMNpQJ7AL3FpN6G9`,
+    linkText: `Let us know you're coming`
+    }/*{
     title: `Membership`,
     date: `Coming soon`,
     url: `"Images/Membership Slide October 2020.jpg"`,
@@ -66,26 +86,6 @@ let announcementsStore = [
     link: `https://www.the-exchange-church.com/live`,
     linkText: `Join us Online`
     },{
-    title: `Outdoor Service Gathering`,
-    date: `May 2, 2020 12:30PM`,
-    url: `"Images/Outdoor Sunday Worship Gatherings May 2021.jpg"`,
-    alt: `image of person worshipping with hands raised`,
-    description: `
-    <p> 
-        Because of the spike in Coronavirus cases and the outlook moving forward, it doesn’t appear that we’ll be fully reopening anytime soon. 
-        However, we want to provide a space and time that we can worship and be present with one another. We will be holding in-person monthly outdoor Sunday 
-        gatherings, with the implementation of proper safety guidelines for COVID-19, on May 2, 2021 at 12:30pm. Please note that this will be held at our new 
-        location: 18718 Grayland Ave, Artesia, CA 90701 (<a href='https://goo.gl/maps/T7eiP95G6hemPgb17' target="_blank">Directions</a>)
-    </p>
-    <p> 
-        If you are attending, please sign up here: (<a href='https://forms.gle/bLMNpQJ7AL3FpN6G9' target="_blank">Google Form</a>) and please bring a mask! 
-        We will be practicing social distancing under canopies and provide hand sanitizer and medical masks to those who don't have any. 
-        Please refrain from joining us if you're experiencing any symptoms of sickness.
-        (<a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html' target="_blank">cdc.gov/coronavirus-symptoms</a>). 
-    </p>`,
-    link: `https://forms.gle/bLMNpQJ7AL3FpN6G9`,
-    linkText: `Let us know you're coming`
-    }/*{
     title: `Read the Word - April 2021 & Devotional Guide`,
     date: `2021`,
     url: `"Images/Read the Word April 2021 Slide.jpg"`,
