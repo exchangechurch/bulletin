@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `April 25th, 2021`,
+    date: `May 2nd, 2021`,
     series: `The Marks of a Gospel-Centered People`,
-    title: `Word Centered`,
-    text: `Ezekiel 37:1-14`,
+    title: `Love Centered`,
+    text: `1 Corinthians 13`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -19,6 +19,39 @@ let announcementsStore = [
     fill out the form at the link below to connect with us.`,
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
+    },{
+    title: `Membership`,
+    date: `Coming soon`,
+    url: `"Images/Membership Slide October 2020.jpg"`,
+    alt: `Image of membership`,
+    description: `We will be having our next round of membership classes soon! If you are interested in becoming a member or have questions please fill out the form linked below!`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
+    },{
+    title: `Life Group Sign-ups`,
+    date: `2021`,
+    url: `"Images/Life-Groups Jan 2021.jpg"`,
+    alt: `image of faded bibles`,
+    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
+    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
+    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
+    Please email 
+    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
+    }/*{
+    title: `Read the Word - May 2021 & Devotional Guide`,
+    date: `2021`,
+    url: `"Images/Read the Word May 2021 Slide.jpg"`,
+    alt: `Image of 5 day plan`,
+    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
+    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
+    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
+    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
+    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
+    to follow. Click the link below to download a copy of the monthly plan.`,
+    link: `https://www.dropbox.com/s/laq2r0xetw1861x/read%20the%20word%20%28april%29%20pdf.pdf?dl=0`,
+    linkText: `Download the Plan`
     },{
     title: `Outdoor Service Gathering`,
     date: `May 2, 2020 12:30PM`,
@@ -39,26 +72,6 @@ let announcementsStore = [
     </p>`,
     link: `https://forms.gle/bLMNpQJ7AL3FpN6G9`,
     linkText: `Let us know you're coming`
-    }/*{
-    title: `Membership`,
-    date: `Coming soon`,
-    url: `"Images/Membership Slide October 2020.jpg"`,
-    alt: `Image of membership`,
-    description: `We will be having our next round of membership classes soon! If you are interested in becoming a member or have questions please fill out the form linked below!`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
-    linkText: `Sign Up`
-    },{
-    title: `Life Group Sign-ups`,
-    date: `2021`,
-    url: `"Images/Life-Groups Jan 2021.jpg"`,
-    alt: `image of faded bibles`,
-    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
-    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
-    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
-    Please email 
-    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
-    linkText: `Sign Up`
     },{
     title: `Serve the Voice of Refugees`,
     date: ``,
@@ -85,19 +98,6 @@ let announcementsStore = [
     and corporate prayer. We will be streaming as well as gathering in-person on Saturday April 24 at 10am at the link below.`,
     link: `https://www.the-exchange-church.com/live`,
     linkText: `Join us Online`
-    },{
-    title: `Read the Word - April 2021 & Devotional Guide`,
-    date: `2021`,
-    url: `"Images/Read the Word April 2021 Slide.jpg"`,
-    alt: `Image of 5 day plan`,
-    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
-    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
-    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
-    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
-    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
-    to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/laq2r0xetw1861x/read%20the%20word%20%28april%29%20pdf.pdf?dl=0`,
-    linkText: `Download the Plan`
     },{
     title: `Good Friday Service (Online)`,
     date: `April 2, 2021 7:30PM`,
@@ -236,133 +236,123 @@ let orderOfWorship = [
 ];
 
 let worshipLyrics = [
-    {
+    /*{
     title: `Check back on 5/2`,
     description: `Worship lyrics are available once a month for our socially-distanced, outdoor service.`
-    }
-    /*{
+    }*/
+    {
     title: `Call To Worship`,
     description: `<pre class="lyricsDesc">
-    Philippians 2:5‭-‬8
+    Isaiah 53:5
 
-    Have this mind among yourselves, 
-    which is yours in Christ Jesus, who, 
-    though he was in the form of God, did not 
-    count equality with God a thing to be 
-    grasped, but emptied himself, by taking 
-    the form of a servant, being born in 
-    the likeness of men. And being found in 
-    human form, he humbled himself by becoming 
-    obedient to the point of death, even 
-    death on a cross.
+    But he was pierced for our transgressions; 
+    he was crushed for our iniquities; 
+    upon him was the chastisement that 
+    brought us peace, and with his wounds 
+    we are healed.
     (ESV)`
     },{
-    title: `Your Love Awakens Me`,
+    title: `Great Things`,
     description: `<pre class="lyricsDesc">
-    There were walls between us, 
-    By the Cross You came and broke them down, 
-    broke them down
-    There were chains around us, 
-    By Your grace we are no longer bound, 
-    no longer bound
+    Come let us worship our King
+    Come let us bow at His feet
+    He has done great things
+    See what our Savior has done
+    See how His love overcomes
+    He has done great things
+    He has done great things
 
-    You called me out of the grave, 
-    You called me into the night
-    You called my name, 
-    and then my heart came alive
+        Oh, hero of Heaven, You conquer the grave
+        You free every captive and break every chain
+        Oh God, You have done great things
+        We dance in Your freedom, awake and alive
+        Oh Jesus, our Savior, Your name lifted high
+        Oh God, You have done great things
 
-        Your love is greater, 
-        Your love is stronger
-        Your love awakens, 
-        awakens, awakens me
+    You've been faithful through every storm
+    You'll be faithful forevermore
+    You have done great things
+    And I know You will do it again
+    For Your promise is "Yes and Amen"
+    You will do great things
+    God, You do great things
 
-    Feel the darkness shaking, 
-    All the dead are coming back to life, 
-    back to life
-    Hear the song awaken, 
-    All creation singing we’re alive, 
-    cause You’re alive
+    Hallelujah God, above it all
+    Hallelujah God, unshakable
+    Hallelujah, You have done great things
+    Hallelujah God, above it all
+    Hallelujah God, unshakable
+    Hallelujah, You have done great things
+    You've done great things
 
-    And what a love we found, 
-    death can’t hold us down
-    We shout it out, 
-    “We’re alive cause You’re alive”
+    You have done great things
+    Oh God, You do great things”
     `
     },{
-    title: `How Great is Your Love`,
+    title: `At The Cross`,
     description: `<pre class="lyricsDesc">
-    From the darkness, I called Your name
-    Into darkness, Your mercy came
-    You called me out, lifted me up
-    How great is Your love
+    Oh Lord You've searched me
+    You know my way
+    Even when I fail You
+    I know You love me
 
-    You bore my weakness, You took my shame
-    Buried my burdens in fields of grace
-    You called me out, lifted me up
-    How great is Your love
+    Your holy presence
+    Surrounding me
+    In every season
+    I know You love me
+    I know You love me
 
-    From the heights of heaven, You stepped down to earth
-    Innocent perfection, gave Your life for us
-    We are amazed, we stand in awe
-    For we have been changed by the power of the cross
+        At the cross You died for me
+        Where Your blood was shed for me
+        There's no greater love than this
+        You have overcome the grave
+        Your glory fills the highest place
+        What can separate me now
 
-        How great, how great, how great is Your love
-        How great, how great, how great is Your love
-        How great, how great, how great is Your love for us
+    You go before me
+    You shield my way
+    Your hand upholds me
+    I know You love me
 
-    In Your kindness, You lead me home
-    In Your presence, where I belong
-    You called me out, lifted me up
-    How great is Your love
+    You tore the veil
+    You made a way
+    When You said that it is done
 
-    There has never been, there will never be
-    A God like You, a love so true
-    There has never been, and there will never be
-    A God like You, a love so true
+    And when the earth fades
+    Falls from my eyes
+    And You stand before me
+    I know You love me
+    I know You love me
     `
     },{
-    title: `Living Hope`,
+    title: `Lord, I Need You`,
     description: `<pre class="lyricsDesc">
-    How great the chasm that lay between us, 
-    how high the mountain I could not climb
-    In desperation I turned to heaven, 
-    and spoke Your name into the night
+    Lord, I come, I confess
+    Bowing here I find my rest
+    Without You I fall apart
+    You're the One that guides my heart
 
-    Then through the darkness 
-    Your loving kindness tore
-    through the shadows of my soul
-    The work is finished, 
-    the end is written, 
-    Jesus Christ, my living hope
+        Lord, I need You, oh, I need You
+        Every hour I need You
+        My one defense, my righteousness
+        Oh God, how I need You
 
-    Who could imagine so great a mercy; 
-    what heart could fathom 
-    such boundless grace?
-    The God of ages stepped down from 
-    glory to wear my sin and bear my shame
-    The cross has spoken, 
-    I am forgiven, 
-    the King of kings calls me His own
-    Beautiful Savior I’m Yours forever, 
-    Jesus Christ, my living hope
+    Where sin runs deep Your grace is more
+    Where grace is found is where You are
+    Where You are, Lord, I am free
+    Holiness is Christ in me
 
-    Hallelujah, praise the 
-    One who sets me free
-    Hallelujah, death has 
-    lost its grip on me
-    You have broken every chain, 
-    there’s salvation in Your name
-    Jesus Christ, my living hope
+    So teach my song to rise to You
+    When temptation comes my way
+    When I cannot stand I'll fall on You
+    Jesus, You're my hope and stay
 
-    Then came the morning that 
-    sealed the promise, 
-    Your buried body began to breathe
-    Out of the silence, 
-    the Roaring Lion, 
-    declare the grave has no claim on me
-    Jesus, Your's is the victory
+    You're my one defense, my righteousness
+    Oh God, how I need You
+    My one defense, my righteousness
+    Oh God, how I need You
     `
-    }*/
+    }
     ];
 
 function fillSermon() {
