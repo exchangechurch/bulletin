@@ -20,6 +20,25 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
+    title: `Read the Word - May 2021 & Devotional Guide`,
+    date: `2021`,
+    url: `"Images/Read the Word May 2021 Slide.jpg"`,
+    alt: `Image of 5 day plan`,
+    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
+    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
+    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
+    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
+    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
+    to follow. Click the link below to download a copy of the monthly plan.`,
+    link: `https://www.dropbox.com/s/1sk9d7tfrz30vuu/read%20the%20word%20-%20may.png?dl=0`,
+    linkText: `Download the Plan`
+    },{
+    title: `Resuming Weekly In-Person Sunday Worship`,
+    date: `June 2021`,
+    //url: `"Images/Outdoor December Sunday Worship Gatherings.jpg"`,
+    //alt: `image of person worshipping with hands raised`,
+    description: `Starting in June, we will be resuming our regular in-person Sunday service. Please stay tuned for more details to follow.`
+    }/*,{
     title: `Membership`,
     date: `Coming soon`,
     url: `"Images/Membership Slide October 2020.jpg"`,
@@ -39,19 +58,6 @@ let announcementsStore = [
     <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
-    }/*{
-    title: `Read the Word - May 2021 & Devotional Guide`,
-    date: `2021`,
-    url: `"Images/Read the Word May 2021 Slide.jpg"`,
-    alt: `Image of 5 day plan`,
-    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
-    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
-    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
-    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
-    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
-    to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/laq2r0xetw1861x/read%20the%20word%20%28april%29%20pdf.pdf?dl=0`,
-    linkText: `Download the Plan`
     },{
     title: `Outdoor Service Gathering`,
     date: `May 2, 2020 12:30PM`,
@@ -128,13 +134,6 @@ let announcementsStore = [
     please clink the link below.`,
     link: `https://www.facebook.com/voiceofrefugees/`,
     linkText: `Learn more`
-    },{
-    title: `No Outdoor Sunday Worship Gathering`,
-    date: `January 2021`,
-    //url: `"Images/Outdoor December Sunday Worship Gatherings.jpg"`,
-    //alt: `image of person worshipping with hands raised`,
-    description: ` Because of the spike in Coronavirus cases and the outlook moving forward, we will not be meeting this month in January for our Outdoor 
-    Sunday Worship Gathering. Stay tuned for our next scheduled date.`
     },{
     title: `Online Fellowship`,
     date: `After Sunday Service`,
