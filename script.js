@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `May 2nd, 2021`,
+    date: `May 9th, 2021`,
     series: `The Marks of a Gospel-Centered People`,
-    title: `Love Centered`,
-    text: `1 Corinthians 13`,
+    title: `Grace Centered`,
+    text: `Galatians 1:6-12`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -33,20 +33,6 @@ let announcementsStore = [
     link: `https://www.dropbox.com/s/1sk9d7tfrz30vuu/read%20the%20word%20-%20may.png?dl=0`,
     linkText: `Download the Plan`
     },{
-    title: `Resuming Weekly In-Person Sunday Worship`,
-    date: `June 2021`,
-    //url: `"Images/Outdoor December Sunday Worship Gatherings.jpg"`,
-    //alt: `image of person worshipping with hands raised`,
-    description: `Starting in June, we will be resuming our regular in-person Sunday service. Please stay tuned for more details to follow.`
-    }/*,{
-    title: `Membership`,
-    date: `Coming soon`,
-    url: `"Images/Membership Slide October 2020.jpg"`,
-    alt: `Image of membership`,
-    description: `We will be having our next round of membership classes soon! If you are interested in becoming a member or have questions please fill out the form linked below!`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
-    linkText: `Sign Up`
-    },{
     title: `Life Group Sign-ups`,
     date: `2021`,
     url: `"Images/Life-Groups Jan 2021.jpg"`,
@@ -56,6 +42,27 @@ let announcementsStore = [
     If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
     Please email 
     <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
+    },{
+    title: `VOR Summer Camp`,
+    date: `Wednesday, July 7th - Friday, August 6th`,
+    url: `"Images/VOR Summmer Camp.jpg"`,
+    //alt: `image of person worshipping with hands raised`,
+    description: `VOR Summer Camp will be held from July 7th to August 6th. We are looking for volunteers to assist for one week on Monday, Wednesday, or Friday.
+    If you are interested in more info, please contact Pastor Joe.`
+    },{
+    title: `Resuming Weekly In-Person Sunday Worship`,
+    date: `June 6th, 2021`,
+    url: `"Images/Indoor Service Reopening.jpg"`,
+    //alt: `image of person worshipping with hands raised`,
+    description: `Starting on June 6th, we will be resuming our regular in-person Sunday service in the Social Hall at 10AM. We hope you can join us then!`
+    }/*,{
+    title: `Membership`,
+    date: `Coming soon`,
+    url: `"Images/Membership Slide October 2020.jpg"`,
+    alt: `Image of membership`,
+    description: `We will be having our next round of membership classes soon! If you are interested in becoming a member or have questions please fill out the form linked below!`,
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
     },{
