@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `May 9th, 2021`,
+    date: `May 16th, 2021`,
     series: `The Marks of a Gospel-Centered People`,
-    title: `Grace Centered`,
-    text: `Galatians 1:6-12`,
+    title: `Mission Centered`,
+    text: `Genesis 12:1-8`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -19,19 +19,6 @@ let announcementsStore = [
     fill out the form at the link below to connect with us.`,
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
-    },{
-    title: `Read the Word - May 2021 & Devotional Guide`,
-    date: `2021`,
-    url: `"Images/Read the Word May 2021 Slide.jpg"`,
-    alt: `Image of 5 day plan`,
-    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
-    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
-    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
-    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
-    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
-    to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/1sk9d7tfrz30vuu/read%20the%20word%20-%20may.png?dl=0`,
-    linkText: `Download the Plan`
     },{
     title: `Life Group Sign-ups`,
     date: `2021`,
@@ -50,14 +37,38 @@ let announcementsStore = [
     url: `"Images/VOR Summmer Camp.jpg"`,
     //alt: `image of person worshipping with hands raised`,
     description: `VOR Summer Camp will be held from July 7th to August 6th. We are looking for volunteers to assist for one week on Monday, Wednesday, or Friday.
-    If you are interested in more info, please contact Pastor Joe.`
+    If you are interested in more info, please clink the link below.`,
+    link: `https://forms.gle/Usjc5Y2DrcbiEKkMA`,
+    linkText: `Sign Up`
+    },{
+    title: `Worship and Prayer Gathering`,
+    date: `May 29, 2021 10:00AM`,
+    url: `"Images/Morning Worship and Prayer May 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of clouds`,
+    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
+    and corporate prayer. We will be streaming as well as gathering in-person on Saturday, May 29 at 10am at the link below.`,
+    link: `https://www.the-exchange-church.com/live`,
+    linkText: `Join us Online`
     },{
     title: `Resuming Weekly In-Person Sunday Worship`,
     date: `June 6th, 2021`,
     url: `"Images/Indoor Service Reopening.jpg"`,
     //alt: `image of person worshipping with hands raised`,
     description: `Starting on June 6th, we will be resuming our regular in-person Sunday service in the Social Hall at 10AM. We hope you can join us then!`
-    }/*,{
+    }/*{
+    title: `Read the Word - May 2021 & Devotional Guide`,
+    date: `2021`,
+    url: `"Images/Read the Word May 2021 Slide.jpg"`,
+    alt: `Image of 5 day plan`,
+    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
+    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
+    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
+    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
+    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
+    to follow. Click the link below to download a copy of the monthly plan.`,
+    link: `https://www.dropbox.com/s/1sk9d7tfrz30vuu/read%20the%20word%20-%20may.png?dl=0`,
+    linkText: `Download the Plan`
+    },{
     title: `Membership`,
     date: `Coming soon`,
     url: `"Images/Membership Slide October 2020.jpg"`,
@@ -102,15 +113,6 @@ let announcementsStore = [
     If you would like to learn more, please clink the link below.`,
     link: `https://forms.gle/3fYLnKkhHGQBPvY99`,
     linkText: `Learn more`
-    },{
-    title: `Praise and Prayer Gathering`,
-    date: `April 24, 2021 10:00AM`,
-    url: `"Images/Morning Worship and Prayer April 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of clouds`,
-    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
-    and corporate prayer. We will be streaming as well as gathering in-person on Saturday April 24 at 10am at the link below.`,
-    link: `https://www.the-exchange-church.com/live`,
-    linkText: `Join us Online`
     },{
     title: `Good Friday Service (Online)`,
     date: `April 2, 2021 7:30PM`,
@@ -242,11 +244,11 @@ let orderOfWorship = [
 ];
 
 let worshipLyrics = [
-    /*{
-    title: `Check back on 5/2`,
-    description: `Worship lyrics are available once a month for our socially-distanced, outdoor service.`
-    }*/
     {
+    title: `Check back on 6/6`,
+    description: `Worship lyrics are available for our socially-distanced, outdoor service.`
+    }
+    /*{
     title: `Call To Worship`,
     description: `<pre class="lyricsDesc">
     Isaiah 53:5
@@ -358,7 +360,7 @@ let worshipLyrics = [
     My one defense, my righteousness
     Oh God, how I need You
     `
-    }
+    }*/
     ];
 
 function fillSermon() {
