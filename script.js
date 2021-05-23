@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `May 16th, 2021`,
+    date: `May 23th, 2021`,
     series: `The Marks of a Gospel-Centered People`,
-    title: `Mission Centered`,
-    text: `Genesis 12:1-8`,
+    title: `Jesus Centered`,
+    text: `John 15:1-11`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -34,7 +34,7 @@ let announcementsStore = [
     },{
     title: `VOR Summer Camp`,
     date: `Wednesday, July 7th - Friday, August 6th`,
-    url: `"Images/VOR Summmer Camp.jpg"`,
+    url: `"Images/VOR Summer Camp.jpg"`,
     //alt: `image of person worshipping with hands raised`,
     description: `VOR Summer Camp will be held from July 7th to August 6th. We are looking for volunteers to assist for one week on Monday, Wednesday, or Friday.
     If you are interested in more info, please clink the link below.`,
@@ -43,7 +43,7 @@ let announcementsStore = [
     },{
     title: `Worship and Prayer Gathering`,
     date: `May 29, 2021 10:00AM`,
-    url: `"Images/Morning Worship and Prayer May 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
+    url: `"Images/Morning Prayer 05.2021.jpg"`, //spaces in the file name requires double quotes "" around it.
     alt: `image of clouds`,
     description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
     and corporate prayer. We will be streaming as well as gathering in-person on Saturday, May 29 at 10am at the link below.`,
