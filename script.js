@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `May 30th, 2021`,
-    series: `Standalone`,
-    title: `The Church we are Meant to Be`,
-    text: `Ephesians 4:11-16`,
+    date: `June 6th, 2021`,
+    series: `Colossians: Christ Above Culture`,
+    title: `What we are Commended For`,
+    text: `Colossians 1:1-8`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -20,21 +20,27 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
-    title: `VOR Summer Camp`,
-    date: `Wednesday, July 7th - Friday, August 6th`,
-    url: `"Images/VOR Summer Camp.jpg"`,
-    //alt: `image of person worshipping with hands raised`,
-    description: `VOR Summer Camp will be held from July 7th to August 6th. We are looking for volunteers to assist for one week on Monday, Wednesday, or Friday.
-    If you are interested in more info, please clink the link below.`,
-    link: `https://forms.gle/Usjc5Y2DrcbiEKkMA`,
+    title: `Read the Word - June 2021 & Devotional Guide`,
+    date: `2021`,
+    url: `"Images/Read the Word June 2021 Slide.jpg"`,
+    alt: `Image of 5 day plan`,
+    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
+    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
+    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
+    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
+    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
+    to follow. Click the link below to download a copy of the monthly plan.`,
+    link: `https://www.dropbox.com/s/c7lmw88ylecu3dr/read%20the%20word%20june.png?dl=0`,
+    linkText: `Download the Plan`
+    },{
+    title: `Membership`,
+    date: `Coming soon`,
+    url: `"Images/Membership Slide October 2020.jpg"`,
+    alt: `Image of membership`,
+    description: `We will be having our next round of membership classes soon! If you are interested in becoming a member or have questions please fill out the form linked below!`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
     },{
-    title: `Resuming Weekly In-Person Sunday Worship`,
-    date: `June 6th, 2021`,
-    url: `"Images/Indoor Service Reopening.jpg"`,
-    //alt: `image of person worshipping with hands raised`,
-    description: `Starting on June 6th, we will be resuming our regular in-person Sunday service in the Social Hall at 10AM. We hope you can join us then!`
-    }/*{
     title: `Life Group Sign-ups`,
     date: `2021`,
     url: `"Images/Life-Groups Jan 2021.jpg"`,
@@ -47,6 +53,21 @@ let announcementsStore = [
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
     },{
+    title: `VOR Summer Camp`,
+    date: `Wednesday, July 7th - Friday, August 6th`,
+    url: `"Images/VOR Summer Camp.jpg"`,
+    //alt: `image of person worshipping with hands raised`,
+    description: `VOR Summer Camp will be held from July 7th to August 6th. We are looking for volunteers to assist for one week on Monday, Wednesday, or Friday.
+    If you are interested in more info, please clink the link below.`,
+    link: `https://forms.gle/Usjc5Y2DrcbiEKkMA`,
+    linkText: `Sign Up`
+    }/*{
+    title: `Resuming Weekly In-Person Sunday Worship`,
+    date: `June 6th, 2021`,
+    url: `"Images/Indoor Service Reopening.jpg"`,
+    //alt: `image of person worshipping with hands raised`,
+    description: `Starting on June 6th, we will be resuming our regular in-person Sunday service in the Social Hall at 10AM. We hope you can join us then!`
+    },{
     title: `Worship and Prayer Gathering`,
     date: `May 29, 2021 10:00AM`,
     url: `"Images/Morning Prayer 05.2021.jpg"`, //spaces in the file name requires double quotes "" around it.
@@ -55,27 +76,6 @@ let announcementsStore = [
     and corporate prayer. We will be streaming as well as gathering in-person on Saturday, May 29 at 10am at the link below.`,
     link: `https://www.the-exchange-church.com/live`,
     linkText: `Join us Online`
-    },{
-    title: `Read the Word - May 2021 & Devotional Guide`,
-    date: `2021`,
-    url: `"Images/Read the Word May 2021 Slide.jpg"`,
-    alt: `Image of 5 day plan`,
-    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
-    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
-    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
-    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
-    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
-    to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/1sk9d7tfrz30vuu/read%20the%20word%20-%20may.png?dl=0`,
-    linkText: `Download the Plan`
-    },{
-    title: `Membership`,
-    date: `Coming soon`,
-    url: `"Images/Membership Slide October 2020.jpg"`,
-    alt: `Image of membership`,
-    description: `We will be having our next round of membership classes soon! If you are interested in becoming a member or have questions please fill out the form linked below!`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
-    linkText: `Sign Up`
     },{
     title: `Outdoor Service Gathering`,
     date: `May 2, 2020 12:30PM`,
