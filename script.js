@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `June 6th, 2021`,
+    date: `June 13th, 2021`,
     series: `Colossians: Christ Above Culture`,
-    title: `What we are Commended For`,
-    text: `Colossians 1:1-8`,
+    title: `A Worthy Life`,
+    text: `Colossians 1:9-14`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -13,25 +13,12 @@ let announcementsStore = [
     {
     title: `Connect With Us`,
     date: `2021`,
-    url: `"Images/Connect With Us Slide.jpg"`,
+    url: `"Images/Welcome Slide 2021.jpg"`,
     alt: ``,
     description: `Thanks for joining us! If you're visiting for the first time or would like to learn more, we'd like to get to know more about you. Please 
     fill out the form at the link below to connect with us.`,
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
-    },{
-    title: `Read the Word - June 2021 & Devotional Guide`,
-    date: `2021`,
-    url: `"Images/Read the Word June 2021 Slide.jpg"`,
-    alt: `Image of 5 day plan`,
-    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
-    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
-    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
-    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
-    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
-    to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/c7lmw88ylecu3dr/read%20the%20word%20june.png?dl=0`,
-    linkText: `Download the Plan`
     },{
     title: `Membership`,
     date: `Coming soon`,
@@ -62,6 +49,19 @@ let announcementsStore = [
     link: `https://forms.gle/Usjc5Y2DrcbiEKkMA`,
     linkText: `Sign Up`
     }/*{
+    title: `Read the Word - June 2021 & Devotional Guide`,
+    date: `2021`,
+    url: `"Images/Read the Word June 2021 Slide.jpg"`,
+    alt: `Image of 5 day plan`,
+    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
+    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
+    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
+    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
+    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
+    to follow. Click the link below to download a copy of the monthly plan.`,
+    link: `https://www.dropbox.com/s/c7lmw88ylecu3dr/read%20the%20word%20june.png?dl=0`,
+    linkText: `Download the Plan`
+    },{
     title: `Resuming Weekly In-Person Sunday Worship`,
     date: `June 6th, 2021`,
     url: `"Images/Indoor Service Reopening.jpg"`,
