@@ -105,14 +105,14 @@ header {
     font-family: 'brandon_grotesqueblack';
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: 24px;
+    font-size: 22px;
     margin-top: 10px;
 }
 .deets{
     list-style: none;
     text-decoration: none;
     padding: 0;
-    font-size: 16px;
+    font-size: 14.5px;
     line-height: 22px;
     margin-top: 0;
     letter-spacing: .45px;
@@ -277,6 +277,7 @@ main {
     margin-bottom: 0;
     font-size: 15px;
     letter-spacing: 3px;
+    text-transform: uppercase;
 }
 .lyricsTitleAlt {
     margin-top: 0px;
