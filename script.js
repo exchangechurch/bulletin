@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `June 13th, 2021`,
+    date: `June 20th, 2021`,
     series: `Colossians: Christ Above Culture`,
-    title: `A Worthy Life`,
-    text: `Colossians 1:9-14`,
+    title: `The Supremacy & Sufficiency of Jesus`,
+    text: `Colossians 1:15-23`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -20,14 +20,38 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
+    title: `Prayer Gathering`,
+    date: `June 26, 2021 10:00AM`,
+    url: `"Images/Morning Prayer 06.2021.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of clouds`,
+    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
+    and corporate prayer. We will be gathering in-person on Saturday, June 26 at 10am in the Social Hall (same place as worship)`,
+    link: `https://www.the-exchange-church.com/live`,
+    linkText: `Join us Online`
+    },{
     title: `Membership`,
     date: `Coming soon`,
-    url: `"Images/Membership Slide October 2020.jpg"`,
+    url: `"Images/Membership Slide 2021.jpg"`,
     alt: `Image of membership`,
     description: `We will be having our next round of membership classes soon! If you are interested in becoming a member or have questions please fill out the form linked below!`,
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
     },{
+    title: `VOR Summer Camp`,
+    date: `Wednesday, July 7th - Friday, August 6th`,
+    url: `"Images/VOR Summer Camp June 2021.jpg"`,
+    //alt: `image of person worshipping with hands raised`,
+    description: `VOR Summer Camp will be held from July 7th to August 6th. We are looking for volunteers to assist for one week on Monday, Wednesday, or Friday.
+    If you are interested in more info, please clink the link below.`,
+    link: `https://forms.gle/Usjc5Y2DrcbiEKkMA`,
+    linkText: `Sign Up`
+    },{
+    title: `4th of July Gathering`,
+    date: `July 4th, 2021`,
+    url: `"Images/Fourth of July Gathering Slide 2021.jpg"`,
+    alt: `image of flag`,
+    description: `Mark your calendars for 6pm on July 4th. Location TBD. We hope to see you then!`
+    }/*{
     title: `Life Group Sign-ups`,
     date: `2021`,
     url: `"Images/Life-Groups Jan 2021.jpg"`,
@@ -40,15 +64,6 @@ let announcementsStore = [
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
     },{
-    title: `VOR Summer Camp`,
-    date: `Wednesday, July 7th - Friday, August 6th`,
-    url: `"Images/VOR Summer Camp.jpg"`,
-    //alt: `image of person worshipping with hands raised`,
-    description: `VOR Summer Camp will be held from July 7th to August 6th. We are looking for volunteers to assist for one week on Monday, Wednesday, or Friday.
-    If you are interested in more info, please clink the link below.`,
-    link: `https://forms.gle/Usjc5Y2DrcbiEKkMA`,
-    linkText: `Sign Up`
-    }/*{
     title: `Read the Word - June 2021 & Devotional Guide`,
     date: `2021`,
     url: `"Images/Read the Word June 2021 Slide.jpg"`,
@@ -67,15 +82,6 @@ let announcementsStore = [
     url: `"Images/Indoor Service Reopening.jpg"`,
     //alt: `image of person worshipping with hands raised`,
     description: `Starting on June 6th, we will be resuming our regular in-person Sunday service in the Social Hall at 10AM. We hope you can join us then!`
-    },{
-    title: `Worship and Prayer Gathering`,
-    date: `May 29, 2021 10:00AM`,
-    url: `"Images/Morning Prayer 05.2021.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of clouds`,
-    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
-    and corporate prayer. We will be streaming as well as gathering in-person on Saturday, May 29 at 10am at the link below.`,
-    link: `https://www.the-exchange-church.com/live`,
-    linkText: `Join us Online`
     },{
     title: `Outdoor Service Gathering`,
     date: `May 2, 2020 12:30PM`,
