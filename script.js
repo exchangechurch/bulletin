@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `June 27th, 2021`,
+    date: `July 4th, 2021`,
     series: `Colossians: Christ Above Culture`,
-    title: `Making the Gospel Visible through Suffering`,
-    text: `Colossians 1:24-29`,
+    title: `The Key to Knowledge and Wisdom`,
+    text: `Colossians 2:1-10`,
     speaker: `Pastor Joe Suh`
 }];
 
@@ -20,11 +20,24 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
+    title: `Read the Word - July 2021 & Devotional Guide`,
+    date: `2021`,
+    url: `"Images/Read the Word July 2021 Slide.jpg"`,
+    alt: `Image of 5 day plan`,
+    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
+    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
+    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
+    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
+    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
+    to follow. Click the link below to download a copy of the monthly plan.`,
+    link: `https://www.dropbox.com/s/nfq11zlev0iauff/Read%20the%20Word%20-%20July.png?dl=0`,
+    linkText: `Download the Plan`
+    },{
     title: `Membership`,
-    date: `Coming soon`,
+    date: `Starting July 11, 2021`,
     url: `"Images/Membership Slide 2021.jpg"`,
     alt: `Image of membership`,
-    description: `We will be having our next round of membership classes soon! If you are interested in becoming a member or have questions please fill out the form linked below!`,
+    description: `We will be having our next round of membership classes starting July 11 at 1PM on Sundays. If you are interested in becoming a member or have questions please fill out the form linked below!`,
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
     },{
@@ -32,7 +45,7 @@ let announcementsStore = [
     date: `July 4th, 2021`,
     url: `"Images/Fourth of July Gathering Slide 2021.jpg"`,
     alt: `image of flag`,
-    description: `Mark your calendars for 6pm on July 4th. We will be having a get together here at church in Artesia. We hope to see you then!`
+    description: `Mark your calendars for 6pm on July 4th. We will be having a get together here at church in Artesia. Stick around and we hope to see you then!`
     }/*{
     title: `VOR Summer Camp`,
     date: `Wednesday, July 7th - Friday, August 6th`,
@@ -63,19 +76,6 @@ let announcementsStore = [
     <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
-    },{
-    title: `Read the Word - June 2021 & Devotional Guide`,
-    date: `2021`,
-    url: `"Images/Read the Word June 2021 Slide.jpg"`,
-    alt: `Image of 5 day plan`,
-    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
-    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
-    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
-    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
-    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
-    to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/c7lmw88ylecu3dr/read%20the%20word%20june.png?dl=0`,
-    linkText: `Download the Plan`
     },{
     title: `Resuming Weekly In-Person Sunday Worship`,
     date: `June 6th, 2021`,
