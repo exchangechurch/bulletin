@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `July 4th, 2021`,
-    series: `Colossians: Christ Above Culture`,
-    title: `The Key to Knowledge and Wisdom`,
-    text: `Colossians 2:1-10`,
-    speaker: `Pastor Joe Suh`
+    date: `July 11th, 2021`,
+    series: `Standalone`,
+    title: `When Life is Good`,
+    text: `Ecclesiastes 12`,
+    speaker: `Guest Speaker, Patrick Cho`
 }];
 
 let announcementsStore = [
@@ -19,6 +19,23 @@ let announcementsStore = [
     fill out the form at the link below to connect with us.`,
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
+    },{
+    title: `Membership`,
+    date: `Starting Today, July 11, 2021`,
+    url: `"Images/Membership Slide 2021.jpg"`,
+    alt: `Image of membership`,
+    description: `We will be having our next round of membership classes starting Today, July 11 at 1PM on Sundays. If you are interested in becoming a member or have questions please fill out the form linked below!`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
+    }/*{
+    title: `VOR Summer Camp`,
+    date: `Wednesday, July 7th - Friday, August 6th`,
+    url: `"Images/VOR Summer Camp June 2021.jpg"`,
+    //alt: `image of person worshipping with hands raised`,
+    description: `VOR Summer Camp will be held from July 7th to August 6th. We are looking for volunteers to assist for one week on Monday, Wednesday, or Friday.
+    If you are interested in more info, please clink the link below.`,
+    link: `https://forms.gle/Usjc5Y2DrcbiEKkMA`,
+    linkText: `Sign Up`
     },{
     title: `Read the Word - July 2021 & Devotional Guide`,
     date: `2021`,
@@ -33,28 +50,11 @@ let announcementsStore = [
     link: `https://www.dropbox.com/s/nfq11zlev0iauff/Read%20the%20Word%20-%20July.png?dl=0`,
     linkText: `Download the Plan`
     },{
-    title: `Membership`,
-    date: `Starting July 11, 2021`,
-    url: `"Images/Membership Slide 2021.jpg"`,
-    alt: `Image of membership`,
-    description: `We will be having our next round of membership classes starting July 11 at 1PM on Sundays. If you are interested in becoming a member or have questions please fill out the form linked below!`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
-    linkText: `Sign Up`
-    },{
     title: `4th of July Gathering`,
     date: `July 4th, 2021`,
     url: `"Images/Fourth of July Gathering Slide 2021.jpg"`,
     alt: `image of flag`,
     description: `Mark your calendars for 6pm on July 4th. We will be having a get together here at church in Artesia. Stick around and we hope to see you then!`
-    }/*{
-    title: `VOR Summer Camp`,
-    date: `Wednesday, July 7th - Friday, August 6th`,
-    url: `"Images/VOR Summer Camp June 2021.jpg"`,
-    //alt: `image of person worshipping with hands raised`,
-    description: `VOR Summer Camp will be held from July 7th to August 6th. We are looking for volunteers to assist for one week on Monday, Wednesday, or Friday.
-    If you are interested in more info, please clink the link below.`,
-    link: `https://forms.gle/Usjc5Y2DrcbiEKkMA`,
-    linkText: `Sign Up`
     },{
     title: `Prayer Gathering`,
     date: `June 26, 2021 10:00AM`,
