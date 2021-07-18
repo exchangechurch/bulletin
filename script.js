@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `July 11th, 2021`,
+    date: `July 18th, 2021`,
     series: `Standalone`,
-    title: `When Life is Good`,
-    text: `Ecclesiastes 12`,
-    speaker: `Guest Speaker, Patrick Cho`
+    title: `Living in the Fullness of Christ`,
+    text: `Colossians 3:14-17`,
+    speaker: `Guest Speaker, Jimmy Han`
 }];
 
 let announcementsStore = [
@@ -27,6 +27,15 @@ let announcementsStore = [
     description: `We will be having our next round of membership classes starting Today, July 11 at 1PM on Sundays. If you are interested in becoming a member or have questions please fill out the form linked below!`,
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
+    },{
+    title: `Prayer Gathering`,
+    date: `July 24, 2021 10:00AM`,
+    url: `"Images/Morning Prayer 07.2021.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of clouds`,
+    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
+    and corporate prayer. We will be gathering in-person on Saturday, June 26 at 10am in the Social Hall (same place as worship)`,
+    link: `https://www.the-exchange-church.com/live`,
+    linkText: `Join us Online`
     }/*{
     title: `VOR Summer Camp`,
     date: `Wednesday, July 7th - Friday, August 6th`,
@@ -55,15 +64,6 @@ let announcementsStore = [
     url: `"Images/Fourth of July Gathering Slide 2021.jpg"`,
     alt: `image of flag`,
     description: `Mark your calendars for 6pm on July 4th. We will be having a get together here at church in Artesia. Stick around and we hope to see you then!`
-    },{
-    title: `Prayer Gathering`,
-    date: `June 26, 2021 10:00AM`,
-    url: `"Images/Morning Prayer 06.2021.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of clouds`,
-    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
-    and corporate prayer. We will be gathering in-person on Saturday, June 26 at 10am in the Social Hall (same place as worship)`,
-    link: `https://www.the-exchange-church.com/live`,
-    linkText: `Join us Online`
     },{
     title: `Life Group Sign-ups`,
     date: `2021`,
