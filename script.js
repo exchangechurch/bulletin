@@ -21,10 +21,10 @@ let announcementsStore = [
     linkText: `Connect with us`
     },{
     title: `Membership`,
-    date: `Starting Today, July 11, 2021`,
+    date: `Started, July 11, 2021`,
     url: `"Images/Membership Slide 2021.jpg"`,
     alt: `Image of membership`,
-    description: `We will be having our next round of membership classes starting Today, July 11 at 1PM on Sundays. If you are interested in becoming a member or have questions please fill out the form linked below!`,
+    description: `We are currently having our round of membership classes that started July 11. Join us again for part two at 1PM today. If you are interested in becoming a member or have questions please fill out the form linked below!`,
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
     },{
