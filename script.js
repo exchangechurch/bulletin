@@ -36,7 +36,7 @@ let announcementsStore = [
     those in need and support the <a class="announceLinkinP" href='https://vorservices.org/volunteers/' target="_blank">VOR</a> mission: Putting God’s love into action 
     by assisting the refugee and asylum-seeking community to re-establish and assimilate their lives in the United States.
 
-    This upcoming Wenesday, 10 Nonprofits, including VOR, are coming together to raise $90,000 for the Underserved Youth of Anaheim. Help make an impact and learn more
+    This upcoming Wednesday, 10 Nonprofits, including VOR, are coming together to raise $90,000 for the Underserved Youth of Anaheim. Help make an impact and learn more
     at the link below.`,
     link: `https://impact-anaheim-giving-day.ocnonprofitcentral.org/`,
     linkText: `Learn more`
