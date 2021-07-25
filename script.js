@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `July 18th, 2021`,
-    series: `Standalone`,
-    title: `Living in the Fullness of Christ`,
-    text: `Colossians 3:14-17`,
-    speaker: `Guest Speaker, Jimmy Han`
+    date: `July 25th, 2021`,
+    series: `Colossians: Christ Above Culture`,
+    title: `Jesus over Sin`,
+    text: `Colossians 2:11-15`,
+    speaker: `Lead Pastor, Joe Suh`
 }];
 
 let announcementsStore = [
@@ -28,6 +28,19 @@ let announcementsStore = [
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
     },{
+    title: `Impact Anaheim Giving Day`,
+    date: `Wednesday, July 28th 2021`,
+    url: `"Images/Impact Anaheim Slide.jpg"`,
+    alt: `"Impact Anaheim Slide"`,
+    description: `With the COVID-19 crisis impacting refugees and the Voice of Refugees (VOR) organization, we want to highlight a few opportunities to serve/help 
+    those in need and support the <a class="announceLinkinP" href='https://vorservices.org/volunteers/' target="_blank">VOR</a> mission: Putting God’s love into action 
+    by assisting the refugee and asylum-seeking community to re-establish and assimilate their lives in the United States.
+
+    This upcoming Wenesday, 10 Nonprofits, including VOR, are coming together to raise $90,000 for the Underserved Youth of Anaheim. Help make an impact and learn more
+    at the link below.`,
+    link: `https://impact-anaheim-giving-day.ocnonprofitcentral.org/`,
+    linkText: `Learn more`
+    },/*{
     title: `Prayer Gathering`,
     date: `July 24, 2021 10:00AM`,
     url: `"Images/Morning Prayer 07.2021.jpg"`, //spaces in the file name requires double quotes "" around it.
@@ -36,7 +49,7 @@ let announcementsStore = [
     and corporate prayer. We will be gathering in-person on Saturday, June 26 at 10am in the Social Hall (same place as worship)`,
     link: `https://www.the-exchange-church.com/live`,
     linkText: `Join us Online`
-    }/*{
+    },{
     title: `VOR Summer Camp`,
     date: `Wednesday, July 7th - Friday, August 6th`,
     url: `"Images/VOR Summer Camp June 2021.jpg"`,
