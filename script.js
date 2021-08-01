@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `July 25th, 2021`,
+    date: `August 1st, 2021`,
     series: `Colossians: Christ Above Culture`,
-    title: `Jesus over Sin`,
-    text: `Colossians 2:11-15`,
+    title: `Jesus over the Shadow`,
+    text: `Colossians 2:16-23`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -24,10 +24,23 @@ let announcementsStore = [
     date: `Started, July 11, 2021`,
     url: `"Images/Membership Slide 2021.jpg"`,
     alt: `Image of membership`,
-    description: `We are currently having our round of membership classes that started July 11. Join us again for part two at 1PM today. If you are interested in becoming a member or have questions please fill out the form linked below!`,
+    description: `We are currently having our last round of membership classes that started July 11. Join us again for part four at 1PM today. If you are interested in becoming a member or have questions please fill out the form linked below!`,
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
     },{
+    title: `Read the Word - August 2021 & Devotional Guide`,
+    date: `2021`,
+    url: `"Images/Read the Word Aug 2021.jpg"`,
+    alt: `Image of 5 day plan`,
+    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
+    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
+    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
+    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
+    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
+    to follow. Click the link below to download a copy of the monthly plan.`,
+    link: `https://www.dropbox.com/s/6kp0bd71i3icgr4/Read%20the%20Word%20%28August%29.png?dl=0`,
+    linkText: `Download the Plan`
+    }/*{
     title: `Impact Anaheim Giving Day`,
     date: `Wednesday, July 28th 2021`,
     url: `"Images/Impact Anaheim Slide.jpg"`,
@@ -40,7 +53,7 @@ let announcementsStore = [
     at the link below.`,
     link: `https://impact-anaheim-giving-day.ocnonprofitcentral.org/`,
     linkText: `Learn more`
-    },/*{
+    },{
     title: `Prayer Gathering`,
     date: `July 24, 2021 10:00AM`,
     url: `"Images/Morning Prayer 07.2021.jpg"`, //spaces in the file name requires double quotes "" around it.
@@ -58,19 +71,6 @@ let announcementsStore = [
     If you are interested in more info, please clink the link below.`,
     link: `https://forms.gle/Usjc5Y2DrcbiEKkMA`,
     linkText: `Sign Up`
-    },{
-    title: `Read the Word - July 2021 & Devotional Guide`,
-    date: `2021`,
-    url: `"Images/Read the Word July 2021 Slide.jpg"`,
-    alt: `Image of 5 day plan`,
-    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
-    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
-    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
-    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
-    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
-    to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/nfq11zlev0iauff/Read%20the%20Word%20-%20July.png?dl=0`,
-    linkText: `Download the Plan`
     },{
     title: `4th of July Gathering`,
     date: `July 4th, 2021`,
