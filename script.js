@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `August 1st, 2021`,
+    date: `August 8th, 2021`,
     series: `Colossians: Christ Above Culture`,
-    title: `Jesus over the Shadow`,
-    text: `Colossians 2:16-23`,
+    title: `Who You're Truly Meant to Be in Christ`,
+    text: `Colossians 3:1-4`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -28,18 +28,17 @@ let announcementsStore = [
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
     },{
-    title: `Read the Word - August 2021 & Devotional Guide`,
-    date: `2021`,
-    url: `"Images/Read the Word Aug 2021.jpg"`,
-    alt: `Image of 5 day plan`,
-    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
-    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
-    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
-    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
-    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
-    to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/6kp0bd71i3icgr4/Read%20the%20Word%20%28August%29.png?dl=0`,
-    linkText: `Download the Plan`
+    title: `Life Group Sign-ups`,
+    date: `September 2021`,
+    url: `"Images/Life-Groups Jan 2021.jpg"`,
+    alt: `image of faded bibles`,
+    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
+    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
+    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
+    Please email 
+    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
     }/*{
     title: `Impact Anaheim Giving Day`,
     date: `Wednesday, July 28th 2021`,
@@ -78,17 +77,18 @@ let announcementsStore = [
     alt: `image of flag`,
     description: `Mark your calendars for 6pm on July 4th. We will be having a get together here at church in Artesia. Stick around and we hope to see you then!`
     },{
-    title: `Life Group Sign-ups`,
+    title: `Read the Word - August 2021 & Devotional Guide`,
     date: `2021`,
-    url: `"Images/Life-Groups Jan 2021.jpg"`,
-    alt: `image of faded bibles`,
-    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
-    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
-    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
-    Please email 
-    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
-    linkText: `Sign Up`
+    url: `"Images/Read the Word Aug 2021.jpg"`,
+    alt: `Image of 5 day plan`,
+    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
+    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
+    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
+    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
+    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
+    to follow. Click the link below to download a copy of the monthly plan.`,
+    link: `https://www.dropbox.com/s/6kp0bd71i3icgr4/Read%20the%20Word%20%28August%29.png?dl=0`,
+    linkText: `Download the Plan`
     },{
     title: `Resuming Weekly In-Person Sunday Worship`,
     date: `June 6th, 2021`,
