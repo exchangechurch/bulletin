@@ -30,7 +30,7 @@ let announcementsStore = [
     },{
     title: `Life Group Sign-ups`,
     date: `September 2021`,
-    url: `"Images/Life-Groups Jan 2021.jpg"`,
+    url: `"Images/Life-Groups 2021.jpg"`,
     alt: `image of faded bibles`,
     description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
     weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
