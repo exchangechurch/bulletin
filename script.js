@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `August 8th, 2021`,
+    date: `August 15th, 2021`,
     series: `Colossians: Christ Above Culture`,
-    title: `Who You're Truly Meant to Be in Christ`,
-    text: `Colossians 3:1-4`,
+    title: `Killing Sin`,
+    text: `Colossians 3:5-11`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -20,14 +20,6 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
-    title: `Membership`,
-    date: `Started, July 11, 2021`,
-    url: `"Images/Membership Slide 2021.jpg"`,
-    alt: `Image of membership`,
-    description: `We are currently having our last round of membership classes that started July 11. Join us again for part four at 1PM today. If you are interested in becoming a member or have questions please fill out the form linked below!`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
-    linkText: `Sign Up`
-    },{
     title: `Life Group Sign-ups`,
     date: `September 2021`,
     url: `"Images/Life-Groups 2021.jpg"`,
@@ -39,7 +31,24 @@ let announcementsStore = [
     <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
-    }/*{
+    },{
+    title: `Prayer Gathering`,
+    date: `August 28, 2021 10:00AM`,
+    url: `"Images/Morning Prayer Aug 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of clouds`,
+    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
+    and corporate prayer. We will be gathering in-person on Saturday, August 28 at 10am in the Social Hall (same place as worship)`,
+    link: `https://www.the-exchange-church.com/live`,
+    linkText: `Join us Online`
+    }/*,{
+    title: `Membership`,
+    date: `Started, July 11, 2021`,
+    url: `"Images/Membership Slide 2021.jpg"`,
+    alt: `Image of membership`,
+    description: `We are currently having our last round of membership classes that started July 11. Join us again for part four at 1PM today. If you are interested in becoming a member or have questions please fill out the form linked below!`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
+    },{
     title: `Impact Anaheim Giving Day`,
     date: `Wednesday, July 28th 2021`,
     url: `"Images/Impact Anaheim Slide.jpg"`,
@@ -52,15 +61,6 @@ let announcementsStore = [
     at the link below.`,
     link: `https://impact-anaheim-giving-day.ocnonprofitcentral.org/`,
     linkText: `Learn more`
-    },{
-    title: `Prayer Gathering`,
-    date: `July 24, 2021 10:00AM`,
-    url: `"Images/Morning Prayer 07.2021.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of clouds`,
-    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
-    and corporate prayer. We will be gathering in-person on Saturday, June 26 at 10am in the Social Hall (same place as worship)`,
-    link: `https://www.the-exchange-church.com/live`,
-    linkText: `Join us Online`
     },{
     title: `VOR Summer Camp`,
     date: `Wednesday, July 7th - Friday, August 6th`,
