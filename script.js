@@ -5,7 +5,7 @@ let sermonStore = [{
     date: `August 22th, 2021`,
     series: `Colossians: Christ Above Culture`,
     title: `Putting On Christlikeness`,
-    text: `Colossians 3:5-11`,
+    text: `Colossians 3:12-17`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
