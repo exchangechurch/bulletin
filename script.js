@@ -2,9 +2,9 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `August 15th, 2021`,
+    date: `August 22th, 2021`,
     series: `Colossians: Christ Above Culture`,
-    title: `Killing Sin`,
+    title: `Putting On Christlikeness`,
     text: `Colossians 3:5-11`,
     speaker: `Lead Pastor, Joe Suh`
 }];
@@ -40,6 +40,14 @@ let announcementsStore = [
     and corporate prayer. We will be gathering in-person on Saturday, August 28 at 10am in the Social Hall (same place as worship)`,
     link: `https://www.the-exchange-church.com/live`,
     linkText: `Join us Online`
+    },{
+    title: `Movie Night`,
+    date: `September 11, 2021 4:00PM`,
+    //url: `"Images/Morning Prayer Aug 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
+    //alt: `image of clouds`,
+    description: `Come join us on September 11 at 4PM in the social hall for Movie Night! More details to come.`
+    //link: `https://www.the-exchange-church.com/live`,
+    //linkText: `Join us Online`
     }/*,{
     title: `Membership`,
     date: `Started, July 11, 2021`,
