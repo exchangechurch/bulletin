@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `August 22th, 2021`,
+    date: `August 29th, 2021`,
     series: `Colossians: Christ Above Culture`,
-    title: `Putting On Christlikeness`,
-    text: `Colossians 3:12-17`,
+    title: `A Countercultural Family`,
+    text: `Colossians 3:18-21`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -27,11 +27,20 @@ let announcementsStore = [
     description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
     weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
     If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below. 
+    This will be the last week to sign up! 
     Please email 
     <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
     },{
+    title: `Movie Night`,
+    date: `September 11, 2021 6:00PM`,
+    url: `"Images/Movie Night Sept 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of theatre`,
+    description: `Come join us on September 11 at 6PM in the social hall for dinner and a movie! More details to come.`
+    //link: `https://www.the-exchange-church.com/live`,
+    //linkText: `Join us Online`
+    }/*{
     title: `Prayer Gathering`,
     date: `August 28, 2021 10:00AM`,
     url: `"Images/Morning Prayer Aug 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
@@ -41,14 +50,6 @@ let announcementsStore = [
     link: `https://www.the-exchange-church.com/live`,
     linkText: `Join us Online`
     },{
-    title: `Movie Night`,
-    date: `September 11, 2021 6:00PM`,
-    url: `"Images/Movie Night Sept 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of theatre`,
-    description: `Come join us on September 11 at 6PM in the social hall for Movie Night! More details to come.`
-    //link: `https://www.the-exchange-church.com/live`,
-    //linkText: `Join us Online`
-    }/*,{
     title: `Membership`,
     date: `Started, July 11, 2021`,
     url: `"Images/Membership Slide 2021.jpg"`,
