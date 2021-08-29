@@ -35,7 +35,7 @@ let announcementsStore = [
     },{
     title: `Movie Night`,
     date: `September 11, 2021 6:00PM`,
-    url: `"Images/Movie Night Sept 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
+    url: `"Images/Movie Night Sept 2021 edit.jpg"`, //spaces in the file name requires double quotes "" around it.
     alt: `image of theatre`,
     description: `Come join us on September 11 at 6PM in the social hall for dinner and a movie! More details to come.`
     //link: `https://www.the-exchange-church.com/live`,
