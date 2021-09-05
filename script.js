@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `August 29th, 2021`,
+    date: `September 5th, 2021`,
     series: `Colossians: Christ Above Culture`,
-    title: `A Countercultural Family`,
-    text: `Colossians 3:18-21`,
+    title: `How the Gospel deals with Slavery`,
+    text: `Colossians 3:22-4:1`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -20,6 +20,27 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
+    title: `Read the Word - September 2021 & Devotional Guide`,
+    date: `2021`,
+    url: `"Images/Read the Word Sept 2021 Slide.jpg"`,
+    alt: `Image of 5 day plan`,
+    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
+    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
+    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
+    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
+    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
+    to follow. Click the link below to download a copy of the monthly plan.`,
+    link: `https://www.dropbox.com/s/lztt1ywxtl3ih1p/Read%20the%20Word%20%28September%29.png?dl=0`,
+    linkText: `Download the Plan`
+    },{
+    title: `Movie Night`,
+    date: `September 11, 2021 6:00PM`,
+    url: `"Images/Movie Night Sept 2021 edit.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of theatre`,
+    description: `Come join us on September 11 at 6PM in the social hall for dinner and a movie! More details to come.`
+    //link: `https://www.the-exchange-church.com/live`,
+    //linkText: `Join us Online`
+    }/*{
     title: `Life Group Sign-ups`,
     date: `September 2021`,
     url: `"Images/Life-Groups 2021.jpg"`,
@@ -33,14 +54,6 @@ let announcementsStore = [
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
     },{
-    title: `Movie Night`,
-    date: `September 11, 2021 6:00PM`,
-    url: `"Images/Movie Night Sept 2021 edit.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of theatre`,
-    description: `Come join us on September 11 at 6PM in the social hall for dinner and a movie! More details to come.`
-    //link: `https://www.the-exchange-church.com/live`,
-    //linkText: `Join us Online`
-    }/*{
     title: `Prayer Gathering`,
     date: `August 28, 2021 10:00AM`,
     url: `"Images/Morning Prayer Aug 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
@@ -85,19 +98,6 @@ let announcementsStore = [
     url: `"Images/Fourth of July Gathering Slide 2021.jpg"`,
     alt: `image of flag`,
     description: `Mark your calendars for 6pm on July 4th. We will be having a get together here at church in Artesia. Stick around and we hope to see you then!`
-    },{
-    title: `Read the Word - August 2021 & Devotional Guide`,
-    date: `2021`,
-    url: `"Images/Read the Word Aug 2021.jpg"`,
-    alt: `Image of 5 day plan`,
-    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
-    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
-    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
-    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
-    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
-    to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/6kp0bd71i3icgr4/Read%20the%20Word%20%28August%29.png?dl=0`,
-    linkText: `Download the Plan`
     },{
     title: `Resuming Weekly In-Person Sunday Worship`,
     date: `June 6th, 2021`,
