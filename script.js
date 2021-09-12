@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `September 5th, 2021`,
+    date: `September 12th, 2021`,
     series: `Colossians: Christ Above Culture`,
-    title: `How the Gospel deals with Slavery`,
-    text: `Colossians 3:22-4:1`,
+    title: `Living on Mission`,
+    text: `Colossians 4:2-6`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -33,6 +33,14 @@ let announcementsStore = [
     link: `https://www.dropbox.com/s/lztt1ywxtl3ih1p/Read%20the%20Word%20%28September%29.png?dl=0`,
     linkText: `Download the Plan`
     },{
+    title: `Membership`,
+    date: `Fall 2021`,
+    url: `"Images/Membership Slide 2021 REVISED.jpg"`,
+    alt: `Image of membership`,
+    description: `We will be starting membership again for the Fall 2021 quarter. If you are interested in becoming a member or have questions please fill out the form linked below!`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
+    }/*{
     title: `Movie Night`,
     date: `September 11, 2021 6:00PM`,
     url: `"Images/Movie Night Sept 2021 edit.jpg"`, //spaces in the file name requires double quotes "" around it.
@@ -40,7 +48,7 @@ let announcementsStore = [
     description: `Come join us on September 11 at 6PM in the social hall for dinner and a movie! More details to come.`
     //link: `https://www.the-exchange-church.com/live`,
     //linkText: `Join us Online`
-    }/*{
+    },{
     title: `Life Group Sign-ups`,
     date: `September 2021`,
     url: `"Images/Life-Groups 2021.jpg"`,
@@ -62,14 +70,6 @@ let announcementsStore = [
     and corporate prayer. We will be gathering in-person on Saturday, August 28 at 10am in the Social Hall (same place as worship)`,
     link: `https://www.the-exchange-church.com/live`,
     linkText: `Join us Online`
-    },{
-    title: `Membership`,
-    date: `Started, July 11, 2021`,
-    url: `"Images/Membership Slide 2021.jpg"`,
-    alt: `Image of membership`,
-    description: `We are currently having our last round of membership classes that started July 11. Join us again for part four at 1PM today. If you are interested in becoming a member or have questions please fill out the form linked below!`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
-    linkText: `Sign Up`
     },{
     title: `Impact Anaheim Giving Day`,
     date: `Wednesday, July 28th 2021`,
