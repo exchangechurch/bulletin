@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `September 12th, 2021`,
+    date: `September 19th, 2021`,
     series: `Colossians: Christ Above Culture`,
-    title: `Living on Mission`,
-    text: `Colossians 4:2-6`,
+    title: `Examples of Faith in Life`,
+    text: `Colossians 4:7-18`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -20,6 +20,23 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
+    title: `Membership`,
+    date: `Fall 2021`,
+    url: `"Images/Membership Slide 2021 REVISED.jpg"`,
+    alt: `Image of membership`,
+    description: `We will be starting membership again for the Winter 2021 quarter. If you are interested in becoming a member or have questions please fill out the form linked below!`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
+    },{
+    title: `Prayer Gathering`,
+    date: `September 25, 2021 10:00AM`,
+    url: `"Images/Morning Prayer Sep 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of clouds`,
+    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
+    and corporate prayer. We will be gathering in-person on Saturday, September 25 at 10am in the Social Hall (same place as worship)`
+    //link: `https://www.the-exchange-church.com/live`,
+    //linkText: `Join us Online`
+    }/*{
     title: `Read the Word - September 2021 & Devotional Guide`,
     date: `2021`,
     url: `"Images/Read the Word Sept 2021 Slide.jpg"`,
@@ -33,14 +50,6 @@ let announcementsStore = [
     link: `https://www.dropbox.com/s/lztt1ywxtl3ih1p/Read%20the%20Word%20%28September%29.png?dl=0`,
     linkText: `Download the Plan`
     },{
-    title: `Membership`,
-    date: `Fall 2021`,
-    url: `"Images/Membership Slide 2021 REVISED.jpg"`,
-    alt: `Image of membership`,
-    description: `We will be starting membership again for the Fall 2021 quarter. If you are interested in becoming a member or have questions please fill out the form linked below!`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
-    linkText: `Sign Up`
-    }/*{
     title: `Movie Night`,
     date: `September 11, 2021 6:00PM`,
     url: `"Images/Movie Night Sept 2021 edit.jpg"`, //spaces in the file name requires double quotes "" around it.
@@ -61,15 +70,6 @@ let announcementsStore = [
     <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
-    },{
-    title: `Prayer Gathering`,
-    date: `August 28, 2021 10:00AM`,
-    url: `"Images/Morning Prayer Aug 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of clouds`,
-    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
-    and corporate prayer. We will be gathering in-person on Saturday, August 28 at 10am in the Social Hall (same place as worship)`,
-    link: `https://www.the-exchange-church.com/live`,
-    linkText: `Join us Online`
     },{
     title: `Impact Anaheim Giving Day`,
     date: `Wednesday, July 28th 2021`,
