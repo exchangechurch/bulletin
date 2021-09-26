@@ -2,10 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `September 19th, 2021`,
-    series: `Colossians: Christ Above Culture`,
-    title: `Examples of Faith in Life`,
-    text: `Colossians 4:7-18`,
+    date: `September 26th, 2021`,
+    //series: `Colossians: Christ Above Culture`,
+    series: `Standalone`,
+    title: `The Search for The One`,
+    text: `Genesis 29:9-35`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -27,7 +28,7 @@ let announcementsStore = [
     description: `We will be starting membership again for the Winter 2021 quarter. If you are interested in becoming a member or have questions please fill out the form linked below!`,
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
-    },{
+    }/*{
     title: `Prayer Gathering`,
     date: `September 25, 2021 10:00AM`,
     url: `"Images/Morning Prayer Sep 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
@@ -36,7 +37,7 @@ let announcementsStore = [
     and corporate prayer. We will be gathering in-person on Saturday, September 25 at 10am in the Social Hall (same place as worship)`
     //link: `https://www.the-exchange-church.com/live`,
     //linkText: `Join us Online`
-    }/*{
+    },{
     title: `Read the Word - September 2021 & Devotional Guide`,
     date: `2021`,
     url: `"Images/Read the Word Sept 2021 Slide.jpg"`,
