@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `September 26th, 2021`,
+    date: `October 3th, 2021`,
     //series: `Colossians: Christ Above Culture`,
     series: `Standalone`,
-    title: `The Search for The One`,
-    text: `Genesis 29:9-35`,
+    title: `The Lord's Supper`,
+    text: `Mark 14:12-25`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -21,6 +21,28 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
+    title: `Read the Word - October 2021 & Devotional Guide`,
+    date: `2021`,
+    url: `"Images/Read the Word October 2021 Slide.jpg"`,
+    alt: `Image of 5 day plan`,
+    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
+    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
+    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
+    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
+    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
+    to follow. Click the link below to download a copy of the monthly plan.`,
+    link: `https://www.dropbox.com/s/icnpxip1b7p0z5m/Read%20the%20Word%20%28Oct%29.png?dl=0`,
+    linkText: `Download the Plan`
+    },{
+    title: `Fall Fest - Trunk or Treat`,
+    date: `October 31, 2021`,
+    url: `"Images/Halloween 2021 Slide.jpg"`,
+    alt: `Image of pumpkins`,
+    description: `We will be having a Trunk or Treat for the kids on October 31, 2021. Volunteers will be needed for this event! If you are interested or have questions,
+     please fill out the form linked below!`,
+    link: `https://forms.gle/hCeBjKNcVhxaQ2qN6`,
+    linkText: `Sign Up`
+    }/*{
     title: `Membership`,
     date: `Fall 2021`,
     url: `"Images/Membership Slide 2021 REVISED.jpg"`,
@@ -28,7 +50,7 @@ let announcementsStore = [
     description: `We will be starting membership again for the Winter 2021 quarter. If you are interested in becoming a member or have questions please fill out the form linked below!`,
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
-    }/*{
+    },{
     title: `Prayer Gathering`,
     date: `September 25, 2021 10:00AM`,
     url: `"Images/Morning Prayer Sep 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
@@ -37,19 +59,6 @@ let announcementsStore = [
     and corporate prayer. We will be gathering in-person on Saturday, September 25 at 10am in the Social Hall (same place as worship)`
     //link: `https://www.the-exchange-church.com/live`,
     //linkText: `Join us Online`
-    },{
-    title: `Read the Word - September 2021 & Devotional Guide`,
-    date: `2021`,
-    url: `"Images/Read the Word Sept 2021 Slide.jpg"`,
-    alt: `Image of 5 day plan`,
-    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
-    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
-    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
-    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
-    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
-    to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/lztt1ywxtl3ih1p/Read%20the%20Word%20%28September%29.png?dl=0`,
-    linkText: `Download the Plan`
     },{
     title: `Movie Night`,
     date: `September 11, 2021 6:00PM`,
