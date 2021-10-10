@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `October 3th, 2021`,
+    date: `October 10th, 2021`,
     //series: `Colossians: Christ Above Culture`,
-    series: `Standalone`,
-    title: `The Lord's Supper`,
-    text: `Mark 14:12-25`,
+    series: `Parables`,
+    title: `A Teaching About Hearing the Word`,
+    text: `Luke 8:4-18`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -34,11 +34,11 @@ let announcementsStore = [
     link: `https://www.dropbox.com/s/icnpxip1b7p0z5m/Read%20the%20Word%20%28Oct%29.png?dl=0`,
     linkText: `Download the Plan`
     },{
-    title: `Fall Fest - Trunk or Treat`,
+    title: `Fall Fest`,
     date: `October 31, 2021`,
     url: `"Images/Halloween 2021 Slide.jpg"`,
     alt: `Image of pumpkins`,
-    description: `We will be having a Trunk or Treat for the kids on October 31, 2021. Volunteers will be needed for this event! If you are interested or have questions,
+    description: `We will be having a fall festival for the kids on October 31, 2021. Volunteers will be needed for this event! If you are interested or have questions,
      please fill out the form linked below!`,
     link: `https://forms.gle/hCeBjKNcVhxaQ2qN6`,
     linkText: `Sign Up`
