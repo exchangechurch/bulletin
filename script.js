@@ -5,7 +5,7 @@ let sermonStore = [{
     date: `October 24th, 2021`,
     //series: `Colossians: Christ Above Culture`,
     series: `Parables`,
-    title: `Loving Your Neighbor`,
+    title: `Loving Your Neighbor As Yourself`,
     text: `Luke 10:25-37`,
     speaker: `Lead Pastor, Joe Suh`
 }];
