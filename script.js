@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `October 10th, 2021`,
+    date: `October 24th, 2021`,
     //series: `Colossians: Christ Above Culture`,
     series: `Parables`,
-    title: `A Teaching About Hearing the Word`,
-    text: `Luke 8:4-18`,
+    title: `Loving Your Neighbor`,
+    text: `Luke 10:25-37`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -21,6 +21,24 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
+    title: `Fall Fest`,
+    date: `October 31, 2021`,
+    url: `"Images/Halloween 2021 Slide.jpg"`,
+    alt: `Image of pumpkins`,
+    description: `We will be having a fall festival for the kids on October 31, 2021. Volunteers will be needed for this event! If you are interested or have questions,
+     please fill out the form linked below!`,
+    link: `https://forms.gle/hCeBjKNcVhxaQ2qN6`,
+    linkText: `Sign Up`
+    },{
+    title: `Prayer Gathering`,
+    date: `September 25, 2021 10:00AM`,
+    url: `"Images/Morning Prayer Oct 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of clouds`,
+    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
+    and corporate prayer. We will be gathering in-person on Saturday, October 30 at 10am in the Social Hall (same place as worship)`
+    //link: `https://www.the-exchange-church.com/live`,
+    //linkText: `Join us Online`
+    }/*,{
     title: `Read the Word - October 2021 & Devotional Guide`,
     date: `2021`,
     url: `"Images/Read the Word October 2021.jpg"`,
@@ -34,15 +52,6 @@ let announcementsStore = [
     link: `https://www.dropbox.com/s/icnpxip1b7p0z5m/Read%20the%20Word%20%28Oct%29.png?dl=0`,
     linkText: `Download the Plan`
     },{
-    title: `Fall Fest`,
-    date: `October 31, 2021`,
-    url: `"Images/Halloween 2021 Slide.jpg"`,
-    alt: `Image of pumpkins`,
-    description: `We will be having a fall festival for the kids on October 31, 2021. Volunteers will be needed for this event! If you are interested or have questions,
-     please fill out the form linked below!`,
-    link: `https://forms.gle/hCeBjKNcVhxaQ2qN6`,
-    linkText: `Sign Up`
-    }/*{
     title: `Membership`,
     date: `Fall 2021`,
     url: `"Images/Membership Slide 2021 REVISED.jpg"`,
@@ -50,15 +59,6 @@ let announcementsStore = [
     description: `We will be starting membership again for the Winter 2021 quarter. If you are interested in becoming a member or have questions please fill out the form linked below!`,
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
-    },{
-    title: `Prayer Gathering`,
-    date: `September 25, 2021 10:00AM`,
-    url: `"Images/Morning Prayer Sep 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of clouds`,
-    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
-    and corporate prayer. We will be gathering in-person on Saturday, September 25 at 10am in the Social Hall (same place as worship)`
-    //link: `https://www.the-exchange-church.com/live`,
-    //linkText: `Join us Online`
     },{
     title: `Movie Night`,
     date: `September 11, 2021 6:00PM`,
