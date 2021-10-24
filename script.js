@@ -31,7 +31,7 @@ let announcementsStore = [
     linkText: `Sign Up`
     },{
     title: `Prayer Gathering`,
-    date: `September 25, 2021 10:00AM`,
+    date: `October 30, 2021 10:00AM`,
     url: `"Images/Morning Prayer Oct 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
     alt: `image of clouds`,
     description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
