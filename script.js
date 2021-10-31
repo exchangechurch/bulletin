@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `October 24th, 2021`,
+    date: `October 31th, 2021`,
     //series: `Colossians: Christ Above Culture`,
     series: `Parables`,
-    title: `Loving Your Neighbor As Yourself`,
-    text: `Luke 10:25-37`,
+    title: `Shrewd Investing`,
+    text: `Luke 16:1-15`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -22,14 +22,36 @@ let announcementsStore = [
     linkText: `Connect with us`
     },{
     title: `Fall Fest`,
-    date: `October 31, 2021`,
-    url: `"Images/Halloween 2021 Slide.jpg"`,
+    date: `Today, October 31, 2021 5:30PM - 7:30PM`,
+    url: `"Images/Fall Fest 2021 Slide.jpg"`,
     alt: `Image of pumpkins`,
-    description: `We will be having a fall festival for the kids on October 31, 2021. Volunteers will be needed for this event! If you are interested or have questions,
-     please fill out the form linked below!`,
-    link: `https://forms.gle/hCeBjKNcVhxaQ2qN6`,
-    linkText: `Sign Up`
+    description: `We will be having a fall festival for the kids/neighbors today after service October 31, 2021 at 5:30PM. Volunteers, please plan to arrive at 4:15PM
+    for setup.`
+    //link: `https://forms.gle/hCeBjKNcVhxaQ2qN6`,
+    //linkText: `Sign Up`
     },{
+    title: `Read the Word - November 2021 & Devotional Guide`,
+    date: `2021`,
+    url: `"Images/Read the Word November 2021.jpg"`,
+    alt: `Image of 5 day plan`,
+    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
+    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
+    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
+    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
+    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
+    to follow. Click the link below to download a copy of the monthly plan.`,
+    link: `https://www.dropbox.com/s/eh8p9znda322bkv/Read%20the%20Word%20%28Nov%29.png?dl=0`,
+    linkText: `Download the Plan`
+    },{
+    title: `The Weary World Rejoices (Advent Devotionals)`,
+    date: `November 8, 2021`,
+    url: `"Images/Advent Devotionals Preorder.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of book`,
+    description: `This year we'll be participating as a church in Advent Devotions. Signup for pre-order through church, for a discounted rate ($10) below. You may also
+    purchase it through <a class="announceLinkinP" href='https://www.amazon.com/Weary-World-Rejoices-Devotions-Advent/dp/1956593004/' target="_blank">Amazon</a>. More details to follow!`,
+    link: `https://forms.gle/jaWDU652Hu5iPJXi8`,
+    linkText: `Sign Up For Pre-order`
+    }/*{
     title: `Prayer Gathering`,
     date: `October 30, 2021 10:00AM`,
     url: `"Images/Morning Prayer Oct 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
@@ -38,19 +60,6 @@ let announcementsStore = [
     and corporate prayer. We will be gathering in-person on Saturday, October 30 at 10am in the Social Hall (same place as worship)`
     //link: `https://www.the-exchange-church.com/live`,
     //linkText: `Join us Online`
-    }/*,{
-    title: `Read the Word - October 2021 & Devotional Guide`,
-    date: `2021`,
-    url: `"Images/Read the Word October 2021.jpg"`,
-    alt: `Image of 5 day plan`,
-    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
-    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
-    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
-    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
-    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
-    to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/icnpxip1b7p0z5m/Read%20the%20Word%20%28Oct%29.png?dl=0`,
-    linkText: `Download the Plan`
     },{
     title: `Membership`,
     date: `Fall 2021`,
