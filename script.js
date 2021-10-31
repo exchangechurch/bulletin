@@ -25,7 +25,7 @@ let announcementsStore = [
     date: `Today, October 31, 2021 5:30PM - 7:30PM`,
     url: `"Images/Fall Fest 2021 Slide.jpg"`,
     alt: `Image of pumpkins`,
-    description: `We will be having a fall festival for the kids/neighbors today after service October 31, 2021 at 5:30PM. Volunteers, please plan to arrive at 4:15PM
+    description: `We will be having a fall festival for the kids & community neighbors today, after service at 5:30PM. Volunteers, please plan to arrive at 4:15PM
     for setup.`
     //link: `https://forms.gle/hCeBjKNcVhxaQ2qN6`,
     //linkText: `Sign Up`
@@ -47,7 +47,7 @@ let announcementsStore = [
     date: `November 8, 2021`,
     url: `"Images/Advent Devotionals Preorder.jpg"`, //spaces in the file name requires double quotes "" around it.
     alt: `image of book`,
-    description: `This year we'll be participating as a church in Advent Devotions. Signup for pre-order through church, for a discounted rate ($10) below. You may also
+    description: `This year, we'll be participating as a church in Advent Devotions. Sign up for pre-order through church, for a discounted rate ($10) below. You may also
     purchase it through <a class="announceLinkinP" href='https://www.amazon.com/Weary-World-Rejoices-Devotions-Advent/dp/1956593004/' target="_blank">Amazon</a>. More details to follow!`,
     link: `https://forms.gle/jaWDU652Hu5iPJXi8`,
     linkText: `Sign Up For Pre-order`
