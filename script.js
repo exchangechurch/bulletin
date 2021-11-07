@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `October 31th, 2021`,
+    date: `November 7th, 2021`,
     //series: `Colossians: Christ Above Culture`,
     series: `Parables`,
-    title: `Shrewd Investing`,
-    text: `Luke 16:1-15`,
+    title: `Living for The Return`,
+    text: `Matthew 24:45-25:30`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -22,14 +22,30 @@ let announcementsStore = [
     linkText: `Connect with us`
     },{
     title: `Fall Fest`,
-    date: `Today, October 31, 2021 5:30PM - 7:30PM`,
-    url: `"Images/Fall Fest 2021 Slide.jpg"`,
+    //date: ``,
+    url: `"Images/Fall Fest 2021 Slide updated.jpg"`,
     alt: `Image of pumpkins`,
-    description: `We will be having a fall festival for the kids & community neighbors today, after service at 5:30PM. Volunteers, please plan to arrive at 4:15PM
-    for setup.`
+    description: `Thank you to all the volunteers for your support and dedication. This event would not have been possible without you!`
     //link: `https://forms.gle/hCeBjKNcVhxaQ2qN6`,
     //linkText: `Sign Up`
     },{
+    title: `Movie Night`,
+    date: `November 13, 2021 5:30PM`,
+    url: `"Images/Movie Night Nov 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of theatre`,
+    description: `Come join us on November 13 at 5:30PM in the social hall for dinner and a screening of Shang-Chi and the Legend of the Ten Rings. More details to come.`
+    //link: `https://www.the-exchange-church.com/live`,
+    //linkText: `Join us Online`
+    },{
+    title: `The Weary World Rejoices (Advent Devotionals)`,
+    date: `November 8, 2021`,
+    url: `"Images/Advent Devotionals Preorder.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of book`,
+    description: `This year, we'll be participating as a church in Advent Devotions. Sign up for pre-order through church, for a discounted rate ($10) below. You may also
+    purchase it through <a class="announceLinkinP" href='https://www.amazon.com/Weary-World-Rejoices-Devotions-Advent/dp/1956593004/' target="_blank">Amazon</a>. More details to follow!`,
+    link: `https://forms.gle/jaWDU652Hu5iPJXi8`,
+    linkText: `Sign Up For Pre-order`
+    }/*{
     title: `Read the Word - November 2021 & Devotional Guide`,
     date: `2021`,
     url: `"Images/Read the Word November 2021.jpg"`,
@@ -43,15 +59,6 @@ let announcementsStore = [
     link: `https://www.dropbox.com/s/eh8p9znda322bkv/Read%20the%20Word%20%28Nov%29.png?dl=0`,
     linkText: `Download the Plan`
     },{
-    title: `The Weary World Rejoices (Advent Devotionals)`,
-    date: `November 8, 2021`,
-    url: `"Images/Advent Devotionals Preorder.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of book`,
-    description: `This year, we'll be participating as a church in Advent Devotions. Sign up for pre-order through church, for a discounted rate ($10) below. You may also
-    purchase it through <a class="announceLinkinP" href='https://www.amazon.com/Weary-World-Rejoices-Devotions-Advent/dp/1956593004/' target="_blank">Amazon</a>. More details to follow!`,
-    link: `https://forms.gle/jaWDU652Hu5iPJXi8`,
-    linkText: `Sign Up For Pre-order`
-    }/*{
     title: `Prayer Gathering`,
     date: `October 30, 2021 10:00AM`,
     url: `"Images/Morning Prayer Oct 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
@@ -68,14 +75,6 @@ let announcementsStore = [
     description: `We will be starting membership again for the Winter 2021 quarter. If you are interested in becoming a member or have questions please fill out the form linked below!`,
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
-    },{
-    title: `Movie Night`,
-    date: `September 11, 2021 6:00PM`,
-    url: `"Images/Movie Night Sept 2021 edit.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of theatre`,
-    description: `Come join us on September 11 at 6PM in the social hall for dinner and a movie! More details to come.`
-    //link: `https://www.the-exchange-church.com/live`,
-    //linkText: `Join us Online`
     },{
     title: `Life Group Sign-ups`,
     date: `September 2021`,
