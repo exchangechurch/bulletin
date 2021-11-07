@@ -33,9 +33,9 @@ let announcementsStore = [
     date: `November 13, 2021 5:30PM`,
     url: `"Images/Movie Night Nov 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
     alt: `image of theatre`,
-    description: `Come join us on November 13 at 5:30PM in the social hall for dinner and a screening of Shang-Chi and the Legend of the Ten Rings. More details to come.`
-    //link: `https://www.the-exchange-church.com/live`,
-    //linkText: `Join us Online`
+    description: `Come join us on November 13 at 5:30PM in the social hall for dinner and a screening of Shang-Chi and the Legend of the Ten Rings. Sign up below.`
+    link: `https://forms.gle/4YRnUf1tfxvtZmNV6`,
+    linkText: `Sign up`
     },{
     title: `The Weary World Rejoices (Advent Devotionals)`,
     date: `November 8, 2021`,
