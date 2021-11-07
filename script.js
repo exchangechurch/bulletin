@@ -22,7 +22,7 @@ let announcementsStore = [
     linkText: `Connect with us`
     },{
     title: `Fall Fest`,
-    //date: ``,
+    date: `October 31, 2021`,
     url: `"Images/Fall Fest 2021 Slide updated.jpg"`,
     alt: `Image of pumpkins`,
     description: `Thank you to all the volunteers for your support and dedication. This event would not have been possible without you!`
