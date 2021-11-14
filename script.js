@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `November 7th, 2021`,
+    date: `November 14th, 2021`,
     //series: `Colossians: Christ Above Culture`,
     series: `Parables`,
-    title: `Living for The Return`,
-    text: `Matthew 24:45-25:30`,
+    title: `Being Justified`,
+    text: `Luke 18:9-14`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -21,6 +21,26 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
+    title: `The Weary World Rejoices (Advent Devotionals)`,
+    date: `November 14, 2021`,
+    url: `"Images/Advent Devotional Preorder Slide.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of book`,
+    description: `This year, we'll be participating as a church in Advent Devotions. Sign up to purchase the digital version through <a class="announceLinkinP" href='https://www.amazon.com/Weary-World-Rejoices-Devotions-Advent/dp/1956593004/' target="_blank">Amazon</a>. More details to follow!`,
+    link: `https://www.amazon.com/Weary-World-Rejoices-Devotions-Advent/dp/1956593004/`,
+    linkText: `Amazon Link`
+    },{
+    title: `VOR Christmas Drive Thru`,
+    date: `December 18, 2021`,
+    url: `"Images/VOR Christmas Drive Thru.jpg"`,
+    alt: `image of book`,
+    description: `With the COVID-19 crisis impacting refugees and the Voice of Refugees organization, we want to highlight a few opportunities to serve/help 
+    those in need and support the <a class="announceLinkinP" href='https://vorservices.org/volunteers/' target="_blank">VOR</a> mission: Putting God’s love into action 
+    by assisting the refugee and asylum-seeking community to re-establish and assimilate their lives in the United States. 
+    This holiday season, we'll be participating as a church in VOR Christmas drive-thru event where VOR will be serving 200 - 250 families and 400 children.
+    We'll need volunteers to assist with the event, giving, or shopping for items. More details to follow!`,
+    //link: `https://forms.gle/jaWDU652Hu5iPJXi8`,
+    //linkText: `Sign Up For Pre-order`
+    }/*{
     title: `Fall Fest`,
     date: `October 31, 2021`,
     url: `"Images/Fall Fest 2021 Slide updated.jpg"`,
@@ -37,15 +57,6 @@ let announcementsStore = [
     link: `https://forms.gle/4YRnUf1tfxvtZmNV6`,
     linkText: `Sign up`
     },{
-    title: `The Weary World Rejoices (Advent Devotionals)`,
-    date: `November 8, 2021`,
-    url: `"Images/Advent Devotionals Preorder.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of book`,
-    description: `This year, we'll be participating as a church in Advent Devotions. Sign up for pre-order through church, for a discounted rate ($10) below. You may also
-    purchase it through <a class="announceLinkinP" href='https://www.amazon.com/Weary-World-Rejoices-Devotions-Advent/dp/1956593004/' target="_blank">Amazon</a>. More details to follow!`,
-    link: `https://forms.gle/jaWDU652Hu5iPJXi8`,
-    linkText: `Sign Up For Pre-order`
-    }/*{
     title: `Read the Word - November 2021 & Devotional Guide`,
     date: `2021`,
     url: `"Images/Read the Word November 2021.jpg"`,
