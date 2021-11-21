@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `November 14th, 2021`,
+    date: `November 21th, 2021`,
     //series: `Colossians: Christ Above Culture`,
     series: `Parables`,
-    title: `Being Justified`,
-    text: `Luke 18:9-14`,
+    title: `The Disproportionate Growth of God's Kingdom`,
+    text: `Matthew 13:31-33`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -40,6 +40,23 @@ let announcementsStore = [
     We'll need volunteers to assist with the event, giving, or shopping for items. More details to follow!`,
     //link: `https://forms.gle/jaWDU652Hu5iPJXi8`,
     //linkText: `Sign Up For Pre-order`
+    },{
+    title: `Christmas Party`,
+    date: `December 18, 2021 5:30PM`,
+    //url: `"Images/Movie Night Nov 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
+    //alt: `image of theatre`,
+    description: `Please join us on December 18, 2021 for our annual Christmas party. More details to follow!`
+    //link: `https://forms.gle/4YRnUf1tfxvtZmNV6`,
+    //linkText: `Sign up`
+    },{
+    title: `Worship & Prayer Gathering`,
+    date: `November 27, 2021 10:00AM`,
+    //url: `"Images/Morning Prayer Oct 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
+    //alt: `image of clouds`,
+    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
+    and corporate prayer. We will be gathering in-person on Saturday, October 30 at 10am in the Social Hall (same place as worship)`
+    //link: `https://www.the-exchange-church.com/live`,
+    //linkText: `Join us Online`
     }/*{
     title: `Fall Fest`,
     date: `October 31, 2021`,
@@ -69,15 +86,6 @@ let announcementsStore = [
     to follow. Click the link below to download a copy of the monthly plan.`,
     link: `https://www.dropbox.com/s/eh8p9znda322bkv/Read%20the%20Word%20%28Nov%29.png?dl=0`,
     linkText: `Download the Plan`
-    },{
-    title: `Prayer Gathering`,
-    date: `October 30, 2021 10:00AM`,
-    url: `"Images/Morning Prayer Oct 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of clouds`,
-    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
-    and corporate prayer. We will be gathering in-person on Saturday, October 30 at 10am in the Social Hall (same place as worship)`
-    //link: `https://www.the-exchange-church.com/live`,
-    //linkText: `Join us Online`
     },{
     title: `Membership`,
     date: `Fall 2021`,
