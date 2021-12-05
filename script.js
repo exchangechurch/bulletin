@@ -40,9 +40,9 @@ let announcementsStore = [
     those in need and support the <a class="announceLinkinP" href='https://vorservices.org/volunteers/' target="_blank">VOR</a> mission: Putting God’s love into action 
     by assisting the refugee and asylum-seeking community to re-establish and assimilate their lives in the United States. 
     This holiday season, we'll be participating as a church in VOR Christmas drive-thru event where VOR will be serving 200 - 250 families and 400 children.
-    We'll need volunteers to assist with the event, giving, or shopping for items. More details to follow!`,
-    //link: `https://forms.gle/jaWDU652Hu5iPJXi8`,
-    //linkText: `Sign Up For Pre-order`
+    We'll need volunteers to assist with the event, giving, or shopping for items. If you would like to volunteer click the link below.`,
+    link: `https://forms.gle/2RqUgdEboLk732Wu6`,
+    linkText: `Volunteer`
     },{
     title: `Christmas Party`,
     date: `December 18, 2021 5:30PM`,
