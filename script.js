@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `December 5th, 2021`,
+    date: `December 12th, 2021`,
     //series: `Colossians: Christ Above Culture`,
     series: `Advent`,
-    title: `Peace`,
-    text: `Isaiah 9:6-7`,
+    title: `Joy`,
+    text: `Luke 2:8-20`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -43,6 +43,15 @@ let announcementsStore = [
     We'll need volunteers to assist with the event, giving, or shopping for items. If you would like to volunteer click the link below.`,
     link: `https://forms.gle/2RqUgdEboLk732Wu6`,
     linkText: `Volunteer`
+    },{
+    title: `VOR Giving`,
+    date: `Winter 2021`,
+    url: `"Images/VOR Giving.jpg"`,
+    alt: `image of book`,
+    description: `Every year, VOR puts together a giving opportunity for the refugee and asylum-seeking community. If you are interested in giving click the link below. Your donation will make a real 
+    difference in the lives of refugees and asylum-seekers from Muslim-majority countries. With over 120,000 Afghan refugees coming to the United States, many having arrived already, your donation is needed now more than ever. `,
+    link: `https://www.betterunite.com/vor2021`,
+    linkText: `Give`
     },{
     title: `Christmas Party`,
     date: `December 18, 2021 5:30PM`,
