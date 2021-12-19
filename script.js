@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `December 12th, 2021`,
+    date: `December 19th, 2021`,
     //series: `Colossians: Christ Above Culture`,
     series: `Advent`,
-    title: `Joy`,
-    text: `Luke 2:8-20`,
+    title: `Love`,
+    text: `John 3:16-18`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -21,6 +21,36 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
+    title: `VOR Giving`,
+    date: `Winter 2021`,
+    url: `"Images/VOR Giving.jpg"`,
+    alt: `image of book`,
+    description: `Every year, VOR puts together a giving opportunity for the refugee and asylum-seeking community. If you are interested in giving click the link below. Your donation will make a real 
+    difference in the lives of refugees and asylum-seekers from Muslim-majority countries. With over 120,000 Afghan refugees coming to the United States, many having arrived already, your donation is needed now more than ever. 
+    If you would like to give to VOR, please put "VOR" in the description when you give via Zelle or Cash App.`,
+    link: `https://cash.app/$TheExchangeChurch`,
+    linkText: `Give`
+    },{
+    title: `Life Group Sign-ups`,
+    date: `Next Quarter Jan 9`,
+    url: `"Images/Life-Groups-2022.jpg"`,
+    alt: `image of faded bibles`,
+    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
+    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
+    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below.
+    Please email 
+    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
+    },{
+    title: `Membership`,
+    date: `January 2022`,
+    url: `"Images/Membership Slide 2022.jpg"`,
+    alt: `Image of membership`,
+    description: `We will be starting membership again for the new 2022 year. If you are interested in becoming a member or have questions please fill out the form linked below!`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
+    }/*{
     title: `Advent 2021`,
     date: `December 1 - December 24`,
     url: `"Images/Advent 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
@@ -44,43 +74,6 @@ let announcementsStore = [
     link: `https://forms.gle/2RqUgdEboLk732Wu6`,
     linkText: `Volunteer`
     },{
-    title: `VOR Giving`,
-    date: `Winter 2021`,
-    url: `"Images/VOR Giving.jpg"`,
-    alt: `image of book`,
-    description: `Every year, VOR puts together a giving opportunity for the refugee and asylum-seeking community. If you are interested in giving click the link below. Your donation will make a real 
-    difference in the lives of refugees and asylum-seekers from Muslim-majority countries. With over 120,000 Afghan refugees coming to the United States, many having arrived already, your donation is needed now more than ever. `,
-    link: `https://www.betterunite.com/vor2021`,
-    linkText: `Give`
-    },{
-    title: `Christmas Party`,
-    date: `December 18, 2021 5:30PM`,
-    url: `"Images/Christmas Party Slide.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of Christmas Garland`,
-    description: `Christmas is the quintessential time to celebrate! Come join us as we eat, pray, worship, and fellowship to rejoice in the gift of Jesus as the center of our hope and joy this Christmas season! `
-    //link: `https://forms.gle/4YRnUf1tfxvtZmNV6`,
-    //linkText: `Sign up`
-    },{
-    title: `Life Group Sign-ups`,
-    date: `Next Quarter Jan 9`,
-    url: `"Images/Life-Groups-2022.jpg"`,
-    alt: `image of faded bibles`,
-    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
-    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
-    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below.
-    Please email 
-    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
-    linkText: `Sign Up`
-    },{
-    title: `Membership`,
-    date: `January 2022`,
-    url: `"Images/Membership Slide 2022.jpg"`,
-    alt: `Image of membership`,
-    description: `We will be starting membership again for the new 2022 year. If you are interested in becoming a member or have questions please fill out the form linked below!`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
-    linkText: `Sign Up`
-    }/*{
     title: `Worship & Prayer Gathering`,
     date: `November 27, 2021 10:00AM`,
     //url: `"Images/Morning Prayer Oct 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
@@ -89,6 +82,14 @@ let announcementsStore = [
     and corporate prayer. We will be gathering in-person on Saturday, October 30 at 10am in the Social Hall (same place as worship)`
     //link: `https://www.the-exchange-church.com/live`,
     //linkText: `Join us Online`
+    },{
+    title: `Christmas Party`,
+    date: `December 18, 2021 5:30PM`,
+    url: `"Images/Christmas Party Slide.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of Christmas Garland`,
+    description: `Christmas is the quintessential time to celebrate! Come join us as we eat, pray, worship, and fellowship to rejoice in the gift of Jesus as the center of our hope and joy this Christmas season! `
+    //link: `https://forms.gle/4YRnUf1tfxvtZmNV6`,
+    //linkText: `Sign up`
     },{
     title: `Fall Fest`,
     date: `October 31, 2021`,
