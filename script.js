@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `December 19th, 2021`,
+    date: `December 26th, 2021`,
     //series: `Colossians: Christ Above Culture`,
     series: `Advent`,
-    title: `Love`,
-    text: `John 3:16-18`,
+    title: `Faith`,
+    text: `Mark 9:14-29`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
