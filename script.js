@@ -54,7 +54,7 @@ let announcementsStore = [
     This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
     his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
     to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/eh8p9znda322bkv/Read%20the%20Word%20%28Nov%29.png?dl=0`,
+    link: `https://www.dropbox.com/s/9qyc9ln4krxib8w/Read%20the%20Word%20%28Jan%202022%29.png?dl=0`,
     linkText: `Download the Plan`
     },{
     title: `VOR Giving`,
