@@ -2,34 +2,24 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `December 26th, 2021`,
+    date: `January 2nd, 2022`,
     //series: `Colossians: Christ Above Culture`,
-    series: `Advent`,
-    title: `Faith`,
-    text: `Mark 9:14-29`,
+    series: `Standalone`,
+    title: `The Foolishness of God`,
+    text: `1 Corinthians 3:18-23`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
 let announcementsStore = [
     {
     title: `Welcome`,
-    date: `2021`,
-    url: `"Images/Welcome Slide 2021.jpg"`,
+    date: `2022`,
+    url: `"Images/Welcome 2022 Slide.png"`,
     alt: ``,
     description: `Thanks for joining us! If you're visiting for the first time or would like to learn more, we'd like to get to know more about you. Please 
     fill out the form at the link below to connect with us.`,
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
-    },{
-    title: `VOR Giving`,
-    date: `Winter 2021`,
-    url: `"Images/VOR Giving.jpg"`,
-    alt: `image of book`,
-    description: `Every year, VOR puts together a giving opportunity for the refugee and asylum-seeking community. If you are interested in giving click the link below. Your donation will make a real 
-    difference in the lives of refugees and asylum-seekers from Muslim-majority countries. With over 120,000 Afghan refugees coming to the United States, many having arrived already, your donation is needed now more than ever. 
-    If you would like to give to VOR, please put "VOR" in the description when you give via Zelle or Cash App.`,
-    link: `https://cash.app/$TheExchangeChurch`,
-    linkText: `Give`
     },{
     title: `Life Group Sign-ups`,
     date: `Next Quarter Jan 9`,
@@ -49,6 +39,42 @@ let announcementsStore = [
     alt: `Image of membership`,
     description: `We will be starting membership again for the new 2022 year. If you are interested in becoming a member or have questions please fill out the form linked below!`,
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
+    },{
+    title: `Read the Word - January 2022 & Devotional Guide`,
+    date: `2022`,
+    url: `"Images/2022 Jan Bible Reading Plan Slide.jpg"`,
+    alt: `Image of bible`,
+    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
+    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
+    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
+    In addition, please find linked the 
+    <a class="announceLinkinP" href='https://d1bsmz3sdihplr.cloudfront.net/media/Quarterlies_Other%20Downloads/2021_Reading%20Plan.pdf' target="_blank">Bible Project’s Annual reading plan</a>
+     as well. 
+    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
+    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
+    to follow. Click the link below to download a copy of the monthly plan.`,
+    link: `https://www.dropbox.com/s/eh8p9znda322bkv/Read%20the%20Word%20%28Nov%29.png?dl=0`,
+    linkText: `Download the Plan`
+    },{
+    title: `VOR Giving`,
+    date: `Winter 2021`,
+    url: `"Images/VOR Giving 2022.jpg"`,
+    alt: `image of book`,
+    description: `Every year, VOR puts together a giving opportunity for the refugee and asylum-seeking community. If you are interested in giving click the link below. Your donation will make a real 
+    difference in the lives of refugees and asylum-seekers from Muslim-majority countries. With over 120,000 Afghan refugees coming to the United States, many having arrived already, your donation is needed now more than ever. 
+    If you would like to give to VOR, please put "VOR" in the description when you give via Zelle or Cash App.`,
+    link: `https://cash.app/$TheExchangeChurch`,
+    linkText: `Give`
+    },{
+    title: `VOR Winter Volunteer Opportunities`,
+    date: `January 10, 2022 to March 18, 2022`,
+    url: `"Images/VOR Opportunities.png"`,
+    //alt: ``,
+    description: `1-ON-1 ACADEMIC TUTORING (K-12) - Mondays or Thursdays | 5:30PM to 6:30PM (Over Zoom) <br>
+    FOOD SORTING - Thursdays | 10:30 am to 1:30 pm (in-person) <br>
+    FOOD DRIVE-THRU - Thursdays | 1:30 pm to 3:30 pm (in-person)`,
+    link: `https://forms.gle/2W9f7BVPeGX2sqQJ9`,
     linkText: `Sign Up`
     }/*{
     title: `Advent 2021`,
@@ -106,19 +132,6 @@ let announcementsStore = [
     description: `Come join us on November 13 at 5:30PM in the social hall for dinner and a screening of Shang-Chi and the Legend of the Ten Rings. Sign up below.`
     link: `https://forms.gle/4YRnUf1tfxvtZmNV6`,
     linkText: `Sign up`
-    },{
-    title: `Read the Word - November 2021 & Devotional Guide`,
-    date: `2021`,
-    url: `"Images/Read the Word November 2021.jpg"`,
-    alt: `Image of 5 day plan`,
-    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
-    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
-    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
-    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
-    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
-    to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/eh8p9znda322bkv/Read%20the%20Word%20%28Nov%29.png?dl=0`,
-    linkText: `Download the Plan`
     },{
     title: `Impact Anaheim Giving Day`,
     date: `Wednesday, July 28th 2021`,
