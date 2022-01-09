@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `January 2nd, 2022`,
+    date: `January 9nd, 2022`,
     //series: `Colossians: Christ Above Culture`,
     series: `Standalone`,
-    title: `The Foolishness of God`,
-    text: `1 Corinthians 3:18-23`,
+    title: `Finding Rest for Your Soul`,
+    text: `Matthew 11:25-30`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
