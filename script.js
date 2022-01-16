@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `January 9nd, 2022`,
+    date: `January 16th, 2022`,
     //series: `Colossians: Christ Above Culture`,
     series: `Standalone`,
-    title: `Finding Rest for Your Soul`,
-    text: `Matthew 11:25-30`,
+    title: `Letting the Word Dwell in You`,
+    text: `Colossians 3:16`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -30,14 +30,6 @@ let announcementsStore = [
     If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below.
     Please email 
     <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
-    linkText: `Sign Up`
-    },{
-    title: `Membership`,
-    date: `January 2022`,
-    url: `"Images/Membership Slide 2022.jpg"`,
-    alt: `Image of membership`,
-    description: `We will be starting membership again for the new 2022 year. If you are interested in becoming a member or have questions please fill out the form linked below!`,
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
     },{
@@ -76,7 +68,15 @@ let announcementsStore = [
     FOOD DRIVE-THRU - Thursdays | 1:30 pm to 3:30 pm (in-person)`,
     link: `https://forms.gle/2W9f7BVPeGX2sqQJ9`,
     linkText: `Sign Up`
-    }/*{
+    }/*,{
+    title: `Membership`,
+    date: `January 2022`,
+    url: `"Images/Membership Slide 2022.jpg"`,
+    alt: `Image of membership`,
+    description: `We will be starting membership again for the new 2022 year. If you are interested in becoming a member or have questions please fill out the form linked below!`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
+    },{
     title: `Advent 2021`,
     date: `December 1 - December 24`,
     url: `"Images/Advent 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
