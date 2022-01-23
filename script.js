@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `January 16th, 2022`,
+    date: `January 23rd, 2022`,
     //series: `Colossians: Christ Above Culture`,
     series: `Standalone`,
-    title: `Letting the Word Dwell in You`,
-    text: `Colossians 3:16`,
+    title: `After the Fire Falls`,
+    text: `1 Kings 18:17-40`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -20,18 +20,6 @@ let announcementsStore = [
     fill out the form at the link below to connect with us.`,
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
-    },{
-    title: `Life Group Sign-ups`,
-    date: `Next Quarter Jan 9`,
-    url: `"Images/Life-Groups-2022.jpg"`,
-    alt: `image of faded bibles`,
-    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
-    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
-    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below.
-    Please email 
-    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
-    linkText: `Sign Up`
     },{
     title: `Read the Word - January 2022 & Devotional Guide`,
     date: `2022`,
@@ -55,10 +43,10 @@ let announcementsStore = [
     alt: `image of book`,
     description: `Every year, VOR puts together a giving opportunity for the refugee and asylum-seeking community. If you are interested in giving click the link below. Your donation will make a real 
     difference in the lives of refugees and asylum-seekers from Muslim-majority countries. With over 120,000 Afghan refugees coming to the United States, many having arrived already, your donation is needed now more than ever. 
-    If you would like to give to VOR, please put "VOR" in the description when you give via Zelle or Cash App.`,
+    If you would like to give to VOR, please put "VOR" in the description when you give via Zelle or Cash App. We will be accepting donations throughout January.`,
     link: `https://cash.app/$TheExchangeChurch`,
     linkText: `Give`
-    },{
+    }/*,{
     title: `VOR Winter Volunteer Opportunities`,
     date: `January 10, 2022 to March 18, 2022`,
     url: `"Images/VOR Opportunities.png"`,
@@ -68,7 +56,19 @@ let announcementsStore = [
     FOOD DRIVE-THRU - Thursdays | 1:30 pm to 3:30 pm (in-person)`,
     link: `https://forms.gle/2W9f7BVPeGX2sqQJ9`,
     linkText: `Sign Up`
-    }/*,{
+    },{
+    title: `Life Group Sign-ups`,
+    date: `Next Quarter Jan 9`,
+    url: `"Images/Life-Groups-2022.jpg"`,
+    alt: `image of faded bibles`,
+    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
+    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
+    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below.
+    Please email 
+    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
+    },{
     title: `Membership`,
     date: `January 2022`,
     url: `"Images/Membership Slide 2022.jpg"`,
