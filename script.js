@@ -2,12 +2,12 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `January 23rd, 2022`,
+    date: `January 30th, 2022`,
     //series: `Colossians: Christ Above Culture`,
     series: `Standalone`,
-    title: `After the Fire Falls`,
-    text: `1 Kings 18:17-40`,
-    speaker: `Lead Pastor, Joe Suh`
+    title: `Living By Faith`,
+    text: `Hebrews 11:1-3`,
+    speaker: `Guest Pastor, Paul Lee`
 }];
 
 let announcementsStore = [
@@ -21,9 +21,9 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
-    title: `Read the Word - January 2022 & Devotional Guide`,
+    title: `Read the Word - February 2022 & Devotional Guide`,
     date: `2022`,
-    url: `"Images/2022 Jan Bible Reading Plan Slide.jpg"`,
+    url: `"Images/2022 Feb Bible Reading Plan Slide.jpg"`,
     alt: `Image of bible`,
     description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
     <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
@@ -34,7 +34,7 @@ let announcementsStore = [
     This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
     his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
     to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/9qyc9ln4krxib8w/Read%20the%20Word%20%28Jan%202022%29.png?dl=0`,
+    link: `https://www.dropbox.com/s/2tepku1ix54l8ni/Read%20the%20Word%20%28Feb%202022%29.png?dl=0`,
     linkText: `Download the Plan`
     },{
     title: `VOR Giving`,
