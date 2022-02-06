@@ -2,12 +2,12 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `January 30th, 2022`,
+    date: `February 6th, 2022`,
     //series: `Colossians: Christ Above Culture`,
-    series: `Standalone`,
-    title: `Living By Faith`,
-    text: `Hebrews 11:1-3`,
-    speaker: `Guest Pastor, Paul Lee`
+    series: `Stop, Breathe, Think`,
+    title: `Recognizing that One Necessary Thing`,
+    text: `Luke 10:38-42`,
+    speaker: `Lead Pastor, Joe Suh`
 }];
 
 let announcementsStore = [
@@ -20,7 +20,7 @@ let announcementsStore = [
     fill out the form at the link below to connect with us.`,
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
-    },{
+    }/*{
     title: `Read the Word - February 2022 & Devotional Guide`,
     date: `2022`,
     url: `"Images/2022 Feb Bible Reading Plan Slide.jpg"`,
@@ -46,7 +46,7 @@ let announcementsStore = [
     If you would like to give to VOR, please put "VOR" in the description when you give via Zelle or Cash App. We will be accepting donations throughout January.`,
     link: `https://cash.app/$TheExchangeChurch`,
     linkText: `Give`
-    }/*,{
+    },{
     title: `VOR Winter Volunteer Opportunities`,
     date: `January 10, 2022 to March 18, 2022`,
     url: `"Images/VOR Opportunities.png"`,
