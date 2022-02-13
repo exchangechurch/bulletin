@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `February 6th, 2022`,
+    date: `February 13th, 2022`,
     //series: `Colossians: Christ Above Culture`,
     series: `Stop, Breathe, Think`,
-    title: `Recognizing that One Necessary Thing`,
-    text: `Luke 10:38-42`,
+    title: `Seeing and Perceiving`,
+    text: `2 Kings 6:8-23`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
