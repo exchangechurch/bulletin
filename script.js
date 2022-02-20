@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `February 13th, 2022`,
+    date: `February 20th, 2022`,
     //series: `Colossians: Christ Above Culture`,
     series: `Stop, Breathe, Think`,
-    title: `Seeing and Perceiving`,
-    text: `2 Kings 6:8-23`,
+    title: `When God Speaks in the Whisper`,
+    text: `1 Kings 19:1-18`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -335,7 +335,7 @@ let orderOfWorship = [
 
 let worshipLyrics = [
     {
-    title: `Check back on 6/6`,
+    title: `Check back later`,
     description: `Worship lyrics are available for our socially-distanced, outdoor service.`
     }
     /*{
