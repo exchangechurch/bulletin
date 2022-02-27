@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `February 20th, 2022`,
+    date: `February 27th, 2022`,
     //series: `Colossians: Christ Above Culture`,
     series: `Stop, Breathe, Think`,
-    title: `When God Speaks in the Whisper`,
-    text: `1 Kings 19:1-18`,
+    title: `Learning to Hunger for God`,
+    text: `Matthew 4:1-4`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -20,10 +20,10 @@ let announcementsStore = [
     fill out the form at the link below to connect with us.`,
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
-    }/*{
-    title: `Read the Word - February 2022 & Devotional Guide`,
+    },{
+    title: `Read the Word - March 2022 & Devotional Guide`,
     date: `2022`,
-    url: `"Images/2022 Feb Bible Reading Plan Slide.jpg"`,
+    url: `"Images/2022 March Bible Reading Plan Slide.jpg"`,
     alt: `Image of bible`,
     description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
     <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
@@ -34,9 +34,31 @@ let announcementsStore = [
     This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
     his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
     to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/2tepku1ix54l8ni/Read%20the%20Word%20%28Feb%202022%29.png?dl=0`,
+    link: ``,
     linkText: `Download the Plan`
     },{
+    title: `VOR Women's Day`,
+    date: `March 26, 2022`,
+    url: `"Images/VOR Womens Day 2022.jpg"`,
+    alt: `image of cherry blossoms`,
+    description: `It has been nearly three years since VOR's last Women's Day! VOR is looking for female Christ-followers who desire 
+    to selflessly serve the beautiful ladies of the VOR community. VOR is also recruiting volunteers to help with childcare for the event. Volunteers are needed
+    for the morning shift: 8:30AM to 12:30PM or for the afternoon shift 12:30PM to 4:30PM. Please see the link below for more information.`,
+    link: `https://forms.gle/zP3qoCwurogbN9aU8`,
+    linkText: `Learn More`
+    },{
+    title: `TGC Women's Conference`,
+    date: `June 16-18, 2022`,
+    url: `"Images/TGC Women's Conference Announcement.jpg"`,
+    alt: `TGC Women's Conference Announcement`,
+    description: `The Gospel Coalition is hosting a conference for women, about God. When the trials of life weigh us down, meditating on our great salvation helps 
+    restore our joy. This hope is the theme of TGC's upcoming women’s conference, Remember Your Joy. Over three days you will gather with women from around the world 
+    to consider how seven Old Testament stories point to our greater salvation in Christ—and lead us to greater joy. This will hosted virtually and costs $150 for registration which includes:
+    <br><ul><li>All meals covered</li><li>All keynote and breakouts live-streamed</li><li>Access to all videos through year end</li><li>Three free books, physical and digital formats </li><li>Discounted TGC’s online bookstore</li>
+    `,
+    link: `https://www.thegospelcoalition.org/tgcw22/`,
+    linkText: `Learn More`
+    }/*{
     title: `VOR Giving`,
     date: `Winter 2021`,
     url: `"Images/VOR Giving 2022.jpg"`,
