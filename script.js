@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `February 27th, 2022`,
+    date: `March 6th, 2022`,
     //series: `Colossians: Christ Above Culture`,
     series: `Stop, Breathe, Think`,
-    title: `Learning to Hunger for God`,
-    text: `Matthew 4:1-4`,
+    title: `Finding Resolve`,
+    text: `Philippians 3:12-14`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -34,8 +34,27 @@ let announcementsStore = [
     This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
     his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
     to follow. Click the link below to download a copy of the monthly plan.`,
-    link: ``,
+    link: `https://www.dropbox.com/s/0g8sy6cz49g2org/Read%20the%20Word%20%28Mar%202022%29.png?dl=0`,
     linkText: `Download the Plan`
+    },{
+    title: `TGC Women's Conference`,
+    date: `June 16-18, 2022`,
+    url: `"Images/TGC Women's Conference Announcement.jpg"`,
+    alt: `TGC Women's Conference Announcement`,
+    description: `The Gospel Coalition is hosting a conference for women, about God. When the trials of life weigh us down, meditating on our great salvation helps 
+    restore our joy. This hope is the theme of TGC's upcoming women’s conference, Remember Your Joy. Over three days you will gather with women from around the world 
+    to consider how seven Old Testament stories point to our greater salvation in Christ—and lead us to greater joy. This will hosted virtually and costs $150 for registration which includes:
+    <br><ul><li>All meals covered</li><li>All keynote and breakouts live-streamed</li><li>Access to all videos through year end</li><li>Three free books, physical and digital formats </li><li>Discounted TGC’s online bookstore</li>`,
+    link: `https://www.thegospelcoalition.org/tgcw22/`,
+    linkText: `Learn More`
+    },{
+    title: `Bowling Night`,
+    date: `Friay, March 25, 2022 7:30PM`,
+    url: `"Images/Bowling Night 2022 March.jpg"`,
+    alt: `bowling pins`,
+    description: `We'll be having a connect event at Bowlero Cerritos on Friday March 25, 2022 at 7:30PM. If you are interested, stop by and play some frames!`
+    //link: `https://forms.gle/zP3qoCwurogbN9aU8`,
+    //linkText: `Learn More`
     },{
     title: `VOR Women's Day`,
     date: `March 26, 2022`,
@@ -47,17 +66,15 @@ let announcementsStore = [
     link: `https://forms.gle/zP3qoCwurogbN9aU8`,
     linkText: `Learn More`
     },{
-    title: `TGC Women's Conference`,
-    date: `June 16-18, 2022`,
-    url: `"Images/TGC Women's Conference Announcement.jpg"`,
-    alt: `TGC Women's Conference Announcement`,
-    description: `The Gospel Coalition is hosting a conference for women, about God. When the trials of life weigh us down, meditating on our great salvation helps 
-    restore our joy. This hope is the theme of TGC's upcoming women’s conference, Remember Your Joy. Over three days you will gather with women from around the world 
-    to consider how seven Old Testament stories point to our greater salvation in Christ—and lead us to greater joy. This will hosted virtually and costs $150 for registration which includes:
-    <br><ul><li>All meals covered</li><li>All keynote and breakouts live-streamed</li><li>Access to all videos through year end</li><li>Three free books, physical and digital formats </li><li>Discounted TGC’s online bookstore</li>
-    `,
-    link: `https://www.thegospelcoalition.org/tgcw22/`,
-    linkText: `Learn More`
+    title: `Members Lunch`,
+    date: `March 27, 2021`,
+    url: `"Images/member lunch 2022.jpg"`,
+    alt: `Image of food`,
+    description: `If you are a committed member of the church, p[lease join us for our yearly Members Meeting on March 27, 2022. We highly encourage 
+    everyone to attend this meeting as we will be reviewing all that God has done in our church over the past year as well as previewing and discussing our 
+    direction and vision for the upcoming year.`,
+    //link: `https://lausd.zoom.us/j/4290294197`,
+    //linkText: `Join Us`
     }/*{
     title: `VOR Giving`,
     date: `Winter 2021`,
