@@ -49,7 +49,7 @@ let announcementsStore = [
     linkText: `Learn More`
     },{
     title: `Bowling Night`,
-    date: `Friay, March 25, 2022 7:30PM`,
+    date: `Friday, March 25, 2022 7:30PM`,
     url: `"Images/Bowling Night 2022 March.jpg"`,
     alt: `bowling pins`,
     description: `We'll be having a connect event at Bowlero Cerritos on Friday March 25, 2022 at 7:30PM. If you are interested, stop by and play some frames!`
