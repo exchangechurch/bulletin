@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `March 6th, 2022`,
+    date: `March 13th, 2022`,
     //series: `Colossians: Christ Above Culture`,
     series: `Stop, Breathe, Think`,
-    title: `Finding Resolve`,
-    text: `Philippians 3:12-14`,
+    title: `Pursuing Love instead of Chasing Likes`,
+    text: `1 John 3:10-24`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
