@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `March 13th, 2022`,
+    date: `March 20th, 2022`,
     //series: `Colossians: Christ Above Culture`,
     series: `Stop, Breathe, Think`,
-    title: `Pursuing Love instead of Chasing Likes`,
-    text: `1 John 3:10-24`,
+    title: `Enjoying God's Sabbath Rest`,
+    text: `Mark 2:23-28`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -20,22 +20,6 @@ let announcementsStore = [
     fill out the form at the link below to connect with us.`,
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
-    },{
-    title: `Read the Word - March 2022 & Devotional Guide`,
-    date: `2022`,
-    url: `"Images/2022 March Bible Reading Plan Slide.jpg"`,
-    alt: `Image of bible`,
-    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
-    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
-    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
-    In addition, please find linked the 
-    <a class="announceLinkinP" href='https://d1bsmz3sdihplr.cloudfront.net/media/Quarterlies_Other%20Downloads/2021_Reading%20Plan.pdf' target="_blank">Bible Project’s Annual reading plan</a>
-     as well. 
-    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
-    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
-    to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/0g8sy6cz49g2org/Read%20the%20Word%20%28Mar%202022%29.png?dl=0`,
-    linkText: `Download the Plan`
     },{
     title: `TGC Women's Conference`,
     date: `June 16-18, 2022`,
@@ -76,6 +60,22 @@ let announcementsStore = [
     //link: `https://lausd.zoom.us/j/4290294197`,
     //linkText: `Join Us`
     }/*{
+    title: `Read the Word - March 2022 & Devotional Guide`,
+    date: `2022`,
+    url: `"Images/2022 March Bible Reading Plan Slide.jpg"`,
+    alt: `Image of bible`,
+    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
+    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
+    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
+    In addition, please find linked the 
+    <a class="announceLinkinP" href='https://d1bsmz3sdihplr.cloudfront.net/media/Quarterlies_Other%20Downloads/2021_Reading%20Plan.pdf' target="_blank">Bible Project’s Annual reading plan</a>
+     as well. 
+    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
+    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
+    to follow. Click the link below to download a copy of the monthly plan.`,
+    link: `https://www.dropbox.com/s/0g8sy6cz49g2org/Read%20the%20Word%20%28Mar%202022%29.png?dl=0`,
+    linkText: `Download the Plan`
+    },{
     title: `VOR Giving`,
     date: `Winter 2021`,
     url: `"Images/VOR Giving 2022.jpg"`,
