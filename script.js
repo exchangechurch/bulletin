@@ -62,7 +62,7 @@ let announcementsStore = [
     date: `April 11 - 15, 2021 7:30PM`,
     url: `"Images/Passion Week Prayer 2022.jpg"`,
     alt: `Image of leaves`,
-    description: `Passion Week marks the week leading up to the death and resurrection of Christ. We will be having our nightly prayer starting Mondayday, April 11, 7:30PM.
+    description: `Passion Week marks the week leading up to the death and resurrection of Christ. We will be having our nightly prayer starting Monday, April 11, 7:30PM.
      Join us as we grow in our love, passion, and conviction that Christ is all in all.`
     //link: `https://the-exchange-church.com/live`,
     //linkText: `More info`
