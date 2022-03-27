@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `March 20th, 2022`,
+    date: `March 27th, 2022`,
     //series: `Colossians: Christ Above Culture`,
-    series: `Stop, Breathe, Think`,
-    title: `Enjoying God's Sabbath Rest`,
-    text: `Mark 2:23-28`,
+    series: `From Sorrow to Joy`,
+    title: `Sharing in the Comfort of Christ`,
+    text: `2 Corinthians 1:3-11`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -21,6 +21,22 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
+    title: `Read the Word - March 2022 & Devotional Guide`,
+    date: `2022`,
+    url: `"Images/Read the Word April.jpg"`,
+    alt: `Image of bible`,
+    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
+    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
+    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
+    In addition, please find linked the 
+    <a class="announceLinkinP" href='https://d1bsmz3sdihplr.cloudfront.net/media/Quarterlies_Other%20Downloads/2021_Reading%20Plan.pdf' target="_blank">Bible Project’s Annual reading plan</a>
+     as well. 
+    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
+    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
+    to follow. Click the link below to download a copy of the monthly plan.`,
+    link: `https://www.dropbox.com/s/0g8sy6cz49g2org/Read%20the%20Word%20%28Mar%202022%29.png?dl=0`,
+    linkText: `Download the Plan`
+    },{
     title: `TGC Women's Conference`,
     date: `June 16-18, 2022`,
     url: `"Images/TGC Women's Conference Announcement.jpg"`,
@@ -32,6 +48,25 @@ let announcementsStore = [
     link: `https://www.thegospelcoalition.org/tgcw22/`,
     linkText: `Learn More`
     },{
+    title: `Members Lunch`,
+    date: `Today, March 27, 2022 After Service`,
+    url: `"Images/member lunch 2022.jpg"`,
+    alt: `Image of food`,
+    description: `If you are a committed member of the church, p[lease join us for our yearly Members Meeting on March 27, 2022. We highly encourage 
+    everyone to attend this meeting as we will be reviewing all that God has done in our church over the past year as well as previewing and discussing our 
+    direction and vision for the upcoming year.`
+    //link: `https://lausd.zoom.us/j/4290294197`,
+    //linkText: `Join Us`
+    },{
+    title: `Passion Week Prayer`,
+    date: `April 11 - 15, 2021 7:30PM`,
+    url: `"Images/Passion Week Prayer 2022.jpg"`,
+    alt: `Image of leaves`,
+    description: `Passion Week marks the week leading up to the death and resurrection of Christ. We will be having our nightly prayer starting Mondayday, April 11, 7:30PM.
+     Join us as we grow in our love, passion, and conviction that Christ is all in all.`
+    //link: `https://the-exchange-church.com/live`,
+    //linkText: `More info`
+    }/*,{
     title: `Bowling Night`,
     date: `Friday, March 25, 2022 7:30PM`,
     url: `"Images/Bowling Night 2022 March.jpg"`,
@@ -49,32 +84,6 @@ let announcementsStore = [
     for the morning shift: 8:30AM to 12:30PM or for the afternoon shift 12:30PM to 4:30PM. Please see the link below for more information.`,
     link: `https://forms.gle/zP3qoCwurogbN9aU8`,
     linkText: `Learn More`
-    },{
-    title: `Members Lunch`,
-    date: `March 27, 2021`,
-    url: `"Images/member lunch 2022.jpg"`,
-    alt: `Image of food`,
-    description: `If you are a committed member of the church, p[lease join us for our yearly Members Meeting on March 27, 2022. We highly encourage 
-    everyone to attend this meeting as we will be reviewing all that God has done in our church over the past year as well as previewing and discussing our 
-    direction and vision for the upcoming year.`,
-    //link: `https://lausd.zoom.us/j/4290294197`,
-    //linkText: `Join Us`
-    }/*{
-    title: `Read the Word - March 2022 & Devotional Guide`,
-    date: `2022`,
-    url: `"Images/2022 March Bible Reading Plan Slide.jpg"`,
-    alt: `Image of bible`,
-    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
-    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
-    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
-    In addition, please find linked the 
-    <a class="announceLinkinP" href='https://d1bsmz3sdihplr.cloudfront.net/media/Quarterlies_Other%20Downloads/2021_Reading%20Plan.pdf' target="_blank">Bible Project’s Annual reading plan</a>
-     as well. 
-    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
-    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
-    to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/0g8sy6cz49g2org/Read%20the%20Word%20%28Mar%202022%29.png?dl=0`,
-    linkText: `Download the Plan`
     },{
     title: `VOR Giving`,
     date: `Winter 2021`,
