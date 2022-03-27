@@ -21,7 +21,7 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
-    title: `Read the Word - March 2022 & Devotional Guide`,
+    title: `Read the Word - April 2022 & Devotional Guide`,
     date: `2022`,
     url: `"Images/Read the Word April.jpg"`,
     alt: `Image of bible`,
