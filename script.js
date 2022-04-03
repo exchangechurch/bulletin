@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `March 27th, 2022`,
+    date: `April 3rd, 2022`,
     //series: `Colossians: Christ Above Culture`,
     series: `From Sorrow to Joy`,
-    title: `Sharing in the Comfort of Christ`,
-    text: `2 Corinthians 1:3-11`,
+    title: `Suffering for Good`,
+    text: `1 Peter 2:18-25`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -34,7 +34,7 @@ let announcementsStore = [
     This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
     his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
     to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/0g8sy6cz49g2org/Read%20the%20Word%20%28Mar%202022%29.png?dl=0`,
+    link: `https://www.dropbox.com/s/20rxbscr2ivuohl/Read%20the%20Word%20%28Apr%202022%29.png?dl=0`,
     linkText: `Download the Plan`
     },{
     title: `TGC Women's Conference`,
@@ -48,6 +48,23 @@ let announcementsStore = [
     link: `https://www.thegospelcoalition.org/tgcw22/`,
     linkText: `Learn More`
     },{
+    title: `Passion Week Prayer`,
+    date: `April 11 - 15, 2021 7:30PM`,
+    url: `"Images/Passion Week Prayer 2022.jpg"`,
+    alt: `Image of leaves`,
+    description: `Passion Week marks the week leading up to the death and resurrection of Christ. We will be having our nightly prayer starting Monday, April 11, 7:30PM.
+     Join us as we grow in our love, passion, and conviction that Christ is all in all.`
+    //link: `https://the-exchange-church.com/live`,
+    //linkText: `More info`
+    },{
+    title: `Easter Sunday`,
+    date: `April 17, 2021`,
+    url: `"Images/Easter Sunday.jpg"`,
+    alt: `Image of hills`,
+    description: `Easter Sunday marks the resurrection of Christ. Join us at Church to celebrate and whorship Him.`
+    //link: `https://the-exchange-church.com/live`,
+    //linkText: `More info`
+    }/*{
     title: `Members Lunch`,
     date: `Today, March 27, 2022 After Service`,
     url: `"Images/member lunch 2022.jpg"`,
@@ -58,15 +75,6 @@ let announcementsStore = [
     //link: `https://lausd.zoom.us/j/4290294197`,
     //linkText: `Join Us`
     },{
-    title: `Passion Week Prayer`,
-    date: `April 11 - 15, 2021 7:30PM`,
-    url: `"Images/Passion Week Prayer 2022.jpg"`,
-    alt: `Image of leaves`,
-    description: `Passion Week marks the week leading up to the death and resurrection of Christ. We will be having our nightly prayer starting Monday, April 11, 7:30PM.
-     Join us as we grow in our love, passion, and conviction that Christ is all in all.`
-    //link: `https://the-exchange-church.com/live`,
-    //linkText: `More info`
-    }/*,{
     title: `Bowling Night`,
     date: `Friday, March 25, 2022 7:30PM`,
     url: `"Images/Bowling Night 2022 March.jpg"`,
