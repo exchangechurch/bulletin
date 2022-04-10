@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `April 3rd, 2022`,
+    date: `April 10th, 2022`,
     //series: `Colossians: Christ Above Culture`,
     series: `From Sorrow to Joy`,
-    title: `Suffering for Good`,
-    text: `1 Peter 2:18-25`,
+    title: `The Whole World or A Whole Life`,
+    text: `Matthew 16:13-27`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -21,6 +21,56 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
+    title: `Passion Week Prayer`,
+    date: `April 11, 12, 14, 2021 7:30PM`,
+    url: `"Images/Passion Week Prayer 2022.jpg"`,
+    alt: `Image of leaves`,
+    description: `Passion Week marks the week leading up to the death and resurrection of Christ. We will be having our nightly prayer starting Monday, April 11, 7:30PM. 
+    Please be advised that we will not be meeting on Wednesday, April 13. Join us as we grow in our love, passion, and conviction that Christ is all in all.`
+    },{
+    title: `Good Friday Service`,
+    date: `April 15, 2021 6:30PM`,
+    //url: `"Images/Passion Week Prayer 2022.jpg"`,
+    alt: `Image of leaves`,
+    description: `Please join us for our Good Friday Service on April 15, at 6:30PM. Please be advised this is an hour earlier that our other weeknight prayer.`
+    },{
+    title: `Easter Sunday Celebration`,
+    date: `April 17, 2021`,
+    url: `"Images/Easter Sunday.jpg"`,
+    alt: `Image of hills`,
+    description: `Easter Sunday marks the resurrection of Christ. Join us at Church to celebrate and worship Him.`
+    },{
+    title: `Life Group`,
+    date: `Spring Quarter 2022`,
+    url: `"Images/Life-Groups-2022.jpg"`,
+    alt: `image of faded bibles`,
+    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
+    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
+    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below.
+    Please email 
+    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
+    },{
+    title: `Membership`,
+    date: `Summer 2022`,
+    url: `"Images/Membership Slide 2022.jpg"`,
+    alt: `Image of membership`,
+    description: `We will be starting membership again for the new 2022 year. If you are interested in becoming a member or have questions please fill out the form linked below!`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
+    },{
+    title: `TGC Women's Conference`,
+    date: `June 16-18, 2022`,
+    url: `"Images/TGC Women's Conference Announcement.jpg"`,
+    alt: `TGC Women's Conference Announcement`,
+    description: `The Gospel Coalition is hosting a conference for women, about God. When the trials of life weigh us down, meditating on our great salvation helps 
+    restore our joy. This hope is the theme of TGC's upcoming women’s conference, Remember Your Joy. Over three days you will gather with women from around the world 
+    to consider how seven Old Testament stories point to our greater salvation in Christ—and lead us to greater joy. This will hosted virtually and costs $150 for registration which includes:
+    <br><ul><li>All meals covered</li><li>All keynote and breakouts live-streamed</li><li>Access to all videos through year end</li><li>Three free books, physical and digital formats </li><li>Discounted TGC’s online bookstore</li>`,
+    link: `https://www.thegospelcoalition.org/tgcw22/`,
+    linkText: `Learn More`
+    }/*,{
     title: `Read the Word - April 2022 & Devotional Guide`,
     date: `2022`,
     url: `"Images/Read the Word April.jpg"`,
@@ -36,35 +86,7 @@ let announcementsStore = [
     to follow. Click the link below to download a copy of the monthly plan.`,
     link: `https://www.dropbox.com/s/20rxbscr2ivuohl/Read%20the%20Word%20%28Apr%202022%29.png?dl=0`,
     linkText: `Download the Plan`
-    },{
-    title: `TGC Women's Conference`,
-    date: `June 16-18, 2022`,
-    url: `"Images/TGC Women's Conference Announcement.jpg"`,
-    alt: `TGC Women's Conference Announcement`,
-    description: `The Gospel Coalition is hosting a conference for women, about God. When the trials of life weigh us down, meditating on our great salvation helps 
-    restore our joy. This hope is the theme of TGC's upcoming women’s conference, Remember Your Joy. Over three days you will gather with women from around the world 
-    to consider how seven Old Testament stories point to our greater salvation in Christ—and lead us to greater joy. This will hosted virtually and costs $150 for registration which includes:
-    <br><ul><li>All meals covered</li><li>All keynote and breakouts live-streamed</li><li>Access to all videos through year end</li><li>Three free books, physical and digital formats </li><li>Discounted TGC’s online bookstore</li>`,
-    link: `https://www.thegospelcoalition.org/tgcw22/`,
-    linkText: `Learn More`
-    },{
-    title: `Passion Week Prayer`,
-    date: `April 11 - 15, 2021 7:30PM`,
-    url: `"Images/Passion Week Prayer 2022.jpg"`,
-    alt: `Image of leaves`,
-    description: `Passion Week marks the week leading up to the death and resurrection of Christ. We will be having our nightly prayer starting Monday, April 11, 7:30PM.
-     Join us as we grow in our love, passion, and conviction that Christ is all in all.`
-    //link: `https://the-exchange-church.com/live`,
-    //linkText: `More info`
-    },{
-    title: `Easter Sunday`,
-    date: `April 17, 2021`,
-    url: `"Images/Easter Sunday.jpg"`,
-    alt: `Image of hills`,
-    description: `Easter Sunday marks the resurrection of Christ. Join us at Church to celebrate and whorship Him.`
-    //link: `https://the-exchange-church.com/live`,
-    //linkText: `More info`
-    }/*{
+    }{
     title: `Members Lunch`,
     date: `Today, March 27, 2022 After Service`,
     url: `"Images/member lunch 2022.jpg"`,
@@ -111,26 +133,6 @@ let announcementsStore = [
     FOOD SORTING - Thursdays | 10:30 am to 1:30 pm (in-person) <br>
     FOOD DRIVE-THRU - Thursdays | 1:30 pm to 3:30 pm (in-person)`,
     link: `https://forms.gle/2W9f7BVPeGX2sqQJ9`,
-    linkText: `Sign Up`
-    },{
-    title: `Life Group Sign-ups`,
-    date: `Next Quarter Jan 9`,
-    url: `"Images/Life-Groups-2022.jpg"`,
-    alt: `image of faded bibles`,
-    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
-    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
-    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below.
-    Please email 
-    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
-    linkText: `Sign Up`
-    },{
-    title: `Membership`,
-    date: `January 2022`,
-    url: `"Images/Membership Slide 2022.jpg"`,
-    alt: `Image of membership`,
-    description: `We will be starting membership again for the new 2022 year. If you are interested in becoming a member or have questions please fill out the form linked below!`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
     },{
     title: `Advent 2021`,
