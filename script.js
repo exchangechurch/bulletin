@@ -30,7 +30,7 @@ let announcementsStore = [
     },{
     title: `Good Friday Service`,
     date: `April 15, 2021 6:30PM`,
-    //url: `"Images/Passion Week Prayer 2022.jpg"`,
+    url: `"Images/Good Friday 2022.jpg"`,
     alt: `Image of leaves`,
     description: `Please join us for our Good Friday Service on April 15, at 6:30PM. Please be advised this is an hour earlier that our other weeknight prayer.`
     },{
@@ -42,7 +42,7 @@ let announcementsStore = [
     },{
     title: `Life Group`,
     date: `Spring Quarter 2022`,
-    url: `"Images/Life-Groups-2022.jpg"`,
+    url: `"Images/Life-Groups 2022.jpg"`,
     alt: `image of faded bibles`,
     description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
     weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
