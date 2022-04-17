@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `April 10th, 2022`,
+    date: `April 17th, 2022`,
     //series: `Colossians: Christ Above Culture`,
     series: `From Sorrow to Joy`,
-    title: `The Whole World or A Whole Life`,
-    text: `Matthew 16:13-27`,
+    title: `The Good News of Fear & Great Joy`,
+    text: `Matthew 28:1-10`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -21,24 +21,11 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
-    title: `Passion Week Prayer`,
-    date: `April 11, 12, 14, 2021 7:30PM`,
-    url: `"Images/Passion Week Prayer 2022.jpg"`,
-    alt: `Image of leaves`,
-    description: `Passion Week marks the week leading up to the death and resurrection of Christ. We will be having our nightly prayer starting Monday, April 11, 7:30PM. 
-    Please be advised that we will not be meeting on Wednesday, April 13. Join us as we grow in our love, passion, and conviction that Christ is all in all.`
-    },{
-    title: `Good Friday Service`,
-    date: `April 15, 2021 6:30PM`,
-    url: `"Images/Good Friday 2022.jpg"`,
-    alt: `Image of leaves`,
-    description: `Please join us for our Good Friday Service on April 15, at 6:30PM. Please be advised this is an hour earlier that our other weeknight prayer.`
-    },{
     title: `Easter Sunday Celebration`,
-    date: `April 17, 2021`,
+    date: `Today, April 17, 2021`,
     url: `"Images/Easter Sunday.jpg"`,
     alt: `Image of hills`,
-    description: `Easter Sunday marks the resurrection of Christ. Join us at Church to celebrate and worship Him.`
+    description: `Easter Sunday marks the resurrection of Christ. Join us after service for refreshments and lunch!`
     },{
     title: `Life Group`,
     date: `Spring Quarter 2022`,
@@ -71,6 +58,13 @@ let announcementsStore = [
     link: `https://www.thegospelcoalition.org/tgcw22/`,
     linkText: `Learn More`
     }/*,{
+    title: `Passion Week Prayer`,
+    date: `April 11, 12, 14, 2021 7:30PM`,
+    url: `"Images/Passion Week Prayer 2022.jpg"`,
+    alt: `Image of leaves`,
+    description: `Passion Week marks the week leading up to the death and resurrection of Christ. We will be having our nightly prayer starting Monday, April 11, 7:30PM. 
+    Please be advised that we will not be meeting on Wednesday, April 13. Join us as we grow in our love, passion, and conviction that Christ is all in all.`
+    },{
     title: `Read the Word - April 2022 & Devotional Guide`,
     date: `2022`,
     url: `"Images/Read the Word April.jpg"`,
