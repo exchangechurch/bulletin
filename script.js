@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `April 17th, 2022`,
+    date: `April 24th, 2022`,
     //series: `Colossians: Christ Above Culture`,
-    series: `From Sorrow to Joy`,
-    title: `The Good News of Fear & Great Joy`,
-    text: `Matthew 28:1-10`,
+    series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
+    title: `You Will Be My Witnesses`,
+    text: `Acts 1:1-11`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -20,12 +20,6 @@ let announcementsStore = [
     fill out the form at the link below to connect with us.`,
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
-    },{
-    title: `Easter Sunday Celebration`,
-    date: `Today, April 17, 2021`,
-    url: `"Images/Easter Sunday.jpg"`,
-    alt: `Image of hills`,
-    description: `Easter Sunday marks the resurrection of Christ. Join us after service for refreshments and lunch!`
     },{
     title: `Life Group`,
     date: `Spring Quarter 2022`,
@@ -58,6 +52,12 @@ let announcementsStore = [
     link: `https://www.thegospelcoalition.org/tgcw22/`,
     linkText: `Learn More`
     }/*,{
+    title: `Easter Sunday Celebration`,
+    date: `Today, April 17, 2021`,
+    url: `"Images/Easter Sunday.jpg"`,
+    alt: `Image of hills`,
+    description: `Easter Sunday marks the resurrection of Christ. Join us after service for refreshments and lunch!`
+    },{
     title: `Passion Week Prayer`,
     date: `April 11, 12, 14, 2021 7:30PM`,
     url: `"Images/Passion Week Prayer 2022.jpg"`,
