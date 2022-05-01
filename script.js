@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `April 24th, 2022`,
+    date: `May 1st, 2022`,
     //series: `Colossians: Christ Above Culture`,
     series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `You Will Be My Witnesses`,
-    text: `Acts 1:1-11`,
+    title: `Discerning God's Will`,
+    text: `Acts 1:12-26`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -20,18 +20,6 @@ let announcementsStore = [
     fill out the form at the link below to connect with us.`,
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
-    },{
-    title: `Life Group`,
-    date: `Spring Quarter 2022`,
-    url: `"Images/Life-Groups 2022.jpg"`,
-    alt: `image of faded bibles`,
-    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
-    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
-    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below.
-    Please email 
-    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
-    linkText: `Sign Up`
     },{
     title: `Membership`,
     date: `Summer 2022`,
@@ -51,7 +39,35 @@ let announcementsStore = [
     <br><ul><li>All meals covered</li><li>All keynote and breakouts live-streamed</li><li>Access to all videos through year end</li><li>Three free books, physical and digital formats </li><li>Discounted TGC’s online bookstore</li>`,
     link: `https://www.thegospelcoalition.org/tgcw22/`,
     linkText: `Learn More`
+    },{
+    title: `Bowling Night`,
+    date: `Friday, May 20, 2022 7:30PM`,
+    url: `"Images/Bowling Night 2022 May.jpg"`,
+    alt: `bowling pins`,
+    description: `We'll be having a connect event at Linbrook Bowl on Friday May 20, 2022 at 7:30PM. If you are interested, stop by and play some frames!`
+    //link: `https://forms.gle/zP3qoCwurogbN9aU8`,
+    //linkText: `Learn More`
+    },{
+    title: `VBS Volunteer Sign-ups`,
+    date: `June 24-25, 2022`,
+    url: `"Images/VBS 2022 Signups.jpg"`,
+    alt: `VBS Volunteer Announcement`,
+    description: `The Exchange Church is hosting a VBS this Summer from June 24 to June 25. Volunteers are needed to make this possible. Please sign up if you are a member and interested in learning more.`
+    //link: `https://forms.gle/zP3qoCwurogbN9aU8`,
+    //linkText: `Learn More`
     }/*,{
+    title: `Life Group`,
+    date: `Spring Quarter 2022`,
+    url: `"Images/Life-Groups 2022.jpg"`,
+    alt: `image of faded bibles`,
+    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
+    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
+    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below.
+    Please email 
+    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
+    },{
     title: `Easter Sunday Celebration`,
     date: `Today, April 17, 2021`,
     url: `"Images/Easter Sunday.jpg"`,
@@ -90,14 +106,6 @@ let announcementsStore = [
     direction and vision for the upcoming year.`
     //link: `https://lausd.zoom.us/j/4290294197`,
     //linkText: `Join Us`
-    },{
-    title: `Bowling Night`,
-    date: `Friday, March 25, 2022 7:30PM`,
-    url: `"Images/Bowling Night 2022 March.jpg"`,
-    alt: `bowling pins`,
-    description: `We'll be having a connect event at Bowlero Cerritos on Friday March 25, 2022 at 7:30PM. If you are interested, stop by and play some frames!`
-    //link: `https://forms.gle/zP3qoCwurogbN9aU8`,
-    //linkText: `Learn More`
     },{
     title: `VOR Women's Day`,
     date: `March 26, 2022`,
