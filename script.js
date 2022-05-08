@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `May 1st, 2022`,
+    date: `May 8th, 2022`,
     //series: `Colossians: Christ Above Culture`,
     series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `Discerning God's Will`,
-    text: `Acts 1:12-26`,
+    title: `The Event of Pentecost`,
+    text: `Acts 2:1-13`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
