@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `May 8th, 2022`,
+    date: `May 15th, 2022`,
     //series: `Colossians: Christ Above Culture`,
     series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `The Event of Pentecost`,
-    text: `Acts 2:1-13`,
+    title: `The Preaching of Pentecost`,
+    text: `Acts 2:14-41`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -29,6 +29,14 @@ let announcementsStore = [
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
     },{
+    title: `Bowling Night`,
+    date: `Friday, May 20, 2022 7:30PM`,
+    url: `"Images/Bowling Night 2022 May.jpg"`,
+    alt: `bowling pins`,
+    description: `We'll be having a connect event at Linbrook Bowl on Friday May 20, 2022 at 7:30PM. If you are interested, stop by and play some frames!`,
+    link: `https://forms.gle/AQPahe6YCAWrwBXQ8`,
+    linkText: `Learn More`
+    },{
     title: `TGC Women's Conference`,
     date: `June 16-18, 2022`,
     url: `"Images/TGC Women's Conference Announcement.jpg"`,
@@ -39,14 +47,6 @@ let announcementsStore = [
     <br><ul><li>All meals covered</li><li>All keynote and breakouts live-streamed</li><li>Access to all videos through year end</li><li>Three free books, physical and digital formats </li><li>Discounted TGC’s online bookstore</li>`,
     link: `https://www.thegospelcoalition.org/tgcw22/`,
     linkText: `Learn More`
-    },{
-    title: `Bowling Night`,
-    date: `Friday, May 20, 2022 7:30PM`,
-    url: `"Images/Bowling Night 2022 May.jpg"`,
-    alt: `bowling pins`,
-    description: `We'll be having a connect event at Linbrook Bowl on Friday May 20, 2022 at 7:30PM. If you are interested, stop by and play some frames!`
-    //link: `https://forms.gle/zP3qoCwurogbN9aU8`,
-    //linkText: `Learn More`
     },{
     title: `VBS Volunteer Sign-ups`,
     date: `June 24-25, 2022`,
