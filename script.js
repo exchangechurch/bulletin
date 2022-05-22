@@ -45,7 +45,7 @@ let announcementsStore = [
     url: `"Images/VBS 2022.jpg"`,
     alt: `VBS Volunteer Announcement`,
     description: `The Exchange Church is hosting a VBS this Summer from June 24 to June 25. Friday's schedule will be from 5PM to 8PM and Saturday will be from 10AM to 3PM. For the second half of 
-    Saturday, from 1PM to 3PM, parents are welcome to join in for the festivities. The cost will be $10 per child and dinner and lunch will be provided. Please follow the link below for more information`
+    Saturday, from 1PM to 3PM, parents are welcome to join in for the festivities. The cost will be $10 per child and dinner and lunch will be provided. Please follow the link below for more information`,
     link: `https://docs.google.com/forms/d/1_PQkJkeCPsyxJ5eK-fi6kUdAwn_x0c7sXULVACnnAcg/edit`,
     linkText: `Register`
     }/*,{
