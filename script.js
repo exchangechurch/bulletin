@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `May 15th, 2022`,
+    date: `May 22nd, 2022`,
     //series: `Colossians: Christ Above Culture`,
     series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `The Preaching of Pentecost`,
-    text: `Acts 2:14-41`,
+    title: `The Acts 2 Church`,
+    text: `Acts 2:37-47`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -29,14 +29,6 @@ let announcementsStore = [
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
     },{
-    title: `Bowling Night`,
-    date: `Friday, May 20, 2022 7:30PM`,
-    url: `"Images/Bowling Night 2022 May.jpg"`,
-    alt: `bowling pins`,
-    description: `We'll be having a connect event at Linbrook Bowl on Friday May 20, 2022 at 7:30PM. If you are interested, stop by and play some frames!`,
-    link: `https://forms.gle/AQPahe6YCAWrwBXQ8`,
-    linkText: `Learn More`
-    },{
     title: `TGC Women's Conference`,
     date: `June 16-18, 2022`,
     url: `"Images/TGC Women's Conference Announcement.jpg"`,
@@ -48,14 +40,23 @@ let announcementsStore = [
     link: `https://www.thegospelcoalition.org/tgcw22/`,
     linkText: `Learn More`
     },{
-    title: `VBS Volunteer Sign-ups`,
+    title: `VBS Registration`,
     date: `June 24-25, 2022`,
-    url: `"Images/VBS 2022 Signups.jpg"`,
+    url: `"Images/VBS 2022.jpg"`,
     alt: `VBS Volunteer Announcement`,
-    description: `The Exchange Church is hosting a VBS this Summer from June 24 to June 25. Volunteers are needed to make this possible. Please sign up if you are a member and interested in learning more.`
-    //link: `https://forms.gle/zP3qoCwurogbN9aU8`,
-    //linkText: `Learn More`
+    description: `The Exchange Church is hosting a VBS this Summer from June 24 to June 25. Friday's schedule will be from 5PM to 8PM and Saturday will be from 10AM to 3PM. For the second half of 
+    Saturday, from 1PM to 3PM, parents are welcome to join in for the festivities. The cost will be $10 per child and dinner and lunch will be provided. Please follow the link below for more information`
+    link: `https://docs.google.com/forms/d/1_PQkJkeCPsyxJ5eK-fi6kUdAwn_x0c7sXULVACnnAcg/edit`,
+    linkText: `Register`
     }/*,{
+    title: `Bowling Night`,
+    date: `Friday, May 20, 2022 7:30PM`,
+    url: `"Images/Bowling Night 2022 May.jpg"`,
+    alt: `bowling pins`,
+    description: `We'll be having a connect event at Linbrook Bowl on Friday May 20, 2022 at 7:30PM. If you are interested, stop by and play some frames!`,
+    link: `https://forms.gle/AQPahe6YCAWrwBXQ8`,
+    linkText: `Learn More`
+    },{
     title: `Life Group`,
     date: `Spring Quarter 2022`,
     url: `"Images/Life-Groups 2022.jpg"`,
