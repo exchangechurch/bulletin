@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `May 22nd, 2022`,
+    date: `May 29th, 2022`,
     //series: `Colossians: Christ Above Culture`,
     series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `The Acts 2 Church`,
-    text: `Acts 2:37-47`,
+    title: `The Miracle & The Message`,
+    text: `Acts 3`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -48,6 +48,16 @@ let announcementsStore = [
     Saturday, from 1PM to 3PM, parents are welcome to join in for the festivities. The cost will be $10 per child and dinner and lunch will be provided. Please follow the link below for more information`,
     link: `https://docs.google.com/forms/d/1_PQkJkeCPsyxJ5eK-fi6kUdAwn_x0c7sXULVACnnAcg/edit`,
     linkText: `Register`
+    },{
+    title: `Men's Discipleship: How the Gospel makes us Whole`,
+    date: `Thursday Nights staring June 30th`,
+    url: `"Images/Mens Discipleship 2022.jpg"`,
+    alt: `image of faded bibles`,
+    description: `We will be hosting a weekly Men's Discipleship starting June 30th. It will be held on Thursday nights in the worship hall. 
+    If you are interested in joining us, please fill out the form linked below.
+    Please email <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
+    link: `https://forms.gle/dHKedzJk5kpHKwNW7`,
+    linkText: `Sign Up`
     }/*,{
     title: `Bowling Night`,
     date: `Friday, May 20, 2022 7:30PM`,
