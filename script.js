@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `May 29th, 2022`,
+    date: `June 12th, 2022`,
     //series: `Colossians: Christ Above Culture`,
     series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `The Miracle & The Message`,
-    text: `Acts 3`,
+    title: `The Power & Perversion of Life in the Church`,
+    text: `Acts 4:32-5:11`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -58,6 +58,24 @@ let announcementsStore = [
     Please email <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
     link: `https://forms.gle/dHKedzJk5kpHKwNW7`,
     linkText: `Sign Up`
+    },{
+    title: `4th of July Gathering`,
+    date: `July 4, 2022, 5:30PM`,
+    url: `"Images/4th of July 2022.jpg"`,
+    alt: `image of faded bibles`,
+    description: `Mark your calendars for 5:30pm on July 4th. We will be having a get together here at church. Stick around for dinner and fireworks. We hope to see you then!`
+    //link: `https://forms.gle/dHKedzJk5kpHKwNW7`,
+    //linkText: `Sign Up`
+    },{
+    title: `VOR Volunteer Opportunities`,
+    date: `Saturday, August 6, 2022, 9:30AM-11AM & 11AM-2PM`,
+    url: `"Images/VOR Opportunities Summer 2022.png"`,
+    alt: ``,
+    description: `We have several opportunities to serve our local community alongside Voice of Refugees this summer! On Saturday August 6 Voice of Refugees will be looking for volunteers 
+    to help out with a clothing & household item giveaway, and later in the afternoon there will be a picnic at the park where you can come and eat and get to know some of the refugees and 
+    their families. More details will be coming, but if you are interested in learning more please sign up below.`,
+    link: `https://forms.gle/3at2GPeSBjz8NUBH7`,
+    linkText: `Learn More`
     }/*,{
     title: `Bowling Night`,
     date: `Friday, May 20, 2022 7:30PM`,
