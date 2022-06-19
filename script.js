@@ -2,12 +2,15 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `June 12th, 2022`,
-    //series: `Colossians: Christ Above Culture`,
-    series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `The Power & Perversion of Life in the Church`,
-    text: `Acts 4:32-5:11`,
-    speaker: `Lead Pastor, Joe Suh`
+    date: `June 19th, 2022`,
+    //series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
+    //title: `The Power & Perversion of Life in the Church`,
+    //text: `Acts 4:32-5:11`,
+    //speaker: `Lead Pastor, Joe Suh`
+    series: `Standalone`,
+    title: `The Blood of Christ`,
+    text: `Hebrews 9:11-14`,
+    speaker: `Guest Speaker, Randy Cho`
 }];
 
 let announcementsStore = [
@@ -20,25 +23,6 @@ let announcementsStore = [
     fill out the form at the link below to connect with us.`,
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
-    },{
-    title: `Membership`,
-    date: `Summer 2022`,
-    url: `"Images/Membership Slide 2022.jpg"`,
-    alt: `Image of membership`,
-    description: `We will be starting membership again for the new 2022 year. If you are interested in becoming a member or have questions please fill out the form linked below!`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
-    linkText: `Sign Up`
-    },{
-    title: `TGC Women's Conference`,
-    date: `June 16-18, 2022`,
-    url: `"Images/TGC Women's Conference Announcement.jpg"`,
-    alt: `TGC Women's Conference Announcement`,
-    description: `The Gospel Coalition is hosting a conference for women, about God. When the trials of life weigh us down, meditating on our great salvation helps 
-    restore our joy. This hope is the theme of TGC's upcoming women’s conference, Remember Your Joy. Over three days you will gather with women from around the world 
-    to consider how seven Old Testament stories point to our greater salvation in Christ—and lead us to greater joy. This will hosted virtually and costs $150 for registration which includes:
-    <br><ul><li>All meals covered</li><li>All keynote and breakouts live-streamed</li><li>Access to all videos through year end</li><li>Three free books, physical and digital formats </li><li>Discounted TGC’s online bookstore</li>`,
-    link: `https://www.thegospelcoalition.org/tgcw22/`,
-    linkText: `Learn More`
     },{
     title: `VBS Registration`,
     date: `June 24-25, 2022`,
@@ -77,6 +61,25 @@ let announcementsStore = [
     link: `https://forms.gle/3at2GPeSBjz8NUBH7`,
     linkText: `Learn More`
     }/*,{
+    title: `TGC Women's Conference`,
+    date: `June 16-18, 2022`,
+    url: `"Images/TGC Women's Conference Announcement.jpg"`,
+    alt: `TGC Women's Conference Announcement`,
+    description: `The Gospel Coalition is hosting a conference for women, about God. When the trials of life weigh us down, meditating on our great salvation helps 
+    restore our joy. This hope is the theme of TGC's upcoming women’s conference, Remember Your Joy. Over three days you will gather with women from around the world 
+    to consider how seven Old Testament stories point to our greater salvation in Christ—and lead us to greater joy. This will hosted virtually and costs $150 for registration which includes:
+    <br><ul><li>All meals covered</li><li>All keynote and breakouts live-streamed</li><li>Access to all videos through year end</li><li>Three free books, physical and digital formats </li><li>Discounted TGC’s online bookstore</li>`,
+    link: `https://www.thegospelcoalition.org/tgcw22/`,
+    linkText: `Learn More`
+    },{
+    title: `Membership`,
+    date: `Summer 2022`,
+    url: `"Images/Membership Slide 2022.jpg"`,
+    alt: `Image of membership`,
+    description: `We will be starting membership again for the new 2022 year. If you are interested in becoming a member or have questions please fill out the form linked below!`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
+    },{
     title: `Bowling Night`,
     date: `Friday, May 20, 2022 7:30PM`,
     url: `"Images/Bowling Night 2022 May.jpg"`,
