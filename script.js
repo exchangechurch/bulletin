@@ -2,15 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `June 19th, 2022`,
-    //series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    //title: `The Power & Perversion of Life in the Church`,
-    //text: `Acts 4:32-5:11`,
-    //speaker: `Lead Pastor, Joe Suh`
-    series: `Standalone`,
-    title: `The Blood of Christ`,
-    text: `Hebrews 9:11-14`,
-    speaker: `Guest Speaker, Randy Cho`
+    date: `June 26th, 2022`,
+    series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
+    title: `Counted Worthy to Suffer Dishonor`,
+    text: `Acts 5:12-42`,
+    speaker: `Lead Pastor, Joe Suh`
 }];
 
 let announcementsStore = [
@@ -23,15 +19,6 @@ let announcementsStore = [
     fill out the form at the link below to connect with us.`,
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
-    },{
-    title: `VBS Registration`,
-    date: `June 24-25, 2022`,
-    url: `"Images/VBS 2022.jpg"`,
-    alt: `VBS Volunteer Announcement`,
-    description: `The Exchange Church is hosting a VBS this Summer from June 24 to June 25. Friday's schedule will be from 5PM to 8PM and Saturday will be from 10AM to 3PM. For the second half of 
-    Saturday, from 1PM to 3PM, parents are welcome to join in for the festivities. The cost will be $10 per child and dinner and lunch will be provided. Please follow the link below for more information`,
-    link: `https://docs.google.com/forms/d/1_PQkJkeCPsyxJ5eK-fi6kUdAwn_x0c7sXULVACnnAcg/edit`,
-    linkText: `Register`
     },{
     title: `Men's Discipleship: How the Gospel makes us Whole`,
     date: `Thursday Nights staring June 30th`,
@@ -61,6 +48,15 @@ let announcementsStore = [
     link: `https://forms.gle/3at2GPeSBjz8NUBH7`,
     linkText: `Learn More`
     }/*,{
+    title: `VBS Registration`,
+    date: `June 24-25, 2022`,
+    url: `"Images/VBS 2022.jpg"`,
+    alt: `VBS Volunteer Announcement`,
+    description: `The Exchange Church is hosting a VBS this Summer from June 24 to June 25. Friday's schedule will be from 5PM to 8PM and Saturday will be from 10AM to 3PM. For the second half of 
+    Saturday, from 1PM to 3PM, parents are welcome to join in for the festivities. The cost will be $10 per child and dinner and lunch will be provided. Please follow the link below for more information`,
+    link: `https://docs.google.com/forms/d/1_PQkJkeCPsyxJ5eK-fi6kUdAwn_x0c7sXULVACnnAcg/edit`,
+    linkText: `Register`
+    },{
     title: `TGC Women's Conference`,
     date: `June 16-18, 2022`,
     url: `"Images/TGC Women's Conference Announcement.jpg"`,
