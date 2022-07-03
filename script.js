@@ -32,7 +32,7 @@ let announcementsStore = [
     },{
     title: `4th of July Gathering`,
     date: `July 4, 2022, 5:30PM`,
-    url: `"Images/4th of July 2022.jpg"`,
+    url: `"Images/Mens Discipleship 2022 EDIT WITH TIME.jpg"`,
     alt: `image of faded bibles`,
     description: `Mark your calendars for 5:30pm on July 4th. We will be having a get together here at church. Stick around for dinner and fireworks. We hope to see you then!`
     //link: `https://forms.gle/dHKedzJk5kpHKwNW7`,
