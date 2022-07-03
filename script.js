@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `June 26th, 2022`,
+    date: `July 3rd, 2022`,
     series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `Counted Worthy to Suffer Dishonor`,
-    text: `Acts 5:12-42`,
+    title: `The Challenges of Growing Up`,
+    text: `Acts 6:1-7`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -37,6 +37,14 @@ let announcementsStore = [
     description: `Mark your calendars for 5:30pm on July 4th. We will be having a get together here at church. Stick around for dinner and fireworks. We hope to see you then!`
     //link: `https://forms.gle/dHKedzJk5kpHKwNW7`,
     //linkText: `Sign Up`
+    },{
+    title: `Beach Outing & Bonfire`,
+    date: `Sunday, July 24, 2022 3:00PM`,
+    url: `"Images/Beach Outing July 2022.jpg"`,
+    alt: `color gradient`,
+    description: `Come join us for a beach outing and bonfire after service on Sunday July 24, 2022 at 3:00PM.`
+    //link: `https://forms.gle/AQPahe6YCAWrwBXQ8`,
+    //linkText: `Learn More`
     },{
     title: `VOR Volunteer Opportunities`,
     date: `Saturday, August 6, 2022, 9:30AM-11AM & 11AM-2PM`,
@@ -75,14 +83,6 @@ let announcementsStore = [
     description: `We will be starting membership again for the new 2022 year. If you are interested in becoming a member or have questions please fill out the form linked below!`,
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
-    },{
-    title: `Bowling Night`,
-    date: `Friday, May 20, 2022 7:30PM`,
-    url: `"Images/Bowling Night 2022 May.jpg"`,
-    alt: `bowling pins`,
-    description: `We'll be having a connect event at Linbrook Bowl on Friday May 20, 2022 at 7:30PM. If you are interested, stop by and play some frames!`,
-    link: `https://forms.gle/AQPahe6YCAWrwBXQ8`,
-    linkText: `Learn More`
     },{
     title: `Life Group`,
     date: `Spring Quarter 2022`,
