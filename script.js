@@ -2,11 +2,15 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `July 3rd, 2022`,
-    series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `The Challenges of Growing Up`,
-    text: `Acts 6:1-7`,
-    speaker: `Lead Pastor, Joe Suh`
+    date: `July 10th, 2022`,
+    //series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
+    //title: `The Challenges of Growing Up`,
+    //text: `Acts 6:1-7`,
+    //speaker: `Lead Pastor, Joe Suh`
+    series: `Standalone`,
+    title: `When the Church Sings`,
+    text: `Colossians 3:15-16`,
+    speaker: `Guest Speaker, Patrick Cho`
 }];
 
 let announcementsStore = [
@@ -30,14 +34,6 @@ let announcementsStore = [
     link: `https://forms.gle/dHKedzJk5kpHKwNW7`,
     linkText: `Sign Up`
     },{
-    title: `4th of July Gathering`,
-    date: `July 4, 2022, 5:30PM`,
-    url: `"Images/Mens Discipleship 2022 EDIT WITH TIME.jpg"`,
-    alt: `image of faded bibles`,
-    description: `Mark your calendars for 5:30pm on July 4th. We will be having a get together here at church. Stick around for dinner and fireworks. We hope to see you then!`
-    //link: `https://forms.gle/dHKedzJk5kpHKwNW7`,
-    //linkText: `Sign Up`
-    },{
     title: `Beach Outing & Bonfire`,
     date: `Sunday, July 24, 2022 3:00PM`,
     url: `"Images/Beach Outing July 2022.jpg"`,
@@ -56,6 +52,14 @@ let announcementsStore = [
     link: `https://forms.gle/3at2GPeSBjz8NUBH7`,
     linkText: `Learn More`
     }/*,{
+    title: `4th of July Gathering`,
+    date: `July 4, 2022, 5:30PM`,
+    url: `"Images/Mens Discipleship 2022 EDIT WITH TIME.jpg"`,
+    alt: `image of faded bibles`,
+    description: `Mark your calendars for 5:30pm on July 4th. We will be having a get together here at church. Stick around for dinner and fireworks. We hope to see you then!`
+    //link: `https://forms.gle/dHKedzJk5kpHKwNW7`,
+    //linkText: `Sign Up`
+    },{
     title: `VBS Registration`,
     date: `June 24-25, 2022`,
     url: `"Images/VBS 2022.jpg"`,
