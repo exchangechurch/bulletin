@@ -2,15 +2,15 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `July 10th, 2022`,
+    date: `July 17th, 2022`,
     //series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
     //title: `The Challenges of Growing Up`,
     //text: `Acts 6:1-7`,
     //speaker: `Lead Pastor, Joe Suh`
     series: `Standalone`,
-    title: `When the Church Sings`,
-    text: `Colossians 3:15-16`,
-    speaker: `Guest Speaker, Patrick Cho`
+    title: `Dare to Live for the Lord`,
+    text: `Esther 4:11-17`,
+    speaker: `Guest Speaker, Peter Kim`
 }];
 
 let announcementsStore = [
