@@ -2,15 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `July 17th, 2022`,
-    //series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    //title: `The Challenges of Growing Up`,
-    //text: `Acts 6:1-7`,
-    //speaker: `Lead Pastor, Joe Suh`
-    series: `Standalone`,
-    title: `Dare to Live for the Lord`,
-    text: `Esther 4:11-17`,
-    speaker: `Guest Speaker, Peter Kim`
+    date: `July 24th, 2022`,
+    series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
+    title: `To Live and Die like Jesus`,
+    text: `Acts 6:8-8:3`,
+    speaker: `Lead Pastor, Joe Suh`
 }];
 
 let announcementsStore = [
@@ -51,6 +47,26 @@ let announcementsStore = [
     their families. More details will be coming, but if you are interested in learning more please sign up below.`,
     link: `https://forms.gle/3at2GPeSBjz8NUBH7`,
     linkText: `Learn More`
+    },{
+    title: `Life Groups`,
+    date: `Spring Quarter 2022`,
+    url: `"Images/Life-Groups-FALL-2022.jpg"`,
+    alt: `image of faded bibles`,
+    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
+    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
+    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below.
+    Please email 
+    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
+    },{
+    title: `VBS Registration`,
+    //date: `June 24-25, 2022`,
+    url: `"Images/Missionary Support Sign Up QR.jpg"`,
+    alt: `code banner`,
+    description: `If you are interested in advancing the Gospel through missionary support, please fill out the form linked below to connect with us.`,
+    link: `https://docs.google.com/forms/d/e/1FAIpQLSfVlt5uVJcXdK1IhvB70N8Hm78HA6iBh2VfkKOGyXXvRORKWQ/viewform`,
+    linkText: `Learn More`
     }/*,{
     title: `4th of July Gathering`,
     date: `July 4, 2022, 5:30PM`,
@@ -85,18 +101,6 @@ let announcementsStore = [
     url: `"Images/Membership Slide 2022.jpg"`,
     alt: `Image of membership`,
     description: `We will be starting membership again for the new 2022 year. If you are interested in becoming a member or have questions please fill out the form linked below!`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
-    linkText: `Sign Up`
-    },{
-    title: `Life Group`,
-    date: `Spring Quarter 2022`,
-    url: `"Images/Life-Groups 2022.jpg"`,
-    alt: `image of faded bibles`,
-    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
-    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
-    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below.
-    Please email 
-    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
     },{
