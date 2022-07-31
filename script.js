@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `July 24th, 2022`,
+    date: `July 31th, 2022`,
     series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `To Live and Die like Jesus`,
-    text: `Acts 6:8-8:3`,
+    title: `The Forest and the Trees`,
+    text: `Acts 8:1-25`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -30,14 +30,6 @@ let announcementsStore = [
     link: `https://forms.gle/dHKedzJk5kpHKwNW7`,
     linkText: `Sign Up`
     },{
-    title: `Beach Outing & Bonfire`,
-    date: `Sunday, July 24, 2022 3:00PM`,
-    url: `"Images/Beach Outing July 2022.jpg"`,
-    alt: `color gradient`,
-    description: `Come join us for a beach outing and bonfire after service on Sunday July 24, 2022 at 3:00PM.`
-    //link: `https://forms.gle/AQPahe6YCAWrwBXQ8`,
-    //linkText: `Learn More`
-    },{
     title: `VOR Volunteer Opportunities`,
     date: `Saturday, August 6, 2022, 9:30AM-11AM & 11AM-2PM`,
     url: `"Images/VOR Opportunities Summer 2022.png"`,
@@ -46,6 +38,14 @@ let announcementsStore = [
     to help out with a clothing & household item giveaway, and later in the afternoon there will be a picnic at the park where you can come and eat and get to know some of the refugees and 
     their families. More details will be coming, but if you are interested in learning more please sign up below.`,
     link: `https://forms.gle/3at2GPeSBjz8NUBH7`,
+    linkText: `Learn More`
+    },{
+    title: `Missionary Support`,
+    date: `Summer 2022`,
+    url: `"Images/Missionary Support Sign Up QR.jpg"`,
+    alt: `code banner`,
+    description: `If you are interested in advancing the Gospel through missionary support, please fill out the form linked below to connect with us.`,
+    link: `https://docs.google.com/forms/d/e/1FAIpQLSfVlt5uVJcXdK1IhvB70N8Hm78HA6iBh2VfkKOGyXXvRORKWQ/viewform`,
     linkText: `Learn More`
     },{
     title: `Life Groups`,
@@ -59,15 +59,15 @@ let announcementsStore = [
     <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
-    },{
-    title: `VBS Registration`,
-    //date: `June 24-25, 2022`,
-    url: `"Images/Missionary Support Sign Up QR.jpg"`,
-    alt: `code banner`,
-    description: `If you are interested in advancing the Gospel through missionary support, please fill out the form linked below to connect with us.`,
-    link: `https://docs.google.com/forms/d/e/1FAIpQLSfVlt5uVJcXdK1IhvB70N8Hm78HA6iBh2VfkKOGyXXvRORKWQ/viewform`,
-    linkText: `Learn More`
     }/*,{
+    title: `Beach Outing & Bonfire`,
+    date: `Sunday, July 24, 2022 3:00PM`,
+    url: `"Images/Beach Outing July 2022.jpg"`,
+    alt: `color gradient`,
+    description: `Come join us for a beach outing and bonfire after service on Sunday July 24, 2022 at 3:00PM.`
+    //link: `https://forms.gle/AQPahe6YCAWrwBXQ8`,
+    //linkText: `Learn More`
+    },{
     title: `4th of July Gathering`,
     date: `July 4, 2022, 5:30PM`,
     url: `"Images/Mens Discipleship 2022 EDIT WITH TIME.jpg"`,
