@@ -2,11 +2,15 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `July 31th, 2022`,
-    series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `The Forest and the Trees`,
-    text: `Acts 8:1-25`,
-    speaker: `Lead Pastor, Joe Suh`
+    date: `August 7th, 2022`,
+    //series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
+    //title: `The Forest and the Trees`,
+    //text: `Acts 8:1-25`,
+    //speaker: `Lead Pastor, Joe Suh`
+    series: `Standalone`,
+    title: `Singleness`,
+    text: `1 Corinthians 7:17-40`,
+    speaker: `Guest Speaker, Ben Pun`
 }];
 
 let announcementsStore = [
@@ -21,7 +25,8 @@ let announcementsStore = [
     linkText: `Connect with us`
     },{
     title: `Men's Discipleship: How the Gospel makes us Whole`,
-    date: `Thursday Nights staring June 30th`,
+    //date: `Thursday Nights staring June 30th`,
+    date:`No Gathering this Week`,
     url: `"Images/Mens Discipleship 2022.jpg"`,
     alt: `image of faded bibles`,
     description: `We will be hosting a weekly Men's Discipleship starting June 30th. It will be held on Thursday nights in the worship hall. 
@@ -29,16 +34,6 @@ let announcementsStore = [
     Please email <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
     link: `https://forms.gle/dHKedzJk5kpHKwNW7`,
     linkText: `Sign Up`
-    },{
-    title: `VOR Volunteer Opportunities`,
-    date: `Saturday, August 6, 2022, 9:30AM-11AM & 11AM-2PM`,
-    url: `"Images/VOR Opportunities Summer 2022.png"`,
-    alt: ``,
-    description: `We have several opportunities to serve our local community alongside Voice of Refugees this summer! On Saturday August 6 Voice of Refugees will be looking for volunteers 
-    to help out with a clothing & household item giveaway, and later in the afternoon there will be a picnic at the park where you can come and eat and get to know some of the refugees and 
-    their families. More details will be coming, but if you are interested in learning more please sign up below.`,
-    link: `https://forms.gle/3at2GPeSBjz8NUBH7`,
-    linkText: `Learn More`
     },{
     title: `Missionary Support`,
     date: `Summer 2022`,
@@ -60,6 +55,16 @@ let announcementsStore = [
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
     }/*,{
+    title: `VOR Volunteer Opportunities`,
+    date: `Saturday, August 6, 2022, 9:30AM-11AM & 11AM-2PM`,
+    url: `"Images/VOR Opportunities Summer 2022.png"`,
+    alt: ``,
+    description: `We have several opportunities to serve our local community alongside Voice of Refugees this summer! On Saturday August 6 Voice of Refugees will be looking for volunteers 
+    to help out with a clothing & household item giveaway, and later in the afternoon there will be a picnic at the park where you can come and eat and get to know some of the refugees and 
+    their families. More details will be coming, but if you are interested in learning more please sign up below.`,
+    link: `https://forms.gle/3at2GPeSBjz8NUBH7`,
+    linkText: `Learn More`
+    },{
     title: `Beach Outing & Bonfire`,
     date: `Sunday, July 24, 2022 3:00PM`,
     url: `"Images/Beach Outing July 2022.jpg"`,
