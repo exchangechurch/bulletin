@@ -2,15 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `August 7th, 2022`,
-    //series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    //title: `The Forest and the Trees`,
-    //text: `Acts 8:1-25`,
-    //speaker: `Lead Pastor, Joe Suh`
-    series: `Standalone`,
-    title: `Singleness`,
-    text: `1 Corinthians 7:17-40`,
-    speaker: `Guest Speaker, Ben Pun`
+    date: `August 14th, 2022`,
+    series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
+    title: `From the Neighbors to the Nations`,
+    text: `Acts 8:26-40`,
+    speaker: `Lead Pastor, Joe Suh`
 }];
 
 let announcementsStore = [
@@ -25,8 +21,8 @@ let announcementsStore = [
     linkText: `Connect with us`
     },{
     title: `Men's Discipleship: How the Gospel makes us Whole`,
-    //date: `Thursday Nights staring June 30th`,
-    date:`No Gathering this Week`,
+    //date: `Thursday Nights starting June 30th`,
+    date:`Resuming this Week`,
     url: `"Images/Mens Discipleship 2022.jpg"`,
     alt: `image of faded bibles`,
     description: `We will be hosting a weekly Men's Discipleship starting June 30th. It will be held on Thursday nights in the worship hall. 
