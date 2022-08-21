@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `August 14th, 2022`,
+    date: `August 21st, 2022`,
     series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `From the Neighbors to the Nations`,
-    text: `Acts 8:26-40`,
+    title: `Making a Missionary`,
+    text: `Acts 9:1-31`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -40,7 +40,7 @@ let announcementsStore = [
     linkText: `Learn More`
     },{
     title: `Life Groups`,
-    date: `Spring Quarter 2022`,
+    date: `Fall Quarter 2022`,
     url: `"Images/Life-Groups-FALL-2022.jpg"`,
     alt: `image of faded bibles`,
     description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
