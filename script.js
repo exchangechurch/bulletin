@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `August 21st, 2022`,
+    date: `August 28th, 2022`,
     series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `Making a Missionary`,
-    text: `Acts 9:1-31`,
+    title: `Dismantling the Power of Sickness & Death`,
+    text: `Acts 9:31-43`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -19,17 +19,6 @@ let announcementsStore = [
     fill out the form at the link below to connect with us.`,
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
-    },{
-    title: `Men's Discipleship: How the Gospel makes us Whole`,
-    //date: `Thursday Nights starting June 30th`,
-    date:`Resuming this Week`,
-    url: `"Images/Mens Discipleship 2022.jpg"`,
-    alt: `image of faded bibles`,
-    description: `We will be hosting a weekly Men's Discipleship starting June 30th. It will be held on Thursday nights in the worship hall. 
-    If you are interested in joining us, please fill out the form linked below.
-    Please email <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
-    link: `https://forms.gle/dHKedzJk5kpHKwNW7`,
-    linkText: `Sign Up`
     },{
     title: `Missionary Support`,
     date: `Summer 2022`,
@@ -51,6 +40,17 @@ let announcementsStore = [
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
     }/*,{
+    title: `Men's Discipleship: How the Gospel makes us Whole`,
+    //date: `Thursday Nights starting June 30th`,
+    date:`Resuming this Week`,
+    url: `"Images/Mens Discipleship 2022.jpg"`,
+    alt: `image of faded bibles`,
+    description: `We will be hosting a weekly Men's Discipleship starting June 30th. It will be held on Thursday nights in the worship hall. 
+    If you are interested in joining us, please fill out the form linked below.
+    Please email <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
+    link: `https://forms.gle/dHKedzJk5kpHKwNW7`,
+    linkText: `Sign Up`
+    },{
     title: `VOR Volunteer Opportunities`,
     date: `Saturday, August 6, 2022, 9:30AM-11AM & 11AM-2PM`,
     url: `"Images/VOR Opportunities Summer 2022.png"`,
