@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `August 28th, 2022`,
+    date: `September 4th, 2022`,
     series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `Dismantling the Power of Sickness & Death`,
-    text: `Acts 9:31-43`,
+    title: `The Uncomfortable, Cross Cultural Gospel`,
+    text: `Acts 10:1-43`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -28,6 +28,22 @@ let announcementsStore = [
     link: `https://docs.google.com/forms/d/e/1FAIpQLSfVlt5uVJcXdK1IhvB70N8Hm78HA6iBh2VfkKOGyXXvRORKWQ/viewform`,
     linkText: `Learn More`
     },{
+    title: `Read the Word - September 2022 & Devotional Guide`,
+    date: `2022`,
+    url: `"Images/September 2022 Bible Reading Plan.jpg"`,
+    alt: `Image of bible`,
+    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
+    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
+    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
+    In addition, please find linked the 
+    <a class="announceLinkinP" href='https://d1bsmz3sdihplr.cloudfront.net/media/Quarterlies_Other%20Downloads/2021_Reading%20Plan.pdf' target="_blank">Bible Project’s Annual reading plan</a>
+     as well. 
+    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
+    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
+    to follow. Click the link below to download a copy of the monthly plan.`,
+    link: `https://www.dropbox.com/s/83rm100cqs95izk/Read%20the%20Word%20%28Sep%202022%29.png?dl=0`,
+    linkText: `Download the Plan`
+    }/*,{
     title: `Life Groups`,
     date: `Fall Quarter 2022`,
     url: `"Images/Life-Groups-FALL-2022.jpg"`,
@@ -39,7 +55,7 @@ let announcementsStore = [
     <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
-    }/*,{
+    },{
     title: `Men's Discipleship: How the Gospel makes us Whole`,
     //date: `Thursday Nights starting June 30th`,
     date:`Resuming this Week`,
@@ -118,22 +134,6 @@ let announcementsStore = [
     description: `Passion Week marks the week leading up to the death and resurrection of Christ. We will be having our nightly prayer starting Monday, April 11, 7:30PM. 
     Please be advised that we will not be meeting on Wednesday, April 13. Join us as we grow in our love, passion, and conviction that Christ is all in all.`
     },{
-    title: `Read the Word - April 2022 & Devotional Guide`,
-    date: `2022`,
-    url: `"Images/Read the Word April.jpg"`,
-    alt: `Image of bible`,
-    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
-    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
-    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
-    In addition, please find linked the 
-    <a class="announceLinkinP" href='https://d1bsmz3sdihplr.cloudfront.net/media/Quarterlies_Other%20Downloads/2021_Reading%20Plan.pdf' target="_blank">Bible Project’s Annual reading plan</a>
-     as well. 
-    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
-    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
-    to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/20rxbscr2ivuohl/Read%20the%20Word%20%28Apr%202022%29.png?dl=0`,
-    linkText: `Download the Plan`
-    }{
     title: `Members Lunch`,
     date: `Today, March 27, 2022 After Service`,
     url: `"Images/member lunch 2022.jpg"`,
