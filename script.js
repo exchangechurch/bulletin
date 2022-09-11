@@ -22,7 +22,7 @@ let announcementsStore = [
     },{
     title: `Membership`,
     date: `Fall 2022`,
-    url: `"Images/Membership Slide 2022.jpg"`,
+    url: `"Images/Membership Sept 2022.jpg"`,
     alt: `Image of membership`,
     description: `We will be starting membership again for the new season. If you are interested in becoming a member or have questions please fill out the form linked below!`,
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
