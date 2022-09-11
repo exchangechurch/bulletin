@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `September 4th, 2022`,
+    date: `September 11th, 2022`,
     series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `The Uncomfortable, Cross Cultural Gospel`,
-    text: `Acts 10:1-43`,
+    title: `Snapshot of A Sending Church`,
+    text: `Acts 11:19-30; 12:25-13:3`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -20,6 +20,23 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
+    title: `Membership`,
+    date: `Fall 2022`,
+    url: `"Images/Membership Slide 2022.jpg"`,
+    alt: `Image of membership`,
+    description: `We will be starting membership again for the new season. If you are interested in becoming a member or have questions please fill out the form linked below!`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
+    },{
+    title: `VOR ESL Teacher (Volunteer Opportunity)`,
+    date: `Fall 2022`,
+    url: `"Images/VOR Volunteer Sept 2022.jpg"`,
+    //alt: ``,
+    description: `ONLINE - Monday, Tuesdays, and Wednesdays | 11am to 1pm <br>
+    IN-PERSON - Mondays and Wednesdays | 10am to 1pm`,
+    link: `https://forms.gle/2W9f7BVPeGX2sqQJ9`,
+    linkText: `Sign Up`
+    },{
     title: `Missionary Support`,
     date: `Summer 2022`,
     url: `"Images/Missionary Support Sign Up QR.jpg"`,
@@ -28,6 +45,16 @@ let announcementsStore = [
     link: `https://docs.google.com/forms/d/e/1FAIpQLSfVlt5uVJcXdK1IhvB70N8Hm78HA6iBh2VfkKOGyXXvRORKWQ/viewform`,
     linkText: `Learn More`
     },{
+    title: `Give 2022`,
+    date: `Throughout October`,
+    url: `"Images/Giving 2022.jpg"`,
+    //alt: `image of book`,
+    description: `Every year, VOR puts together a giving opportunity for the refugee and asylum-seeking community. If you are interested in giving click the link below. Your donation will make a real 
+    difference in the lives of refugees and asylum-seekers from Muslim-majority countries. With over 120,000 Afghan refugees coming to the United States, many having arrived already, your donation is needed now more than ever. 
+    During the month of October, The Exchange Church will match all giving to VOR and missions. If you would like to give, please put "VOR" in the description when you give via Zelle or Cash App. We will be accepting donations throughout October.`,
+    link: `https://cash.app/$TheExchangeChurch`,
+    linkText: `Give`
+    }/*{
     title: `Read the Word - September 2022 & Devotional Guide`,
     date: `2022`,
     url: `"Images/September 2022 Bible Reading Plan.jpg"`,
@@ -43,7 +70,7 @@ let announcementsStore = [
     to follow. Click the link below to download a copy of the monthly plan.`,
     link: `https://www.dropbox.com/s/83rm100cqs95izk/Read%20the%20Word%20%28Sep%202022%29.png?dl=0`,
     linkText: `Download the Plan`
-    }/*,{
+    },{
     title: `Life Groups`,
     date: `Fall Quarter 2022`,
     url: `"Images/Life-Groups-FALL-2022.jpg"`,
@@ -112,14 +139,6 @@ let announcementsStore = [
     <br><ul><li>All meals covered</li><li>All keynote and breakouts live-streamed</li><li>Access to all videos through year end</li><li>Three free books, physical and digital formats </li><li>Discounted TGC’s online bookstore</li>`,
     link: `https://www.thegospelcoalition.org/tgcw22/`,
     linkText: `Learn More`
-    },{
-    title: `Membership`,
-    date: `Summer 2022`,
-    url: `"Images/Membership Slide 2022.jpg"`,
-    alt: `Image of membership`,
-    description: `We will be starting membership again for the new 2022 year. If you are interested in becoming a member or have questions please fill out the form linked below!`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
-    linkText: `Sign Up`
     },{
     title: `Easter Sunday Celebration`,
     date: `Today, April 17, 2021`,
