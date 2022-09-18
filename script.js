@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `September 11th, 2022`,
+    date: `September 18th, 2022`,
     series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `Snapshot of A Sending Church`,
-    text: `Acts 11:19-30; 12:25-13:3`,
+    title: `Peace in Persecution`,
+    text: `Acts 12:1-25`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -37,14 +37,6 @@ let announcementsStore = [
     link: `https://forms.gle/2W9f7BVPeGX2sqQJ9`,
     linkText: `Sign Up`
     },{
-    title: `Missionary Support`,
-    date: `Summer 2022`,
-    url: `"Images/Missionary Support Sign Up QR.jpg"`,
-    alt: `code banner`,
-    description: `If you are interested in advancing the Gospel through missionary support, please fill out the form linked below to connect with us.`,
-    link: `https://docs.google.com/forms/d/e/1FAIpQLSfVlt5uVJcXdK1IhvB70N8Hm78HA6iBh2VfkKOGyXXvRORKWQ/viewform`,
-    linkText: `Learn More`
-    },{
     title: `Give 2022`,
     date: `Throughout October`,
     url: `"Images/Giving 2022.jpg"`,
@@ -54,7 +46,15 @@ let announcementsStore = [
     During the month of October, The Exchange Church will match all giving to VOR and missions. If you would like to give, please put "VOR" in the description when you give via Zelle or Cash App. We will be accepting donations throughout October.`,
     link: `https://cash.app/$TheExchangeChurch`,
     linkText: `Give`
-    }/*{
+    }/*,{
+    title: `Missionary Support`,
+    date: `Summer 2022`,
+    url: `"Images/Missionary Support Sign Up QR.jpg"`,
+    alt: `code banner`,
+    description: `If you are interested in advancing the Gospel through missionary support, please fill out the form linked below to connect with us.`,
+    link: `https://docs.google.com/forms/d/e/1FAIpQLSfVlt5uVJcXdK1IhvB70N8Hm78HA6iBh2VfkKOGyXXvRORKWQ/viewform`,
+    linkText: `Learn More`
+    },{
     title: `Read the Word - September 2022 & Devotional Guide`,
     date: `2022`,
     url: `"Images/September 2022 Bible Reading Plan.jpg"`,
