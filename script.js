@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `September 18th, 2022`,
+    date: `September 25th, 2022`,
     series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `Peace in Persecution`,
-    text: `Acts 12:1-25`,
+    title: `Missional Living`,
+    text: `Acts 13:1-12`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
