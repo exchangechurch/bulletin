@@ -67,7 +67,7 @@ let announcementsStore = [
     date: `October 30, 2022`,
     url: `"Images/Fall Fest.jpg"`,
     //alt: `Image of pumpkins`,
-    description: `If you are interested in helping out for this event, please sign up at the link below. Thank you to all the volunteers for your support and dedication. This event would not be possible without you!`
+    description: `If you are interested in helping out for this event, please sign up at the link below. Thank you to all the volunteers for your support and dedication. This event would not be possible without you!`,
     link: `https://forms.gle/o3CJbir3NC8mwmHx9`,
     linkText: `Sign Up`
     }/*,{
