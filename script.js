@@ -2,7 +2,7 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `October 2nd, 2022`,
+    date: `October 9th, 2022`,
     series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
     title: `Salvation History`,
     text: `Acts 13:13-41`,
@@ -20,6 +20,41 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
+    title: `Membership`,
+    date: `Fall 2022`,
+    url: `"Images/Membership Sept 2022.jpg"`,
+    alt: `Image of membership`,
+    description: `We will be starting membership again for the new season. If you are interested in becoming a member or have questions please fill out the form linked below!`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
+    },{
+    title: `Give 2022`,
+    date: `Throughout October`,
+    url: `"Images/Giving 2022.jpg"`,
+    //alt: `image of book`,
+    description: `Every year, VOR puts together a giving opportunity for the refugee and asylum-seeking community. If you are interested in giving click the link below. Your donation will make a real 
+    difference in the lives of refugees and asylum-seekers from Muslim-majority countries. With over 120,000 Afghan refugees coming to the United States, many having arrived already, your donation is needed now more than ever. 
+    During the month of October, The Exchange Church will match all giving to VOR and missions. If you would like to give, please put "VOR" in the description when you give via Zelle or Cash App. We will be accepting donations throughout October.`,
+    link: `https://cash.app/$TheExchangeChurch`,
+    linkText: `Give`
+    },{
+    title: `Fall Fest`,
+    date: `October 30, 2022 5-8PM`,
+    url: `"Images/Fall Festival 2022 Updated Slide.jpg"`,
+    //alt: `Image of pumpkins`,
+    description: `If you are interested in helping out for this event, please sign up at the link below. Thank you to all the volunteers for your support and dedication. This event would not be possible without you!`,
+    link: `https://forms.gle/o3CJbir3NC8mwmHx9`,
+    linkText: `Sign Up`
+    }/*,{
+    title: `VOR ESL Teacher (Volunteer Opportunity)`,
+    date: `Fall 2022`,
+    url: `"Images/VOR Volunteer Sept 2022.jpg"`,
+    //alt: ``,
+    description: `ONLINE - Monday, Tuesdays, and Wednesdays | 11am to 1pm <br>
+    IN-PERSON - Mondays and Wednesdays | 10am to 1pm`,
+    link: `https://forms.gle/2W9f7BVPeGX2sqQJ9`,
+    linkText: `Sign Up`
+    },{
     title: `Read the Word - October 2022 & Devotional Guide`,
     date: `2022`,
     url: `"Images/2022 October Bible Reading Plan Slide.jpg"`,
@@ -36,41 +71,6 @@ let announcementsStore = [
     link: `https://www.dropbox.com/s/xazndotzz1joeb9/Read%20the%20Word%20%28Oct%202022%29.png?dl=0`,
     linkText: `Download the Plan`
     },{
-    title: `Membership`,
-    date: `Fall 2022`,
-    url: `"Images/Membership Sept 2022.jpg"`,
-    alt: `Image of membership`,
-    description: `We will be starting membership again for the new season. If you are interested in becoming a member or have questions please fill out the form linked below!`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
-    linkText: `Sign Up`
-    },{
-    title: `VOR ESL Teacher (Volunteer Opportunity)`,
-    date: `Fall 2022`,
-    url: `"Images/VOR Volunteer Sept 2022.jpg"`,
-    //alt: ``,
-    description: `ONLINE - Monday, Tuesdays, and Wednesdays | 11am to 1pm <br>
-    IN-PERSON - Mondays and Wednesdays | 10am to 1pm`,
-    link: `https://forms.gle/2W9f7BVPeGX2sqQJ9`,
-    linkText: `Sign Up`
-    },{
-    title: `Give 2022`,
-    date: `Throughout October`,
-    url: `"Images/Giving 2022.jpg"`,
-    //alt: `image of book`,
-    description: `Every year, VOR puts together a giving opportunity for the refugee and asylum-seeking community. If you are interested in giving click the link below. Your donation will make a real 
-    difference in the lives of refugees and asylum-seekers from Muslim-majority countries. With over 120,000 Afghan refugees coming to the United States, many having arrived already, your donation is needed now more than ever. 
-    During the month of October, The Exchange Church will match all giving to VOR and missions. If you would like to give, please put "VOR" in the description when you give via Zelle or Cash App. We will be accepting donations throughout October.`,
-    link: `https://cash.app/$TheExchangeChurch`,
-    linkText: `Give`
-    },{
-    title: `Fall Fest`,
-    date: `October 30, 2022`,
-    url: `"Images/Fall Fest.jpg"`,
-    //alt: `Image of pumpkins`,
-    description: `If you are interested in helping out for this event, please sign up at the link below. Thank you to all the volunteers for your support and dedication. This event would not be possible without you!`,
-    link: `https://forms.gle/o3CJbir3NC8mwmHx9`,
-    linkText: `Sign Up`
-    }/*,{
     title: `Missionary Support`,
     date: `Summer 2022`,
     url: `"Images/Missionary Support Sign Up QR.jpg"`,
