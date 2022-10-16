@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `October 9th, 2022`,
+    date: `October 16th, 2022`,
     series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `Salvation History`,
-    text: `Acts 13:13-41`,
+    title: `Fighting for the Truth about Grace`,
+    text: `Acts 15:1-35`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
