@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `October 16th, 2022`,
+    date: `October 23rd, 2022`,
     series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `Fighting for the Truth about Grace`,
-    text: `Acts 15:1-35`,
+    title: `Fighting for the Truth about Grace Part 2`,
+    text: `Acts 15:22-35`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -19,14 +19,6 @@ let announcementsStore = [
     fill out the form at the link below to connect with us.`,
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
-    },{
-    title: `Membership`,
-    date: `Fall 2022`,
-    url: `"Images/Membership Sept 2022.jpg"`,
-    alt: `Image of membership`,
-    description: `We will be starting membership again for the new season. If you are interested in becoming a member or have questions please fill out the form linked below!`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
-    linkText: `Sign Up`
     },{
     title: `Give 2022`,
     date: `Throughout October`,
@@ -45,7 +37,24 @@ let announcementsStore = [
     description: `If you are interested in helping out for this event, please sign up at the link below. Thank you to all the volunteers for your support and dedication. This event would not be possible without you!`,
     link: `https://forms.gle/o3CJbir3NC8mwmHx9`,
     linkText: `Sign Up`
+    },{
+    title: `HOPE Worship & Prayer Night`,
+    date: `November 5, 2021 7:00PM`,
+    url: `"Images/Hope Worship Night Nov 2022.jpg"`, //spaces in the file name requires double quotes "" around it.
+    //alt: `image of clouds`,
+    description: `Our prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
+    and corporate prayer. We will be gathering on Saturday, November 5 at 7pm.`
+    //link: `https://www.the-exchange-church.com/live`,
+    //linkText: `Join us Online`
     }/*,{
+    title: `Membership`,
+    date: `Fall 2022`,
+    url: `"Images/Membership Sept 2022.jpg"`,
+    alt: `Image of membership`,
+    description: `We will be starting membership again for the new season. If you are interested in becoming a member or have questions please fill out the form linked below!`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
+    },{
     title: `VOR ESL Teacher (Volunteer Opportunity)`,
     date: `Fall 2022`,
     url: `"Images/VOR Volunteer Sept 2022.jpg"`,
@@ -223,15 +232,6 @@ let announcementsStore = [
     We'll need volunteers to assist with the event, giving, or shopping for items. If you would like to volunteer click the link below.`,
     link: `https://forms.gle/2RqUgdEboLk732Wu6`,
     linkText: `Volunteer`
-    },{
-    title: `Worship & Prayer Gathering`,
-    date: `November 27, 2021 10:00AM`,
-    //url: `"Images/Morning Prayer Oct 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
-    //alt: `image of clouds`,
-    description: `Our monthly prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
-    and corporate prayer. We will be gathering in-person on Saturday, October 30 at 10am in the Social Hall (same place as worship)`
-    //link: `https://www.the-exchange-church.com/live`,
-    //linkText: `Join us Online`
     },{
     title: `Christmas Party`,
     date: `December 18, 2021 5:30PM`,
