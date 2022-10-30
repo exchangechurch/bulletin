@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `October 23rd, 2022`,
+    date: `October 30th, 2022`,
     series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `Fighting for the Truth about Grace Part 2`,
-    text: `Acts 15:22-35`,
+    title: `The Spirit Still Works`,
+    text: `Acts 15:36-16:18`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -31,7 +31,7 @@ let announcementsStore = [
     linkText: `Give`
     },{
     title: `Fall Fest`,
-    date: `October 30, 2022 5-8PM`,
+    date: `Tonight, October 30, 2022 5-8PM`,
     url: `"Images/Fall Festival 2022 Updated Slide.jpg"`,
     //alt: `Image of pumpkins`,
     description: `If you are interested in helping out for this event, please sign up at the link below. Thank you to all the volunteers for your support and dedication. This event would not be possible without you!`,
