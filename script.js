@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `October 30th, 2022`,
+    date: `November 6th, 2022`,
     series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `The Spirit Still Works`,
-    text: `Acts 15:36-16:18`,
+    title: `The Utter Relevance of the Good News about Jesus`,
+    text: `Acts 16:11-40`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -20,6 +20,30 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
+    title: `Read the Word - November 2022 & Devotional Guide`,
+    date: `2022`,
+    url: `"Images/2022 November Read The Word.jpg"`,
+    alt: `Image of bible`,
+    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
+    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
+    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
+    In addition, please find linked the 
+    <a class="announceLinkinP" href='https://d1bsmz3sdihplr.cloudfront.net/media/Quarterlies_Other%20Downloads/2021_Reading%20Plan.pdf' target="_blank">Bible Project’s Annual reading plan</a>
+     as well. 
+    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
+    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
+    to follow. Click the link below to download a copy of the monthly plan.`,
+    link: `https://www.dropbox.com/s/rqgwf1smkp625t6/2022%20November%20Read%20The%20Word.jpg?dl=0`,
+    linkText: `Download the Plan`
+    },{
+    title: `Sisters' Friendsgiving Dinner`,
+    date: `November 16, 2022 6:30PM`,
+    url: `"Images/Friendsgiving Dinner 2022.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of dinner spread`,
+    description: `Come join us as we eat and fellowship to celebrate this Thanksgiving season! All are welcome! `
+    //link: `https://forms.gle/4YRnUf1tfxvtZmNV6`,
+    //linkText: `Sign up`
+    }/*{
     title: `Give 2022`,
     date: `Throughout October`,
     url: `"Images/Giving 2022.jpg"`,
@@ -46,7 +70,7 @@ let announcementsStore = [
     and corporate prayer. We will be gathering on Saturday, November 5 at 7pm.`
     //link: `https://www.the-exchange-church.com/live`,
     //linkText: `Join us Online`
-    }/*,{
+    },{
     title: `Membership`,
     date: `Fall 2022`,
     url: `"Images/Membership Sept 2022.jpg"`,
@@ -63,22 +87,6 @@ let announcementsStore = [
     IN-PERSON - Mondays and Wednesdays | 10am to 1pm`,
     link: `https://forms.gle/2W9f7BVPeGX2sqQJ9`,
     linkText: `Sign Up`
-    },{
-    title: `Read the Word - October 2022 & Devotional Guide`,
-    date: `2022`,
-    url: `"Images/2022 October Bible Reading Plan Slide.jpg"`,
-    alt: `Image of bible`,
-    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
-    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
-    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
-    In addition, please find linked the 
-    <a class="announceLinkinP" href='https://d1bsmz3sdihplr.cloudfront.net/media/Quarterlies_Other%20Downloads/2021_Reading%20Plan.pdf' target="_blank">Bible Project’s Annual reading plan</a>
-     as well. 
-    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
-    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
-    to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/xazndotzz1joeb9/Read%20the%20Word%20%28Oct%202022%29.png?dl=0`,
-    linkText: `Download the Plan`
     },{
     title: `Missionary Support`,
     date: `Summer 2022`,
