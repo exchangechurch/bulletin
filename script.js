@@ -33,7 +33,7 @@ let announcementsStore = [
     This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
     his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
     to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/rqgwf1smkp625t6/2022%20November%20Read%20The%20Word.jpg?dl=0`,
+    link: `https://www.dropbox.com/s/o8a39os13sbqva0/Read%20the%20Word%20%28Nov%202022%29.png?dl=0`,
     linkText: `Download the Plan`
     },{
     title: `Sisters' Friendsgiving Dinner`,
