@@ -40,7 +40,7 @@ let announcementsStore = [
     date: `November 16, 2022 6:30PM`,
     url: `"Images/Friendsgiving Dinner 2022.jpg"`, //spaces in the file name requires double quotes "" around it.
     alt: `image of dinner spread`,
-    description: `Come join us as we eat and fellowship to celebrate this Thanksgiving season! All are welcome! Let us know you're coming below `
+    description: `Come join us as we eat and fellowship to celebrate this Thanksgiving season! All are welcome! Let us know you're coming below `,
     link: `https://docs.google.com/forms/d/1UN7PxnY6F3PeieAfIjp2sNbiPHmHoyZzioLj-n3kWJQ/viewform?edit_requested=true`,
     linkText: `Sign up`
     }/*{
