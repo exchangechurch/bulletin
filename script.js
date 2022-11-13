@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `November 6th, 2022`,
+    date: `November 13th, 2022`,
     series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `The Utter Relevance of the Good News about Jesus`,
-    text: `Acts 16:11-40`,
+    title: `Turning the World Right-Side Up`,
+    text: `Acts 17:1-15`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -20,6 +20,15 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
+    title: `Sisters' Friendsgiving Dinner`,
+    date: `November 16, 2022 6:30PM`,
+    url: `"Images/Friendsgiving Dinner 2022.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of dinner spread`,
+    description: `Come join us as we eat and fellowship to celebrate this Thanksgiving season! All are welcome! Let us know you're coming below `,
+    link: `https://docs.google.com/forms/d/1UN7PxnY6F3PeieAfIjp2sNbiPHmHoyZzioLj-n3kWJQ/viewform?edit_requested=true`,
+    linkText: `Sign up`
+    }/*
+    {
     title: `Read the Word - November 2022 & Devotional Guide`,
     date: `2022`,
     url: `"Images/2022 November Read The Word.jpg"`,
@@ -36,14 +45,6 @@ let announcementsStore = [
     link: `https://www.dropbox.com/s/o8a39os13sbqva0/Read%20the%20Word%20%28Nov%202022%29.png?dl=0`,
     linkText: `Download the Plan`
     },{
-    title: `Sisters' Friendsgiving Dinner`,
-    date: `November 16, 2022 6:30PM`,
-    url: `"Images/Friendsgiving Dinner 2022.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of dinner spread`,
-    description: `Come join us as we eat and fellowship to celebrate this Thanksgiving season! All are welcome! Let us know you're coming below `,
-    link: `https://docs.google.com/forms/d/1UN7PxnY6F3PeieAfIjp2sNbiPHmHoyZzioLj-n3kWJQ/viewform?edit_requested=true`,
-    linkText: `Sign up`
-    }/*{
     title: `Give 2022`,
     date: `Throughout October`,
     url: `"Images/Giving 2022.jpg"`,
