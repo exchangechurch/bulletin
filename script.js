@@ -2,10 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `November 13th, 2022`,
-    series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `Turning the World Right-Side Up`,
-    text: `Acts 17:1-15`,
+    date: `November 20th, 2022`,
+    //series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
+    series: `Standalone`,
+    title: `Bowing Before the Throne of God`,
+    text: `Revelation 4:1-5:14`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -20,6 +21,11 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
+    title: `Thanksgiving Lunch`,
+    date: `November 20, 2022 After Service`,
+    description: `Stick around and join us after service for a Thanksgiving Lunch!`
+    }/*
+    ,{
     title: `Sisters' Friendsgiving Dinner`,
     date: `November 16, 2022 6:30PM`,
     url: `"Images/Friendsgiving Dinner 2022.jpg"`, //spaces in the file name requires double quotes "" around it.
@@ -27,8 +33,7 @@ let announcementsStore = [
     description: `Come join us as we eat and fellowship to celebrate this Thanksgiving season! All are welcome! Let us know you're coming below `,
     link: `https://docs.google.com/forms/d/1UN7PxnY6F3PeieAfIjp2sNbiPHmHoyZzioLj-n3kWJQ/viewform?edit_requested=true`,
     linkText: `Sign up`
-    }/*
-    {
+    },{
     title: `Read the Word - November 2022 & Devotional Guide`,
     date: `2022`,
     url: `"Images/2022 November Read The Word.jpg"`,
