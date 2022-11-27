@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `November 20th, 2022`,
+    date: `November 27th, 2022`,
     //series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    series: `Standalone`,
-    title: `Bowing Before the Throne of God`,
-    text: `Revelation 4:1-5:14`,
+    series: `Advent 2022: The Promised One`,
+    title: `The Promise`,
+    text: `Genesis 3:1-15`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -21,11 +21,42 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
+    title: `Advent 2022`,
+    date: `November 28 - December 31`,
+    url: `"Images/Advent 2022.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of leaves`,
+    description: `The season of Advent, during which we remember and celebrate the birth of Christ, 
+    traditionally starts four Sundays prior to Christmas and ends on Christmas Eve. While we do not believe that observance of Advent is any kind of religious 
+    obligation, we do see it is an incredible opportunity to experience and share the compassion, delight, and assurance that we have been given in Christ in 
+    light of his first coming as we wait in hope and anticipation for his second. Click through to see some ways in which you can grow in affection for Christ during this season.`,
+    link: `https://the-exchange-church.com/advent`,
+    linkText: `Advent`
+    },{
+    title: `Christmas Party`,
+    date: `December 16, 2022`,
+    url: `"Images/Christmas Party 2022.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of Christmas Garland`,
+    description: `Christmas is the quintessential time to celebrate! Come join us as we eat, pray, worship, and fellowship to rejoice in the gift of Jesus as the center of our hope and joy this Christmas season! `
+    //link: `https://forms.gle/4YRnUf1tfxvtZmNV6`,
+    //linkText: `Sign up`
+    },{
+    title: `Life Groups`,
+    date: `Winter Quarter 2023`,
+    url: `"Images/Life Group 2023 Slide.jpg"`,
+    alt: `image of faded bibles`,
+    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
+    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
+    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below.
+    Please email 
+    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
+    }/*
+    ,{
     title: `Thanksgiving Lunch`,
     date: `November 20, 2022 After Service`,
     description: `Stick around and join us after service for a Thanksgiving Lunch!`
-    }/*
-    ,{
+    },{
     title: `Sisters' Friendsgiving Dinner`,
     date: `November 16, 2022 6:30PM`,
     url: `"Images/Friendsgiving Dinner 2022.jpg"`, //spaces in the file name requires double quotes "" around it.
@@ -101,18 +132,6 @@ let announcementsStore = [
     description: `If you are interested in advancing the Gospel through missionary support, please fill out the form linked below to connect with us.`,
     link: `https://docs.google.com/forms/d/e/1FAIpQLSfVlt5uVJcXdK1IhvB70N8Hm78HA6iBh2VfkKOGyXXvRORKWQ/viewform`,
     linkText: `Learn More`
-    },{
-    title: `Life Groups`,
-    date: `Fall Quarter 2022`,
-    url: `"Images/Life-Groups-FALL-2022.jpg"`,
-    alt: `image of faded bibles`,
-    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
-    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
-    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below.
-    Please email 
-    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
-    linkText: `Sign Up`
     },{
     title: `Men's Discipleship: How the Gospel makes us Whole`,
     //date: `Thursday Nights starting June 30th`,
@@ -224,17 +243,6 @@ let announcementsStore = [
     link: `https://forms.gle/2W9f7BVPeGX2sqQJ9`,
     linkText: `Sign Up`
     },{
-    title: `Advent 2021`,
-    date: `December 1 - December 24`,
-    url: `"Images/Advent 2021.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of trees`,
-    description: `The season of Advent, during which we remember and celebrate the birth of Christ, 
-    traditionally starts four Sundays prior to Christmas and ends on Christmas Eve. While we do not believe that observance of Advent is any kind of religious 
-    obligation, we do see it is an incredible opportunity to experience and share the compassion, delight, and assurance that we have been given in Christ in 
-    light of his first coming as we wait in hope and anticipation for his second. Click through to see some ways in which you can grow in affection for Christ during this season.`,
-    link: `https://the-exchange-church.com/advent`,
-    linkText: `Advent`
-    },{
     title: `VOR Christmas Drive Thru`,
     date: `December 18, 2021`,
     url: `"Images/VOR Christmas Drive Thru.jpg"`,
@@ -246,14 +254,6 @@ let announcementsStore = [
     We'll need volunteers to assist with the event, giving, or shopping for items. If you would like to volunteer click the link below.`,
     link: `https://forms.gle/2RqUgdEboLk732Wu6`,
     linkText: `Volunteer`
-    },{
-    title: `Christmas Party`,
-    date: `December 18, 2021 5:30PM`,
-    url: `"Images/Christmas Party Slide.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of Christmas Garland`,
-    description: `Christmas is the quintessential time to celebrate! Come join us as we eat, pray, worship, and fellowship to rejoice in the gift of Jesus as the center of our hope and joy this Christmas season! `
-    //link: `https://forms.gle/4YRnUf1tfxvtZmNV6`,
-    //linkText: `Sign up`
     },{
     title: `Movie Night`,
     date: `November 13, 2021 5:30PM`,
