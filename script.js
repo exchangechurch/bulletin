@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `November 27th, 2022`,
+    date: `December 11th, 2022`,
     //series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
     series: `Advent 2022: The Promised One`,
-    title: `The Promise`,
-    text: `Genesis 3:1-15`,
+    title: `The Promised Deliverer`,
+    text: `Exodus 12:1-28`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -33,7 +33,7 @@ let announcementsStore = [
     linkText: `Advent`
     },{
     title: `Christmas Party`,
-    date: `December 16, 2022`,
+    date: `December 16, 2022 6:30PM`,
     url: `"Images/Christmas Party 2022.jpg"`, //spaces in the file name requires double quotes "" around it.
     alt: `image of Christmas Garland`,
     description: `Christmas is the quintessential time to celebrate! Come join us as we eat, pray, worship, and fellowship to rejoice in the gift of Jesus as the center of our hope and joy this Christmas season! `
