@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `December 11th, 2022`,
+    date: `December 18th, 2022`,
     //series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
     series: `Advent 2022: The Promised One`,
-    title: `The Promised Deliverer`,
-    text: `Exodus 12:1-28`,
+    title: `The Promised King`,
+    text: `Daniel 2`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -32,14 +32,6 @@ let announcementsStore = [
     link: `https://the-exchange-church.com/advent`,
     linkText: `Advent`
     },{
-    title: `Christmas Party`,
-    date: `December 16, 2022 6:30PM`,
-    url: `"Images/Christmas Party 2022.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of Christmas Garland`,
-    description: `Christmas is the quintessential time to celebrate! Come join us as we eat, pray, worship, and fellowship to rejoice in the gift of Jesus as the center of our hope and joy this Christmas season! `
-    //link: `https://forms.gle/4YRnUf1tfxvtZmNV6`,
-    //linkText: `Sign up`
-    },{
     title: `Life Groups`,
     date: `Winter Quarter 2023`,
     url: `"Images/Life Group 2023 Slide.jpg"`,
@@ -52,7 +44,15 @@ let announcementsStore = [
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
     }/*
-    ,{
+    {
+    title: `Christmas Party`,
+    date: `December 16, 2022 6:30PM`,
+    url: `"Images/Christmas Party 2022.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of Christmas Garland`,
+    description: `Christmas is the quintessential time to celebrate! Come join us as we eat, pray, worship, and fellowship to rejoice in the gift of Jesus as the center of our hope and joy this Christmas season! `
+    //link: `https://forms.gle/4YRnUf1tfxvtZmNV6`,
+    //linkText: `Sign up`
+    },,{
     title: `Thanksgiving Lunch`,
     date: `November 20, 2022 After Service`,
     description: `Stick around and join us after service for a Thanksgiving Lunch!`
