@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `December 18th, 2022`,
+    date: `December 25th, 2022`,
     //series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
     series: `Advent 2022: The Promised One`,
-    title: `The Promised King`,
-    text: `Daniel 2`,
+    title: `The Promised Presence`,
+    text: `Matthew 1:18-24`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -14,23 +14,12 @@ let announcementsStore = [
     {
     title: `Welcome`,
     date: `2022`,
-    url: `"Images/Welcome 2022 Slide.png"`,
+    url: `"Images/Welcome Christmas 2022 2.png"`,
     alt: ``,
     description: `Thanks for joining us! If you're visiting for the first time or would like to learn more, we'd like to get to know more about you. Please 
     fill out the form at the link below to connect with us.`,
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
-    },{
-    title: `Advent 2022`,
-    date: `November 28 - December 31`,
-    url: `"Images/Advent 2022.jpg"`, //spaces in the file name requires double quotes "" around it.
-    alt: `image of leaves`,
-    description: `The season of Advent, during which we remember and celebrate the birth of Christ, 
-    traditionally starts four Sundays prior to Christmas and ends on Christmas Eve. While we do not believe that observance of Advent is any kind of religious 
-    obligation, we do see it is an incredible opportunity to experience and share the compassion, delight, and assurance that we have been given in Christ in 
-    light of his first coming as we wait in hope and anticipation for his second. Click through to see some ways in which you can grow in affection for Christ during this season.`,
-    link: `https://the-exchange-church.com/advent`,
-    linkText: `Advent`
     },{
     title: `Life Groups`,
     date: `Winter Quarter 2023`,
@@ -43,8 +32,29 @@ let announcementsStore = [
     <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
+    },{
+    title: `Abortion, Human Rights & The Value of Life`,
+    date: `Thursday Nights starting January 12th 7:00PM`,
+    url: `"Images/Abortion Bible Study Slide.jpg"`,
+    alt: `image of color swatches and title`,
+    description: `We will be hosting a weekly Bible Study covering Abortion and the sanctity of life starting January 12th. It will be held on Thursday nights at church at 7:00PM. 
+    If you are interested in joining us, please fill out the form linked below.
+    Please email <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
+    link: `https://forms.gle/ZX4XjFFCQ6W5nTH28`,
+    linkText: `Sign Up`
     }/*
-    {
+    ,{
+    title: `Advent 2022`,
+    date: `November 28 - December 31`,
+    url: `"Images/Advent 2022.jpg"`, //spaces in the file name requires double quotes "" around it.
+    alt: `image of leaves`,
+    description: `The season of Advent, during which we remember and celebrate the birth of Christ, 
+    traditionally starts four Sundays prior to Christmas and ends on Christmas Eve. While we do not believe that observance of Advent is any kind of religious 
+    obligation, we do see it is an incredible opportunity to experience and share the compassion, delight, and assurance that we have been given in Christ in 
+    light of his first coming as we wait in hope and anticipation for his second. Click through to see some ways in which you can grow in affection for Christ during this season.`,
+    link: `https://the-exchange-church.com/advent`,
+    linkText: `Advent`
+    },{
     title: `Christmas Party`,
     date: `December 16, 2022 6:30PM`,
     url: `"Images/Christmas Party 2022.jpg"`, //spaces in the file name requires double quotes "" around it.
