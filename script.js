@@ -50,6 +50,22 @@ let announcementsStore = [
     description: `We have an opportunity to serve our local community alongside Voice of Refugees this Winter! If editing or producing a podcast sounds like something up your alley, please speak to Pastor Joe for more details.`,
     //link: `https://forms.gle/3at2GPeSBjz8NUBH7`,
     linkText: `Learn More`
+    },{
+    title: `Read the Word - January 2023 & Devotional Guide`,
+    date: `2023`,
+    url: `"Images/Read the Word January 2023.jpg"`,
+    alt: `Image of bible`,
+    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
+    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
+    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
+    In addition, please find linked the 
+    <a class="announceLinkinP" href='https://d1bsmz3sdihplr.cloudfront.net/media/Quarterlies_Other%20Downloads/2021_Reading%20Plan.pdf' target="_blank">Bible Project’s Annual reading plan</a>
+     as well. 
+    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
+    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
+    to follow. Click the link below to download a copy of the monthly plan.`,
+    link: `https://www.dropbox.com/s/1sdiygpen70uc49/Read%20the%20Word%202023%20%28Jan%29.png?dl=0`,
+    linkText: `Download the Plan`
     }/*
     ,{
     title: `Advent 2022`,
@@ -82,22 +98,6 @@ let announcementsStore = [
     description: `Come join us as we eat and fellowship to celebrate this Thanksgiving season! All are welcome! Let us know you're coming below `,
     link: `https://docs.google.com/forms/d/1UN7PxnY6F3PeieAfIjp2sNbiPHmHoyZzioLj-n3kWJQ/viewform?edit_requested=true`,
     linkText: `Sign up`
-    },{
-    title: `Read the Word - November 2022 & Devotional Guide`,
-    date: `2022`,
-    url: `"Images/2022 November Read The Word.jpg"`,
-    alt: `Image of bible`,
-    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
-    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
-    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
-    In addition, please find linked the 
-    <a class="announceLinkinP" href='https://d1bsmz3sdihplr.cloudfront.net/media/Quarterlies_Other%20Downloads/2021_Reading%20Plan.pdf' target="_blank">Bible Project’s Annual reading plan</a>
-     as well. 
-    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
-    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
-    to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/o8a39os13sbqva0/Read%20the%20Word%20%28Nov%202022%29.png?dl=0`,
-    linkText: `Download the Plan`
     },{
     title: `Give 2022`,
     date: `Throughout October`,
