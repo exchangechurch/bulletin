@@ -14,7 +14,7 @@ let announcementsStore = [
     {
     title: `Welcome`,
     date: `2022`,
-    url: `"Images/Welcome Christmas 2022 2.jpg"`,
+    url: `"Images/Welcome 2022 Slide.png"`,
     alt: ``,
     description: `Thanks for joining us! If you're visiting for the first time or would like to learn more, we'd like to get to know more about you. Please 
     fill out the form at the link below to connect with us.`,
