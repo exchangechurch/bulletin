@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `December 25th, 2022`,
+    date: `January 1st, 2022`,
     //series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
     series: `Advent 2022: The Promised One`,
-    title: `The Promised Presence`,
-    text: `Matthew 1:18-24`,
+    title: `The Promised City`,
+    text: `Revelation 21:1-8`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -42,6 +42,14 @@ let announcementsStore = [
     Please email <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
     link: `https://forms.gle/ZX4XjFFCQ6W5nTH28`,
     linkText: `Sign Up`
+    },{
+    title: `VOR Volunteer Opportunity`,
+    date: `Winter 2023`,
+    url: `"Images/VOR Volunteer Opportunity Jan 2023.jpg"`,
+    alt: ``,
+    description: `We have an opportunity to serve our local community alongside Voice of Refugees this Winter! If editing or producing a podcast sounds like something up your alley, please speak to Pastor Joe for more details.`,
+    //link: `https://forms.gle/3at2GPeSBjz8NUBH7`,
+    linkText: `Learn More`
     }/*
     ,{
     title: `Advent 2022`,
