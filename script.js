@@ -2,11 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `January 1st, 2022`,
-    //series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    series: `Advent 2022: The Promised One`,
-    title: `The Promised City`,
-    text: `Revelation 21:1-8`,
+    date: `January 8th, 2023`,
+    series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
+    title: `Good News for the Non-Churched`,
+    text: `Acts 17:16-34`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -50,7 +49,8 @@ let announcementsStore = [
     description: `We have an opportunity to serve our local community alongside Voice of Refugees this Winter! If editing or producing a podcast sounds like something up your alley, please speak to Pastor Joe for more details.`,
     //link: `https://forms.gle/3at2GPeSBjz8NUBH7`,
     linkText: `Learn More`
-    },{
+    }/*
+    ,{
     title: `Read the Word - January 2023 & Devotional Guide`,
     date: `2023`,
     url: `"Images/Read the Word January 2023.jpg"`,
@@ -66,8 +66,7 @@ let announcementsStore = [
     to follow. Click the link below to download a copy of the monthly plan.`,
     link: `https://www.dropbox.com/s/1sdiygpen70uc49/Read%20the%20Word%202023%20%28Jan%29.png?dl=0`,
     linkText: `Download the Plan`
-    }/*
-    ,{
+    },{
     title: `Advent 2022`,
     date: `November 28 - December 31`,
     url: `"Images/Advent 2022.jpg"`, //spaces in the file name requires double quotes "" around it.
