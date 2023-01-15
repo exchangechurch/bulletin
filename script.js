@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `January 8th, 2023`,
+    date: `January 15th, 2023`,
     series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `Good News for the Non-Churched`,
-    text: `Acts 17:16-34`,
+    title: `God's Promises to Weary Gospel Workers`,
+    text: `Acts 18:1-23`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -33,8 +33,8 @@ let announcementsStore = [
     linkText: `Sign Up`
     },{
     title: `Abortion, Human Rights & The Value of Life`,
-    date: `Thursday Nights starting January 12th 7:00PM`,
-    url: `"Images/Abortion Bible Study Slide.jpg"`,
+    date: `Thursday Nights continuing January 19th 7:00PM`,
+    url: `"Images/Abortion Bible Study Slide rev1.jpg"`,
     alt: `image of color swatches and title`,
     description: `We will be hosting a weekly Bible Study covering Abortion and the sanctity of life starting January 12th. It will be held on Thursday nights at church at 7:00PM. 
     If you are interested in joining us, please fill out the form linked below.
