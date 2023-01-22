@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `January 15th, 2023`,
+    date: `January 22nd, 2023`,
     series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `God's Promises to Weary Gospel Workers`,
-    text: `Acts 18:1-23`,
+    title: `The Importance of Sound Doctrine`,
+    text: `Acts 18:24-19:20`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -41,7 +41,8 @@ let announcementsStore = [
     Please email <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
     link: `https://forms.gle/ZX4XjFFCQ6W5nTH28`,
     linkText: `Sign Up`
-    },{
+    }/*
+    {
     title: `VOR Volunteer Opportunity`,
     date: `Winter 2023`,
     url: `"Images/VOR Volunteer Opportunity Jan 2023.jpg"`,
@@ -49,8 +50,7 @@ let announcementsStore = [
     description: `We have an opportunity to serve our local community alongside Voice of Refugees this Winter! If editing or producing a podcast sounds like something up your alley, please speak to Pastor Joe for more details.`,
     //link: `https://forms.gle/3at2GPeSBjz8NUBH7`,
     linkText: `Learn More`
-    }/*
-    ,{
+    },{
     title: `Read the Word - January 2023 & Devotional Guide`,
     date: `2023`,
     url: `"Images/Read the Word January 2023.jpg"`,
