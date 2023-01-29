@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `January 22nd, 2023`,
+    date: `January 29th, 2023`,
     series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `The Importance of Sound Doctrine`,
-    text: `Acts 18:24-19:20`,
+    title: `The Truly Miraculous Power of God`,
+    text: `Acts 19:11-41`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -34,13 +34,23 @@ let announcementsStore = [
     },{
     title: `Abortion, Human Rights & The Value of Life`,
     date: `Thursday Nights continuing January 19th 7:00PM`,
-    url: `"Images/Abortion Bible Study Slide rev1.jpg"`,
+    url: `"Images/Abortion Bible Study Slide.jpg"`,
     alt: `image of color swatches and title`,
     description: `We will be hosting a weekly Bible Study covering Abortion and the sanctity of life starting January 12th. It will be held on Thursday nights at church at 7:00PM. 
     If you are interested in joining us, please fill out the form linked below.
     Please email <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
     link: `https://forms.gle/ZX4XjFFCQ6W5nTH28`,
     linkText: `Sign Up`
+    },{
+    title: `Members Lunch`,
+    date: `Sunday February 26, 2023 After Service`,
+    url: `"Images/Member Lunch 2023.jpg"`,
+    alt: `Image of food`,
+    description: `If you are a committed member of the church, p[lease join us for our yearly Members Meeting on February 26, 2023. We highly encourage 
+    everyone to attend this meeting as we will be reviewing all that God has done in our church over the past year as well as previewing and discussing our 
+    direction and vision for the upcoming year.`
+    //link: `https://lausd.zoom.us/j/4290294197`,
+    //linkText: `Join Us`
     }/*
     {
     title: `VOR Volunteer Opportunity`,
@@ -219,16 +229,6 @@ let announcementsStore = [
     alt: `Image of leaves`,
     description: `Passion Week marks the week leading up to the death and resurrection of Christ. We will be having our nightly prayer starting Monday, April 11, 7:30PM. 
     Please be advised that we will not be meeting on Wednesday, April 13. Join us as we grow in our love, passion, and conviction that Christ is all in all.`
-    },{
-    title: `Members Lunch`,
-    date: `Today, March 27, 2022 After Service`,
-    url: `"Images/member lunch 2022.jpg"`,
-    alt: `Image of food`,
-    description: `If you are a committed member of the church, p[lease join us for our yearly Members Meeting on March 27, 2022. We highly encourage 
-    everyone to attend this meeting as we will be reviewing all that God has done in our church over the past year as well as previewing and discussing our 
-    direction and vision for the upcoming year.`
-    //link: `https://lausd.zoom.us/j/4290294197`,
-    //linkText: `Join Us`
     },{
     title: `VOR Women's Day`,
     date: `March 26, 2022`,
