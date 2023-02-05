@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `January 29th, 2023`,
+    date: `February 5th, 2023`,
     series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `The Truly Miraculous Power of God`,
-    text: `Acts 19:11-41`,
+    title: `The Significance of Encouragement`,
+    text: `Acts 20:1-12`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
