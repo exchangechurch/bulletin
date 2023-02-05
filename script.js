@@ -32,36 +32,7 @@ let announcementsStore = [
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
     },{
-    title: `Abortion, Human Rights & The Value of Life`,
-    date: `Thursday Nights continuing January 19th 7:00PM`,
-    url: `"Images/Abortion Bible Study Slide.jpg"`,
-    alt: `image of color swatches and title`,
-    description: `We will be hosting a weekly Bible Study covering Abortion and the sanctity of life starting January 12th. It will be held on Thursday nights at church at 7:00PM. 
-    If you are interested in joining us, please fill out the form linked below.
-    Please email <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
-    link: `https://forms.gle/ZX4XjFFCQ6W5nTH28`,
-    linkText: `Sign Up`
-    },{
-    title: `Members Lunch`,
-    date: `Sunday February 26, 2023 After Service`,
-    url: `"Images/Member Lunch 2023.jpg"`,
-    alt: `Image of food`,
-    description: `If you are a committed member of the church, p[lease join us for our yearly Members Meeting on February 26, 2023. We highly encourage 
-    everyone to attend this meeting as we will be reviewing all that God has done in our church over the past year as well as previewing and discussing our 
-    direction and vision for the upcoming year.`
-    //link: `https://lausd.zoom.us/j/4290294197`,
-    //linkText: `Join Us`
-    }/*
-    {
-    title: `VOR Volunteer Opportunity`,
-    date: `Winter 2023`,
-    url: `"Images/VOR Volunteer Opportunity Jan 2023.jpg"`,
-    alt: ``,
-    description: `We have an opportunity to serve our local community alongside Voice of Refugees this Winter! If editing or producing a podcast sounds like something up your alley, please speak to Pastor Joe for more details.`,
-    //link: `https://forms.gle/3at2GPeSBjz8NUBH7`,
-    linkText: `Learn More`
-    },{
-    title: `Read the Word - January 2023 & Devotional Guide`,
+    title: `Read the Word - February 2023 & Devotional Guide`,
     date: `2023`,
     url: `"Images/Read the Word January 2023.jpg"`,
     alt: `Image of bible`,
@@ -74,8 +45,45 @@ let announcementsStore = [
     This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
     his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
     to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/1sdiygpen70uc49/Read%20the%20Word%202023%20%28Jan%29.png?dl=0`,
+    link: `https://www.dropbox.com/s/x2gzo8iiyi6tn1r/Read%20the%20Word%202023%20%28Feb%29.png?dl=0`,
     linkText: `Download the Plan`
+    },{
+    title: `Worship and Prayer`,
+    date: `Saturday February 25, 2023 7:00PM`,
+    url: `"Images/Worship Prayer Feb 2023.jpg"`,
+    description: `Our prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
+    and corporate prayer. We will be gathering on Saturday, February 25 at 7pm.`
+    //link: `https://www.the-exchange-church.com/live`,
+    //linkText: `Join us Online`
+    },{
+    title: `Members Lunch & Meeting`,
+    date: `Sunday February 26, 2023 After Service`,
+    url: `"Images/Member Lunch 2023.jpg"`,
+    alt: `Image of food`,
+    description: `If you are a committed member of the church, p[lease join us for our yearly Members Meeting on February 26, 2023. We highly encourage 
+    everyone to attend this meeting as we will be reviewing all that God has done in our church over the past year as well as previewing and discussing our 
+    direction and vision for the upcoming year.`
+    //link: `https://lausd.zoom.us/j/4290294197`,
+    //linkText: `Join Us`
+    }/*
+    ,{
+    title: `Abortion, Human Rights & The Value of Life`,
+    date: `Thursday Nights continuing January 19th 7:00PM`,
+    url: `"Images/Abortion Bible Study Slide.jpg"`,
+    alt: `image of color swatches and title`,
+    description: `We will be hosting a weekly Bible Study covering Abortion and the sanctity of life starting January 12th. It will be held on Thursday nights at church at 7:00PM. 
+    If you are interested in joining us, please fill out the form linked below.
+    Please email <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
+    link: `https://forms.gle/ZX4XjFFCQ6W5nTH28`,
+    linkText: `Sign Up`
+    },{
+    title: `VOR Volunteer Opportunity`,
+    date: `Winter 2023`,
+    url: `"Images/VOR Volunteer Opportunity Jan 2023.jpg"`,
+    alt: ``,
+    description: `We have an opportunity to serve our local community alongside Voice of Refugees this Winter! If editing or producing a podcast sounds like something up your alley, please speak to Pastor Joe for more details.`,
+    //link: `https://forms.gle/3at2GPeSBjz8NUBH7`,
+    linkText: `Learn More`
     },{
     title: `Advent 2022`,
     date: `November 28 - December 31`,
@@ -125,15 +133,6 @@ let announcementsStore = [
     description: `If you are interested in helping out for this event, please sign up at the link below. Thank you to all the volunteers for your support and dedication. This event would not be possible without you!`,
     link: `https://forms.gle/o3CJbir3NC8mwmHx9`,
     linkText: `Sign Up`
-    },{
-    title: `HOPE Worship & Prayer Night`,
-    date: `November 5, 2021 7:00PM`,
-    url: `"Images/Hope Worship Night Nov 2022.jpg"`, //spaces in the file name requires double quotes "" around it.
-    //alt: `image of clouds`,
-    description: `Our prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
-    and corporate prayer. We will be gathering on Saturday, November 5 at 7pm.`
-    //link: `https://www.the-exchange-church.com/live`,
-    //linkText: `Join us Online`
     },{
     title: `Membership`,
     date: `Fall 2022`,
