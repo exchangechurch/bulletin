@@ -34,7 +34,7 @@ let announcementsStore = [
     },{
     title: `Read the Word - February 2023 & Devotional Guide`,
     date: `2023`,
-    url: `"Images/Read the Word January 2023.jpg"`,
+    url: `"Images/2023 Februrary Read The Word.jpg"`,
     alt: `Image of bible`,
     description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
     <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
