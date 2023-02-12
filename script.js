@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `February 5th, 2023`,
+    date: `February 12th, 2023`,
     series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `The Significance of Encouragement`,
-    text: `Acts 20:1-12`,
+    title: `The Signs of Good Leadership`,
+    text: `Acts 20:13-38`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -19,34 +19,6 @@ let announcementsStore = [
     fill out the form at the link below to connect with us.`,
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
-    },{
-    title: `Life Groups`,
-    date: `Winter Quarter 2023`,
-    url: `"Images/Life Group 2023 Slide.jpg"`,
-    alt: `image of faded bibles`,
-    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
-    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
-    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below.
-    Please email 
-    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
-    linkText: `Sign Up`
-    },{
-    title: `Read the Word - February 2023 & Devotional Guide`,
-    date: `2023`,
-    url: `"Images/2023 Februrary Read The Word.jpg"`,
-    alt: `Image of bible`,
-    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
-    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
-    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
-    In addition, please find linked the 
-    <a class="announceLinkinP" href='https://d1bsmz3sdihplr.cloudfront.net/media/Quarterlies_Other%20Downloads/2021_Reading%20Plan.pdf' target="_blank">Bible Project’s Annual reading plan</a>
-     as well. 
-    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
-    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
-    to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/x2gzo8iiyi6tn1r/Read%20the%20Word%202023%20%28Feb%29.png?dl=0`,
-    linkText: `Download the Plan`
     },{
     title: `Worship and Prayer`,
     date: `Saturday February 25, 2023 7:00PM`,
@@ -65,8 +37,44 @@ let announcementsStore = [
     direction and vision for the upcoming year.`
     //link: `https://lausd.zoom.us/j/4290294197`,
     //linkText: `Join Us`
+    },{
+    title: `Membership Class`,
+    date: `March 2023`,
+    url: `"Images/Membership Slide 2023.jpg"`,
+    alt: `Image of membership`,
+    description: `We will be starting membership again for the new season. If you are interested in becoming a member or have questions please fill out the form linked below!`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
     }/*
     ,{
+    title: `Read the Word - February 2023 & Devotional Guide`,
+    date: `2023`,
+    url: `"Images/2023 Februrary Read The Word.jpg"`,
+    alt: `Image of bible`,
+    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
+    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
+    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
+    In addition, please find linked the 
+    <a class="announceLinkinP" href='https://d1bsmz3sdihplr.cloudfront.net/media/Quarterlies_Other%20Downloads/2021_Reading%20Plan.pdf' target="_blank">Bible Project’s Annual reading plan</a>
+     as well. 
+    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
+    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
+    to follow. Click the link below to download a copy of the monthly plan.`,
+    link: `https://www.dropbox.com/s/x2gzo8iiyi6tn1r/Read%20the%20Word%202023%20%28Feb%29.png?dl=0`,
+    linkText: `Download the Plan`
+    },{
+    title: `Life Groups`,
+    date: `Winter Quarter 2023`,
+    url: `"Images/Life Group 2023 Slide.jpg"`,
+    alt: `image of faded bibles`,
+    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
+    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
+    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below.
+    Please email 
+    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
+    },{
     title: `Abortion, Human Rights & The Value of Life`,
     date: `Thursday Nights continuing January 19th 7:00PM`,
     url: `"Images/Abortion Bible Study Slide.jpg"`,
@@ -132,14 +140,6 @@ let announcementsStore = [
     //alt: `Image of pumpkins`,
     description: `If you are interested in helping out for this event, please sign up at the link below. Thank you to all the volunteers for your support and dedication. This event would not be possible without you!`,
     link: `https://forms.gle/o3CJbir3NC8mwmHx9`,
-    linkText: `Sign Up`
-    },{
-    title: `Membership`,
-    date: `Fall 2022`,
-    url: `"Images/Membership Sept 2022.jpg"`,
-    alt: `Image of membership`,
-    description: `We will be starting membership again for the new season. If you are interested in becoming a member or have questions please fill out the form linked below!`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
     },{
     title: `VOR ESL Teacher (Volunteer Opportunity)`,
