@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `February 12th, 2023`,
+    date: `February 19th, 2023`,
     series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `The Signs of Good Leadership`,
-    text: `Acts 20:13-38`,
+    title: `The Gifts of Gospel Friendship & Gospel Discipleship`,
+    text: `Acts 21:1-16`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
