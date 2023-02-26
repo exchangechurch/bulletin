@@ -2,10 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `February 19th, 2023`,
-    series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    title: `The Gifts of Gospel Friendship & Gospel Discipleship`,
-    text: `Acts 21:1-16`,
+    date: `February 26th, 2023`,
+    //series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
+    series: `Lent`,
+    title: `Worship that Leads to Rest`,
+    text: `Psalm 95`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -20,19 +21,11 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
-    title: `Worship and Prayer`,
-    date: `Saturday February 25, 2023 7:00PM`,
-    url: `"Images/Worship Prayer Feb 2023.jpg"`,
-    description: `Our prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
-    and corporate prayer. We will be gathering on Saturday, February 25 at 7pm.`
-    //link: `https://www.the-exchange-church.com/live`,
-    //linkText: `Join us Online`
-    },{
     title: `Members Lunch & Meeting`,
     date: `Sunday February 26, 2023 After Service`,
     url: `"Images/Member Lunch 2023.jpg"`,
     alt: `Image of food`,
-    description: `If you are a committed member of the church, p[lease join us for our yearly Members Meeting on February 26, 2023. We highly encourage 
+    description: `If you are a committed member of the church, please join us for our yearly Members Meeting today after service. We highly encourage 
     everyone to attend this meeting as we will be reviewing all that God has done in our church over the past year as well as previewing and discussing our 
     direction and vision for the upcoming year.`
     //link: `https://lausd.zoom.us/j/4290294197`,
@@ -47,6 +40,14 @@ let announcementsStore = [
     linkText: `Sign Up`
     }/*
     ,{
+    title: `Worship and Prayer`,
+    date: `Saturday February 25, 2023 7:00PM`,
+    url: `"Images/Worship Prayer Feb 2023.jpg"`,
+    description: `Our prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
+    and corporate prayer. We will be gathering on Saturday, February 25 at 7pm.`
+    //link: `https://www.the-exchange-church.com/live`,
+    //linkText: `Join us Online`
+    },{
     title: `Read the Word - February 2023 & Devotional Guide`,
     date: `2023`,
     url: `"Images/2023 Februrary Read The Word.jpg"`,
