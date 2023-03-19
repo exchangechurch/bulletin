@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `March 5th, 2023`,
+    date: `March 19th, 2023`,
     //series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
     series: `Lent`,
-    title: `Praying to a Good Father`,
-    text: `Matthew 7:7-11`,
+    title: `The One who Humbles Himself will be Exalted`,
+    text: `Luke 18:9-17`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -21,6 +21,31 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
+    title: `Passion Week Prayer and Good Friday Service`,
+    date: `Monday, April 3rd and Friday, April 7th 7:00PM`,
+    url: `"Images/Good Friday 2023.jpg"`,
+    alt: `Image of leaves`,
+    description: `Passion Week marks the week leading up to the death and resurrection of Christ. We will be having our Passion Week Prayer night on Monday, April 3, 7:00PM and
+    Good Friday Service on Friday April 7, 7:00PM. Join us as we grow in our love, passion, and conviction that Christ is all in all.`
+    },{
+    title: `Heather's Homecoming`,
+    date: `Wednesday April 5, 9:00PM`,
+    url: `"Images/Heather's Homecoming.png"`,
+    alt: `Image of Thailand`,
+    description: `We are so thankful that God has opened a way for our sister Heather to return from her overseas missionary journey! If you would like to join us on Wednesday,
+    April 5, at approximately 9PM please see details at the link below and sign up.`
+    link: `https://forms.gle/kzfAdBWBpuuVsVhQ8`,
+    linkText: `See Heather Return`
+    },{
+    title: `Easter Sunday Celebration`,
+    date: `Sunday, April 9, 2023`,
+    url: `"Images/Easter 2023.jpg"`,
+    alt: `Image of gradient colors`,
+    description: `Easter Sunday marks the resurrection of Christ. Please join us on Sunday April 9 for East Service and please invite anyone interested! There will be 
+    refreshments and lunch after service.`
+    }
+    /*
+    ,{
     title: `Membership Class`,
     date: `March 2023`,
     url: `"Images/Membership Slide 2023.jpg"`,
@@ -44,8 +69,7 @@ let announcementsStore = [
     to follow. Click the link below to download a copy of the monthly plan.`,
     link: `https://www.dropbox.com/s/qys0ir1uzdm7jne/Read%20the%20Word%202023%20%28Mar%29.png?dl=0`,
     linkText: `Download the Plan`
-    }/*
-    ,{
+    },{
     title: `Members Lunch & Meeting`,
     date: `Sunday February 26, 2023 After Service`,
     url: `"Images/Member Lunch 2023.jpg"`,
@@ -217,19 +241,6 @@ let announcementsStore = [
     link: `https://www.thegospelcoalition.org/tgcw22/`,
     linkText: `Learn More`
     },{
-    title: `Easter Sunday Celebration`,
-    date: `Today, April 17, 2021`,
-    url: `"Images/Easter Sunday.jpg"`,
-    alt: `Image of hills`,
-    description: `Easter Sunday marks the resurrection of Christ. Join us after service for refreshments and lunch!`
-    },{
-    title: `Passion Week Prayer`,
-    date: `April 11, 12, 14, 2021 7:30PM`,
-    url: `"Images/Passion Week Prayer 2022.jpg"`,
-    alt: `Image of leaves`,
-    description: `Passion Week marks the week leading up to the death and resurrection of Christ. We will be having our nightly prayer starting Monday, April 11, 7:30PM. 
-    Please be advised that we will not be meeting on Wednesday, April 13. Join us as we grow in our love, passion, and conviction that Christ is all in all.`
-    },{
     title: `VOR Women's Day`,
     date: `March 26, 2022`,
     url: `"Images/VOR Womens Day 2022.jpg"`,
@@ -351,15 +362,6 @@ let announcementsStore = [
     link: `https://forms.gle/3fYLnKkhHGQBPvY99`,
     linkText: `Learn more`
     },{
-    title: `Good Friday Service (Online)`,
-    date: `April 2, 2021 7:30PM`,
-    url: `"Images/Good Friday 2021 Slide.jpg"`,
-    alt: ``,
-    description: `Passion Week marks the week leading up to the death and resurrection of Christ. We will be having our Good Friday service online next Friday, April 2, 7:30PM 
-    at the link below. Join us as we grow in our love, passion, and conviction that Christ is all in all.`,
-    link: `https://the-exchange-church.com/live`,
-    linkText: `More info`
-    },{
     title: `Members Meeting`,
     date: `March 7, 2021 1:30PM`,
     url: `"Images/Members Meeting 2021 Slide.jpg"`,
@@ -444,16 +446,6 @@ let announcementsStore = [
     url: `"Images/Monthly Outing.jpg"`,
     alt: `Image of Food`,
     description: `We will having our monthly fellowship outing today! It is an opportunity for our church people to spend time together in fellowship outside of our church setting. We will be meeting at Ramin Hajime (2717 W Lincoln Ave. Anaheim, CA 92801). We hope you can join us!`
-    },{
-    title: `Heather's Commissioning`,
-    date: `Today 1/10 at 2:00PM`,
-    url: `"Images/Heather Commissioning Slide.jpg"`,
-    alt: `Image of Heather looking to the right`,
-    description: `We are so thankful that God has opened a way for our sister Heather to start her overseas missionary journey! We will be having a commissioning 
-    gathering via Zoom today, January 10th at 2pm, where she will share her testimony and prayer requests, and where we can send her off and pray for her. Check your
-    email for the link.`
-    //<a class="announceLinkinP" href='https://bit.ly/2WXXaA5' target="_blank"> https://bit.ly/2WXXaA5 </a>
-    //or you may manually enter the Zoom Meeting ID: 429 029 4197. Please enter exchange when prompted for the password.
     }*/
 ];
 
