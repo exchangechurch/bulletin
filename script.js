@@ -33,7 +33,7 @@ let announcementsStore = [
     url: `"Images/Heather's Homecoming.png"`,
     alt: `Image of Thailand`,
     description: `We are so thankful that God has opened a way for our sister Heather to return from her overseas missionary journey! If you would like to join us on Wednesday,
-    April 5, at approximately 9PM please see details at the link below and sign up.`
+    April 5, at approximately 9PM please see details at the link below and sign up.`,
     link: `https://forms.gle/kzfAdBWBpuuVsVhQ8`,
     linkText: `See Heather Return`
     },{
