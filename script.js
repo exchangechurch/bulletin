@@ -2,12 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `March 19th, 2023`,
-    //series: `ACTS: The History of Jesus & The Spirit in The Early Church`,
-    series: `Lent`,
-    title: `The One who Humbles Himself will be Exalted`,
-    text: `Luke 18:9-17`,
-    speaker: `Lead Pastor, Joe Suh`
+    date: `March 26th, 2023`,
+    series: `Standalone`,
+    title: `The Fight for Joy`,
+    text: `Philippians 4:1-9`,
+    speaker: `Guest Speaker, Patrick Cho`
 }];
 
 let announcementsStore = [
