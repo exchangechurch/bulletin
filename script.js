@@ -42,20 +42,10 @@ let announcementsStore = [
     alt: `Image of gradient colors`,
     description: `Easter Sunday marks the resurrection of Christ. Please join us on Sunday April 9 for East Service and please invite anyone interested! There will be 
     refreshments and lunch after service.`
-    }
-    /*
-    ,{
-    title: `Membership Class`,
-    date: `March 2023`,
-    url: `"Images/Membership Slide 2023.jpg"`,
-    alt: `Image of membership`,
-    description: `We will be starting membership again for the new season. If you are interested in becoming a member or have questions please fill out the form linked below!`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
-    linkText: `Sign Up`
     },{
-    title: `Read the Word - March 2023 & Devotional Guide`,
+    title: `Read the Word - April 2023 & Devotional Guide`,
     date: `2023`,
-    url: `"Images/2023 March Read The Word.jpg"`,
+    url: `"Images/2023 April Read The Word.jpg"`,
     alt: `Image of bible`,
     description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
     <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
@@ -66,8 +56,18 @@ let announcementsStore = [
     This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
     his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
     to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/qys0ir1uzdm7jne/Read%20the%20Word%202023%20%28Mar%29.png?dl=0`,
+    link: `https://www.dropbox.com/s/g2w3dmoydb73ftl/Read%20the%20Word%202023%20%28Apr%29.png?dl=0`,
     linkText: `Download the Plan`
+    }
+    /*
+    ,{
+    title: `Membership Class`,
+    date: `March 2023`,
+    url: `"Images/Membership Slide 2023.jpg"`,
+    alt: `Image of membership`,
+    description: `We will be starting membership again for the new season. If you are interested in becoming a member or have questions please fill out the form linked below!`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
     },{
     title: `Members Lunch & Meeting`,
     date: `Sunday February 26, 2023 After Service`,
