@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `March 26th, 2023`,
-    series: `Standalone`,
-    title: `The Fight for Joy`,
-    text: `Philippians 4:1-9`,
-    speaker: `Guest Speaker, Patrick Cho`
+    date: `April 2, 2023`,
+    series: `Lent`,
+    title: `The Arrival of God's Kingdom`,
+    text: `Matthew 5:1-12`,
+    speaker: `Lead Pastor, Joe Suh`
 }];
 
 let announcementsStore = [
