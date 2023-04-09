@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `April 2, 2023`,
-    series: `Lent`,
-    title: `The Arrival of God's Kingdom`,
-    text: `Matthew 5:1-12`,
+    date: `April 9, 2023`,
+    series: `Standalone`,
+    title: `A Rebuilt Hope`,
+    text: `John 20:19-31`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -19,6 +19,39 @@ let announcementsStore = [
     fill out the form at the link below to connect with us.`,
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
+    },{
+    title: `Easter Lunch and Fellowship`,
+    date: `Today After Service`,
+    url: `"Images/Easter 2023.jpg"`,
+    alt: `Image of gradient colors`,
+    description: `Easter Sunday marks the resurrection of Christ. Please join us on after service for refreshments and lunch after service.`
+    },{
+    title: `VBS Registration`,
+    date: `July 28, 5PM-8PM & July 29, 10AM-3PM`,
+    url: `"Images/VBS 2023.png"`,
+    alt: `VBS Volunteer Announcement`,
+    description: `The Exchange Church is hosting a VBS this Summer from July 28 to July 29. Friday's schedule will be from 5PM to 8PM and Saturday will be from 10AM to 3PM. Please speak to Bumee 
+    for more information.`
+    //link: `https://docs.google.com/forms/d/1_PQkJkeCPsyxJ5eK-fi6kUdAwn_x0c7sXULVACnnAcg/edit`,
+    //linkText: `Register`
+    }
+    /*
+    {
+    title: `Read the Word - April 2023 & Devotional Guide`,
+    date: `2023`,
+    url: `"Images/2023 April Read The Word.jpg"`,
+    alt: `Image of bible`,
+    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
+    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
+    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
+    In addition, please find linked the 
+    <a class="announceLinkinP" href='https://d1bsmz3sdihplr.cloudfront.net/media/Quarterlies_Other%20Downloads/2021_Reading%20Plan.pdf' target="_blank">Bible Project’s Annual reading plan</a>
+     as well. 
+    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
+    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
+    to follow. Click the link below to download a copy of the monthly plan.`,
+    link: `https://www.dropbox.com/s/g2w3dmoydb73ftl/Read%20the%20Word%202023%20%28Apr%29.png?dl=0`,
+    linkText: `Download the Plan`
     },{
     title: `Passion Week Prayer and Good Friday Service`,
     date: `Monday, April 3rd and Friday, April 7th 7:00PM`,
@@ -36,31 +69,6 @@ let announcementsStore = [
     link: `https://forms.gle/kzfAdBWBpuuVsVhQ8`,
     linkText: `See Heather Return`
     },{
-    title: `Easter Sunday Celebration`,
-    date: `Sunday, April 9, 2023`,
-    url: `"Images/Easter 2023.jpg"`,
-    alt: `Image of gradient colors`,
-    description: `Easter Sunday marks the resurrection of Christ. Please join us on Sunday April 9 for East Service and please invite anyone interested! There will be 
-    refreshments and lunch after service.`
-    },{
-    title: `Read the Word - April 2023 & Devotional Guide`,
-    date: `2023`,
-    url: `"Images/2023 April Read The Word.jpg"`,
-    alt: `Image of bible`,
-    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
-    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
-    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
-    In addition, please find linked the 
-    <a class="announceLinkinP" href='https://d1bsmz3sdihplr.cloudfront.net/media/Quarterlies_Other%20Downloads/2021_Reading%20Plan.pdf' target="_blank">Bible Project’s Annual reading plan</a>
-     as well. 
-    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
-    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
-    to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/g2w3dmoydb73ftl/Read%20the%20Word%202023%20%28Apr%29.png?dl=0`,
-    linkText: `Download the Plan`
-    }
-    /*
-    ,{
     title: `Membership Class`,
     date: `March 2023`,
     url: `"Images/Membership Slide 2023.jpg"`,
@@ -219,15 +227,6 @@ let announcementsStore = [
     description: `Mark your calendars for 5:30pm on July 4th. We will be having a get together here at church. Stick around for dinner and fireworks. We hope to see you then!`
     //link: `https://forms.gle/dHKedzJk5kpHKwNW7`,
     //linkText: `Sign Up`
-    },{
-    title: `VBS Registration`,
-    date: `June 24-25, 2022`,
-    url: `"Images/VBS 2022.jpg"`,
-    alt: `VBS Volunteer Announcement`,
-    description: `The Exchange Church is hosting a VBS this Summer from June 24 to June 25. Friday's schedule will be from 5PM to 8PM and Saturday will be from 10AM to 3PM. For the second half of 
-    Saturday, from 1PM to 3PM, parents are welcome to join in for the festivities. The cost will be $10 per child and dinner and lunch will be provided. Please follow the link below for more information`,
-    link: `https://docs.google.com/forms/d/1_PQkJkeCPsyxJ5eK-fi6kUdAwn_x0c7sXULVACnnAcg/edit`,
-    linkText: `Register`
     },{
     title: `TGC Women's Conference`,
     date: `June 16-18, 2022`,
