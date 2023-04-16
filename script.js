@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `April 9, 2023`,
-    series: `Standalone`,
-    title: `A Rebuilt Hope`,
-    text: `John 20:19-31`,
+    date: `April 16, 2023`,
+    series: `ACTS: The History of Jesus & The Spirit in the Early Church`,
+    title: `How God folds Your Story into History`,
+    text: `Acts 21:17-22:29`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -20,11 +20,17 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
-    title: `Easter Lunch and Fellowship`,
-    date: `Today After Service`,
-    url: `"Images/Easter 2023.jpg"`,
-    alt: `Image of gradient colors`,
-    description: `Easter Sunday marks the resurrection of Christ. Please join us on after service for refreshments and lunch after service.`
+    title: `Life Groups`,
+    date: `Spring Quarter 2023`,
+    url: `"Images/Life Group Easter 2023 Slide.jpg"`,
+    alt: `image of faded bibles`,
+    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
+    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
+    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below.
+    Please email 
+    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
     },{
     title: `VBS Registration`,
     date: `July 28, 5PM-8PM & July 29, 10AM-3PM`,
@@ -37,6 +43,12 @@ let announcementsStore = [
     }
     /*
     {
+    title: `Easter Lunch and Fellowship`,
+    date: `Today After Service`,
+    url: `"Images/Easter 2023.jpg"`,
+    alt: `Image of gradient colors`,
+    description: `Easter Sunday marks the resurrection of Christ. Please join us on after service for refreshments and lunch after service.`
+    }{
     title: `Read the Word - April 2023 & Devotional Guide`,
     date: `2023`,
     url: `"Images/2023 April Read The Word.jpg"`,
@@ -94,19 +106,7 @@ let announcementsStore = [
     and corporate prayer. We will be gathering on Saturday, February 25 at 7pm.`
     //link: `https://www.the-exchange-church.com/live`,
     //linkText: `Join us Online`
-    },{
-    title: `Life Groups`,
-    date: `Winter Quarter 2023`,
-    url: `"Images/Life Group 2023 Slide.jpg"`,
-    alt: `image of faded bibles`,
-    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
-    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
-    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below.
-    Please email 
-    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
-    linkText: `Sign Up`
-    },{
+    }{
     title: `Abortion, Human Rights & The Value of Life`,
     date: `Thursday Nights continuing January 19th 7:00PM`,
     url: `"Images/Abortion Bible Study Slide.jpg"`,
