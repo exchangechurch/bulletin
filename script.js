@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `April 16, 2023`,
+    date: `April 23, 2023`,
     series: `ACTS: The History of Jesus & The Spirit in the Early Church`,
-    title: `How God folds Your Story into History`,
-    text: `Acts 21:17-22:29`,
+    title: `Falling Forward in Faith`,
+    text: `Acts 22:22-23:11`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
