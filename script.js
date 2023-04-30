@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `April 23, 2023`,
+    date: `April 30, 2023`,
     series: `ACTS: The History of Jesus & The Spirit in the Early Church`,
-    title: `Falling Forward in Faith`,
-    text: `Acts 22:22-23:11`,
+    title: `The Providential Hand of God`,
+    text: `Acts 23:12-35`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -20,6 +20,26 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
+    title: `Send Janette to Japan`,
+    date: `July 2023`,
+    url: `"Images/Janette Japan 2023.jpg"`,
+    alt: `Image of Janette`,
+    description: `We are so thankful that God has opened a way for our sister Janette to travel to Japan for relational ministry, sports ministry, presentation ministry, reciting
+    english ministry, and VBS! If you would like to learn more and support her further in prayer and/or finances, please follow thing link below.`,
+    link: `https://docs.google.com/presentation/d/1tdatPXh4UxhPGfDq42QpxOyhWyx_d7CvPU2ruLwYqKw/edit`,
+    linkText: `Support`
+    },{
+    title: `VBS Registration`,
+    date: `July 28, 5PM-8PM & July 29, 10AM-3PM`,
+    url: `"Images/VBS Volunteers 2023.jpg"`,
+    alt: `VBS Volunteer Announcement`,
+    description: `The Exchange Church is hosting a VBS this Summer from July 28 to July 29. Friday's schedule will be from 5PM to 8PM and Saturday will be from 10AM to 3PM. Please speak to Bumee 
+    for more information.`
+    //link: `https://docs.google.com/forms/d/1_PQkJkeCPsyxJ5eK-fi6kUdAwn_x0c7sXULVACnnAcg/edit`,
+    //linkText: `Register`
+    }
+    /*
+    ,{
     title: `Life Groups`,
     date: `Spring Quarter 2023`,
     url: `"Images/Life Group Easter 2023 Slide.jpg"`,
@@ -31,18 +51,7 @@ let announcementsStore = [
     <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
-    },{
-    title: `VBS Registration`,
-    date: `July 28, 5PM-8PM & July 29, 10AM-3PM`,
-    url: `"Images/VBS 2023.png"`,
-    alt: `VBS Volunteer Announcement`,
-    description: `The Exchange Church is hosting a VBS this Summer from July 28 to July 29. Friday's schedule will be from 5PM to 8PM and Saturday will be from 10AM to 3PM. Please speak to Bumee 
-    for more information.`
-    //link: `https://docs.google.com/forms/d/1_PQkJkeCPsyxJ5eK-fi6kUdAwn_x0c7sXULVACnnAcg/edit`,
-    //linkText: `Register`
-    }
-    /*
-    {
+    }{
     title: `Easter Lunch and Fellowship`,
     date: `Today After Service`,
     url: `"Images/Easter 2023.jpg"`,
@@ -71,16 +80,7 @@ let announcementsStore = [
     alt: `Image of leaves`,
     description: `Passion Week marks the week leading up to the death and resurrection of Christ. We will be having our Passion Week Prayer night on Monday, April 3, 7:00PM and
     Good Friday Service on Friday April 7, 7:00PM. Join us as we grow in our love, passion, and conviction that Christ is all in all.`
-    },{
-    title: `Heather's Homecoming`,
-    date: `Wednesday April 5, 9:00PM`,
-    url: `"Images/Heather's Homecoming.png"`,
-    alt: `Image of Thailand`,
-    description: `We are so thankful that God has opened a way for our sister Heather to return from her overseas missionary journey! If you would like to join us on Wednesday,
-    April 5, at approximately 9PM please see details at the link below and sign up.`,
-    link: `https://forms.gle/kzfAdBWBpuuVsVhQ8`,
-    linkText: `See Heather Return`
-    },{
+    },,{
     title: `Membership Class`,
     date: `March 2023`,
     url: `"Images/Membership Slide 2023.jpg"`,
