@@ -36,7 +36,7 @@ let announcementsStore = [
     url: `"Images/VBS Volunteers 2023.jpg"`,
     alt: `VBS Volunteer Announcement`,
     description: `The Exchange Church is hosting a VBS this Summer from July 28 to July 29. Friday's schedule will be from 5PM to 8PM and Saturday will be from 10AM to 3PM. Please speak to Bumee 
-    for more information.`
+    for more information.`,
     link: `https://docs.google.com/forms/d/e/1FAIpQLSd7l5yCirsGViey6DQeMtCXDlEZFpnnrgtSIQVVBu30tJDr6g/viewform`,
     linkText: `Sign up`
     },{
