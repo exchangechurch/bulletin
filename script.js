@@ -2,11 +2,13 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `April 30, 2023`,
-    series: `ACTS: The History of Jesus & The Spirit in the Early Church`,
-    title: `The Providential Hand of God`,
-    text: `Acts 23:12-35`,
-    speaker: `Lead Pastor, Joe Suh`
+    date: `May 7, 2023`,
+    //series: `ACTS: The History of Jesus & The Spirit in the Early Church`,
+    series: `Standalone`,
+    title: `Honoring Our Parents`,
+    text: `Various`,
+    //speaker: `Lead Pastor, Joe Suh`
+    speaker: `Guest Speaker, Ben Pun`
 }];
 
 let announcementsStore = [
@@ -35,8 +37,24 @@ let announcementsStore = [
     alt: `VBS Volunteer Announcement`,
     description: `The Exchange Church is hosting a VBS this Summer from July 28 to July 29. Friday's schedule will be from 5PM to 8PM and Saturday will be from 10AM to 3PM. Please speak to Bumee 
     for more information.`
-    //link: `https://docs.google.com/forms/d/1_PQkJkeCPsyxJ5eK-fi6kUdAwn_x0c7sXULVACnnAcg/edit`,
-    //linkText: `Register`
+    link: `https://docs.google.com/forms/d/e/1FAIpQLSd7l5yCirsGViey6DQeMtCXDlEZFpnnrgtSIQVVBu30tJDr6g/viewform`,
+    linkText: `Sign up`
+    },{
+    title: `Read the Word - May 2023 & Devotional Guide`,
+    date: `2023`,
+    url: `"Images/2023 April Read The Word.jpg"`,
+    alt: `Image of bible`,
+    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
+    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
+    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
+    In addition, please find linked the 
+    <a class="announceLinkinP" href='https://d1bsmz3sdihplr.cloudfront.net/media/Quarterlies_Other%20Downloads/2021_Reading%20Plan.pdf' target="_blank">Bible Project’s Annual reading plan</a>
+     as well. 
+    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
+    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
+    to follow. Click the link below to download a copy of the monthly plan.`,
+    link: `https://www.dropbox.com/s/l98icgqjz4455o2/Read%20the%20Word%202023%20%28May%29.png?dl=0`,
+    linkText: `Download the Plan`
     }
     /*
     ,{
@@ -57,22 +75,6 @@ let announcementsStore = [
     url: `"Images/Easter 2023.jpg"`,
     alt: `Image of gradient colors`,
     description: `Easter Sunday marks the resurrection of Christ. Please join us on after service for refreshments and lunch after service.`
-    }{
-    title: `Read the Word - April 2023 & Devotional Guide`,
-    date: `2023`,
-    url: `"Images/2023 April Read The Word.jpg"`,
-    alt: `Image of bible`,
-    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
-    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
-    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
-    In addition, please find linked the 
-    <a class="announceLinkinP" href='https://d1bsmz3sdihplr.cloudfront.net/media/Quarterlies_Other%20Downloads/2021_Reading%20Plan.pdf' target="_blank">Bible Project’s Annual reading plan</a>
-     as well. 
-    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
-    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
-    to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/g2w3dmoydb73ftl/Read%20the%20Word%202023%20%28Apr%29.png?dl=0`,
-    linkText: `Download the Plan`
     },{
     title: `Passion Week Prayer and Good Friday Service`,
     date: `Monday, April 3rd and Friday, April 7th 7:00PM`,
