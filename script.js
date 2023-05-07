@@ -5,7 +5,7 @@ let sermonStore = [{
     date: `May 7, 2023`,
     //series: `ACTS: The History of Jesus & The Spirit in the Early Church`,
     series: `Standalone`,
-    title: `Honoring Our Parents`,
+    title: `Following Jesus without Dishonoring your Parents`,
     text: `Various`,
     //speaker: `Lead Pastor, Joe Suh`
     speaker: `Guest Speaker, Ben Pun`
