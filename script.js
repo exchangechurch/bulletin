@@ -7,8 +7,7 @@ let sermonStore = [{
     series: `Standalone`,
     title: `God's Special Care and Calling for Women`,
     text: `Ruth`,
-    //speaker: `Lead Pastor, Joe Suh`
-    speaker: `Guest Speaker, Ben Pun`
+    speaker: `Lead Pastor, Joe Suh`
 }];
 
 let announcementsStore = [
@@ -54,7 +53,7 @@ let announcementsStore = [
     and spiritual disciplines. Stand tuned for a sign up link`
     //link: `https://docs.google.com/presentation/d/1tdatPXh4UxhPGfDq42QpxOyhWyx_d7CvPU2ruLwYqKw/edit`,
     //linkText: `Support`
-    }{
+    },{
     title: `Read the Word - May 2023 & Devotional Guide`,
     date: `2023`,
     url: `"Images/2023 April Read The Word.jpg"`,
