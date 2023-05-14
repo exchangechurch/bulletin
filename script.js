@@ -2,11 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `May 7, 2023`,
+    date: `May 14, 2023`,
     //series: `ACTS: The History of Jesus & The Spirit in the Early Church`,
     series: `Standalone`,
-    title: `Following Jesus without Dishonoring your Parents`,
-    text: `Various`,
+    title: `God's Special Care and Calling for Women`,
+    text: `Ruth`,
     //speaker: `Lead Pastor, Joe Suh`
     speaker: `Guest Speaker, Ben Pun`
 }];
@@ -22,14 +22,11 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
-    title: `Send Janette to Japan`,
-    date: `July 2023`,
-    url: `"Images/Janette Japan 2023.jpg"`,
-    alt: `Image of Janette`,
-    description: `We are so thankful that God has opened a way for our sister Janette to travel to Japan for relational ministry, sports ministry, presentation ministry, reciting
-    english ministry, and VBS! If you would like to learn more and support her further in prayer and/or finances, please follow thing link below.`,
-    link: `https://docs.google.com/presentation/d/1tdatPXh4UxhPGfDq42QpxOyhWyx_d7CvPU2ruLwYqKw/edit`,
-    linkText: `Support`
+    title: `Mother's Day Lunch`,
+    date: `Today after service`,
+    url: `"Images/Mothers Day 2023.jpg"`,
+    alt: `Announcement`,
+    description: `Join us after service for Mother's Day Lunch. We hope to see you there!`
     },{
     title: `VBS Registration`,
     date: `July 28, 5PM-8PM & July 29, 10AM-3PM`,
@@ -40,6 +37,24 @@ let announcementsStore = [
     link: `https://docs.google.com/forms/d/e/1FAIpQLSd7l5yCirsGViey6DQeMtCXDlEZFpnnrgtSIQVVBu30tJDr6g/viewform`,
     linkText: `Sign up`
     },{
+    title: `Send Janette to Japan`,
+    date: `July 2023`,
+    url: `"Images/Janette Japan 2023.jpg"`,
+    alt: `Image of Janette`,
+    description: `We are so thankful that God has opened a way for our sister Janette to travel to Japan for relational ministry, sports ministry, presentation ministry, reciting
+    english ministry, and VBS! If you would like to learn more and support her further in prayer and/or finances, please follow the link below.`,
+    link: `https://docs.google.com/presentation/d/1tdatPXh4UxhPGfDq42QpxOyhWyx_d7CvPU2ruLwYqKw/edit`,
+    linkText: `Support`
+    },{
+    title: `Gospel Discipleship Class`,
+    date: `June 8, 7PM`,
+    url: `"Images/Gospel Discipleship Class (2023).png"`,
+    alt: `Image of trees`,
+    description: `Please join us for our Summer Gospel Discipleship Class starting Thursday, June 8th, at 7PM. We'll be covering Gospel fluency, biblical literacy,
+    and spiritual disciplines. Stand tuned for a sign up link`
+    //link: `https://docs.google.com/presentation/d/1tdatPXh4UxhPGfDq42QpxOyhWyx_d7CvPU2ruLwYqKw/edit`,
+    //linkText: `Support`
+    }{
     title: `Read the Word - May 2023 & Devotional Guide`,
     date: `2023`,
     url: `"Images/2023 April Read The Word.jpg"`,
