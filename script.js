@@ -2,11 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `May 14, 2023`,
-    //series: `ACTS: The History of Jesus & The Spirit in the Early Church`,
-    series: `Standalone`,
-    title: `God's Special Care and Calling for Women`,
-    text: `Ruth`,
+    date: `May 21, 2023`,
+    series: `ACTS: The History of Jesus & The Spirit in the Early Church`,
+    title: `Defending the Way`,
+    text: `Acts 24`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
