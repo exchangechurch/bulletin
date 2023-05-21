@@ -50,10 +50,28 @@ let announcementsStore = [
     url: `"Images/Gospel Discipleship Class (2023).png"`,
     alt: `Image of trees`,
     description: `Please join us for our Summer Gospel Discipleship Class starting Thursday, June 8th, at 7PM. We'll be covering Gospel fluency, biblical literacy,
-    and spiritual disciplines. Stand tuned for a sign up link`
-    //link: `https://docs.google.com/presentation/d/1tdatPXh4UxhPGfDq42QpxOyhWyx_d7CvPU2ruLwYqKw/edit`,
-    //linkText: `Support`
+    and spiritual disciplines. Stand tuned for a sign up link.`,
+    link: `hhttps://forms.gle/DWuFKyXdHpHxsX8W8`,
+    linkText: `Sign up`
     },{
+    title: `Men's Outing`,
+    date: `July 15, 2023, 9AM`,
+    url: `"Images/Men's Outing 2023.jpg"`,
+    alt: `image of annoucement`,
+    description: `Come join us for our upcoming Men's Outing at Tac City Airsoft! All are welcome! Let us know you're coming below `,
+    link: `https://docs.google.com/forms/d/1UN7PxnY6F3PeieAfIjp2sNbiPHmHoyZzioLj-n3kWJQ/viewform?edit_requested=true`,
+    linkText: `Sign up`
+    },{
+    title: `VOR Upcoming Needs/Opportunities`,
+    date: `Summer 2023`,
+    url: `"Images/VOR May 2023.jpg"`,
+    alt: ``,
+    description: `We have an opportunity to serve our local community alongside Voice of Refugees this year! If teaching ESL or one-on-one job mentoring sounds like something up your alley, please speak to Pastor Joe for more details.`,
+    link: `https://docs.google.com/forms/d/e/1FAIpQLSe9O7d8U3P4MPcSy-lxLoWgpmzUJDhayBwJ2VlZ2kjTFLrxZw/viewform?usp=sf_link`,
+    linkText: `Learn More`
+    }
+    /*
+    ,{
     title: `Read the Word - May 2023 & Devotional Guide`,
     date: `2023`,
     url: `"Images/2023 April Read The Word.jpg"`,
@@ -69,9 +87,7 @@ let announcementsStore = [
     to follow. Click the link below to download a copy of the monthly plan.`,
     link: `https://www.dropbox.com/s/l98icgqjz4455o2/Read%20the%20Word%202023%20%28May%29.png?dl=0`,
     linkText: `Download the Plan`
-    }
-    /*
-    ,{
+    },{
     title: `Life Groups`,
     date: `Spring Quarter 2023`,
     url: `"Images/Life Group Easter 2023 Slide.jpg"`,
@@ -132,14 +148,6 @@ let announcementsStore = [
     Please email <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
     link: `https://forms.gle/ZX4XjFFCQ6W5nTH28`,
     linkText: `Sign Up`
-    },{
-    title: `VOR Volunteer Opportunity`,
-    date: `Winter 2023`,
-    url: `"Images/VOR Volunteer Opportunity Jan 2023.jpg"`,
-    alt: ``,
-    description: `We have an opportunity to serve our local community alongside Voice of Refugees this Winter! If editing or producing a podcast sounds like something up your alley, please speak to Pastor Joe for more details.`,
-    //link: `https://forms.gle/3at2GPeSBjz8NUBH7`,
-    linkText: `Learn More`
     },{
     title: `Advent 2022`,
     date: `November 28 - December 31`,
