@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `May 21, 2023`,
+    date: `May 28, 2023`,
     series: `ACTS: The History of Jesus & The Spirit in the Early Church`,
-    title: `Defending the Way`,
-    text: `Acts 24`,
+    title: `Standing before Kings`,
+    text: `Acts 25`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -60,6 +60,14 @@ let announcementsStore = [
     description: `Come join us for our upcoming Men's Outing at Tac City Airsoft! All are welcome! Let us know you're coming below `,
     link: `https://docs.google.com/forms/d/1UN7PxnY6F3PeieAfIjp2sNbiPHmHoyZzioLj-n3kWJQ/viewform?edit_requested=true`,
     linkText: `Sign up`
+    },{
+    title: `Worship and Prayer`,
+    date: `Saturday June 3, 2023 7:00PM`,
+    url: `"Images/Worship Prayer June 2023.jpg"`,
+    description: `Our prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
+    and corporate prayer. We will be gathering on Saturday, June 3, at 7pm.`
+    //link: `https://www.the-exchange-church.com/live`,
+    //linkText: `Join us Online`
     },{
     title: `VOR Upcoming Needs/Opportunities`,
     date: `Summer 2023`,
