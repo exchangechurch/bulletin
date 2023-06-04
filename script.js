@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `May 28, 2023`,
+    date: `June 4, 2023`,
     series: `ACTS: The History of Jesus & The Spirit in the Early Church`,
-    title: `Standing before Kings`,
-    text: `Acts 25`,
+    title: `Letting the Work of Christ Speak for Itself`,
+    text: `Acts 26`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -19,13 +19,7 @@ let announcementsStore = [
     fill out the form at the link below to connect with us.`,
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
-    },{
-    title: `Mother's Day Lunch`,
-    date: `Today after service`,
-    url: `"Images/Mothers Day 2023.jpg"`,
-    alt: `Announcement`,
-    description: `Join us after service for Mother's Day Lunch. We hope to see you there!`
-    },{
+    }{
     title: `VBS Registration`,
     date: `July 28, 5PM-8PM & July 29, 10AM-3PM`,
     url: `"Images/VBS Volunteers 2023.jpg"`,
@@ -61,14 +55,6 @@ let announcementsStore = [
     link: `https://docs.google.com/forms/d/1UN7PxnY6F3PeieAfIjp2sNbiPHmHoyZzioLj-n3kWJQ/viewform?edit_requested=true`,
     linkText: `Sign up`
     },{
-    title: `Worship and Prayer`,
-    date: `Saturday June 3, 2023 7:00PM`,
-    url: `"Images/Worship Prayer June 2023.jpg"`,
-    description: `Our prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
-    and corporate prayer. We will be gathering on Saturday, June 3, at 7pm.`
-    //link: `https://www.the-exchange-church.com/live`,
-    //linkText: `Join us Online`
-    },{
     title: `VOR Upcoming Needs/Opportunities`,
     date: `Summer 2023`,
     url: `"Images/VOR May 2023.jpg"`,
@@ -79,6 +65,20 @@ let announcementsStore = [
     }
     /*
     ,{
+    title: `Worship and Prayer`,
+    date: `Saturday June 3, 2023 7:00PM`,
+    url: `"Images/Worship Prayer June 2023.jpg"`,
+    description: `Our prayer gatherings are an opportunity for church members to come together beyond our Sunday service and to join in a time of worship 
+    and corporate prayer. We will be gathering on Saturday, June 3, at 7pm.`
+    //link: `https://www.the-exchange-church.com/live`,
+    //linkText: `Join us Online`
+    },{
+    title: `Mother's Day Lunch`,
+    date: `Today after service`,
+    url: `"Images/Mothers Day 2023.jpg"`,
+    alt: `Announcement`,
+    description: `Join us after service for Mother's Day Lunch. We hope to see you there!`
+    },,{
     title: `Read the Word - May 2023 & Devotional Guide`,
     date: `2023`,
     url: `"Images/2023 April Read The Word.jpg"`,
