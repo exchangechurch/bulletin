@@ -19,7 +19,7 @@ let announcementsStore = [
     fill out the form at the link below to connect with us.`,
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
-    }{
+    },{
     title: `VBS Registration`,
     date: `July 28, 5PM-8PM & July 29, 10AM-3PM`,
     url: `"Images/VBS Volunteers 2023.jpg"`,
