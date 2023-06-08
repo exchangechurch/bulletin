@@ -43,16 +43,14 @@ let announcementsStore = [
     url: `"Images/Gospel Discipleship Class (2023).png"`,
     alt: `Image of trees`,
     description: `Please join us for our Summer Gospel Discipleship Class starting Thursday, June 8th, at 7PM. We'll be covering Gospel fluency, biblical literacy,
-    and spiritual disciplines. Stand tuned for a sign up link.`,
-    link: `hhttps://forms.gle/DWuFKyXdHpHxsX8W8`,
-    linkText: `Sign up`
+    and spiritual disciplines.`
     },{
     title: `Men's Outing`,
     date: `July 15, 2023, 9AM`,
     url: `"Images/Men's Outing 2023.jpg"`,
     alt: `image of annoucement`,
     description: `Come join us for our upcoming Men's Outing at Tac City Airsoft! All are welcome! Let us know you're coming below `,
-    link: `https://docs.google.com/forms/d/1UN7PxnY6F3PeieAfIjp2sNbiPHmHoyZzioLj-n3kWJQ/viewform?edit_requested=true`,
+    link: `https://forms.gle/DWuFKyXdHpHxsX8W8`,
     linkText: `Sign up`
     },{
     title: `VOR Upcoming Needs/Opportunities`,
