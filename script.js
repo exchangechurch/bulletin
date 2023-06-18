@@ -2,10 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `June 4, 2023`,
-    series: `ACTS: The History of Jesus & The Spirit in the Early Church`,
-    title: `Letting the Work of Christ Speak for Itself`,
-    text: `Acts 26`,
+    date: `June 18, 2023`,
+    //series: `ACTS: The History of Jesus & The Spirit in the Early Church`,
+    series: `Standalone`,
+    title: `Act Like Men`,
+    text: `1 Corinthians 16:13-14`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -38,13 +39,6 @@ let announcementsStore = [
     link: `https://docs.google.com/presentation/d/1tdatPXh4UxhPGfDq42QpxOyhWyx_d7CvPU2ruLwYqKw/edit`,
     linkText: `Support`
     },{
-    title: `Gospel Discipleship Class`,
-    date: `June 8, 7PM`,
-    url: `"Images/Gospel Discipleship Class (2023).png"`,
-    alt: `Image of trees`,
-    description: `Please join us for our Summer Gospel Discipleship Class starting Thursday, June 8th, at 7PM. We'll be covering Gospel fluency, biblical literacy,
-    and spiritual disciplines.`
-    },{
     title: `Men's Outing`,
     date: `July 15, 2023, 9AM`,
     url: `"Images/Men's Outing 2023.jpg"`,
@@ -52,6 +46,25 @@ let announcementsStore = [
     description: `Come join us for our upcoming Men's Outing at Tac City Airsoft! All are welcome! Let us know you're coming below `,
     link: `https://forms.gle/DWuFKyXdHpHxsX8W8`,
     linkText: `Sign up`
+    },{
+    title: `4th of July Gathering`,
+    date: `July 4, 2023`,
+    url: `"Images/4th of July Gathering.jpg"`,
+    alt: `image of tacos fireworks`,
+    description: `Mark your calendars for July 4th. We will be having tacos for dinner and stick around for a movie and fireworks. We hope to see you then!`
+    },{
+    title: `Father's Day Lunch`,
+    date: `June 18, After Service`,
+    url: `"Images/Father's Day Lunch.jpg"`,
+    alt: `Image of sandwich`,
+    description: `Join us after service for Father's Day Lunch. We hope to see you there!`
+    },{
+    title: `Gospel Discipleship Class`,
+    date: `June 8, 7PM`,
+    url: `"Images/Gospel Discipleship Class (2023).png"`,
+    alt: `Image of trees`,
+    description: `Please join us for our Summer Gospel Discipleship Class starting Thursday, June 8th, at 7PM. We'll be covering Gospel fluency, biblical literacy,
+    and spiritual disciplines.`
     },{
     title: `VOR Upcoming Needs/Opportunities`,
     date: `Summer 2023`,
@@ -248,14 +261,6 @@ let announcementsStore = [
     description: `Come join us for a beach outing and bonfire after service on Sunday July 24, 2022 at 3:00PM.`
     //link: `https://forms.gle/AQPahe6YCAWrwBXQ8`,
     //linkText: `Learn More`
-    },{
-    title: `4th of July Gathering`,
-    date: `July 4, 2022, 5:30PM`,
-    url: `"Images/Mens Discipleship 2022 EDIT WITH TIME.jpg"`,
-    alt: `image of faded bibles`,
-    description: `Mark your calendars for 5:30pm on July 4th. We will be having a get together here at church. Stick around for dinner and fireworks. We hope to see you then!`
-    //link: `https://forms.gle/dHKedzJk5kpHKwNW7`,
-    //linkText: `Sign Up`
     },{
     title: `TGC Women's Conference`,
     date: `June 16-18, 2022`,
