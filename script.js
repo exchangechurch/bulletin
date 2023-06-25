@@ -2,11 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `June 18, 2023`,
-    //series: `ACTS: The History of Jesus & The Spirit in the Early Church`,
-    series: `Standalone`,
-    title: `Act Like Men`,
-    text: `1 Corinthians 16:13-14`,
+    date: `June 25, 2023`,
+    series: `ACTS: The History of Jesus & The Spirit in the Early Church`,
+    title: `The End of the Beginning`,
+    text: `Acts 28`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -31,13 +30,13 @@ let announcementsStore = [
     linkText: `Sign up`
     },{
     title: `Send Janette to Japan`,
-    date: `July 2023`,
-    url: `"Images/Janette Japan 2023.jpg"`,
+    date: `July 2, 2023 6PM`,
+    url: `"Images/Janette Japan 2023 Commissioning.jpg"`,
     alt: `Image of Janette`,
     description: `We are so thankful that God has opened a way for our sister Janette to travel to Japan for relational ministry, sports ministry, presentation ministry, reciting
-    english ministry, and VBS! If you would like to learn more and support her further in prayer and/or finances, please follow the link below.`,
-    link: `https://docs.google.com/presentation/d/1tdatPXh4UxhPGfDq42QpxOyhWyx_d7CvPU2ruLwYqKw/edit`,
-    linkText: `Support`
+    english ministry, and VBS! She will be leaving on July 4th at 1:10PM and there will be a Commissioning Service at Cerritos Mission Church on July 2nd at 6PM.`
+    //link: `https://docs.google.com/presentation/d/1tdatPXh4UxhPGfDq42QpxOyhWyx_d7CvPU2ruLwYqKw/edit`,
+    //linkText: `Support`
     },{
     title: `Men's Outing`,
     date: `July 15, 2023, 9AM`,
@@ -53,17 +52,11 @@ let announcementsStore = [
     alt: `image of tacos fireworks`,
     description: `Mark your calendars for July 4th. We will be having tacos for dinner and stick around for a movie and fireworks. We hope to see you then!`
     },{
-    title: `Father's Day Lunch`,
-    date: `June 18, After Service`,
-    url: `"Images/Father's Day Lunch.jpg"`,
-    alt: `Image of sandwich`,
-    description: `Join us after service for Father's Day Lunch. We hope to see you there!`
-    },{
     title: `Gospel Discipleship Class`,
-    date: `June 8, 7PM`,
-    url: `"Images/Gospel Discipleship Class (2023).png"`,
+    date: `July 6, 7PM`,
+    url: `"Images/Gospel Discipleship Class (2023)-update.jpg"`,
     alt: `Image of trees`,
-    description: `Please join us for our Summer Gospel Discipleship Class starting Thursday, June 8th, at 7PM. We'll be covering Gospel fluency, biblical literacy,
+    description: `Please join us next week for our continuing Summer Gospel Discipleship Class on Thursdays at 7PM. We'll be covering Gospel fluency, biblical literacy,
     and spiritual disciplines.`
     },{
     title: `VOR Upcoming Needs/Opportunities`,
@@ -76,6 +69,12 @@ let announcementsStore = [
     }
     /*
     ,{
+    title: `Father's Day Lunch`,
+    date: `June 18, After Service`,
+    url: `"Images/Father's Day Lunch.jpg"`,
+    alt: `Image of sandwich`,
+    description: `Join us after service for Father's Day Lunch. We hope to see you there!`
+    },{
     title: `Worship and Prayer`,
     date: `Saturday June 3, 2023 7:00PM`,
     url: `"Images/Worship Prayer June 2023.jpg"`,
