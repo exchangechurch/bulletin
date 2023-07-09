@@ -2,11 +2,12 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `June 25, 2023`,
-    series: `ACTS: The History of Jesus & The Spirit in the Early Church`,
-    title: `The End of the Beginning`,
-    text: `Acts 28`,
-    speaker: `Lead Pastor, Joe Suh`
+    date: `July 9, 2023`,
+    series: `Standalone`,
+    title: `Here I Am, I Won't Go`,
+    text: `Jonah 1-4`,
+    //speaker: `Lead Pastor, Joe Suh`
+    speaker: `Guest Speaker, Jesse Hahn`
 }];
 
 let announcementsStore = [
@@ -29,15 +30,6 @@ let announcementsStore = [
     link: `https://docs.google.com/forms/d/e/1FAIpQLSd7l5yCirsGViey6DQeMtCXDlEZFpnnrgtSIQVVBu30tJDr6g/viewform`,
     linkText: `Sign up`
     },{
-    title: `Send Janette to Japan`,
-    date: `July 2, 2023 6PM`,
-    url: `"Images/Janette Japan 2023 Commissioning.jpg"`,
-    alt: `Image of Janette`,
-    description: `We are so thankful that God has opened a way for our sister Janette to travel to Japan for relational ministry, sports ministry, presentation ministry, reciting
-    english ministry, and VBS! She will be leaving on July 4th at 1:10PM and there will be a Commissioning Service at Cerritos Mission Church on July 2nd at 6PM.`
-    //link: `https://docs.google.com/presentation/d/1tdatPXh4UxhPGfDq42QpxOyhWyx_d7CvPU2ruLwYqKw/edit`,
-    //linkText: `Support`
-    },{
     title: `Men's Outing`,
     date: `July 15, 2023, 9AM`,
     url: `"Images/Men's Outing 2023.jpg"`,
@@ -46,19 +38,24 @@ let announcementsStore = [
     link: `https://forms.gle/DWuFKyXdHpHxsX8W8`,
     linkText: `Sign up`
     },{
-    title: `4th of July Gathering`,
-    date: `July 4, 2023`,
-    url: `"Images/4th of July Gathering.jpg"`,
-    alt: `image of tacos fireworks`,
-    description: `Mark your calendars for July 4th. We will be having tacos for dinner and stick around for a movie and fireworks. We hope to see you then!`
-    },{
     title: `Gospel Discipleship Class`,
-    date: `July 6, 7PM`,
+    date: `July 13, 7PM`,
     url: `"Images/Gospel Discipleship Class (2023)-update.jpg"`,
     alt: `Image of trees`,
     description: `Please join us next week for our continuing Summer Gospel Discipleship Class on Thursdays at 7PM. We'll be covering Gospel fluency, biblical literacy,
     and spiritual disciplines.`
     },{
+    title: `Pray for Janette (Japan)`,
+    date: `Summer 2023`,
+    url: `"Images/Janette 2023.png"`,
+    alt: `Image of Janette`,
+    description: `We are so thankful that God has opened a way for our sister Janette to travel to Japan for relational ministry, sports ministry, presentation ministry, reciting
+    english ministry, and VBS! Please keep them in prayer and stay tuned for updates on their Instagram: @teamjapan_stsm23`
+    //link: `https://docs.google.com/presentation/d/1tdatPXh4UxhPGfDq42QpxOyhWyx_d7CvPU2ruLwYqKw/edit`,
+    //linkText: `Support`
+    }
+    /*
+    ,{
     title: `VOR Upcoming Needs/Opportunities`,
     date: `Summer 2023`,
     url: `"Images/VOR May 2023.jpg"`,
@@ -66,9 +63,13 @@ let announcementsStore = [
     description: `We have an opportunity to serve our local community alongside Voice of Refugees this year! If teaching ESL or one-on-one job mentoring sounds like something up your alley, please speak to Pastor Joe for more details.`,
     link: `https://docs.google.com/forms/d/e/1FAIpQLSe9O7d8U3P4MPcSy-lxLoWgpmzUJDhayBwJ2VlZ2kjTFLrxZw/viewform?usp=sf_link`,
     linkText: `Learn More`
-    }
-    /*
-    ,{
+    }{
+    title: `4th of July Gathering`,
+    date: `July 4, 2023`,
+    url: `"Images/4th of July Gathering.jpg"`,
+    alt: `image of tacos fireworks`,
+    description: `Mark your calendars for July 4th. We will be having tacos for dinner and stick around for a movie and fireworks. We hope to see you then!`
+    },{
     title: `Father's Day Lunch`,
     date: `June 18, After Service`,
     url: `"Images/Father's Day Lunch.jpg"`,
