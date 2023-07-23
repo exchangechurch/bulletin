@@ -2,12 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `July 9, 2023`,
-    series: `Standalone`,
-    title: `Here I Am, I Won't Go`,
-    text: `Jonah 1-4`,
-    //speaker: `Lead Pastor, Joe Suh`
-    speaker: `Guest Speaker, Jesse Hahn`
+    date: `July 23, 2023`,
+    series: `|Jesus| > Jesus+`,
+    title: `Grace Alone > Grace + Wages`,
+    text: `Ephesians 2:1-10`,
+    speaker: `Lead Pastor, Joe Suh`
 }];
 
 let announcementsStore = [
@@ -30,19 +29,11 @@ let announcementsStore = [
     link: `https://docs.google.com/forms/d/e/1FAIpQLSd7l5yCirsGViey6DQeMtCXDlEZFpnnrgtSIQVVBu30tJDr6g/viewform`,
     linkText: `Sign up`
     },{
-    title: `Men's Outing`,
-    date: `July 15, 2023, 9AM`,
-    url: `"Images/Men's Outing 2023.jpg"`,
-    alt: `image of annoucement`,
-    description: `Come join us for our upcoming Men's Outing at Tac City Airsoft! All are welcome! Let us know you're coming below `,
-    link: `https://forms.gle/DWuFKyXdHpHxsX8W8`,
-    linkText: `Sign up`
-    },{
     title: `Gospel Discipleship Class`,
-    date: `July 13, 7PM`,
-    url: `"Images/Gospel Discipleship Class (2023)-update.jpg"`,
+    date: `July 27, 7PM`,
+    url: `"Images/Gospel Discipleship Class (2023) EDIT.jpg"`,
     alt: `Image of trees`,
-    description: `Please join us next week for our continuing Summer Gospel Discipleship Class on Thursdays at 7PM. We'll be covering Gospel fluency, biblical literacy,
+    description: `Please join us this week for our continuing Summer Gospel Discipleship Class on Thursdays at 7PM. We'll be covering Gospel fluency, biblical literacy,
     and spiritual disciplines.`
     },{
     title: `Pray for Janette (Japan)`,
@@ -53,9 +44,24 @@ let announcementsStore = [
     english ministry, and VBS! Please keep them in prayer and stay tuned for updates on their Instagram: @teamjapan_stsm23`
     //link: `https://docs.google.com/presentation/d/1tdatPXh4UxhPGfDq42QpxOyhWyx_d7CvPU2ruLwYqKw/edit`,
     //linkText: `Support`
+    },{
+    title: `Heather Mission Report`,
+    date: `August 6, 2023`,
+    url: `"Images/Heather Mission Report,jpg"`,
+    alt: `Image of Heather`,
+    description: `We are excited to have Heather after years of ministry in Thailand. Please join us after service on August 6, 2023 as Heather takes us through her time in Thailand 
+    and what lies ahead for her here in the States.`
     }
     /*
     ,{
+    title: `Men's Outing`,
+    date: `July 15, 2023, 9AM`,
+    url: `"Images/Men's Outing 2023.jpg"`,
+    alt: `image of annoucement`,
+    description: `Come join us for our upcoming Men's Outing at Tac City Airsoft! All are welcome! Let us know you're coming below `,
+    link: `https://forms.gle/DWuFKyXdHpHxsX8W8`,
+    linkText: `Sign up`
+    },{
     title: `VOR Upcoming Needs/Opportunities`,
     date: `Summer 2023`,
     url: `"Images/VOR May 2023.jpg"`,
