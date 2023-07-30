@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `July 23, 2023`,
+    date: `July 30, 2023`,
     series: `|Jesus| > Jesus+`,
-    title: `Grace Alone > Grace + Wages`,
-    text: `Ephesians 2:1-10`,
+    title: `The Glory of God > All other Glory`,
+    text: `John 1:35-51`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -20,30 +20,28 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
-    title: `VBS Registration`,
-    date: `July 28, 5PM-8PM & July 29, 10AM-3PM`,
-    url: `"Images/VBS Volunteers 2023.jpg"`,
-    alt: `VBS Volunteer Announcement`,
-    description: `The Exchange Church is hosting a VBS this Summer from July 28 to July 29. Friday's schedule will be from 5PM to 8PM and Saturday will be from 10AM to 3PM. Please speak to Bumee 
-    for more information.`,
-    link: `https://docs.google.com/forms/d/e/1FAIpQLSd7l5yCirsGViey6DQeMtCXDlEZFpnnrgtSIQVVBu30tJDr6g/viewform`,
-    linkText: `Sign up`
-    },{
     title: `Gospel Discipleship Class`,
-    date: `July 27, 7PM`,
-    url: `"Images/Gospel Discipleship Class (2023) EDIT.jpg"`,
+    date: `August 2, 7PM`,
+    url: `"Images/Gospel Discipleship Class (2023) EDIT2.jpg"`,
     alt: `Image of trees`,
-    description: `Please join us this week for our continuing Summer Gospel Discipleship Class on Thursdays at 7PM. We'll be covering Gospel fluency, biblical literacy,
+    description: `Please join us this week for our last Summer Gospel Discipleship Class on Thursdays at 7PM. We'll be covering Gospel fluency, biblical literacy,
     and spiritual disciplines.`
     },{
-    title: `Pray for Janette (Japan)`,
-    date: `Summer 2023`,
-    url: `"Images/Janette 2023.png"`,
-    alt: `Image of Janette`,
-    description: `We are so thankful that God has opened a way for our sister Janette to travel to Japan for relational ministry, sports ministry, presentation ministry, reciting
-    english ministry, and VBS! Please keep them in prayer and stay tuned for updates on their Instagram: @teamjapan_stsm23`
-    //link: `https://docs.google.com/presentation/d/1tdatPXh4UxhPGfDq42QpxOyhWyx_d7CvPU2ruLwYqKw/edit`,
-    //linkText: `Support`
+    title: `Read the Word - August 2023 & Devotional Guide`,
+    date: `2023`,
+    url: `"Images/Read The Word August 2023.jpg"`,
+    alt: `Image of bible`,
+    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
+    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
+    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
+    In addition, please find linked the 
+    <a class="announceLinkinP" href='https://d1bsmz3sdihplr.cloudfront.net/media/Quarterlies_Other%20Downloads/2021_Reading%20Plan.pdf' target="_blank">Bible Project’s Annual reading plan</a>
+     as well. 
+    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
+    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
+    to follow. Click the link below to download a copy of the monthly plan.`,
+    link: `https://www.dropbox.com/s/l98icgqjz4455o2/Read%20the%20Word%202023%20%28May%29.png?dl=0`,
+    linkText: `Download the Plan`
     },{
     title: `Heather Mission Report`,
     date: `August 6, 2023`,
@@ -54,6 +52,24 @@ let announcementsStore = [
     }
     /*
     ,{
+    title: `Pray for Janette (Japan)`,
+    date: `Summer 2023`,
+    url: `"Images/Janette 2023.png"`,
+    alt: `Image of Janette`,
+    description: `We are so thankful that God has opened a way for our sister Janette to travel to Japan for relational ministry, sports ministry, presentation ministry, reciting
+    english ministry, and VBS! Please keep them in prayer and stay tuned for updates on their Instagram: @teamjapan_stsm23`
+    //link: `https://docs.google.com/presentation/d/1tdatPXh4UxhPGfDq42QpxOyhWyx_d7CvPU2ruLwYqKw/edit`,
+    //linkText: `Support`
+    },{
+    title: `VBS Registration`,
+    date: `July 28, 5PM-8PM & July 29, 10AM-3PM`,
+    url: `"Images/VBS Volunteers 2023.jpg"`,
+    alt: `VBS Volunteer Announcement`,
+    description: `The Exchange Church is hosting a VBS this Summer from July 28 to July 29. Friday's schedule will be from 5PM to 8PM and Saturday will be from 10AM to 3PM. Please speak to Bumee 
+    for more information.`,
+    link: `https://docs.google.com/forms/d/e/1FAIpQLSd7l5yCirsGViey6DQeMtCXDlEZFpnnrgtSIQVVBu30tJDr6g/viewform`,
+    linkText: `Sign up`
+    },{
     title: `Men's Outing`,
     date: `July 15, 2023, 9AM`,
     url: `"Images/Men's Outing 2023.jpg"`,
@@ -95,22 +111,6 @@ let announcementsStore = [
     url: `"Images/Mothers Day 2023.jpg"`,
     alt: `Announcement`,
     description: `Join us after service for Mother's Day Lunch. We hope to see you there!`
-    },,{
-    title: `Read the Word - May 2023 & Devotional Guide`,
-    date: `2023`,
-    url: `"Images/2023 April Read The Word.jpg"`,
-    alt: `Image of bible`,
-    description: `This year, let us commit to reading the Word of God together in community. We will be providing a monthly reading plan and a 
-    <a class="announceLinkinP" href='https://www.dropbox.com/s/frvv1mo6nesofb6/HOW%20TO%20DO%20DEVOTIONALS%20%28PDF%29.pdf?dl=0' target="_blank">devotional guide</a>. 
-    A devotional (or devotion), also referred to as quiet time (or QT), is a daily time that is dedicated to developing one’s personal relationship with God. 
-    In addition, please find linked the 
-    <a class="announceLinkinP" href='https://d1bsmz3sdihplr.cloudfront.net/media/Quarterlies_Other%20Downloads/2021_Reading%20Plan.pdf' target="_blank">Bible Project’s Annual reading plan</a>
-     as well. 
-    This is not time spent listening to sermons while in the car or on the treadmill. It is one-on-God time that is set apart to sit at the feet of God, enjoy 
-    his Word, and abide in Him (cf. John 15:1-9; Luke 10:38-42). There is no exact formula or right way to do devotionals, but the following guide may be helpful 
-    to follow. Click the link below to download a copy of the monthly plan.`,
-    link: `https://www.dropbox.com/s/l98icgqjz4455o2/Read%20the%20Word%202023%20%28May%29.png?dl=0`,
-    linkText: `Download the Plan`
     },{
     title: `Life Groups`,
     date: `Spring Quarter 2023`,
