@@ -2,10 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `July 30, 2023`,
-    series: `|Jesus| > Jesus+`,
-    title: `The Glory of God > All other Glory`,
-    text: `John 1:35-51`,
+    date: `August 6, 2023`,
+    //series: `|Jesus| > Jesus+`,
+    series: `Standalone`,
+    title: `Living as Embedded Exiles`,
+    text: `Jeremiah 29:4-14`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -20,6 +21,27 @@ let announcementsStore = [
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
     },{
+    title: `Life Groups`,
+    date: `Fall Quarter 2023`,
+    url: `"Images/Life Groups Summer 2023.jpg"`,
+    alt: `image of faded bibles`,
+    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
+    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
+    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below.
+    Please email 
+    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
+    },{
+    title: `Anniversary Service`,
+    date: `August 27, 2023`,
+    url: `"Images/Anniversary Service 2023.jpg"`,
+    alt: `Announcement Slide`,
+    description: `2023 marks ten years since our inaugural Sunday service of Exchange Church. Join us on Sunday, August 27, 2023 as we celebrate God's faithfulness 
+    and blessings with The Exchange Church and continue to trust in His guidance.`
+    }
+    /*
+    {
     title: `Gospel Discipleship Class`,
     date: `August 2, 7PM`,
     url: `"Images/Gospel Discipleship Class (2023) EDIT2.jpg"`,
@@ -49,9 +71,7 @@ let announcementsStore = [
     alt: `Image of Heather`,
     description: `We are excited to have Heather after years of ministry in Thailand. Please join us after service on August 6, 2023 as Heather takes us through her time in Thailand 
     and what lies ahead for her here in the States.`
-    }
-    /*
-    ,{
+    },{
     title: `Pray for Janette (Japan)`,
     date: `Summer 2023`,
     url: `"Images/Janette 2023.png"`,
@@ -112,18 +132,6 @@ let announcementsStore = [
     alt: `Announcement`,
     description: `Join us after service for Mother's Day Lunch. We hope to see you there!`
     },{
-    title: `Life Groups`,
-    date: `Spring Quarter 2023`,
-    url: `"Images/Life Group Easter 2023 Slide.jpg"`,
-    alt: `image of faded bibles`,
-    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
-    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
-    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below.
-    Please email 
-    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
-    linkText: `Sign Up`
-    }{
     title: `Easter Lunch and Fellowship`,
     date: `Today After Service`,
     url: `"Images/Easter 2023.jpg"`,
