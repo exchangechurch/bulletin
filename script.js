@@ -2,12 +2,13 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `August 6, 2023`,
+    date: `August 13, 2023`,
     //series: `|Jesus| > Jesus+`,
     series: `Standalone`,
-    title: `Living as Embedded Exiles`,
-    text: `Jeremiah 29:4-14`,
-    speaker: `Lead Pastor, Joe Suh`
+    title: `“PS. I Love You”`,
+    text: `Psalm 22:1-2;  Matt 27:44-50`,
+    //speaker: `Lead Pastor, Joe Suh`
+    speaker: `Guest Speaker, Pastor Jimmy Han`
 }];
 
 let announcementsStore = [
