@@ -2,13 +2,11 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `August 13, 2023`,
-    //series: `|Jesus| > Jesus+`,
-    series: `Standalone`,
-    title: `“PS. I Love You”`,
-    text: `Psalm 22:1-2;  Matt 27:44-50`,
-    //speaker: `Lead Pastor, Joe Suh`
-    speaker: `Guest Speaker, Pastor Jimmy Han`
+    date: `August 20, 2023`,
+    series: `|Jesus| > Jesus+`,
+    title: `Jesus Centered Community > (Jesus + Me) Centered Community`,
+    text: `Galatians 3:27-29`,
+    speaker: `Lead Pastor, Joe Suh`
 }];
 
 let announcementsStore = [
@@ -65,13 +63,6 @@ let announcementsStore = [
     to follow. Click the link below to download a copy of the monthly plan.`,
     link: `https://www.dropbox.com/s/l98icgqjz4455o2/Read%20the%20Word%202023%20%28May%29.png?dl=0`,
     linkText: `Download the Plan`
-    },{
-    title: `Heather Mission Report`,
-    date: `August 6, 2023`,
-    url: `"Images/Heather Mission Report,jpg"`,
-    alt: `Image of Heather`,
-    description: `We are excited to have Heather after years of ministry in Thailand. Please join us after service on August 6, 2023 as Heather takes us through her time in Thailand 
-    and what lies ahead for her here in the States.`
     },{
     title: `Pray for Janette (Japan)`,
     date: `Summer 2023`,
