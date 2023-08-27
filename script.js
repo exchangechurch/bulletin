@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `August 20, 2023`,
+    date: `August 27, 2023`,
     series: `|Jesus| > Jesus+`,
-    title: `Jesus Centered Community > (Jesus + Me) Centered Community`,
-    text: `Galatians 3:27-29`,
+    title: `His Church > Our Church that He Attends`,
+    text: `Matthew 16:13-20`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -36,7 +36,7 @@ let announcementsStore = [
     date: `August 27, 2023`,
     url: `"Images/Anniversary Service 2023.jpg"`,
     alt: `Announcement Slide`,
-    description: `2023 marks ten years since our inaugural Sunday service of Exchange Church. Join us on Sunday, August 27, 2023 as we celebrate God's faithfulness 
+    description: `2023 marks ten years since our inaugural Sunday service of Exchange Church. Join us today, Sunday, August 27, 2023 as we celebrate God's faithfulness 
     and blessings with The Exchange Church and continue to trust in His guidance.`
     }
     /*
