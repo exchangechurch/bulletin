@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `August 27, 2023`,
+    date: `September 3, 2023`,
     series: `|Jesus| > Jesus+`,
-    title: `His Church > Our Church that He Attends`,
-    text: `Matthew 16:13-20`,
+    title: `The Good Fight > The Good Life`,
+    text: `2 Timothy 4:1-8`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -32,15 +32,32 @@ let announcementsStore = [
     link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
     linkText: `Sign Up`
     },{
+    title: `Gospel Foundations Class`,
+    date: `March 2023`,
+    url: `"Images/Membership Gospel Foundations 2023.jpg"`,
+    alt: `Image of membership`,
+    description: `We will be starting membership again for the new season. If you are interested in becoming a member or have questions please fill out the form linked below!`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
+    },{
+    title: `Heather & Pathways (India)`,
+    date: `Fall 2023`,
+    url: `"Images/Heather Pathways.jpg"`,
+    alt: `image of book`,
+    description: `Our sister Heather will be working with Pathways in India to empower young adults who are transitioning out of orphanage care to thrive in society. 
+    If you would like to give to Pathways, please put "Heather" in the offering description when you give via Zelle or Cash App.`,
+    link: `https://cash.app/$TheExchangeChurch`,
+    linkText: `Give`
+    }
+    /*
+    ,{
     title: `Anniversary Service`,
     date: `August 27, 2023`,
     url: `"Images/Anniversary Service 2023.jpg"`,
     alt: `Announcement Slide`,
     description: `2023 marks ten years since our inaugural Sunday service of Exchange Church. Join us today, Sunday, August 27, 2023 as we celebrate God's faithfulness 
     and blessings with The Exchange Church and continue to trust in His guidance.`
-    }
-    /*
-    {
+    },{
     title: `Gospel Discipleship Class`,
     date: `August 2, 7PM`,
     url: `"Images/Gospel Discipleship Class (2023) EDIT2.jpg"`,
@@ -137,14 +154,6 @@ let announcementsStore = [
     description: `Passion Week marks the week leading up to the death and resurrection of Christ. We will be having our Passion Week Prayer night on Monday, April 3, 7:00PM and
     Good Friday Service on Friday April 7, 7:00PM. Join us as we grow in our love, passion, and conviction that Christ is all in all.`
     },,{
-    title: `Membership Class`,
-    date: `March 2023`,
-    url: `"Images/Membership Slide 2023.jpg"`,
-    alt: `Image of membership`,
-    description: `We will be starting membership again for the new season. If you are interested in becoming a member or have questions please fill out the form linked below!`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
-    linkText: `Sign Up`
-    },{
     title: `Members Lunch & Meeting`,
     date: `Sunday February 26, 2023 After Service`,
     url: `"Images/Member Lunch 2023.jpg"`,
