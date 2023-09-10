@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `September 3, 2023`,
+    date: `September 10, 2023`,
     series: `|Jesus| > Jesus+`,
-    title: `The Good Fight > The Good Life`,
-    text: `2 Timothy 4:1-8`,
+    title: `A Life of Suffering > A Life of Ease`,
+    text: `2 Corinthians 4:7-18`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
@@ -19,18 +19,6 @@ let announcementsStore = [
     fill out the form at the link below to connect with us.`,
     link: `https://forms.gle/a3cjtBfsBx42G6hd6`,
     linkText: `Connect with us`
-    },{
-    title: `Life Groups`,
-    date: `Fall Quarter 2023`,
-    url: `"Images/Life Groups Summer 2023.jpg"`,
-    alt: `image of faded bibles`,
-    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
-    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
-    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below.
-    Please email 
-    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
-    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
-    linkText: `Sign Up`
     },{
     title: `Gospel Foundations Class`,
     date: `March 2023`,
@@ -51,6 +39,18 @@ let announcementsStore = [
     }
     /*
     ,{
+    title: `Life Groups`,
+    date: `Fall Quarter 2023`,
+    url: `"Images/Life Groups Summer 2023.jpg"`,
+    alt: `image of faded bibles`,
+    description: `A Life Group is a small group within the church that gathers weekly to discover and embrace gospel-centered life together. Life groups gather 
+    weekly to remember and apply the gospel, grow in transparency through sharing and confession, and learn to actively follow the Spirit. 
+    If you are not a covenant member of the Exchange Church and are interested in joining a life group for next quarter, please fill out the form linked below.
+    Please email 
+    <a href='mailto:info@the-exchange-church.com'>info@the-exchange-church.com</a> if you have any questions.`,
+    link: `https://forms.gle/8v4GYg7Hu7roC1Ue9`,
+    linkText: `Sign Up`
+    },,{
     title: `Anniversary Service`,
     date: `August 27, 2023`,
     url: `"Images/Anniversary Service 2023.jpg"`,
