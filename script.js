@@ -2,10 +2,10 @@
 
 let sermonStore = [{
     //url: `Images/Sermon.jpg`,
-    date: `September 10, 2023`,
+    date: `September 17, 2023`,
     series: `|Jesus| > Jesus+`,
-    title: `A Life of Suffering > A Life of Ease`,
-    text: `2 Corinthians 4:7-18`,
+    title: `The Treasure > A Fortune`,
+    text: `Various`,
     speaker: `Lead Pastor, Joe Suh`
 }];
 
